@@ -122,23 +122,25 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="badge-mono mb-4">Resources</p>
-            <ul className="space-y-2.5 mb-8">
-              {resources.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className="text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors duration-200"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
+            <p className="badge-mono mb-4">Experience Centers</p>
+            <ul className="space-y-2.5 mb-6 text-xs text-[var(--text-secondary)] font-body">
+              <li><strong className="text-white">Bangalore:</strong> Lavelle Road & Indiranagar</li>
+              <li><strong className="text-white">Mumbai:</strong> Worli Sea Face Studio</li>
+              <li><strong className="text-white">Delhi NCR:</strong> Golf Course Rd, Gurugram</li>
+              <li><strong className="text-white">Hyderabad:</strong> Jubilee Hills Rd No. 36</li>
             </ul>
-            <p className="badge-mono mb-3">Enquiries</p>
+            <p className="badge-mono mb-2">Direct Enquiries</p>
+            <a
+              href="https://wa.me/919900000000?text=Hello%20VARELLI%2C%20I%20would%20like%20to%20connect%20with%20a%20Senior%20Systems%20Architect."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-emerald-400 hover:underline font-mono block mb-1"
+            >
+              WhatsApp: +91 99000 00000
+            </a>
             <a
               href="mailto:studio@varelli.in"
-              className="text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors duration-200 block mb-1"
+              className="text-xs text-[var(--text-secondary)] hover:text-[var(--gold)] font-mono transition-colors duration-200 block"
             >
               studio@varelli.in
             </a>
