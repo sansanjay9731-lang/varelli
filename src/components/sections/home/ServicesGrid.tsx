@@ -16,11 +16,11 @@ const serviceItems = [
     span: "lg:col-span-2",
   },
   {
-    title: "Private Cinema",
-    desc: "Reference Dolby Atmos private cinemas with 4K laser projection and acoustic engineering.",
+    title: "Home Theatre & Cinema",
+    desc: "Reference Dolby Atmos 9.4.6 home theatres with fiber-optic star ceilings, custom velvet daybeds, and 4K laser projection.",
     href: "/private-cinema",
-    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
-    alt: "Luxury private cinema with Dolby Atmos and 4K laser projection",
+    image: "/images/home-theatre-star-ceiling.png",
+    alt: "Luxury home theatre with starry fiber-optic ceiling, velvet daybed lounge, and 4K laser projection",
     span: "lg:col-span-1",
   },
   {

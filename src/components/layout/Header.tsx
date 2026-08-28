@@ -12,8 +12,8 @@ const navigationLinks = [
     href: "/home-automation",
     children: [
       { name: "Home Automation & KNX", href: "/home-automation", desc: "Decentralized German KNX & DALI-2 circadian dimming." },
-      { name: "Private Cinema (Dolby Atmos)", href: "/private-cinema", desc: "Reference 9.4.6 cinema, Stewart MicroPerf & 4K laser." },
-      { name: "Home Theatre & Media Rooms", href: "/home-theatre", desc: "Discrete architectural in-wall audio & Hi-Fi lounges." },
+      { name: "Home Theatre & Dolby Atmos", href: "/private-cinema", desc: "Reference 9.4.6 cinema, star ceilings & 4K laser projection." },
+      { name: "Media Rooms & Custom Audio", href: "/home-theatre", desc: "Discrete architectural in-wall audio & luxury living room Hi-Fi." },
       { name: "Fresh Air IAQ Ventilation", href: "/fresh-air-ventilation", desc: "Swiss Zehnder ERV, positive pressure & True HEPA." },
       { name: "Central Vacuum Systems", href: "/central-vacuum", desc: "Canadian Drainvac wet/dry & retractable Hide-A-Hose." },
       { name: "Smart Security & Biometrics", href: "/home-security", desc: "DoorBird video stations & local edge AI cameras." },

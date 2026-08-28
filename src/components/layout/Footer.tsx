@@ -3,8 +3,8 @@ import { Instagram, Linkedin, Youtube } from "@/components/ui/icons";
 
 const solutions = [
   { name: "Home Automation", href: "/home-automation" },
-  { name: "Private Cinema", href: "/private-cinema" },
-  { name: "Home Theatre", href: "/home-theatre" },
+  { name: "Home Theatre & Cinema", href: "/private-cinema" },
+  { name: "Media Rooms & Custom Audio", href: "/home-theatre" },
   { name: "Fresh Air Ventilation", href: "/fresh-air-ventilation" },
   { name: "Central Vacuum", href: "/central-vacuum" },
   { name: "Smart Security", href: "/home-security" },

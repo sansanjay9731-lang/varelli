@@ -14,8 +14,8 @@ const service = getServiceBySlug("private-cinema")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Private Cinema Design & Installation Bangalore — Dolby Atmos | VARELLI",
-  description: "VARELLI engineers bespoke private cinemas and Dolby Atmos rooms for luxury villas in Bangalore — Whitefield, Sadashivanagar, Indiranagar, and Koramangala. 4K laser projection and studio acoustic treatment.",
+  title: "Bespoke Home Theatre Design & Installation Bangalore — Dolby Atmos | VARELLI",
+  description: "VARELLI engineers bespoke luxury home theatres with fiber-optic star ceilings, custom daybed loungers, and Dolby Atmos audio across Bangalore — Whitefield, Sadashivanagar, Indiranagar, and Koramangala.",
   path: "/private-cinema/bangalore",
   keywords: [
     "private cinema Bangalore",

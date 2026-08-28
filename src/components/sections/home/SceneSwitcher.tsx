@@ -23,8 +23,8 @@ const scenes = [
     description:
       "Lights dim to 5%. Curtains close fully. Projector lifts and warms up. Amplifier powers on. Climate adjusts for 2-hour occupancy.",
     systems: ["Lighting", "Motorized Curtains", "Projection", "Audio", "Climate"],
-    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&q=80",
-    imageAlt: "Private cinema room in cinema mode with Dolby Atmos home theatre",
+    image: "/images/home-theatre-star-ceiling.png",
+    imageAlt: "Bespoke home theatre in cinema mode with starry fiber-optic ceiling and velvet lounger daybed",
   },
   {
     id: "evening",
