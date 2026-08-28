@@ -116,7 +116,7 @@ export default function Spatial3DCanvas({ sceneMode, activeBrand, deviceMode }: 
       dimming: "0% All Inactive",
       filterOverlay: "from-blue-950/80 via-black/70 to-black/90",
       glowColor: "rgba(30, 60, 120, 0.3)",
-      statusText: "Away & Fortified Mode • Perimeter AI Armed • HVAC Eco 26°C",
+      statusText: "Away & Fortified Mode • Perimeter Defense Armed • HVAC Eco 26°C",
     },
   };
 

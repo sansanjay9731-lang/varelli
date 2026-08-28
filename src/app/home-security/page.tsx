@@ -24,7 +24,7 @@ export const metadata: Metadata = generatePageMetadata({
 const relatedServices = [
   { name: "Home Networking", href: "/home-networking" },
   { name: "Home Automation", href: "/home-automation" },
-  { name: "AI Residence Studio", href: "/studio" },
+  { name: "Residence Design Studio", href: "/studio" },
 ];
 
 export default function Page() {
@@ -55,12 +55,12 @@ export default function Page() {
       <SolutionPackageGrid
         serviceTitle="Smart Security & Biometric Access"
         serviceCategory="Architectural Security"
-        subtitle="German DoorBird stainless steel video stations, AI edge thermal perimeter tracking, and encrypted local biometric storage."
+        subtitle="German DoorBird stainless steel video stations, Optical edge thermal perimeter tracking, and encrypted local biometric storage."
         packages={packages}
       />
       <ComparisonMatrix
         title="Why Enterprise Local-Encrypted Security Outperforms Retail Wireless DIY Cameras"
-        subtitle="Zero cloud subscription vulnerability with instant local optical AI processing."
+        subtitle="Zero cloud subscription vulnerability with instant local encrypted on-premise processing."
       />
       <FAQSection faqs={service.faqs} />
       <ServiceCTA serviceName={service.name} />

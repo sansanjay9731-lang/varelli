@@ -16,7 +16,7 @@ export const cities: CityLocation[] = [
     state: "Karnataka",
     headline: "Intelligent Living. Engineered for Bangalore.",
     description:
-      "Bangalore's most discerning residences — from Whitefield estates to Koramangala penthouses — demand automation, cinema, and air quality solutions of the highest standard. VARELLI has engineered intelligent environments across the city's premium residential corridors.",
+      "Bangalore's most discerning residences - from Whitefield estates to Koramangala penthouses - demand automation, cinema, and air quality solutions of the highest standard. VARELLI has engineered intelligent environments across the city's premium residential corridors.",
     metaDescription:
       "VARELLI designs luxury home automation, private cinema, and intelligent living systems for premium residences in Bangalore. Whitefield, Koramangala, Indiranagar, Sadashivanagar and across the city.",
     faqs: [
@@ -79,7 +79,7 @@ export const cities: CityLocation[] = [
     description:
       "VARELLI designs intelligent residential environments for luxury estates, farmhouses, and penthouse residences across Delhi, Gurgaon, Gurugram, and Noida.",
     metaDescription:
-      "VARELLI designs luxury home automation and private cinema for premium residences in Delhi NCR — Delhi, Gurgaon, Noida and surrounding areas.",
+      "VARELLI designs luxury home automation and private cinema for premium residences in Delhi NCR - Delhi, Gurgaon, Noida and surrounding areas.",
     faqs: [
       {
         question: "Does VARELLI work on projects in Delhi NCR?",
@@ -95,7 +95,7 @@ export const cities: CityLocation[] = [
     description:
       "VARELLI brings luxury home automation, private cinema, and intelligent living systems to Hyderabad's premium residential developments, villas, and estates.",
     metaDescription:
-      "VARELLI designs luxury home automation and private cinema for premium residences in Hyderabad — Jubilee Hills, Banjara Hills, Gachibowli and across the city.",
+      "VARELLI designs luxury home automation and private cinema for premium residences in Hyderabad - Jubilee Hills, Banjara Hills, Gachibowli and across the city.",
     faqs: [
       {
         question: "Does VARELLI work on projects in Hyderabad?",
@@ -111,7 +111,7 @@ export const cities: CityLocation[] = [
     description:
       "VARELLI designs intelligent living environments for luxury villas, estates, and premium apartments across Chennai's residential landscape.",
     metaDescription:
-      "VARELLI designs luxury home automation and private cinema for premium residences in Chennai — Boat Club Road, Adyar, ECR and across the city.",
+      "VARELLI designs luxury home automation and private cinema for premium residences in Chennai - Boat Club Road, Adyar, ECR and across the city.",
     faqs: [
       {
         question: "Does VARELLI work on projects in Chennai?",
@@ -127,7 +127,7 @@ export const cities: CityLocation[] = [
     description:
       "From Koregaon Park luxury villas to Kalyani Nagar penthouses, VARELLI designs intelligent residential systems for Pune's most discerning homes.",
     metaDescription:
-      "VARELLI designs luxury home automation and private cinema for premium residences in Pune — Koregaon Park, Kalyani Nagar, Baner and across the city.",
+      "VARELLI designs luxury home automation and private cinema for premium residences in Pune - Koregaon Park, Kalyani Nagar, Baner and across the city.",
     faqs: [
       {
         question: "Does VARELLI work on projects in Pune?",

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/layout/Breadcrumb";
 import ContactForm from "@/components/sections/contact/ContactForm";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Book Private Audition & Consultation — Contact VARELLI India",
+  title: "Book Private Audition & Consultation - Contact VARELLI India",
   description:
     "Schedule a private audition or technical consultation with VARELLI systems architects in Bangalore, Mumbai, Delhi NCR, or Hyderabad. Whole-home automation, private cinema, fresh air IAQ, and smart security.",
   path: "/contact",

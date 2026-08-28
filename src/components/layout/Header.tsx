@@ -16,7 +16,7 @@ const navigationLinks = [
       { name: "Media Rooms & Custom Audio", href: "/home-theatre", desc: "Discrete architectural in-wall audio & luxury living room Hi-Fi." },
       { name: "Fresh Air IAQ Ventilation", href: "/fresh-air-ventilation", desc: "Swiss Zehnder ERV, positive pressure & True HEPA." },
       { name: "Central Vacuum Systems", href: "/central-vacuum", desc: "Canadian Drainvac wet/dry & retractable Hide-A-Hose." },
-      { name: "Smart Security & Biometrics", href: "/home-security", desc: "DoorBird video stations & local edge AI cameras." },
+      { name: "Smart Security & Biometrics", href: "/home-security", desc: "DoorBird video stations & local edge optical cameras." },
       { name: "Enterprise WiFi 7 Networking", href: "/home-networking", desc: "10GbE fiber backbone & isolated IoT security." },
     ],
   },
@@ -50,7 +50,7 @@ export default function Header() {
               className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-[var(--gold)]/10 border border-[var(--gold)]/40 text-[var(--gold)] font-mono text-xs uppercase tracking-wider hover:bg-[var(--gold)] hover:text-[#08080A] transition-all"
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>AI Studio</span>
+              <span>Design Studio</span>
             </Link>
 
             {navigationLinks.map((link) =>

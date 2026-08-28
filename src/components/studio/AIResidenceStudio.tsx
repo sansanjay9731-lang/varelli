@@ -54,7 +54,7 @@ export default function AIResidenceStudio() {
         }
       }
     } catch (err) {
-      console.warn("AI vision API offline/fallback:", err);
+      console.warn("Vision analysis fallback:", err);
     } finally {
       setTimeout(() => {
         setIsAnalyzing(false);
@@ -110,7 +110,7 @@ export default function AIResidenceStudio() {
           <span>VARELLI Spatial Intelligence Engine</span>
         </span>
         <h1 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-[var(--text-primary)] mb-4">
-          Enterprise AI Residence Studio
+          Enterprise Residence Design Studio
         </h1>
         <p className="text-sm md:text-base text-[var(--text-secondary)] font-body leading-relaxed">
           Upload your architectural floorplan, curate across Italian & European technology backbones, and simulate your live spatial environment on mobile or laptop.
@@ -119,7 +119,7 @@ export default function AIResidenceStudio() {
         {/* Step Indicator */}
         <div className="mt-8 flex items-center justify-center space-x-2 sm:space-x-4 text-xs font-mono">
           {[
-            { num: 1, label: "Floorplan AI Analysis" },
+            { num: 1, label: "Architectural Floorplan Analysis" },
             { num: 2, label: "Brand Ecosystem" },
             { num: 3, label: "3D Spatial Ray-Tracer" },
             { num: 4, label: "Executive Specification" },

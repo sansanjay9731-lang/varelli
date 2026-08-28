@@ -11,7 +11,7 @@ import { Sparkles, MessageCircle, Check, ArrowRight, ShieldCheck, Download, Laye
 export const metadata: Metadata = generatePageMetadata({
   title: "Home Automation for Architects & Interior Designers | VARELLI",
   description:
-    "VARELLI is the technical execution partner for design-led residences. We provide wiring schedules, acoustic specifications, equipment coordination, and on-site integration — aligned to your design intent.",
+    "VARELLI is the technical execution partner for design-led residences. We provide wiring schedules, acoustic specifications, equipment coordination, and on-site integration - aligned to your design intent.",
   path: "/architects",
   keywords: [
     "home automation for architects",
@@ -32,10 +32,10 @@ export const metadata: Metadata = generatePageMetadata({
 const capabilities = [
   { title: "AutoCAD & Revit Coordination", description: "First-fix conduit routes, panel locations, and cable schedules provided in .DWG and Revit BIM formats that your electrical and MEP contractors can build from directly." },
   { title: "Equipment Layout & Rack Elevation", description: "AV racks, KNX DB panels, and subwoofer cavity placement drawings coordinated to exact millimeter scale with your joinery and millwork drawings." },
-  { title: "Acoustic Specifications & RT60", description: "Computational room acoustic documentation for private cinemas — RT60 decay curves, bass trap cavity sizing, and STC 65 soundproofing details." },
+  { title: "Acoustic Specifications & RT60", description: "Computational room acoustic documentation for private cinemas - RT60 decay curves, bass trap cavity sizing, and STC 65 soundproofing details." },
   { title: "Ceiling Reflected Coordination (RCP)", description: "Speaker placement, linear Zehnder diffuser slots, motorized drapery pockets, and recessed DALI lighting channels aligned perfectly with your reflected ceiling plans." },
   { title: "Direct On-Site Site Engineering", description: "VARELLI engineers attend site coordination meetings, inspect conduit rough-in, and supervise electrical contractors to ensure 100% compliance with design intent." },
-  { title: "VIP Client Presentation Support", description: "We host your clients at our private experience centers to explain the technology and lighting strategy — taking technical briefings entirely off your scope." },
+  { title: "VIP Client Presentation Support", description: "We host your clients at our private experience centers to explain the technology and lighting strategy - taking technical briefings entirely off your scope." },
 ];
 
 const cadResources = [
@@ -62,17 +62,17 @@ const cadResources = [
 ];
 
 const faqs = [
-  { question: "When in the project timeline should we engage VARELLI?", answer: "Ideally at schematic design stage — before electrical drawings are issued for contractor pricing. This allows wiring infrastructure to be coordinated from the beginning, avoiding costly additions or compromises during construction." },
+  { question: "When in the project timeline should we engage VARELLI?", answer: "Ideally at schematic design stage - before electrical drawings are issued for contractor pricing. This allows wiring infrastructure to be coordinated from the beginning, avoiding costly additions or compromises during construction." },
   { question: "Do you provide drawings in CAD or PDF format?", answer: "VARELLI provides coordination drawings in both AutoCAD (.dwg) and Vector PDF format suitable for direct integration into your architectural master drawing sets." },
-  { question: "How does VARELLI coordinate with other consultants on the project?", answer: "We work directly with your MEP consultants, lighting designers, electrical contractor, and civil team — coordinating conduit routes, panel locations, and equipment placement. We are accustomed to working within structured project environments." },
-  { question: "Do you compete with interior designers on client relationships?", answer: "No. VARELLI is a technical partner. We design and engineer the systems behind your interiors — the technology, not the aesthetic. Our work amplifies your design; it does not compete with it." },
+  { question: "How does VARELLI coordinate with other consultants on the project?", answer: "We work directly with your MEP consultants, lighting designers, electrical contractor, and civil team - coordinating conduit routes, panel locations, and equipment placement. We are accustomed to working within structured project environments." },
+  { question: "Do you compete with interior designers on client relationships?", answer: "No. VARELLI is a technical partner. We design and engineer the systems behind your interiors - the technology, not the aesthetic. Our work amplifies your design; it does not compete with it." },
   { question: "Can you host our client at your private experience center?", answer: "Yes. We host private, by-appointment-only audition sessions for your clients at our Bangalore, Mumbai, and Delhi experience suites, walking them through the technology, lighting scenes, and acoustic calibration." },
 ];
 
 export default function ArchitectsPage() {
   const schema = buildServiceSchema({
     name: "Home Automation for Architects & Interior Designers",
-    description: "VARELLI is the technical execution partner for design-led residences — providing wiring schedules, acoustic specifications, and on-site integration.",
+    description: "VARELLI is the technical execution partner for design-led residences - providing wiring schedules, acoustic specifications, and on-site integration.",
     url: "https://varelli.in/architects",
     areaServed: "India",
   });
@@ -94,7 +94,7 @@ export default function ArchitectsPage() {
               <span className="text-gradient-gold font-normal">We do not compete with it.</span>
             </h1>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed font-body max-w-2xl">
-              VARELLI is the technical execution partner for design-led residences. We provide wiring schedules, equipment coordination drawings, acoustic specifications, and on-site integration — all aligned to your design intent and project timeline.
+              VARELLI is the technical execution partner for design-led residences. We provide wiring schedules, equipment coordination drawings, acoustic specifications, and on-site integration - all aligned to your design intent and project timeline.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function ArchitectsPage() {
               <span className="text-[var(--text-secondary)]">All residential technology.</span>
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed font-body mb-4 text-sm md:text-base">
-              VARELLI covers the full spectrum of residential technology — home automation, private cinema, fresh air ventilation, central vacuum, security, and networking. Engaging one partner for all systems eliminates the coordination complexity of multiple specialist vendors.
+              VARELLI covers the full spectrum of residential technology - home automation, private cinema, fresh air ventilation, central vacuum, security, and networking. Engaging one partner for all systems eliminates the coordination complexity of multiple specialist vendors.
             </p>
             <p className="text-[var(--text-secondary)] leading-relaxed font-body text-sm md:text-base mb-6">
               Our documentation and coordination process is designed to fit within structured architectural and interior design project environments. We speak the language of drawings, specifications, and site programmes.
@@ -207,7 +207,7 @@ export default function ArchitectsPage() {
               { name: "Central Vacuum Systems", href: "/central-vacuum" },
               { name: "Smart Security & Biometrics", href: "/home-security" },
               { name: "Enterprise WiFi 7 Networking", href: "/home-networking" },
-              { name: "AI Residence Studio", href: "/studio" },
+              { name: "Residence Design Studio", href: "/studio" },
             ].map((svc) => (
               <Link
                 key={svc.href}

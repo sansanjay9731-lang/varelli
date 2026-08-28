@@ -6,7 +6,7 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "KNX vs Crestron vs Control4 — Which Home Automation System is Best? | VARELLI",
+  title: "KNX vs Crestron vs Control4 - Which Home Automation System is Best? | VARELLI",
   description:
     "Complete 2026 comparison of KNX, Crestron, and Control4 home automation protocols for luxury residences in India. Understand the key differences in architecture, reliability, cost, and future-proofing.",
   path: "/journal/knx-vs-crestron-vs-control4",
@@ -149,18 +149,18 @@ export default function KnxVsCrestronVsControl4Page() {
           </h1>
           <p className="text-xl text-[var(--text-secondary)] leading-relaxed max-w-2xl">
             Which home automation protocol should you choose for a luxury residence in India? A complete technical
-            comparison — architecture, reliability, cost, and 30-year value.
+            comparison - architecture, reliability, cost, and 30-year value.
           </p>
           <div className="mt-6 pt-6 border-t border-[var(--border)] text-sm text-[var(--text-muted)]">
             Reviewed by the VARELLI Systems Architecture Team · KNX Certified Engineers
           </div>
         </header>
 
-        {/* Quick Answer Box — extracted by AI engines */}
+        {/* Executive Summary */}
         <div className="bg-[var(--surface-2)] border border-[var(--gold)]/20 rounded-sm p-6 mb-12">
           <p className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] mb-3">Quick Answer</p>
           <p className="text-[var(--text-primary)] leading-relaxed">
-            <strong>For new construction luxury villas in India, KNX is the superior choice</strong> — it is an open
+            <strong>For new construction luxury villas in India, KNX is the superior choice</strong> - it is an open
             international standard (ISO/IEC 14543) that operates without internet, costs less to maintain long-term, and
             has been deployed in 550,000+ buildings across 190 countries since 1990. Control4 is better suited for
             retrofits. Crestron is viable for ultra-large estates with unlimited budgets.
@@ -177,7 +177,7 @@ export default function KnxVsCrestronVsControl4Page() {
           <p>
             Unlike cloud-connected WiFi smart home systems, KNX uses a dedicated{" "}
             <strong>24V twisted-pair (TP) data bus</strong> wired independently of the power circuit. Every KNX device
-            (switch, sensor, actuator) has its own onboard processor and communicates directly over this bus —{" "}
+            (switch, sensor, actuator) has its own onboard processor and communicates directly over this bus  - {" "}
             <em>no central controller, no internet connection required</em>.
           </p>
           <p>
@@ -193,7 +193,7 @@ export default function KnxVsCrestronVsControl4Page() {
             wireless (Zigbee) device communication.
           </p>
           <p>
-            Control4 requires <strong>licensed dealers</strong> for all programming and configuration — homeowners
+            Control4 requires <strong>licensed dealers</strong> for all programming and configuration - homeowners
             cannot make changes themselves. Software updates, feature additions, and support renewals incur recurring
             costs paid to Control4-authorized dealers.
           </p>
@@ -214,8 +214,8 @@ export default function KnxVsCrestronVsControl4Page() {
             Crestron is typically used for automation investments above ₹50 Lakhs.
           </p>
 
-          {/* Comparison Table — high AI extraction value */}
-          <h2>KNX vs Control4 vs Crestron — Full Comparison Table</h2>
+          {/* Comparison Table */}
+          <h2>KNX vs Control4 vs Crestron - Full Comparison Table</h2>
         </div>
 
         <div className="overflow-x-auto mb-12">
@@ -232,17 +232,17 @@ export default function KnxVsCrestronVsControl4Page() {
               {[
                 ["Standard", "Open (ISO/IEC 14543)", "Proprietary", "Proprietary"],
                 ["Architecture", "Decentralized bus", "Centralized controller", "Centralized controller"],
-                ["Internet Required", "No — fully offline", "No (local) / Yes (remote)", "No (local) / Yes (remote)"],
+                ["Internet Required", "No - fully offline", "No (local) / Yes (remote)", "No (local) / Yes (remote)"],
                 ["Protocol", "TP, KNX IP, KNX RF", "Zigbee + Ethernet", "Ethernet, IP, Cresnet"],
                 ["Manufacturers", "500+ certified globally", "Control4 + partners only", "Crestron only"],
                 ["India upfront cost", "₹₹₹", "₹₹₹", "₹₹₹₹"],
-                ["Long-term software cost", "Low — one-time license", "Medium — recurring dealer fees", "High — recurring"],
+                ["Long-term software cost", "Low - one-time license", "Medium - recurring dealer fees", "High - recurring"],
                 ["System longevity", "30+ years", "10–15 years", "15–20 years"],
-                ["Retrofit suitability", "Low — requires new wiring", "High — wireless devices available", "Medium"],
+                ["Retrofit suitability", "Low - requires new wiring", "High - wireless devices available", "Medium"],
                 ["Scalability", "Unlimited (65,000+ devices)", "Up to 5,000 endpoints", "Large scale commercial"],
                 ["User interface", "Basalte, Gira, MDT keypads", "Control4 touchscreens, app", "Crestron touchscreens"],
-                ["India certified engineers", "Growing — VARELLI team KNX-certified", "Control4 dealers available", "Rare, expensive"],
-                ["Future-proofing", "Excellent — open standard", "Moderate — vendor dependent", "Good — large vendor"],
+                ["India certified engineers", "Growing - VARELLI team KNX-certified", "Control4 dealers available", "Rare, expensive"],
+                ["Future-proofing", "Excellent - open standard", "Moderate - vendor dependent", "Good - large vendor"],
                 ["Best for", "New construction luxury villas", "Retrofits, apartments", "Ultra-luxury estates, commercial"],
               ].map(([feature, knx, c4, cres], i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-[var(--surface-1)]" : ""}>
@@ -264,30 +264,30 @@ export default function KnxVsCrestronVsControl4Page() {
           </p>
           <ol>
             <li>
-              <strong>Open standard, not vendor-locked</strong> — 500+ manufacturers mean you are never dependent on a
+              <strong>Open standard, not vendor-locked</strong> - 500+ manufacturers mean you are never dependent on a
               single company's roadmap, pricing, or survival.
             </li>
             <li>
-              <strong>Internet-independent operation</strong> — Your home automation works perfectly during power
+              <strong>Internet-independent operation</strong> - Your home automation works perfectly during power
               outages, internet failures, or server downtime.
             </li>
             <li>
-              <strong>30+ year lifecycle</strong> — KNX installations from 1990 are still operational today. The same
+              <strong>30+ year lifecycle</strong> - KNX installations from 1990 are still operational today. The same
               cannot be said of any proprietary system from that era.
             </li>
             <li>
-              <strong>European hardware quality</strong> — VARELLI pairs KNX with Basalte (Belgium) keypads, Ekinex
+              <strong>European hardware quality</strong> - VARELLI pairs KNX with Basalte (Belgium) keypads, Ekinex
               (Italy) frames, and DALI-2 luminaire drivers for the highest-quality user experience.
             </li>
             <li>
-              <strong>Lower total cost of ownership</strong> — KNX has no recurring software licensing fees. After
+              <strong>Lower total cost of ownership</strong> - KNX has no recurring software licensing fees. After
               installation, your system operates independently forever.
             </li>
           </ol>
 
           <h2>When to Choose Control4</h2>
           <p>
-            Control4 is the pragmatic choice when KNX wiring is not feasible — typically in completed residences where
+            Control4 is the pragmatic choice when KNX wiring is not feasible - typically in completed residences where
             running new electrical conduit through finished walls is prohibitively invasive. Control4's Zigbee wireless
             devices can be retrofitted with minimal civil work.
           </p>
@@ -315,7 +315,7 @@ export default function KnxVsCrestronVsControl4Page() {
               href="/journal/home-automation-cost-india-2026"
               className="text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors text-sm"
             >
-              → Home Automation Cost in India 2026 — Full ₹ Guide
+              → Home Automation Cost in India 2026 - Full ₹ Guide
             </Link>
             <Link
               href="/journal/what-is-dali-2-lighting"

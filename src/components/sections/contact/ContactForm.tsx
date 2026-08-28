@@ -51,7 +51,7 @@ export default function ContactForm() {
                 { step: "01", title: "Initial Response", desc: "We respond to all enquiries within one working day." },
                 { step: "02", title: "Discovery Call", desc: "A 30-minute conversation to understand your residence, timeline, and aspirations." },
                 { step: "03", title: "Site Visit", desc: "For projects in Bangalore and major cities, we arrange a site visit at no charge." },
-                { step: "04", title: "Technical Proposal", desc: "A detailed proposal covering systems, scope, and investment — specific to your residence." },
+                { step: "04", title: "Technical Proposal", desc: "A detailed proposal covering systems, scope, and investment - specific to your residence." },
               ].map((item) => (
                 <div key={item.step} className="flex gap-5">
                   <span className="font-mono text-2xl font-medium text-[var(--surface-3)] shrink-0 mt-0.5">{item.step}</span>
@@ -152,7 +152,7 @@ export default function ContactForm() {
                     {...register("message")}
                     rows={4}
                     className="w-full bg-[var(--surface-2)] border border-[var(--border)] rounded-lg px-4 py-3 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:outline-none focus:border-[var(--gold)] transition-colors font-body resize-none"
-                    placeholder="Tell us about your residence — size, location, systems of interest, timeline..."
+                    placeholder="Tell us about your residence - size, location, systems of interest, timeline..."
                   />
                 </div>
 

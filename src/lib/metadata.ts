@@ -18,7 +18,7 @@ export function generatePageMetadata({
   description,
   path,
   image = DEFAULT_OG_IMAGE,
-  imageAlt = "VARELLI — Luxury Intelligent Living",
+  imageAlt = "VARELLI - Luxury Intelligent Living",
   noIndex = false,
   keywords = [],
 }: PageMetadataProps): Metadata {

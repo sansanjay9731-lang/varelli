@@ -6,7 +6,7 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation vs Air Purifier — What Actually Works? | VARELLI",
+  title: "Fresh Air Ventilation vs Air Purifier - What Actually Works? | VARELLI",
   description:
     "ERV fresh air ventilation vs. air purifier: which actually improves indoor air quality? Technical comparison of CO2, PM2.5, VOC removal, and real IAQ data for Indian homes.",
   path: "/journal/fresh-air-ventilation-vs-air-purifier",
@@ -26,7 +26,7 @@ export const metadata: Metadata = generatePageMetadata({
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Fresh Air Ventilation (ERV) vs Air Purifier — What Actually Improves Your Indoor Air Quality?",
+  headline: "Fresh Air Ventilation (ERV) vs Air Purifier - What Actually Improves Your Indoor Air Quality?",
   description:
     "A technical comparison of Energy Recovery Ventilators (ERV) and air purifiers for indoor air quality in Indian homes. Covers CO2, PM2.5, VOC, and humidity control with real performance data.",
   author: {
@@ -53,22 +53,22 @@ const faqs = [
   {
     question: "What is the difference between an ERV and an HRV?",
     answer:
-      "An HRV (Heat Recovery Ventilator) recovers only thermal energy from exhaust air. An ERV (Energy Recovery Ventilator) recovers both thermal energy and moisture. In India's climate — which alternates between dry winter conditions and humid monsoon — an ERV is typically preferable because it can recover moisture in winter (preventing excessive drying of indoor air) and reject excess moisture in monsoon (helping maintain comfortable humidity). VARELLI specifies Zehnder ComfoAir Q ERVs for all Indian luxury residences.",
+      "An HRV (Heat Recovery Ventilator) recovers only thermal energy from exhaust air. An ERV (Energy Recovery Ventilator) recovers both thermal energy and moisture. In India's climate - which alternates between dry winter conditions and humid monsoon - an ERV is typically preferable because it can recover moisture in winter (preventing excessive drying of indoor air) and reject excess moisture in monsoon (helping maintain comfortable humidity). VARELLI specifies Zehnder ComfoAir Q ERVs for all Indian luxury residences.",
   },
   {
     question: "What is an air purifier and what does it actually filter?",
     answer:
-      "An air purifier is a standalone appliance that filters indoor air through a sequence of filters — typically a pre-filter (dust, hair), a HEPA H13 or H14 filter (particles above 0.3 microns, PM2.5, pollen), and an activated carbon filter (VOCs, odours). Air purifiers are effective at reducing PM2.5 and allergen levels in the air within the room where they are placed, but they do not address CO2 accumulation or introduce fresh outdoor air.",
+      "An air purifier is a standalone appliance that filters indoor air through a sequence of filters - typically a pre-filter (dust, hair), a HEPA H13 or H14 filter (particles above 0.3 microns, PM2.5, pollen), and an activated carbon filter (VOCs, odours). Air purifiers are effective at reducing PM2.5 and allergen levels in the air within the room where they are placed, but they do not address CO2 accumulation or introduce fresh outdoor air.",
   },
   {
     question: "Does an air purifier reduce CO2 levels at home?",
     answer:
-      "No. Air purifiers do not reduce CO2. CO2 (carbon dioxide) is a gas produced by human breathing and combustion. Air purifiers only filter particles (PM2.5, pollen, dust) and some gaseous VOCs through activated carbon. CO2 can only be reduced by introducing fresh outdoor air — which requires ventilation (opening windows or installing an ERV/HRV system). Indoor CO2 levels above 1,000 ppm cause measurable cognitive impairment; above 2,000 ppm causes fatigue and headaches. A sealed, occupied bedroom without ventilation can reach 2,000+ ppm within 3–4 hours.",
+      "No. Air purifiers do not reduce CO2. CO2 (carbon dioxide) is a gas produced by human breathing and combustion. Air purifiers only filter particles (PM2.5, pollen, dust) and some gaseous VOCs through activated carbon. CO2 can only be reduced by introducing fresh outdoor air - which requires ventilation (opening windows or installing an ERV/HRV system). Indoor CO2 levels above 1,000 ppm cause measurable cognitive impairment; above 2,000 ppm causes fatigue and headaches. A sealed, occupied bedroom without ventilation can reach 2,000+ ppm within 3–4 hours.",
   },
   {
     question: "What is PM2.5 and why does it matter for Indian homes?",
     answer:
-      "PM2.5 refers to particulate matter with a diameter of 2.5 micrometres or smaller — fine dust, smoke, combustion particles, and vehicle emissions. PM2.5 penetrates deep into the lungs and enters the bloodstream, causing long-term cardiovascular and respiratory damage. The WHO safe limit is 15 μg/m³ annual average. Most major Indian cities regularly exceed 100–300 μg/m³ during winter months. Both ERV systems (with HEPA filters on the intake) and air purifiers can reduce indoor PM2.5 effectively — but only the ERV addresses CO2 and continuously refreshes the air supply.",
+      "PM2.5 refers to particulate matter with a diameter of 2.5 micrometres or smaller - fine dust, smoke, combustion particles, and vehicle emissions. PM2.5 penetrates deep into the lungs and enters the bloodstream, causing long-term cardiovascular and respiratory damage. The WHO safe limit is 15 μg/m³ annual average. Most major Indian cities regularly exceed 100–300 μg/m³ during winter months. Both ERV systems (with HEPA filters on the intake) and air purifiers can reduce indoor PM2.5 effectively - but only the ERV addresses CO2 and continuously refreshes the air supply.",
   },
   {
     question: "Do I need both an ERV and an air purifier?",
@@ -110,7 +110,7 @@ export default function FreshAirVentilationVsAirPurifierPage() {
           </h1>
           <p className="text-xl text-[var(--text-secondary)] leading-relaxed max-w-2xl">
             Most Indian homes have air purifiers. Few have fresh air ventilation. Here is the technical truth about what
-            each actually does — and what you really need to breathe well.
+            each actually does - and what you really need to breathe well.
           </p>
           <div className="mt-6 pt-6 border-t border-[var(--border)] text-sm text-[var(--text-muted)]">
             Reviewed by the VARELLI Environmental Systems Team · Updated August 2025
@@ -121,7 +121,7 @@ export default function FreshAirVentilationVsAirPurifierPage() {
           <p className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] mb-3">The Key Difference</p>
           <p className="text-[var(--text-primary)] leading-relaxed">
             <strong>An air purifier filters the same air inside your home.</strong> A fresh air ventilation system (ERV)
-            replaces that stale air with fresh outdoor air — while recovering 95% of the heating/cooling energy. Only an
+            replaces that stale air with fresh outdoor air - while recovering 95% of the heating/cooling energy. Only an
             ERV reduces CO2. Air purifiers cannot.
           </p>
         </div>
@@ -146,7 +146,7 @@ export default function FreshAirVentilationVsAirPurifierPage() {
                 ["CO2 (Carbon Dioxide)", "✅ Eliminated (dilution)", "❌ Not removed", "Fatigue, poor sleep, cognitive impairment above 1,000 ppm"],
                 ["PM2.5 (fine particulates)", "✅ With HEPA intake filter", "✅ Highly effective (H13/H14 HEPA)", "Lung and cardiovascular damage"],
                 ["PM10 (dust, pollen)", "✅ With G4/F7 filter", "✅ Effective", "Allergies, respiratory irritation"],
-                ["VOCs (from furniture, paints)", "⚠️ Partial — dilution helps", "⚠️ Partially (carbon filter)", "Headaches, nausea, long-term organ damage"],
+                ["VOCs (from furniture, paints)", "⚠️ Partial - dilution helps", "⚠️ Partially (carbon filter)", "Headaches, nausea, long-term organ damage"],
                 ["Odours", "✅ Continuous dilution", "⚠️ Partially (carbon filter)", "Comfort and wellbeing"],
                 ["Humidity (excess)", "✅ ERV transfers moisture", "❌ Not controlled", "Mold growth, discomfort above 70% RH"],
                 ["Humidity (deficiency)", "✅ ERV retains moisture", "❌ Not addressed", "Dry skin, irritated mucous membranes"],
@@ -167,8 +167,8 @@ export default function FreshAirVentilationVsAirPurifierPage() {
         <div className="prose prose-invert prose-lg max-w-none">
           <h2>Why CO2 Is the Hidden IAQ Crisis in Indian Homes</h2>
           <p>
-            India's rapidly urbanizing housing stock — sealed double-glazed windows, split AC systems, and concrete
-            construction — is producing an indoor CO2 crisis that most homeowners are completely unaware of.
+            India's rapidly urbanizing housing stock - sealed double-glazed windows, split AC systems, and concrete
+            construction - is producing an indoor CO2 crisis that most homeowners are completely unaware of.
           </p>
           <p>
             In a typical sealed bedroom with two sleeping adults:
@@ -180,7 +180,7 @@ export default function FreshAirVentilationVsAirPurifierPage() {
             <li>CO2 above 2,000 ppm is associated with <strong>poor sleep quality</strong> and morning fatigue</li>
           </ul>
           <p>
-            Air purifiers — regardless of price or HEPA rating — <strong>cannot reduce CO2</strong>. This is a physical
+            Air purifiers - regardless of price or HEPA rating - <strong>cannot reduce CO2</strong>. This is a physical
             impossibility, not a product limitation. Only introducing fresh outdoor air (through a window or an ERV
             system) can dilute and remove CO2.
           </p>
@@ -191,12 +191,12 @@ export default function FreshAirVentilationVsAirPurifierPage() {
             installations. Key performance data:
           </p>
           <ul>
-            <li><strong>95% thermal efficiency</strong> (EN 308 standard) — recovers 19 of every 20 degrees of indoor conditioned air</li>
-            <li><strong>G4 + F7 + F9 filter cascade</strong> — removes PM10, PM2.5, and sub-micron particles</li>
-            <li><strong>Moisture transfer membrane</strong> — retains indoor humidity in dry conditions, removes excess in monsoon</li>
-            <li><strong>CO2 sensor integration</strong> — automatically increases fresh air flow when CO2 rises above 800 ppm</li>
-            <li><strong>Near-silent operation</strong> — 19 dB(A) at 50% speed; quieter than a whisper</li>
-            <li><strong>10-year warranty</strong> — longest warranty of any ERV available in India</li>
+            <li><strong>95% thermal efficiency</strong> (EN 308 standard) - recovers 19 of every 20 degrees of indoor conditioned air</li>
+            <li><strong>G4 + F7 + F9 filter cascade</strong> - removes PM10, PM2.5, and sub-micron particles</li>
+            <li><strong>Moisture transfer membrane</strong> - retains indoor humidity in dry conditions, removes excess in monsoon</li>
+            <li><strong>CO2 sensor integration</strong> - automatically increases fresh air flow when CO2 rises above 800 ppm</li>
+            <li><strong>Near-silent operation</strong> - 19 dB(A) at 50% speed; quieter than a whisper</li>
+            <li><strong>10-year warranty</strong> - longest warranty of any ERV available in India</li>
           </ul>
           <p>
             Explore our{" "}

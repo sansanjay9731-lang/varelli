@@ -11,7 +11,7 @@ export const organizationSchema = {
     height: 60,
   },
   description:
-    "VARELLI designs and engineers intelligent residential environments for luxury villas, estates and private residences across India. Specialists in KNX home automation, Dolby Atmos private cinema, Zehnder fresh air ventilation, central vacuum, and smart security — using exclusively European-origin hardware from Basalte (Belgium), Ekinex (Italy), Sonus Faber (Italy), Zehnder (Switzerland), and KNX (Germany).",
+    "VARELLI designs and engineers intelligent residential environments for luxury villas, estates and private residences across India. Specialists in KNX home automation, Dolby Atmos private cinema, Zehnder fresh air ventilation, central vacuum, and smart security - using exclusively European-origin hardware from Basalte (Belgium), Ekinex (Italy), Sonus Faber (Italy), Zehnder (Switzerland), and KNX (Germany).",
   telephone: "+919900000000",
   email: "studio@varelli.in",
   foundingDate: "2015",

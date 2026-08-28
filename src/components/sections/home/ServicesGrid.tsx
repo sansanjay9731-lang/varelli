@@ -33,7 +33,7 @@ const serviceItems = [
   },
   {
     title: "Central Vacuum",
-    desc: "Built-in whole-home vacuum infrastructure — silent, powerful, architecturally seamless.",
+    desc: "Built-in whole-home vacuum infrastructure - silent, powerful, architecturally seamless.",
     href: "/central-vacuum",
     image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
     alt: "Central vacuum system installation in luxury villa",
@@ -41,7 +41,7 @@ const serviceItems = [
   },
   {
     title: "Smart Security & Networking",
-    desc: "Integrated biometric access, AI surveillance, and enterprise-grade WiFi infrastructure.",
+    desc: "Integrated biometric access, optical perimeter surveillance, and enterprise-grade WiFi infrastructure.",
     href: "/home-security",
     image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
     alt: "Smart home security and networking systems",

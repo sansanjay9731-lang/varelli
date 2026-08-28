@@ -8,7 +8,7 @@ const steps = [
     number: "01",
     title: "Consultation & Brief",
     description:
-      "We begin with a detailed consultation — understanding your residence, lifestyle, and aspirations. Existing drawings are reviewed. A full technical brief is established.",
+      "We begin with a detailed consultation - understanding your residence, lifestyle, and aspirations. Existing drawings are reviewed. A full technical brief is established.",
   },
   {
     number: "02",

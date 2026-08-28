@@ -6,9 +6,9 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Home Automation Cost in India 2026 — Honest ₹ Price Guide | VARELLI",
+  title: "Home Automation Cost in India 2026 - Honest ₹ Price Guide | VARELLI",
   description:
-    "Transparent home automation cost guide for India 2026. KNX, Control4, and WiFi system pricing in ₹ Lakhs. Covers lighting, curtains, climate, cinema, security — from apartments to luxury villas.",
+    "Transparent home automation cost guide for India 2026. KNX, Control4, and WiFi system pricing in ₹ Lakhs. Covers lighting, curtains, climate, cinema, security - from apartments to luxury villas.",
   path: "/journal/home-automation-cost-india-2026",
   keywords: [
     "home automation cost India 2026",
@@ -25,7 +25,7 @@ export const metadata: Metadata = generatePageMetadata({
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Home Automation Cost in India 2026 — Honest ₹ Price Guide",
+  headline: "Home Automation Cost in India 2026 - Honest ₹ Price Guide",
   description:
     "Transparent pricing guide for home automation in India covering KNX, Control4, and WiFi systems. Includes cost breakdown by system type, home size, and city for luxury residences.",
   author: {
@@ -62,17 +62,17 @@ const faqs = [
   {
     question: "What factors most affect home automation cost in India?",
     answer:
-      "The five biggest cost factors are: (1) Protocol choice — KNX wired costs more upfront than WiFi but costs less over 20 years; (2) Home size — costs scale linearly with number of rooms and devices; (3) Scope of systems — lighting only vs. full ecosystem (lighting + curtains + HVAC + cinema + security); (4) Hardware tier — European brands (Basalte, Ekinex, Sonus Faber) vs. mass-market brands; (5) New construction vs. retrofit — KNX in new builds is significantly cheaper than retrofitting through existing walls.",
+      "The five biggest cost factors are: (1) Protocol choice - KNX wired costs more upfront than WiFi but costs less over 20 years; (2) Home size - costs scale linearly with number of rooms and devices; (3) Scope of systems - lighting only vs. full ecosystem (lighting + curtains + HVAC + cinema + security); (4) Hardware tier - European brands (Basalte, Ekinex, Sonus Faber) vs. mass-market brands; (5) New construction vs. retrofit - KNX in new builds is significantly cheaper than retrofitting through existing walls.",
   },
   {
     question: "Is home automation a good investment for a luxury villa in India?",
     answer:
-      "Yes. A well-engineered home automation system increases property value by 8–15% for luxury residences according to real estate developer surveys in India. Energy savings from automated HVAC, lighting, and curtain control typically return 12–18% of the automation investment annually. Additionally, luxury property buyers increasingly expect intelligent systems — a villa without automation is harder to sell in the ₹3 Cr+ segment.",
+      "Yes. A well-engineered home automation system increases property value by 8–15% for luxury residences according to real estate developer surveys in India. Energy savings from automated HVAC, lighting, and curtain control typically return 12–18% of the automation investment annually. Additionally, luxury property buyers increasingly expect intelligent systems - a villa without automation is harder to sell in the ₹3 Cr+ segment.",
   },
   {
     question: "Can home automation be added to an existing completed home?",
     answer:
-      "Yes. Retrofit automation is possible using wireless protocols (Zigbee, Z-Wave, WiFi) or hybrid approaches. VARELLI evaluates each completed residence individually — in some cases, partial rewiring during renovation can enable KNX in key areas. A site assessment is always recommended before specifying the protocol for a completed home.",
+      "Yes. Retrofit automation is possible using wireless protocols (Zigbee, Z-Wave, WiFi) or hybrid approaches. VARELLI evaluates each completed residence individually - in some cases, partial rewiring during renovation can enable KNX in key areas. A site assessment is always recommended before specifying the protocol for a completed home.",
   },
   {
     question: "What is included in a ₹15 Lakh home automation package?",
@@ -110,18 +110,18 @@ export default function HomeAutomationCostIndia2026Page() {
             <span className="text-xs text-[var(--text-muted)]">Updated 2026 · 10 min read</span>
           </div>
           <h1 className="font-display text-4xl md:text-5xl text-[var(--text-primary)] leading-tight mb-6">
-            Home Automation Cost in India — 2026 ₹ Guide
+            Home Automation Cost in India - 2026 ₹ Guide
           </h1>
           <p className="text-xl text-[var(--text-secondary)] leading-relaxed max-w-2xl">
             Transparent, honest pricing for KNX, Control4, and WiFi home automation systems in India. What you should
-            actually budget for a luxury villa — with no vague ranges.
+            actually budget for a luxury villa - with no vague ranges.
           </p>
           <div className="mt-6 pt-6 border-t border-[var(--border)] text-sm text-[var(--text-muted)]">
             Reviewed by the VARELLI Systems Architecture Team · Updated 2026
           </div>
         </header>
 
-        {/* Quick Answer — extracted by AI */}
+        {/* Executive Summary */}
         <div className="bg-[var(--surface-2)] border border-[var(--gold)]/20 rounded-sm p-6 mb-12">
           <p className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] mb-3">Quick Answer</p>
           <p className="text-[var(--text-primary)] leading-relaxed">
@@ -132,7 +132,7 @@ export default function HomeAutomationCostIndia2026Page() {
         </div>
 
         <div className="prose prose-invert prose-lg max-w-none mb-12">
-          <h2>Cost by Protocol — KNX vs Control4 vs WiFi</h2>
+          <h2>Cost by Protocol - KNX vs Control4 vs WiFi</h2>
           <p>
             The single biggest cost variable in home automation is your choice of protocol. This determines the hardware
             ecosystem, installation complexity, and long-term ownership cost.
@@ -178,7 +178,7 @@ export default function HomeAutomationCostIndia2026Page() {
           <h2>Cost Breakdown by System Type</h2>
           <p>
             Most home automation projects are not all-or-nothing. You can phase your investment by starting with the
-            highest-impact systems and expanding over time — provided the wiring infrastructure is pre-laid during
+            highest-impact systems and expanding over time - provided the wiring infrastructure is pre-laid during
             construction.
           </p>
         </div>
@@ -200,9 +200,9 @@ export default function HomeAutomationCostIndia2026Page() {
                 ["Climate & HVAC Integration", "₹25,000–₹45,000", "₹1.8L–₹3.5L", "AC integration, thermostat, occupancy sensors"],
                 ["Video Door Phone & Access", "₹80,000–₹1.5L", "₹80K–₹1.5L", "DoorBird IP VDP, biometric lock, gate integration"],
                 ["CCTV & Security", "₹18,000–₹35,000/camera", "₹1.5L–₹3L", "8 cameras, NVR, remote monitoring"],
-                ["Cinema/AV Integration", "—", "₹1.5L–₹3L", "AV matrix, scene control, motorized screen"],
-                ["Structured Networking", "—", "₹1.2L–₹2.5L", "UniFi WiFi 6, 10GbE backbone, VLAN security"],
-                ["Fresh Air Ventilation (Zehnder)", "—", "₹2.5L–₹4.5L", "Zehnder ComfoAir Q, ducting, CO2 sensor"],
+                ["Cinema/AV Integration", " - ", "₹1.5L–₹3L", "AV matrix, scene control, motorized screen"],
+                ["Structured Networking", " - ", "₹1.2L–₹2.5L", "UniFi WiFi 6, 10GbE backbone, VLAN security"],
+                ["Fresh Air Ventilation (Zehnder)", " - ", "₹2.5L–₹4.5L", "Zehnder ComfoAir Q, ducting, CO2 sensor"],
               ].map(([sys, per, total, incl], i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-[var(--surface-1)]" : ""}>
                   <td className="p-4 border border-[var(--border)] text-[var(--text-secondary)] font-medium">{sys}</td>
@@ -216,10 +216,10 @@ export default function HomeAutomationCostIndia2026Page() {
         </div>
 
         <div className="prose prose-invert prose-lg max-w-none">
-          <h2>VARELLI Package Tiers — Transparent Pricing</h2>
+          <h2>VARELLI Package Tiers - Transparent Pricing</h2>
           <p>
             VARELLI publishes transparent pricing tiers for all seven of our service categories. This is unusual in the
-            Indian luxury AV market — most integrators (Qubix, ProFX, Decibel) require consultations before sharing any
+            Indian luxury AV market - most integrators (Qubix, ProFX, Decibel) require consultations before sharing any
             pricing. We believe transparency is a mark of confidence in what we deliver.
           </p>
           <p>
@@ -227,15 +227,15 @@ export default function HomeAutomationCostIndia2026Page() {
           </p>
           <ul>
             <li>
-              <strong>KNX Core Living</strong> — ₹4.8L–₹7.5L: Lighting, curtains, and AC integration with Basalte
+              <strong>KNX Core Living</strong> - ₹4.8L–₹7.5L: Lighting, curtains, and AC integration with Basalte
               keypads for compact 2–3BHK homes.
             </li>
             <li>
-              <strong>KNX Architectural Villa</strong> — ₹14.5L–₹24L: Full KNX ecosystem for 4,000–6,000 sq. ft. villas
+              <strong>KNX Architectural Villa</strong> - ₹14.5L–₹24L: Full KNX ecosystem for 4,000–6,000 sq. ft. villas
               including security, cinema integration, and multi-zone audio.
             </li>
             <li>
-              <strong>KNX Grand Estate</strong> — ₹38L–₹65L+: Complete intelligent living ecosystem for estates above
+              <strong>KNX Grand Estate</strong> - ₹38L–₹65L+: Complete intelligent living ecosystem for estates above
               8,000 sq. ft. with Swiss IAQ (Zehnder), central vacuum, and comprehensive AV.
             </li>
           </ul>

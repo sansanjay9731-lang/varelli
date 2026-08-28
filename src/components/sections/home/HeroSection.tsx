@@ -14,7 +14,7 @@ const stats = [
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-between" aria-label="VARELLI — Luxury Intelligent Living">
+    <section className="relative min-h-screen flex flex-col justify-between" aria-label="VARELLI - Luxury Intelligent Living">
       <div className="absolute inset-0 z-0">
         <div
           className="absolute inset-0 bg-cover bg-center"

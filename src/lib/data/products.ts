@@ -103,7 +103,7 @@ export const productCategories: ProductCategory[] = [
     icon: 'zap',
     image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80',
     imageAlt: 'Built-in central vacuum system wall inlet and retractable hose in luxury residence',
-    highlights: ['5x More Suction Than Portable Vacuums', '100% Outdoor Exhaust — Zero Allergen Recirculation', 'Hide-A-Hose In-Wall Retractable Hose Storage', 'Whisper-Quiet Remote Motor in Utility Plant Room'],
+    highlights: ['5x More Suction Than Portable Vacuums', '100% Outdoor Exhaust - Zero Allergen Recirculation', 'Hide-A-Hose In-Wall Retractable Hose Storage', 'Whisper-Quiet Remote Motor in Utility Plant Room'],
     brands: ['Drainvac', 'Beam Electrolux', 'Cyclovac'],
     productItems: [
       { name: 'Drainvac Automatik Wet/Dry Unit', brand: 'Drainvac (Canada)', specs: '1,080 Airwatts / Direct Sewer Drain Connection', description: 'Picks up dry dust and liquid spills with automatic flushing to the drainage system.' },
@@ -121,7 +121,7 @@ export const productCategories: ProductCategory[] = [
     highlights: ['WiFi 7 Tri-Band Roaming Across Indoor & Landscape Zones', '10Gbps Fiber-Optic Backbone Routing', 'Dedicated IoT / Surveillance / AV VLAN Isolation', 'Rack-Mounted UPS Battery Backup & Remote Monitoring'],
     brands: ['Ubiquiti UniFi', 'Ruckus Wireless', 'Cisco Business', 'Pakedge'],
     productItems: [
-      { name: 'UniFi Dream Machine Pro Max', brand: 'Ubiquiti (USA)', specs: '10G SFP+ Gateway / Dual WAN / AI Threat Protection', description: 'Enterprise security gateway handling multi-gigabit fiber connections with zero bottleneck.' },
+      { name: 'UniFi Dream Machine Pro Max', brand: 'Ubiquiti (USA)', specs: '10G SFP+ Gateway / Dual WAN / Advanced Threat Defense', description: 'Enterprise security gateway handling multi-gigabit fiber connections with zero bottleneck.' },
       { name: 'UniFi U7 Pro WiFi 7 AP', brand: 'Ubiquiti (USA)', specs: 'WiFi 7 / 6GHz Support / 9.3 Gbps Throughput', description: 'Discreet ceiling-mounted access points providing uninterrupted gigabit roaming.' },
     ],
   },

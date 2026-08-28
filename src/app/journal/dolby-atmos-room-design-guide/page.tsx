@@ -6,7 +6,7 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Dolby Atmos Room Design Guide — Full Technical Breakdown | VARELLI",
+  title: "Dolby Atmos Room Design Guide - Full Technical Breakdown | VARELLI",
   description:
     "Complete Dolby Atmos room design guide for luxury home cinemas in India. Speaker placement, room dimensions, RT60 targets, screen sizing, projector selection, and seating layout.",
   path: "/journal/dolby-atmos-room-design-guide",
@@ -24,9 +24,9 @@ export const metadata: Metadata = generatePageMetadata({
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Dolby Atmos Room Design Guide — Complete Technical Breakdown for Indian Luxury Homes",
+  headline: "Dolby Atmos Room Design Guide - Complete Technical Breakdown for Indian Luxury Homes",
   description:
-    "A technical guide to designing a Dolby Atmos home cinema room — covering speaker configurations (5.1.2 to 9.4.6), room dimensions, RT60 targets, acoustic treatment, screen sizing, and 4K laser projector selection.",
+    "A technical guide to designing a Dolby Atmos home cinema room - covering speaker configurations (5.1.2 to 9.4.6), room dimensions, RT60 targets, acoustic treatment, screen sizing, and 4K laser projector selection.",
   author: {
     "@type": "Organization",
     name: "VARELLI Cinema Design Team",
@@ -95,12 +95,12 @@ const faqs = [
   {
     question: "What is RT60 and why does it matter for a home cinema?",
     answer:
-      "RT60 is the Reverberation Time — the time in seconds for sound to decay by 60 decibels after the sound source stops. For a Dolby Atmos home cinema, the target RT60 is 0.3–0.5 seconds at 500Hz. A room with too high an RT60 (above 0.6 seconds) sounds reverberant and muddy; too low (below 0.2 seconds) sounds unnaturally dead. Achieving the correct RT60 requires bass traps, absorption panels, and diffusers calibrated to the room's volume and surface materials.",
+      "RT60 is the Reverberation Time - the time in seconds for sound to decay by 60 decibels after the sound source stops. For a Dolby Atmos home cinema, the target RT60 is 0.3–0.5 seconds at 500Hz. A room with too high an RT60 (above 0.6 seconds) sounds reverberant and muddy; too low (below 0.2 seconds) sounds unnaturally dead. Achieving the correct RT60 requires bass traps, absorption panels, and diffusers calibrated to the room's volume and surface materials.",
   },
   {
     question: "Do I need acoustic treatment for a home cinema?",
     answer:
-      "Yes. Acoustic treatment is not optional for a high-performance Dolby Atmos cinema — it is as important as the speaker and electronics choice. Untreated rooms with hard parallel surfaces (concrete walls, glass, hard floor) create standing waves, flutter echo, and frequency response anomalies that no amount of DSP correction can fully resolve. VARELLI designs acoustic treatment to be architecturally integrated — concealed within fabric panels, perforated surfaces, and custom ceiling baffles that match the room's interior design.",
+      "Yes. Acoustic treatment is not optional for a high-performance Dolby Atmos cinema - it is as important as the speaker and electronics choice. Untreated rooms with hard parallel surfaces (concrete walls, glass, hard floor) create standing waves, flutter echo, and frequency response anomalies that no amount of DSP correction can fully resolve. VARELLI designs acoustic treatment to be architecturally integrated - concealed within fabric panels, perforated surfaces, and custom ceiling baffles that match the room's interior design.",
   },
   {
     question: "What projector should I choose for a Dolby Atmos home cinema in India?",
@@ -145,7 +145,7 @@ export default function DolbyAtmosRoomDesignGuidePage() {
             Dolby Atmos Room Design Guide
           </h1>
           <p className="text-xl text-[var(--text-secondary)] leading-relaxed max-w-2xl">
-            A complete technical guide to designing a Dolby Atmos private cinema — from room dimensions and speaker
+            A complete technical guide to designing a Dolby Atmos private cinema - from room dimensions and speaker
             configurations to RT60 targets, acoustic treatment, and projector selection for Indian luxury homes.
           </p>
           <div className="mt-6 pt-6 border-t border-[var(--border)] text-sm text-[var(--text-muted)]">
@@ -176,7 +176,7 @@ export default function DolbyAtmosRoomDesignGuidePage() {
           <p>
             Dolby Atmos is the world's leading immersive audio format, developed by Dolby Laboratories. Unlike
             conventional surround sound (5.1, 7.1) which sends audio to specific channel-based speaker positions, Dolby
-            Atmos uses <strong>audio objects</strong> — up to 128 per mix — each of which can be dynamically positioned
+            Atmos uses <strong>audio objects</strong> - up to 128 per mix - each of which can be dynamically positioned
             anywhere in a three-dimensional sphere around the listener, including directly overhead.
           </p>
           <p>
@@ -254,7 +254,7 @@ export default function DolbyAtmosRoomDesignGuidePage() {
           </ul>
           <p>
             VARELLI conceals all acoustic treatment within architecturally finished panels, perforated fabric walls, and
-            custom ceiling baffles. The acoustic engineering is invisible — the room looks like a luxury interior, not
+            custom ceiling baffles. The acoustic engineering is invisible - the room looks like a luxury interior, not
             a recording studio.
           </p>
 

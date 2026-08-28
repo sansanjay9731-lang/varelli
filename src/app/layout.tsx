@@ -10,7 +10,7 @@ import "@/styles/globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://varelli.in"),
   title: {
-    default: "VARELLI — Luxury Intelligent Living India",
+    default: "VARELLI - Luxury Intelligent Living India",
     template: "%s | VARELLI",
   },
   description:
@@ -50,7 +50,7 @@ const localBusinessBangalore = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://varelli.in/#bangalore",
-  name: "VARELLI — Intelligent Living Bangalore",
+  name: "VARELLI - Intelligent Living Bangalore",
   alternateName: "VARELLI Bangalore",
   description:
     "VARELLI's Bangalore studio specialises in luxury home automation (KNX), private cinema (Dolby Atmos), fresh air ventilation (Zehnder ERV), central vacuum, and intelligent home security for villas across Whitefield, Koramangala, Sarjapur Road, Indiranagar, and Yelahanka.",
@@ -108,7 +108,7 @@ const localBusinessMumbai = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://varelli.in/#mumbai",
-  name: "VARELLI — Intelligent Living Mumbai",
+  name: "VARELLI - Intelligent Living Mumbai",
   alternateName: "VARELLI Mumbai",
   description:
     "VARELLI's Mumbai studio delivers luxury home automation, private cinema, and intelligent living solutions for residences across Bandra, Juhu, Worli, Prabhadevi, Powai, and South Mumbai.",
@@ -131,7 +131,7 @@ const localBusinessDelhi = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://varelli.in/#delhi",
-  name: "VARELLI — Intelligent Living Delhi NCR",
+  name: "VARELLI - Intelligent Living Delhi NCR",
   alternateName: "VARELLI Delhi",
   description:
     "VARELLI's Delhi NCR studio delivers luxury home automation, private cinema, and intelligent living solutions for residences across Gurgaon, DLF, Vasant Vihar, Greater Kailash, and Noida.",
@@ -158,7 +158,7 @@ const localBusinessHyderabad = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://varelli.in/#hyderabad",
-  name: "VARELLI — Intelligent Living Hyderabad",
+  name: "VARELLI - Intelligent Living Hyderabad",
   alternateName: "VARELLI Hyderabad",
   description:
     "VARELLI's Hyderabad studio delivers luxury home automation, private cinema, and intelligent living solutions for villas across Jubilee Hills, Banjara Hills, Hitec City, and Kondapur.",

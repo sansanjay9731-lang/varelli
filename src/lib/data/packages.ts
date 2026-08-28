@@ -209,17 +209,17 @@ export const SERVICE_PACKAGES: Record<string, PackageTier[]> = {
   "home-security": [
     {
       id: "security-suite",
-      name: "Architectural Biometric & AI Perimeter",
+      name: "Architectural Biometric & Smart Perimeter",
       badge: "Fortified Living",
       priceRange: "₹4.5L – ₹12.0L",
       targetProperty: "Luxury Gated Residences & Villas",
-      description: "German DoorBird solid brass video door stations, AI thermal human/vehicle perimeter detection, and biometric fingerprint/facial entry.",
+      description: "German DoorBird solid brass video door stations, smart thermal human/vehicle perimeter detection, and biometric fingerprint/facial entry.",
       highlighted: true,
-      keyBrands: ["DoorBird Germany", "Ekinex", "UniFi Protect AI"],
+      keyBrands: ["DoorBird Germany", "Ekinex", "UniFi Protect G5"],
       warranty: "5-Year Hardware Warranty + Remote Security SLA",
       specifications: [
         "DoorBird architectural brass IP video intercom with RFID and keypad",
-        "4K AI Smart Cameras with license plate recognition and perimeter line crossing",
+        "4K HDR Smart Cameras with license plate recognition and perimeter line crossing",
         "High-torque motorized gate automation integrated with license plate reader",
         "Zero cloud vulnerability: Encrypted local NVR storage with mobile push alerts",
       ],

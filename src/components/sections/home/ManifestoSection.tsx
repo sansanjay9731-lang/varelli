@@ -24,14 +24,14 @@ export default function ManifestoSection() {
             <span className="text-gradient-gold not-italic font-display font-bold">
               We engineer environments
             </span>{" "}
-            where technology serves life — invisibly, precisely, and beautifully."
+            where technology serves life - invisibly, precisely, and beautifully."
           </motion.blockquote>
           <motion.p
             variants={fadeUp}
             className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto leading-relaxed font-body"
           >
             Every system VARELLI designs is invisible by intention and flawless in execution.
-            The measure of our work is not what you see — it is what you feel.
+            The measure of our work is not what you see - it is what you feel.
           </motion.p>
         </motion.div>
       </div>

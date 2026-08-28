@@ -14,8 +14,8 @@ const service = getServiceBySlug("private-cinema")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Bespoke Home Theatre Design & Installation Bangalore — Dolby Atmos | VARELLI",
-  description: "VARELLI engineers bespoke luxury home theatres with fiber-optic star ceilings, custom daybed loungers, and Dolby Atmos audio across Bangalore — Whitefield, Sadashivanagar, Indiranagar, and Koramangala.",
+  title: "Bespoke Home Theatre Design & Installation Bangalore - Dolby Atmos | VARELLI",
+  description: "VARELLI engineers bespoke luxury home theatres with fiber-optic star ceilings, custom daybed loungers, and Dolby Atmos audio across Bangalore - Whitefield, Sadashivanagar, Indiranagar, and Koramangala.",
   path: "/private-cinema/bangalore",
   keywords: [
     "private cinema Bangalore",
@@ -74,10 +74,10 @@ export default function BangaloreServicePage() {
                 <span className="text-[var(--text-secondary)]">Bangalore's finest residences.</span>
               </h2>
               <p className="text-[var(--text-secondary)] leading-relaxed font-body mb-4">
-                Bangalore's luxury residential market — from Whitefield villa estates to Koramangala penthouses and Sadashivanagar bungalows — demands systems of the highest calibre. VARELLI engineers bespoke solutions specifically for each residence.
+                Bangalore's luxury residential market - from Whitefield villa estates to Koramangala penthouses and Sadashivanagar bungalows - demands systems of the highest calibre. VARELLI engineers bespoke solutions specifically for each residence.
               </p>
               <p className="text-[var(--text-secondary)] leading-relaxed font-body">
-                Our Bangalore projects span lighting and climate control, motorized shading, private cinema, security, and fresh air ventilation — all integrated into a single, unified ecosystem.
+                Our Bangalore projects span lighting and climate control, motorized shading, private cinema, security, and fresh air ventilation - all integrated into a single, unified ecosystem.
               </p>
             </div>
             <div>
@@ -120,7 +120,7 @@ export default function BangaloreServicePage() {
         </div>
       </section>
 
-      <FAQSection faqs={city.faqs} heading={"Common Questions — " + service.name + " in Bangalore"} />
+      <FAQSection faqs={city.faqs} heading={"Common Questions - " + service.name + " in Bangalore"} />
       <ServiceCTA serviceName={service.name + " in Bangalore"} />
     </>
   );

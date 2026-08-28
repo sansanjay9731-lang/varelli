@@ -6,7 +6,7 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Private Cinema vs Home Theatre — What's the Difference? | VARELLI",
+  title: "Private Cinema vs Home Theatre - What's the Difference? | VARELLI",
   description:
     "Private cinema vs home theatre: understand the differences in acoustics, screen size, seating, Dolby Atmos certification, and total investment. Which should you build in your luxury villa?",
   path: "/journal/private-cinema-vs-home-theatre",
@@ -26,7 +26,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Private Cinema vs Home Theatre: What's the Difference and Which Should You Build?",
   description:
-    "A technical guide comparing private cinema and home theatre configurations — covering room design, acoustics, screen size, Dolby Atmos configuration, seating, and investment levels for luxury Indian residences.",
+    "A technical guide comparing private cinema and home theatre configurations - covering room design, acoustics, screen size, Dolby Atmos configuration, seating, and investment levels for luxury Indian residences.",
   author: {
     "@type": "Organization",
     name: "VARELLI Cinema Design Team",
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "What is the difference between a private cinema and a home theatre?",
     answer:
-      "A private cinema is a dedicated, purpose-built room designed exclusively for film watching — with acoustic treatment from floor to ceiling, reference-grade Dolby Atmos audio (7.1.4 minimum), 4K laser projection on an acoustically transparent screen, and theatre-grade seating. A home theatre uses an existing living room or media room adapted for cinema use, typically with a large TV or projector, 5.1–7.1 audio, and basic acoustic treatment. Private cinemas offer a significantly superior viewing experience but require dedicated space and higher investment.",
+      "A private cinema is a dedicated, purpose-built room designed exclusively for film watching - with acoustic treatment from floor to ceiling, reference-grade Dolby Atmos audio (7.1.4 minimum), 4K laser projection on an acoustically transparent screen, and theatre-grade seating. A home theatre uses an existing living room or media room adapted for cinema use, typically with a large TV or projector, 5.1–7.1 audio, and basic acoustic treatment. Private cinemas offer a significantly superior viewing experience but require dedicated space and higher investment.",
   },
   {
     question: "How much does a private cinema cost in India?",
@@ -61,7 +61,7 @@ const faqs = [
   {
     question: "What is Dolby Atmos and do I need it for a home theatre?",
     answer:
-      "Dolby Atmos is an immersive three-dimensional audio format that adds height channels above the traditional 5.1 or 7.1 channel configuration. Dolby Atmos uses audio objects (up to 128 per mix) that can be precisely positioned in a 360° sphere around the listener, including height. For a dedicated private cinema room, Dolby Atmos is strongly recommended — it is the current reference standard for premium content (all major streaming platforms, 4K Blu-ray). For a casual home theatre in a living room, a 5.1 or 7.1 configuration without Atmos height channels is a reasonable starting point.",
+      "Dolby Atmos is an immersive three-dimensional audio format that adds height channels above the traditional 5.1 or 7.1 channel configuration. Dolby Atmos uses audio objects (up to 128 per mix) that can be precisely positioned in a 360° sphere around the listener, including height. For a dedicated private cinema room, Dolby Atmos is strongly recommended - it is the current reference standard for premium content (all major streaming platforms, 4K Blu-ray). For a casual home theatre in a living room, a 5.1 or 7.1 configuration without Atmos height channels is a reasonable starting point.",
   },
   {
     question: "Is a 4K projector better than a large TV for a home cinema?",
@@ -115,7 +115,7 @@ export default function PrivateCinemaVsHomeTheatrePage() {
           <p className="text-[var(--text-primary)] leading-relaxed">
             A <strong>private cinema</strong> is a purpose-built, acoustically treated dedicated room with 4K laser
             projection and reference Dolby Atmos audio (7.1.4–9.4.6). A <strong>home theatre</strong> is a media room
-            adapted for cinema — often a large TV, 5.1 audio, and minimal acoustic treatment. Private cinemas start from
+            adapted for cinema - often a large TV, 5.1 audio, and minimal acoustic treatment. Private cinemas start from
             ₹8.5 Lakhs; home theatres from ₹2.5 Lakhs.
           </p>
         </div>
@@ -123,7 +123,7 @@ export default function PrivateCinemaVsHomeTheatrePage() {
         <div className="prose prose-invert prose-lg max-w-none mb-12">
           <h2>The Core Difference: Dedicated vs. Multi-Purpose Space</h2>
           <p>
-            The fundamental distinction between a private cinema and a home theatre is not the quality of equipment —
+            The fundamental distinction between a private cinema and a home theatre is not the quality of equipment  - 
             it is whether the room is <strong>designed exclusively for cinema</strong>, or whether it is an existing
             living space adapted to serve dual purposes.
           </p>

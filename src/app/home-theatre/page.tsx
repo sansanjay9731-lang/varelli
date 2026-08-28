@@ -25,7 +25,7 @@ const relatedServices = [
   { name: "Private Cinema", href: "/private-cinema" },
   { name: "Home Automation", href: "/home-automation" },
   { name: "Home Theatre Bangalore", href: "/home-theatre/bangalore" },
-  { name: "AI Residence Studio", href: "/studio" },
+  { name: "Residence Design Studio", href: "/studio" },
 ];
 
 export default function Page() {

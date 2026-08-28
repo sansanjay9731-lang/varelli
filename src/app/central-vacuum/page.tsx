@@ -25,7 +25,7 @@ const relatedServices = [
   { name: "Fresh Air IAQ", href: "/fresh-air-ventilation" },
   { name: "Home Automation", href: "/home-automation" },
   { name: "Central Vacuum Bangalore", href: "/central-vacuum/bangalore" },
-  { name: "AI Residence Studio", href: "/studio" },
+  { name: "Residence Design Studio", href: "/studio" },
 ];
 
 export default function Page() {

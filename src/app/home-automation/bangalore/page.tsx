@@ -14,8 +14,8 @@ const service = getServiceBySlug("home-automation")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Luxury Home Automation Bangalore — KNX Systems & Smart Living | VARELLI",
-  description: "VARELLI designs luxury KNX home automation systems for villas and penthouses across Bangalore — Whitefield, Koramangala, Indiranagar, Sadashivanagar, Sarjapur, and Yelahanka.",
+  title: "Luxury Home Automation Bangalore - KNX Systems & Smart Living | VARELLI",
+  description: "VARELLI designs luxury KNX home automation systems for villas and penthouses across Bangalore - Whitefield, Koramangala, Indiranagar, Sadashivanagar, Sarjapur, and Yelahanka.",
   path: "/home-automation/bangalore",
   keywords: [
     "home automation Bangalore",
@@ -75,10 +75,10 @@ export default function BangaloreServicePage() {
                 <span className="text-[var(--text-secondary)]">Bangalore's finest residences.</span>
               </h2>
               <p className="text-[var(--text-secondary)] leading-relaxed font-body mb-4">
-                Bangalore's luxury residential market — from Whitefield villa estates to Koramangala penthouses and Sadashivanagar bungalows — demands systems of the highest calibre. VARELLI engineers bespoke solutions specifically for each residence.
+                Bangalore's luxury residential market - from Whitefield villa estates to Koramangala penthouses and Sadashivanagar bungalows - demands systems of the highest calibre. VARELLI engineers bespoke solutions specifically for each residence.
               </p>
               <p className="text-[var(--text-secondary)] leading-relaxed font-body">
-                Our Bangalore projects span lighting and climate control, motorized shading, private cinema, security, and fresh air ventilation — all integrated into a single, unified ecosystem.
+                Our Bangalore projects span lighting and climate control, motorized shading, private cinema, security, and fresh air ventilation - all integrated into a single, unified ecosystem.
               </p>
             </div>
             <div>
@@ -121,7 +121,7 @@ export default function BangaloreServicePage() {
         </div>
       </section>
 
-      <FAQSection faqs={city.faqs} heading={"Common Questions — " + service.name + " in Bangalore"} />
+      <FAQSection faqs={city.faqs} heading={"Common Questions - " + service.name + " in Bangalore"} />
       <ServiceCTA serviceName={service.name + " in Bangalore"} />
     </>
   );

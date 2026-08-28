@@ -8,7 +8,7 @@ export function buildLocalBusinessSchema({ city, url, description }: LocalBusine
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: `VARELLI — ${city}`,
+    name: `VARELLI - ${city}`,
     description,
     url,
     "@id": url,

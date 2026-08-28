@@ -8,7 +8,7 @@ import ConsultationCTA from "@/components/sections/home/ConsultationCTA";
 export const metadata: Metadata = generatePageMetadata({
   title: "Completed Residences & Projects | VARELLI",
   description:
-    "Selected VARELLI projects — luxury villas, private estates and residences across India featuring home automation, private cinema, fresh air ventilation, and intelligent living systems.",
+    "Selected VARELLI projects - luxury villas, private estates and residences across India featuring home automation, private cinema, fresh air ventilation, and intelligent living systems.",
   path: "/residences",
   keywords: [
     "luxury home automation projects",
@@ -33,7 +33,7 @@ export default function ResidencesPage() {
               <span className="font-editorial italic font-normal text-[var(--text-secondary)]">thoughtfully delivered.</span>
             </h1>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed font-body">
-              A selection of completed VARELLI residences — each a unique integration of automation, cinema, air quality, and intelligent living systems.
+              A selection of completed VARELLI residences - each a unique integration of automation, cinema, air quality, and intelligent living systems.
             </p>
           </div>
         </div>

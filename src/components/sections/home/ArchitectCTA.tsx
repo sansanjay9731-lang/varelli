@@ -26,7 +26,7 @@ export default function ArchitectCTA() {
               </span>
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-8 font-body max-w-lg">
-              VARELLI is the technical execution partner for design-led residences. We provide wiring schedules, equipment coordination drawings, acoustic specifications, and on-site integration — all aligned to your design intent and timeline.
+              VARELLI is the technical execution partner for design-led residences. We provide wiring schedules, equipment coordination drawings, acoustic specifications, and on-site integration - all aligned to your design intent and timeline.
             </p>
             <Link
               href="/architects"

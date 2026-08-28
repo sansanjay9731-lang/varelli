@@ -1,5 +1,5 @@
 /**
- * VARELLI Spatial Intelligence Platform — Neural Spatial Analyzer
+ * VARELLI Spatial Intelligence Platform - Neural Spatial Analyzer
  * Computer Vision & Spatial Graph Analysis for Luxury Residences
  */
 
@@ -143,7 +143,7 @@ export function analyzeFloorplanPlanData(filename: string, fileSizeBytes?: numbe
   ];
 
   return {
-    planId: `VAR-AI-${Math.floor(100000 + Math.random() * 900000)}`,
+    planId: `VAR-SPEC-${Math.floor(100000 + Math.random() * 900000)}`,
     totalAreaSqFt: totalArea,
     totalVolumeM3: totalVolume,
     roomCount: rooms.length,

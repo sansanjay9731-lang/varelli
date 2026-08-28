@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/layout/Breadcrumb";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "The VARELLI Journal — Intelligent Living Guides & Resources",
+  title: "The VARELLI Journal - Intelligent Living Guides & Resources",
   description:
     "Expert guides on home automation (KNX, Control4), private cinema (Dolby Atmos), fresh air ventilation (Zehnder ERV), and intelligent living for luxury residences across India.",
   path: "/journal",
@@ -24,15 +24,15 @@ export const metadata: Metadata = generatePageMetadata({
 const articles = [
   {
     slug: "knx-vs-crestron-vs-control4",
-    title: "KNX vs Crestron vs Control4 — Which Protocol Should You Choose?",
+    title: "KNX vs Crestron vs Control4 - Which Protocol Should You Choose?",
     category: "Home Automation",
-    description: "A complete technical comparison of KNX, Crestron, and Control4 — architecture, cost, reliability, and which is right for your luxury villa in India.",
+    description: "A complete technical comparison of KNX, Crestron, and Control4 - architecture, cost, reliability, and which is right for your luxury villa in India.",
     readTime: 12,
     date: "2026-08-28",
   },
   {
     slug: "home-automation-cost-india-2026",
-    title: "Home Automation Cost in India 2026 — Honest ₹ Price Guide",
+    title: "Home Automation Cost in India 2026 - Honest ₹ Price Guide",
     category: "Home Automation",
     description: "Transparent pricing for KNX, Control4, and WiFi home automation in India. Cost tables by protocol, system type, and home size. Updated 2026.",
     readTime: 10,
@@ -40,7 +40,7 @@ const articles = [
   },
   {
     slug: "dolby-atmos-room-design-guide",
-    title: "Dolby Atmos Room Design Guide — Full Technical Breakdown",
+    title: "Dolby Atmos Room Design Guide - Full Technical Breakdown",
     category: "Home Theatre",
     description: "Complete technical guide: speaker configurations (5.1.2 to 9.4.6), room dimensions, RT60 targets, acoustic treatment, and projector selection for Indian luxury homes.",
     readTime: 14,
@@ -48,7 +48,7 @@ const articles = [
   },
   {
     slug: "private-cinema-vs-home-theatre",
-    title: "Dedicated Home Theatre vs Media Room — What's the Difference?",
+    title: "Dedicated Home Theatre vs Media Room - What's the Difference?",
     category: "Home Theatre",
     description: "Dedicated home theatre vs living media room: acoustics, screen size, Dolby Atmos configurations, seating, and investment. Which should you build in your residence?",
     readTime: 8,
@@ -56,7 +56,7 @@ const articles = [
   },
   {
     slug: "fresh-air-ventilation-vs-air-purifier",
-    title: "Fresh Air Ventilation vs Air Purifier — What Actually Works?",
+    title: "Fresh Air Ventilation vs Air Purifier - What Actually Works?",
     category: "Fresh Air",
     description: "Why air purifiers cannot fix high CO2 levels in air-conditioned homes. How Zehnder Energy Recovery Ventilation (ERV) works and why it matters in India.",
     readTime: 10,
@@ -66,7 +66,7 @@ const articles = [
     slug: "home-automation-cost-bangalore",
     title: "How Much Does Home Automation Cost in Bangalore?",
     category: "Home Automation",
-    description: "A transparent guide to home automation investment in Bangalore — covering system types, scope, and what determines the final cost.",
+    description: "A transparent guide to home automation investment in Bangalore - covering system types, scope, and what determines the final cost.",
     readTime: 8,
     date: "2026-01-15",
   },
@@ -74,23 +74,23 @@ const articles = [
     slug: "home-theatre-cost-bangalore",
     title: "How Much Does a Home Theatre Cost in Bangalore?",
     category: "Home Theatre",
-    description: "From living room audio-visual systems to dedicated Dolby Atmos installations — what different levels of home theatre investment look like.",
+    description: "From living room audio-visual systems to dedicated Dolby Atmos installations - what different levels of home theatre investment look like.",
     readTime: 7,
     date: "2026-01-22",
   },
   {
     slug: "knx-vs-control4",
-    title: "KNX vs Control4 — Which Home Automation System is Right for You?",
+    title: "KNX vs Control4 - Which Home Automation System is Right for You?",
     category: "Home Automation",
-    description: "A detailed, honest comparison of two leading luxury home automation platforms — architecture, reliability, flexibility, and fit.",
+    description: "A detailed, honest comparison of two leading luxury home automation platforms - architecture, reliability, flexibility, and fit.",
     readTime: 10,
     date: "2026-02-01",
   },
   {
     slug: "private-cinema-design-guide",
-    title: "Private Cinema Design Guide — Everything You Need to Know",
+    title: "Private Cinema Design Guide - Everything You Need to Know",
     category: "Private Cinema",
-    description: "From room dimensions and acoustic treatment to Dolby Atmos configuration and laser projection — a complete design reference for private cinema owners.",
+    description: "From room dimensions and acoustic treatment to Dolby Atmos configuration and laser projection - a complete design reference for private cinema owners.",
     readTime: 12,
     date: "2026-02-10",
   },
@@ -106,7 +106,7 @@ const articles = [
     slug: "dolby-atmos-home-theatre",
     title: "What is Dolby Atmos? And What it Means for Your Home Cinema",
     category: "Private Cinema",
-    description: "Dolby Atmos explained — how object-based audio works, why it matters, and what different configurations (7.1.4, 9.1.4, 9.1.6) mean in practice.",
+    description: "Dolby Atmos explained - how object-based audio works, why it matters, and what different configurations (7.1.4, 9.1.4, 9.1.6) mean in practice.",
     readTime: 8,
     date: "2026-02-25",
   },

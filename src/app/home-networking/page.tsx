@@ -24,7 +24,7 @@ export const metadata: Metadata = generatePageMetadata({
 const relatedServices = [
   { name: "Smart Security", href: "/home-security" },
   { name: "Home Automation", href: "/home-automation" },
-  { name: "AI Residence Studio", href: "/studio" },
+  { name: "Residence Design Studio", href: "/studio" },
 ];
 
 export default function Page() {

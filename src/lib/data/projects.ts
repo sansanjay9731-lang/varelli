@@ -47,7 +47,7 @@ export const projects: Project[] = [
     specs: [
       { label: "Area", value: "9,000 sq. ft." },
       { label: "Automation", value: "Whole-home KNX" },
-      { label: "Security", value: "Biometric + AI CCTV" },
+      { label: "Security", value: "Biometric + Smart Optical CCTV" },
       { label: "Location", value: "Whitefield, Bangalore" },
     ],
   },

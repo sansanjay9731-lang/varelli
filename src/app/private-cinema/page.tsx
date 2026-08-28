@@ -28,7 +28,7 @@ const relatedServices = [
   { name: "Living Room Media Rooms", href: "/home-theatre" },
   { name: "Home Automation", href: "/home-automation" },
   { name: "Home Theatre Bangalore", href: "/private-cinema/bangalore" },
-  { name: "AI Residence Studio", href: "/studio" },
+  { name: "Residence Design Studio", href: "/studio" },
 ];
 
 export default function Page() {

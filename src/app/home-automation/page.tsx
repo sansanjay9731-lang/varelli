@@ -26,7 +26,7 @@ const relatedServices = [
   { name: "Fresh Air IAQ", href: "/fresh-air-ventilation" },
   { name: "Smart Security", href: "/home-security" },
   { name: "Home Networking", href: "/home-networking" },
-  { name: "AI Residence Studio", href: "/studio" },
+  { name: "Residence Design Studio", href: "/studio" },
 ];
 
 export default function Page() {
