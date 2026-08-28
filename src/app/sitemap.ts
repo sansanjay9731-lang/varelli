@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Knowledge Base / Journal (AEO & GEO Pillars)
     { url: `${BASE_URL}/journal`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/journal/knx-vs-crestron-vs-control4`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/journal/home-automation-cost-india-2026`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/journal/home-automation-cost-india-2025`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/journal/dolby-atmos-room-design-guide`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/journal/private-cinema-vs-home-theatre`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },

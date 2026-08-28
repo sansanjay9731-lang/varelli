@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = generatePageMetadata({
   title: "KNX vs Crestron vs Control4 — Which Home Automation System is Best? | VARELLI",
   description:
-    "Complete 2025 comparison of KNX, Crestron, and Control4 home automation protocols for luxury residences in India. Understand the key differences in architecture, reliability, cost, and future-proofing.",
+    "Complete 2026 comparison of KNX, Crestron, and Control4 home automation protocols for luxury residences in India. Understand the key differences in architecture, reliability, cost, and future-proofing.",
   path: "/journal/knx-vs-crestron-vs-control4",
   keywords: [
     "KNX vs Crestron vs Control4",
@@ -39,8 +39,8 @@ const articleSchema = {
     name: "VARELLI",
     logo: { "@type": "ImageObject", url: "https://varelli.in/images/varelli-logo.png" },
   },
-  datePublished: "2025-08-01",
-  dateModified: "2025-08-28",
+  datePublished: "2026-01-15",
+  dateModified: "2026-08-28",
   mainEntityOfPage: "https://varelli.in/journal/knx-vs-crestron-vs-control4",
   image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1600&q=80",
 };
@@ -312,10 +312,10 @@ export default function KnxVsCrestronVsControl4Page() {
           <p className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] mb-3">Related Reading</p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="/journal/home-automation-cost-india-2025"
+              href="/journal/home-automation-cost-india-2026"
               className="text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors text-sm"
             >
-              → Home Automation Cost in India 2025 — Full ₹ Guide
+              → Home Automation Cost in India 2026 — Full ₹ Guide
             </Link>
             <Link
               href="/journal/what-is-dali-2-lighting"
