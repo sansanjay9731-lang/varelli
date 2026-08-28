@@ -9,17 +9,38 @@ import ProtocolMarquee from "@/components/sections/home/ProtocolMarquee";
 import ArchitectCTA from "@/components/sections/home/ArchitectCTA";
 import ConsultationCTA from "@/components/sections/home/ConsultationCTA";
 
-export const metadata: Metadata = {
-  title: "VARELLI — Luxury Intelligent Living India",
+import { generatePageMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = generatePageMetadata({
+  title: "VARELLI — Luxury Home Automation & Private Cinema India | Bangalore · Mumbai · Delhi",
   description:
-    "VARELLI designs and engineers intelligent residential environments for luxury villas, estates and private residences across India. Home automation, private cinema, fresh air ventilation, and smart security.",
-  openGraph: {
-    title: "VARELLI — Luxury Intelligent Living India",
-    description:
-      "Designing intelligent residential environments for luxury villas and private residences across India.",
-    images: [{ url: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80", width: 1200, height: 630 }],
-  },
-};
+    "VARELLI engineers luxury intelligent residential environments across India. KNX home automation, Dolby Atmos private cinema, Swiss Zehnder ERV ventilation, central vacuum & smart security for luxury villas in Bangalore, Mumbai, Delhi NCR, and Hyderabad.",
+  path: "",
+  keywords: [
+    "home automation Bangalore",
+    "smart home automation India",
+    "luxury home automation India",
+    "home theatre Bangalore",
+    "private cinema India",
+    "Dolby Atmos home theatre Bangalore",
+    "KNX home automation India",
+    "home automation company Bangalore",
+    "best home theatre installation Bangalore",
+    "smart home company Bangalore",
+    "home automation cost in India",
+    "home theatre cost Bangalore",
+    "Zehnder fresh air ventilation India",
+    "central vacuum system India",
+    "Basalte switches India",
+    "Sonus Faber dealers Bangalore",
+    "luxury villa automation Bangalore",
+    "home automation Mumbai",
+    "home automation Delhi",
+    "home automation Hyderabad",
+    "architectural lighting control DALI 2",
+    "smart security systems for villas",
+  ],
+});
 
 export default function HomePage() {
   return (

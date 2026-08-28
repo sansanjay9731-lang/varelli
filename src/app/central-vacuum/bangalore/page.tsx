@@ -14,10 +14,20 @@ const service = getServiceBySlug("central-vacuum")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: service.name + " Bangalore — Luxury Intelligent Living | VARELLI",
-  description: "VARELLI designs " + service.name.toLowerCase() + " systems for luxury residences in Bangalore. Premium installations across Whitefield, Koramangala, Indiranagar, Sadashivanagar and the wider city.",
+  title: "Central Vacuum System Installation Bangalore — Luxury Villas | VARELLI",
+  description: "VARELLI installs built-in central vacuum systems for luxury villas and penthouses across Bangalore. Heavy-duty external motors, retractable in-wall hoses, and zero dust recirculation.",
   path: "/central-vacuum/bangalore",
-  keywords: [service.name.toLowerCase() + " Bangalore", "luxury " + service.name.toLowerCase() + " Bangalore", service.name.toLowerCase() + " company Bangalore"],
+  keywords: [
+    "central vacuum Bangalore",
+    "central vacuum system Bangalore",
+    "built in vacuum cleaner Bangalore",
+    "central vacuum system price Bangalore",
+    "central vacuum installation Bangalore",
+    "central vacuum for luxury villas Bangalore",
+    "in wall vacuum system Bangalore",
+    "central vacuum Whitefield",
+    "villa central vacuum Bangalore",
+  ],
 });
 
 export default function BangaloreServicePage() {

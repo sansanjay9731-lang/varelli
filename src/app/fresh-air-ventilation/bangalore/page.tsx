@@ -14,10 +14,20 @@ const service = getServiceBySlug("fresh-air-ventilation")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: service.name + " Bangalore — Luxury Intelligent Living | VARELLI",
-  description: "VARELLI designs " + service.name.toLowerCase() + " systems for luxury residences in Bangalore. Premium installations across Whitefield, Koramangala, Indiranagar, Sadashivanagar and the wider city.",
+  title: "Fresh Air Ventilation & Zehnder ERV Bangalore | VARELLI",
+  description: "VARELLI engineers Swiss Zehnder ERV fresh air ventilation systems for luxury villas in Bangalore. Eliminate CO2, filter PM2.5, and maintain optimal indoor air quality.",
   path: "/fresh-air-ventilation/bangalore",
-  keywords: [service.name.toLowerCase() + " Bangalore", "luxury " + service.name.toLowerCase() + " Bangalore", service.name.toLowerCase() + " company Bangalore"],
+  keywords: [
+    "fresh air ventilation Bangalore",
+    "Zehnder ERV Bangalore",
+    "Zehnder ComfoAir Q Bangalore",
+    "indoor air quality Bangalore",
+    "home ventilation system Bangalore",
+    "ERV ventilation Bangalore",
+    "CO2 reduction ventilation Bangalore",
+    "fresh air ventilation Whitefield",
+    "villa ventilation system Bangalore",
+  ],
 });
 
 export default function BangaloreServicePage() {

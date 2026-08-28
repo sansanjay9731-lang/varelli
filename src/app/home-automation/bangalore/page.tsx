@@ -14,10 +14,24 @@ const service = getServiceBySlug("home-automation")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: service.name + " Bangalore — Luxury Intelligent Living | VARELLI",
-  description: "VARELLI designs " + service.name.toLowerCase() + " systems for luxury residences in Bangalore. Premium installations across Whitefield, Koramangala, Indiranagar, Sadashivanagar and the wider city.",
+  title: "Luxury Home Automation Bangalore — KNX Systems & Smart Living | VARELLI",
+  description: "VARELLI designs luxury KNX home automation systems for villas and penthouses across Bangalore — Whitefield, Koramangala, Indiranagar, Sadashivanagar, Sarjapur, and Yelahanka.",
   path: "/home-automation/bangalore",
-  keywords: [service.name.toLowerCase() + " Bangalore", "luxury " + service.name.toLowerCase() + " Bangalore", service.name.toLowerCase() + " company Bangalore"],
+  keywords: [
+    "home automation Bangalore",
+    "smart home automation Bangalore",
+    "luxury home automation Bangalore",
+    "home automation company Bangalore",
+    "KNX certified integrator Bangalore",
+    "villa automation Bangalore",
+    "home automation cost Bangalore",
+    "home automation Whitefield Bangalore",
+    "smart home Koramangala",
+    "home automation Indiranagar",
+    "home automation Sadashivanagar",
+    "smart lighting automation Bangalore",
+    "motorized curtains Bangalore",
+  ],
 });
 
 export default function BangaloreServicePage() {

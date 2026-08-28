@@ -14,10 +14,22 @@ const service = getServiceBySlug("home-theatre")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: service.name + " Bangalore — Luxury Intelligent Living | VARELLI",
-  description: "VARELLI designs " + service.name.toLowerCase() + " systems for luxury residences in Bangalore. Premium installations across Whitefield, Koramangala, Indiranagar, Sadashivanagar and the wider city.",
+  title: "Home Theatre Installation Bangalore — Luxury Living Room Audio | VARELLI",
+  description: "VARELLI designs luxury living room home theatres with architectural in-wall speakers, 4K laser displays, and Dolby Atmos calibration across Bangalore.",
   path: "/home-theatre/bangalore",
-  keywords: [service.name.toLowerCase() + " Bangalore", "luxury " + service.name.toLowerCase() + " Bangalore", service.name.toLowerCase() + " company Bangalore"],
+  keywords: [
+    "home theatre Bangalore",
+    "home theatre installation Bangalore",
+    "home theatre dealers in Bangalore",
+    "home theatre cost Bangalore",
+    "best home theatre in Bangalore",
+    "Dolby Atmos home theatre Bangalore",
+    "architectural speakers Bangalore",
+    "home theatre Whitefield Bangalore",
+    "home theatre Koramangala",
+    "home theatre Indiranagar",
+    "home theatre soundproofing Bangalore",
+  ],
 });
 
 export default function BangaloreServicePage() {

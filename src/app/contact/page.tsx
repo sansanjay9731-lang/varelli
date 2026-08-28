@@ -4,10 +4,19 @@ import Breadcrumb from "@/components/layout/Breadcrumb";
 import ContactForm from "@/components/sections/contact/ContactForm";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Begin Your Residence — Contact VARELLI | VARELLI",
+  title: "Book Private Audition & Consultation — Contact VARELLI India",
   description:
-    "Begin your VARELLI project. Share the details of your residence and we will arrange a private consultation with our design team.",
+    "Schedule a private audition or technical consultation with VARELLI systems architects in Bangalore, Mumbai, Delhi NCR, or Hyderabad. Whole-home automation, private cinema, fresh air IAQ, and smart security.",
   path: "/contact",
+  keywords: [
+    "book private audition Bangalore",
+    "home automation consultation Bangalore",
+    "home theatre quote India",
+    "private cinema design consultation",
+    "smart home experience center Bangalore",
+    "KNX engineer consultation India",
+    "contact VARELLI",
+  ],
 });
 
 export default function ContactPage() {

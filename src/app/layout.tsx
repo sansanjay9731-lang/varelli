@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "VARELLI designs and engineers intelligent residential environments for luxury villas, estates and private residences across India. KNX home automation, Dolby Atmos private cinema, Zehnder fresh air ventilation, central vacuum and smart security.",
   keywords:
-    "home automation India, luxury home automation, KNX home automation India, smart home India, private cinema India, Dolby Atmos home theatre India, home automation Bangalore, luxury intelligent living, Zehnder ERV India, Basalte India",
+    "home automation India, luxury home automation, KNX home automation India, smart home India, private cinema India, Dolby Atmos home theatre India, home automation Bangalore, home theatre Bangalore, luxury intelligent living, Zehnder ERV India, Basalte India, Sonus Faber Bangalore, central vacuum system India, smart home company Bangalore, villa automation India, smart security systems India, DALI 2 lighting control India, home automation Mumbai, home automation Delhi NCR, home automation Hyderabad",
   openGraph: {
     siteName: "VARELLI",
     locale: "en_IN",

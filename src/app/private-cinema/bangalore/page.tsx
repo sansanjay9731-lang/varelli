@@ -14,10 +14,23 @@ const service = getServiceBySlug("private-cinema")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: service.name + " Bangalore — Luxury Intelligent Living | VARELLI",
-  description: "VARELLI designs " + service.name.toLowerCase() + " systems for luxury residences in Bangalore. Premium installations across Whitefield, Koramangala, Indiranagar, Sadashivanagar and the wider city.",
+  title: "Private Cinema Design & Installation Bangalore — Dolby Atmos | VARELLI",
+  description: "VARELLI engineers bespoke private cinemas and Dolby Atmos rooms for luxury villas in Bangalore — Whitefield, Sadashivanagar, Indiranagar, and Koramangala. 4K laser projection and studio acoustic treatment.",
   path: "/private-cinema/bangalore",
-  keywords: [service.name.toLowerCase() + " Bangalore", "luxury " + service.name.toLowerCase() + " Bangalore", service.name.toLowerCase() + " company Bangalore"],
+  keywords: [
+    "private cinema Bangalore",
+    "home cinema design Bangalore",
+    "Dolby Atmos home theatre Bangalore",
+    "private cinema Bangalore cost",
+    "home cinema installation Bangalore",
+    "acoustic treatment home theatre Bangalore",
+    "4k laser projector installation Bangalore",
+    "Sonus Faber cinema Bangalore",
+    "luxury cinema recliners Bangalore",
+    "private cinema Whitefield",
+    "private cinema Koramangala",
+    "home theatre Sadashivanagar",
+  ],
 });
 
 export default function BangaloreServicePage() {
