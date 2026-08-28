@@ -6,19 +6,62 @@ import Link from "next/link";
 export const metadata: Metadata = generatePageMetadata({
   title: "The VARELLI Journal — Intelligent Living Guides & Resources",
   description:
-    "Expert guides on home automation, private cinema, Dolby Atmos, fresh air ventilation, central vacuum, and intelligent living for luxury residences across India.",
+    "Expert guides on home automation (KNX, Control4), private cinema (Dolby Atmos), fresh air ventilation (Zehnder ERV), and intelligent living for luxury residences across India.",
   path: "/journal",
   keywords: [
     "home automation guide India",
-    "home theatre design guide",
-    "private cinema guide",
-    "Dolby Atmos guide",
-    "home automation cost India",
-    "KNX vs Control4",
+    "KNX vs Control4 India",
+    "KNX vs Crestron vs Control4",
+    "home automation cost India 2025",
+    "private cinema design guide India",
+    "Dolby Atmos room design guide India",
+    "fresh air ventilation vs air purifier India",
+    "private cinema vs home theatre India",
+    "home theatre design guide India",
   ],
 });
 
 const articles = [
+  {
+    slug: "knx-vs-crestron-vs-control4",
+    title: "KNX vs Crestron vs Control4 — Which Protocol Should You Choose?",
+    category: "Home Automation",
+    description: "A complete technical comparison of KNX, Crestron, and Control4 — architecture, cost, reliability, and which is right for your luxury villa in India.",
+    readTime: 12,
+    date: "2025-08-28",
+  },
+  {
+    slug: "home-automation-cost-india-2025",
+    title: "Home Automation Cost in India 2025 — Honest ₹ Price Guide",
+    category: "Home Automation",
+    description: "Transparent pricing for KNX, Control4, and WiFi home automation in India. Cost tables by protocol, system type, and home size. Updated August 2025.",
+    readTime: 10,
+    date: "2025-08-15",
+  },
+  {
+    slug: "dolby-atmos-room-design-guide",
+    title: "Dolby Atmos Room Design Guide — Full Technical Breakdown",
+    category: "Private Cinema",
+    description: "Complete technical guide: speaker configurations (5.1.2 to 9.4.6), room dimensions, RT60 targets, acoustic treatment, and projector selection for Indian luxury homes.",
+    readTime: 14,
+    date: "2025-08-10",
+  },
+  {
+    slug: "private-cinema-vs-home-theatre",
+    title: "Private Cinema vs Home Theatre — What's the Difference?",
+    category: "Private Cinema",
+    description: "Private cinema vs home theatre: acoustics, screen size, Dolby Atmos configurations, seating, and investment. Which should you build in your residence?",
+    readTime: 8,
+    date: "2025-08-05",
+  },
+  {
+    slug: "fresh-air-ventilation-vs-air-purifier",
+    title: "Fresh Air Ventilation vs Air Purifier — What Actually Works?",
+    category: "Fresh Air",
+    description: "A technical comparison of ERV fresh air systems vs. HEPA air purifiers — covering CO2, PM2.5, VOC removal, and what Indian homes actually need for healthy indoor air.",
+    readTime: 10,
+    date: "2025-08-01",
+  },
   {
     slug: "home-automation-cost-bangalore",
     title: "How Much Does Home Automation Cost in Bangalore?",
