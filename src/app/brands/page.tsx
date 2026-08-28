@@ -9,15 +9,18 @@ import { fadeUp, staggerContainer } from "@/lib/animations";
 import ConsultationCTA from "@/components/sections/home/ConsultationCTA";
 import { MessageCircle, Sparkles, Check, ShieldCheck, ArrowRight } from "@/components/ui/icons";
 
+import BrandLogo from "@/components/ui/BrandLogos";
+
 const categories = [
-  { id: "all", label: "All Curated Brands" },
+  { id: "all", label: "All Curated Brands (20)" },
   { id: "automation", label: "Automation & KNX" },
   { id: "audio", label: "Reference Cinema Audio" },
   { id: "video", label: "4K Laser & Screens" },
   { id: "lighting", label: "Architectural Keypads" },
   { id: "climate", label: "Fresh Air & IAQ" },
   { id: "vacuum", label: "Central Vacuum" },
-  { id: "networking", label: "Enterprise WiFi" },
+  { id: "security", label: "Smart Security" },
+  { id: "networking", label: "Enterprise WiFi 7" },
 ];
 
 export default function BrandsPage() {
@@ -29,6 +32,8 @@ export default function BrandsPage() {
     const matchesSearch =
       b.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       b.origin.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      b.speciality.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      b.whyPeopleRelate.toLowerCase().includes(searchQuery.toLowerCase()) ||
       b.tagline.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCat && matchesSearch;
   });
@@ -52,7 +57,7 @@ export default function BrandsPage() {
               <span className="text-gradient-gold">Architectural Technology.</span>
             </h1>
             <p className="text-[var(--text-secondary)] text-lg leading-relaxed font-body">
-              VARELLI partners exclusively with the global gold standards in building automation, reference Dolby Atmos acoustics, native 4K laser projection, and Swiss indoor air quality engineering.
+              VARELLI partners exclusively with the global reference standards in building automation, reference Dolby Atmos acoustics, native 4K laser projection, and Swiss indoor air quality engineering.
             </p>
           </div>
         </div>
@@ -81,10 +86,10 @@ export default function BrandsPage() {
             {/* Quick Search */}
             <input
               type="text"
-              placeholder="Search brand, country, or product..."
+              placeholder="Search brand, country, or speciality..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="px-4 py-2.5 rounded-full bg-[var(--surface-1)] border border-[var(--border)] text-xs text-white placeholder-gray-500 focus:outline-none focus:border-[var(--gold)] font-mono w-full md:w-64"
+              className="px-4 py-2.5 rounded-full bg-[var(--surface-1)] border border-[var(--border)] text-xs text-white placeholder-gray-500 focus:outline-none focus:border-[var(--gold)] font-mono w-full md:w-72"
             />
           </div>
 
@@ -105,10 +110,11 @@ export default function BrandsPage() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.96 }}
                   transition={{ duration: 0.3 }}
-                  className="rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] overflow-hidden group hover:border-[var(--gold)]/40 transition-all duration-500 flex flex-col justify-between shadow-xl"
+                  className="rounded-2xl border border-[var(--border)] bg-[var(--surface-1)] overflow-hidden group hover:border-[var(--gold)]/50 transition-all duration-500 flex flex-col justify-between shadow-xl"
                 >
                   <div>
-                    <div className="relative h-56 overflow-hidden">
+                    {/* Brand Image & Header Badge */}
+                    <div className="relative h-60 overflow-hidden">
                       <Image
                         src={brand.image}
                         alt={brand.imageAlt}
@@ -116,33 +122,60 @@ export default function BrandsPage() {
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,8,10,0.95)] via-[rgba(8,8,10,0.40)] to-transparent" />
-                      <div className="absolute top-4 left-4 flex gap-2">
-                        <span className="badge-mono text-[9px] bg-black/60 backdrop-blur-md border border-[var(--gold)]/40 text-[var(--gold)]">
-                          {brand.tier} Standard
+                      <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,8,10,0.98)] via-[rgba(8,8,10,0.50)] to-transparent" />
+                      
+                      {/* Top Brand Logo Banner */}
+                      <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
+                        <div className="px-3.5 py-1.5 rounded-lg bg-black/75 backdrop-blur-md border border-[var(--border)] shadow-lg">
+                          <BrandLogo brandId={brand.id} className="h-6 w-auto" />
+                        </div>
+                        <span className="badge-mono text-[9px] bg-black/75 backdrop-blur-md border border-[var(--gold)]/40 text-[var(--gold)]">
+                          {brand.originFlag} {brand.originCountry}
                         </span>
                       </div>
+
+                      {/* Bottom Title on Image */}
                       <div className="absolute bottom-4 left-4 right-4">
                         <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--gold)] mb-1">
-                          {brand.origin} · {brand.categoryLabel}
+                          {brand.categoryLabel}
                         </p>
-                        <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">
-                          {brand.name}
+                        <h2 className="font-display text-2xl font-bold text-[var(--text-primary)] flex items-center gap-2">
+                          <span>{brand.name}</span>
                         </h2>
                       </div>
                     </div>
 
-                    <div className="p-6">
-                      <p className="text-xs font-editorial italic text-[var(--text-primary)] mb-3 leading-relaxed">
+                    <div className="p-6 space-y-4">
+                      {/* Tagline */}
+                      <p className="text-xs font-editorial italic text-[var(--text-primary)] leading-relaxed">
                         "{brand.tagline}"
                       </p>
-                      <p className="text-xs text-[var(--text-secondary)] leading-relaxed font-body mb-6">
-                        {brand.description}
-                      </p>
 
-                      <div className="pt-4 border-t border-[var(--border)] mb-4">
-                        <p className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--text-muted)] mb-2">
-                          Flagship Product Series
+                      {/* Speciality Highlight Box */}
+                      <div className="p-3 rounded-xl bg-[var(--surface-2)] border border-[var(--gold)]/20">
+                        <p className="font-mono text-[9px] uppercase tracking-widest text-[var(--gold)] font-bold mb-1 flex items-center gap-1.5">
+                          <Sparkles className="w-3 h-3" />
+                          <span>Speciality</span>
+                        </p>
+                        <p className="text-xs text-[var(--text-primary)] font-medium leading-relaxed">
+                          {brand.speciality}
+                        </p>
+                      </div>
+
+                      {/* Relatable Why People Choose Them */}
+                      <div>
+                        <p className="font-mono text-[9px] uppercase tracking-widest text-[var(--text-muted)] font-semibold mb-1">
+                          Why Homeowners Love It
+                        </p>
+                        <p className="text-xs text-[var(--text-secondary)] leading-relaxed font-body">
+                          {brand.whyPeopleRelate}
+                        </p>
+                      </div>
+
+                      {/* Flagship Product Series */}
+                      <div className="pt-3 border-t border-[var(--border)]">
+                        <p className="font-mono text-[9px] uppercase tracking-[0.12em] text-[var(--text-muted)] mb-2">
+                          Key Product Series
                         </p>
                         <div className="flex flex-wrap gap-1.5">
                           {brand.featuredProducts.map((prod) => (
@@ -167,7 +200,7 @@ export default function BrandsPage() {
                       className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl bg-emerald-600/20 hover:bg-emerald-600 text-emerald-400 hover:text-white border border-emerald-500/40 font-medium text-xs font-mono transition-all"
                     >
                       <MessageCircle size={14} />
-                      <span>Inquire on WhatsApp</span>
+                      <span>Inquire for {brand.name} Specs & Pricing</span>
                     </a>
                   </div>
                 </motion.div>
