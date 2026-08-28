@@ -4,6 +4,7 @@ import { organizationSchema } from "@/components/seo/schemas/organization";
 import SchemaOrg from "@/components/seo/SchemaOrg";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import WhatsAppFloatingCTA from "@/components/ui/WhatsAppFloatingCTA";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
+        <WhatsAppFloatingCTA />
       </body>
     </html>
   );

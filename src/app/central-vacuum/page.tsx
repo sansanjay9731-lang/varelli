@@ -6,8 +6,11 @@ import SchemaOrg from "@/components/seo/SchemaOrg";
 import ServiceHero from "@/components/sections/service/ServiceHero";
 import ServiceIntro from "@/components/sections/service/ServiceIntro";
 import CapabilityGrid from "@/components/sections/service/CapabilityGrid";
+import SolutionPackageGrid from "@/components/sections/service/SolutionPackageGrid";
+import ComparisonMatrix from "@/components/sections/service/ComparisonMatrix";
 import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
+import { SERVICE_PACKAGES } from "@/lib/data/packages";
 
 const service = getServiceBySlug("central-vacuum")!;
 
@@ -18,7 +21,12 @@ export const metadata: Metadata = generatePageMetadata({
   keywords: service.keywords,
 });
 
-const relatedServices = [{ name: "Fresh Air Ventilation", href: "/fresh-air-ventilation" }, { name: "Home Automation", href: "/home-automation" }, { name: "Central Vacuum Bangalore", href: "/central-vacuum/bangalore" }];
+const relatedServices = [
+  { name: "Fresh Air IAQ", href: "/fresh-air-ventilation" },
+  { name: "Home Automation", href: "/home-automation" },
+  { name: "Central Vacuum Bangalore", href: "/central-vacuum/bangalore" },
+  { name: "AI Residence Studio", href: "/studio" },
+];
 
 export default function Page() {
   const schema = buildServiceSchema({
@@ -26,6 +34,8 @@ export default function Page() {
     description: service.description,
     url: "https://varelli.in/central-vacuum",
   });
+
+  const packages = SERVICE_PACKAGES["central-vacuum"] || [];
 
   return (
     <>
@@ -43,6 +53,16 @@ export default function Page() {
         relatedServices={relatedServices}
       />
       <CapabilityGrid capabilities={service.capabilities} />
+      <SolutionPackageGrid
+        serviceTitle="Central Vacuum & Retractable In-Wall Systems"
+        serviceCategory="Silent Built-In Cleaning"
+        subtitle="Canadian heavy-duty Drainvac suction units, retractable Hide-A-Hose in-wall systems, and zero-exhaust allergen elimination."
+        packages={packages}
+      />
+      <ComparisonMatrix
+        title="Why Built-In Central Vacuum Outperforms Portable & Robot Vacuums"
+        subtitle="3x to 5x higher air-watt suction power with 100% exterior dust exhausting."
+      />
       <FAQSection faqs={service.faqs} />
       <ServiceCTA serviceName={service.name} />
     </>

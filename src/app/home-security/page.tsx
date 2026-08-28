@@ -6,8 +6,11 @@ import SchemaOrg from "@/components/seo/SchemaOrg";
 import ServiceHero from "@/components/sections/service/ServiceHero";
 import ServiceIntro from "@/components/sections/service/ServiceIntro";
 import CapabilityGrid from "@/components/sections/service/CapabilityGrid";
+import SolutionPackageGrid from "@/components/sections/service/SolutionPackageGrid";
+import ComparisonMatrix from "@/components/sections/service/ComparisonMatrix";
 import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
+import { SERVICE_PACKAGES } from "@/lib/data/packages";
 
 const service = getServiceBySlug("home-security")!;
 
@@ -18,7 +21,11 @@ export const metadata: Metadata = generatePageMetadata({
   keywords: service.keywords,
 });
 
-const relatedServices = [{ name: "Home Automation", href: "/home-automation" }, { name: "Home Networking", href: "/home-networking" }, { name: "Home Automation Bangalore", href: "/home-automation/bangalore" }];
+const relatedServices = [
+  { name: "Home Networking", href: "/home-networking" },
+  { name: "Home Automation", href: "/home-automation" },
+  { name: "AI Residence Studio", href: "/studio" },
+];
 
 export default function Page() {
   const schema = buildServiceSchema({
@@ -26,6 +33,8 @@ export default function Page() {
     description: service.description,
     url: "https://varelli.in/home-security",
   });
+
+  const packages = SERVICE_PACKAGES["home-security"] || [];
 
   return (
     <>
@@ -43,6 +52,16 @@ export default function Page() {
         relatedServices={relatedServices}
       />
       <CapabilityGrid capabilities={service.capabilities} />
+      <SolutionPackageGrid
+        serviceTitle="Smart Security & Biometric Access"
+        serviceCategory="Architectural Security"
+        subtitle="German DoorBird stainless steel video stations, AI edge thermal perimeter tracking, and encrypted local biometric storage."
+        packages={packages}
+      />
+      <ComparisonMatrix
+        title="Why Enterprise Local-Encrypted Security Outperforms Retail Wireless DIY Cameras"
+        subtitle="Zero cloud subscription vulnerability with instant local optical AI processing."
+      />
       <FAQSection faqs={service.faqs} />
       <ServiceCTA serviceName={service.name} />
     </>
