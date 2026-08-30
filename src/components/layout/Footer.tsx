@@ -136,7 +136,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-xs text-emerald-400 hover:underline font-mono block mb-1"
             >
-              WhatsApp: +91 99000 00000
+              WhatsApp: +91 99649 84695
             </a>
             <a
               href="mailto:studio@varelli.in"
