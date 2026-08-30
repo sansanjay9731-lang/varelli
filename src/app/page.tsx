@@ -12,9 +12,9 @@ import ConsultationCTA from "@/components/sections/home/ConsultationCTA";
 import { generatePageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "VARELLI - Luxury Home Automation & Private Cinema India | Bangalore · Mumbai · Delhi",
+  title: "VARELLI | Luxury Home Automation & Private Cinema India",
   description:
-    "VARELLI engineers luxury intelligent residential environments across India. KNX home automation, Dolby Atmos private cinema, Swiss Zehnder ERV ventilation, central vacuum & smart security for luxury villas in Bangalore, Mumbai, Delhi NCR, and Hyderabad.",
+    "VARELLI engineers bespoke KNX home automation, Dolby Atmos private cinema, Swiss Zehnder ERV, and luxury smart security for villas across India.",
   path: "",
   keywords: [
     "home automation Bangalore",
