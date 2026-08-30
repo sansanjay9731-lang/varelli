@@ -23,8 +23,8 @@ export default function HeroSection() {
               "url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80')",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(8,8,10,0.65)] via-[rgba(8,8,10,0.40)] to-[rgba(8,8,10,0.95)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(197,168,128,0.04)_0%,transparent_70%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(8,8,10,0.85)] via-[rgba(8,8,10,0.58)] to-[rgba(8,8,10,0.98)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(197,168,128,0.06)_0%,transparent_70%)]" />
       </div>
 
       <div className="relative z-10 flex-1 flex flex-col justify-center container-varelli pt-32 pb-12">
@@ -42,7 +42,7 @@ export default function HeroSection() {
 
           <motion.h1
             variants={fadeUp}
-            className="font-display text-[clamp(2.8rem,7vw,5.5rem)] font-bold leading-[1.05] tracking-[-0.03em] text-[var(--text-primary)] mb-6"
+            className="font-display text-[clamp(2.8rem,7vw,5.5rem)] font-bold leading-[1.05] tracking-[-0.03em] text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.7)] mb-6"
           >
             Where Technology
             <br />
@@ -53,7 +53,7 @@ export default function HeroSection() {
 
           <motion.p
             variants={fadeUp}
-            className="font-editorial text-2xl md:text-3xl text-[var(--text-secondary)] italic mb-10 max-w-2xl leading-relaxed"
+            className="font-editorial text-2xl md:text-3xl text-white font-normal mb-10 max-w-2xl leading-relaxed drop-shadow-[0_2px_14px_rgba(0,0,0,0.9)]"
           >
             VARELLI engineers intelligent residential environments for luxury villas, estates and private residences across India.
           </motion.p>

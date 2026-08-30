@@ -23,10 +23,10 @@ export default function ServicesGrid() {
           <motion.div variants={fadeUp} className="mb-12 flex items-end justify-between">
             <div>
               <p className="badge-mono mb-4">What We Design</p>
-              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-[-0.02em] text-[var(--text-primary)]">
+              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-[-0.02em] text-white">
                 Intelligent Systems.
                 <br />
-                <span className="text-[var(--text-secondary)]">Invisible Integration.</span>
+                <span className="text-[var(--gold)]">Invisible Integration.</span>
               </h2>
             </div>
           </motion.div>

@@ -20,10 +20,10 @@ export default function ResidencesSection() {
           <motion.div variants={fadeUp} className="mb-12 flex items-end justify-between gap-6">
             <div>
               <p className="badge-mono mb-4">Selected Residences</p>
-              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-[-0.02em] text-[var(--text-primary)]">
-                Intelligent environments,
+              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-[-0.02em] text-white">
+                Intelligent living,
                 <br />
-                <span className="text-[var(--text-secondary)]">thoughtfully delivered.</span>
+                <span className="text-[var(--gold)]">thoughtfully delivered.</span>
               </h2>
             </div>
             <Link
