@@ -123,13 +123,118 @@ export default function Header() {
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-[var(--text-primary)]"
+              className="lg:hidden p-2 text-[var(--text-primary)] hover:text-[var(--gold)] transition-colors rounded-lg focus:outline-none"
               aria-label="Toggle Navigation"
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
+
+        {/* ── Mobile Navigation Drawer ── */}
+        <AnimatePresence>
+          {mobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+              className="lg:hidden bg-[rgba(8,8,10,0.98)] backdrop-blur-2xl border-b border-[var(--border)] overflow-y-auto max-h-[calc(100vh-5rem)]"
+            >
+              <div className="container-varelli py-6 px-4 space-y-6">
+
+                {/* Design Studio Pill */}
+                <Link
+                  href="/studio"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between p-3.5 rounded-xl bg-[var(--gold)]/10 border border-[var(--gold)]/40 text-[var(--gold)] font-mono text-xs uppercase tracking-wider"
+                >
+                  <div className="flex items-center space-x-2">
+                    <Sparkles className="w-4 h-4" />
+                    <span className="font-semibold">Design Studio Specification</span>
+                  </div>
+                  <ArrowUpRight size={14} />
+                </Link>
+
+                {/* Solutions Accordion / Section */}
+                <div className="space-y-1">
+                  <div className="px-1 pb-2 text-[10px] font-mono uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                    Intelligent Solutions
+                  </div>
+                  <div className="grid grid-cols-1 gap-1">
+                    {navigationLinks[0].children?.map((child) => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="p-3 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] hover:border-[var(--gold)]/40 transition-all flex items-center justify-between group"
+                      >
+                        <div>
+                          <div className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
+                            {child.name}
+                          </div>
+                          <p className="text-[11px] text-[var(--text-secondary)] mt-0.5">{child.desc}</p>
+                        </div>
+                        <ArrowUpRight size={14} className="text-[var(--text-muted)] group-hover:text-[var(--gold)] transition-colors shrink-0 ml-2" />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Main Navigation Links */}
+                <div className="space-y-1 pt-2 border-t border-[var(--border)]">
+                  <div className="px-1 pb-2 text-[10px] font-mono uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                    Explore
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    {navigationLinks.slice(1).map((link) => (
+                      <Link
+                        key={link.name}
+                        href={link.href}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="p-3.5 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm font-medium text-[var(--text-primary)] hover:border-[var(--gold)]/40 hover:text-[var(--gold)] transition-all text-center"
+                      >
+                        {link.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Actions & CTAs */}
+                <div className="space-y-3 pt-4 border-t border-[var(--border)]">
+                  <button
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      setAuditionOpen(true);
+                    }}
+                    className="w-full flex items-center justify-center space-x-2 py-3.5 rounded-full border border-[var(--gold)]/60 text-[var(--gold)] text-xs font-mono font-medium tracking-wider uppercase hover:bg-[var(--gold)]/10 transition-all"
+                  >
+                    <Volume2 size={14} />
+                    <span>Book Private Audition</span>
+                  </button>
+
+                  <Link
+                    href="/contact"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="w-full flex items-center justify-center py-3.5 rounded-full bg-[var(--gold)] text-[#08080A] text-xs font-bold font-body tracking-wider uppercase hover:bg-[var(--gold-light)] transition-all"
+                  >
+                    Begin Residence Project
+                  </Link>
+
+                  <a
+                    href="https://wa.me/919964984695?text=Hello%20VARELLI%20Team%2C%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20smart%20home%20systems."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full flex items-center justify-center space-x-2 py-2.5 text-xs text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors font-mono"
+                  >
+                    <span>Direct WhatsApp: +91 99649 84695</span>
+                  </a>
+                </div>
+
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </header>
 
       {/* Experience Center Audition Modal */}
