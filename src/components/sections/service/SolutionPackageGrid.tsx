@@ -32,7 +32,7 @@ export default function SolutionPackageGrid({
 }: SolutionPackageGridProps) {
   const createWhatsAppLink = (pkgName: string, price: string) => {
     const text = `Hello VARELLI, I would like to inquire about the ${serviceTitle} (${pkgName} - ${price}) for our residence.`;
-    return `https://wa.me/919900000000?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/919964984695?text=${encodeURIComponent(text)}`;
   };
 
   return (

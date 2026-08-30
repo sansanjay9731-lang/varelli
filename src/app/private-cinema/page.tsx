@@ -125,7 +125,7 @@ export default function Page() {
 
               <div className="flex items-center gap-4">
                 <a
-                  href="https://wa.me/919900000000?text=Hello%20VARELLI,%20I'd%20like%20to%20design%20a%20bespoke%20Home%20Theatre%20with%20star%20ceiling%20for%20my%20residence."
+                  href="https://wa.me/919964984695?text=Hello%20VARELLI,%20I'd%20like%20to%20design%20a%20bespoke%20Home%20Theatre%20with%20star%20ceiling%20for%20my%20residence."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-gold px-8 py-3.5 text-sm font-semibold rounded-full font-body inline-flex items-center gap-2"

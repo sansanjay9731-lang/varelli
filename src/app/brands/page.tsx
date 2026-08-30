@@ -40,7 +40,7 @@ export default function BrandsPage() {
 
   const createBrandWhatsAppLink = (brandName: string, category: string) => {
     const text = `Hello VARELLI, I would like to inquire about ${brandName} (${category}) for our residential project. Please share product specifications and Indian pricing.`;
-    return `https://wa.me/919900000000?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/919964984695?text=${encodeURIComponent(text)}`;
   };
 
   return (

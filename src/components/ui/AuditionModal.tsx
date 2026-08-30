@@ -60,7 +60,7 @@ export default function AuditionModal({ isOpen, onClose }: AuditionModalProps) {
   const handleWhatsAppBooking = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Hello VARELLI, I would like to book a private audition session at your ${cityName} Experience Center (${cityArea}).\n\n• Experience Suite: ${suiteTitle}\n• Name: ${clientName || "Discerning Client"}\n• Preferred Date: ${preferredDate || "Earliest Available"}\n• Preferred Time: ${preferredTime}\n• Phone: ${clientPhone || "Provided on WhatsApp"}\n\nPlease confirm availability with a Senior Systems Architect.`;
-    const url = `https://wa.me/919900000000?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/919964984695?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
     onClose();
   };

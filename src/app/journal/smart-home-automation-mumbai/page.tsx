@@ -512,7 +512,7 @@ export default function SmartHomeAutomationMumbaiPage() {
                 Connect directly with our senior systems architects for schematic reviews and budget estimation.
               </p>
               <a
-                href="https://wa.me/919900000000?text=Hi%20VARELLI%2C%20I%20would%20like%20to%20consult%20on%20a%20luxury%20smart%20home%20project%20in%20Mumbai."
+                href="https://wa.me/919964984695?text=Hi%20VARELLI%2C%20I%20would%20like%20to%20consult%20on%20a%20luxury%20smart%20home%20project%20in%20Mumbai."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-xs font-semibold text-amber-400 hover:text-amber-300 transition-colors pt-1"

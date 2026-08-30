@@ -55,7 +55,7 @@ const localBusinessBangalore = {
   description:
     "VARELLI's Bangalore studio specialises in luxury home automation (KNX), private cinema (Dolby Atmos), fresh air ventilation (Zehnder ERV), central vacuum, and intelligent home security for villas across Whitefield, Koramangala, Sarjapur Road, Indiranagar, and Yelahanka.",
   url: "https://varelli.in",
-  telephone: "+919900000000",
+  telephone: "+919964984695",
   email: "studio@varelli.in",
   image: "https://varelli.in/images/varelli-logo.png",
   priceRange: "₹₹₹₹",
@@ -113,7 +113,7 @@ const localBusinessMumbai = {
   description:
     "VARELLI's Mumbai studio delivers luxury home automation, private cinema, and intelligent living solutions for residences across Bandra, Juhu, Worli, Prabhadevi, Powai, and South Mumbai.",
   url: "https://varelli.in",
-  telephone: "+919900000000",
+  telephone: "+919964984695",
   email: "studio@varelli.in",
   priceRange: "₹₹₹₹",
   address: {
@@ -136,7 +136,7 @@ const localBusinessDelhi = {
   description:
     "VARELLI's Delhi NCR studio delivers luxury home automation, private cinema, and intelligent living solutions for residences across Gurgaon, DLF, Vasant Vihar, Greater Kailash, and Noida.",
   url: "https://varelli.in",
-  telephone: "+919900000000",
+  telephone: "+919964984695",
   email: "studio@varelli.in",
   priceRange: "₹₹₹₹",
   address: {
@@ -163,7 +163,7 @@ const localBusinessHyderabad = {
   description:
     "VARELLI's Hyderabad studio delivers luxury home automation, private cinema, and intelligent living solutions for villas across Jubilee Hills, Banjara Hills, Hitec City, and Kondapur.",
   url: "https://varelli.in",
-  telephone: "+919900000000",
+  telephone: "+919964984695",
   email: "studio@varelli.in",
   priceRange: "₹₹₹₹",
   address: {

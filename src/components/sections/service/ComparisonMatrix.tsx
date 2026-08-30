@@ -111,7 +111,7 @@ export default function ComparisonMatrix({
             </div>
           </div>
           <a
-            href="https://wa.me/919900000000?text=Hello%20VARELLI%2C%20I%20would%20like%20to%20discuss%20an%20engineering-grade%20smart%20home%20solution%20for%20our%20residence."
+            href="https://wa.me/919964984695?text=Hello%20VARELLI%2C%20I%20would%20like%20to%20discuss%20an%20engineering-grade%20smart%20home%20solution%20for%20our%20residence."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-xs font-mono transition-all shadow-lg shadow-emerald-950/40 flex-shrink-0"

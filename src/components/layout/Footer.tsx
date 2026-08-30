@@ -131,7 +131,7 @@ export default function Footer() {
             </ul>
             <p className="badge-mono mb-2">Direct Enquiries</p>
             <a
-              href="https://wa.me/919900000000?text=Hello%20VARELLI%2C%20I%20would%20like%20to%20connect%20with%20a%20Senior%20Systems%20Architect."
+              href="https://wa.me/919964984695?text=Hello%20VARELLI%2C%20I%20would%20like%20to%20connect%20with%20a%20Senior%20Systems%20Architect."
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs text-emerald-400 hover:underline font-mono block mb-1"

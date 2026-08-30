@@ -9,7 +9,7 @@ interface WhatsAppFloatingCTAProps {
 }
 
 export default function WhatsAppFloatingCTA({
-  phoneNumber = "+919900000000",
+  phoneNumber = "+919964984695",
   defaultMessage = "Hello VARELLI, I would like to schedule an architectural consultation for our residence.",
 }: WhatsAppFloatingCTAProps) {
   const [isOpen, setIsOpen] = useState(false);

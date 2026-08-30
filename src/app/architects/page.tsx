@@ -118,7 +118,7 @@ export default function ArchitectsPage() {
             </p>
 
             <a
-              href="https://wa.me/919900000000?text=Hello%20VARELLI%2C%20I%20am%20an%20Architect%20%2F%20Interior%20Designer%20and%20would%20like%20to%20discuss%20an%20upcoming%20residential%20project."
+              href="https://wa.me/919964984695?text=Hello%20VARELLI%2C%20I%20am%20an%20Architect%20%2F%20Interior%20Designer%20and%20would%20like%20to%20discuss%20an%20upcoming%20residential%20project."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 px-6 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-xs font-mono transition-all shadow-xl shadow-emerald-950/40"
@@ -177,7 +177,7 @@ export default function ArchitectsPage() {
                 </div>
 
                 <a
-                  href={`https://wa.me/919900000000?text=Hello%20VARELLI%2C%20please%20send%20me%20the%20CAD%20Detail%20Pack%20for%3A%20${encodeURIComponent(res.title)}`}
+                  href={`https://wa.me/919964984695?text=Hello%20VARELLI%2C%20please%20send%20me%20the%20CAD%20Detail%20Pack%20for%3A%20${encodeURIComponent(res.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between px-4 py-3 rounded-xl bg-white/5 hover:bg-[var(--gold)] hover:text-[#08080A] text-gray-300 text-xs font-mono border border-white/10 transition-all group"
@@ -236,7 +236,7 @@ export default function ArchitectsPage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
-                href="https://wa.me/919900000000?text=Hello%20VARELLI%2C%20I%20have%20an%20architectural%20floorplan%20to%20share%20for%20a%20residential%20project."
+                href="https://wa.me/919964984695?text=Hello%20VARELLI%2C%20I%20have%20an%20architectural%20floorplan%20to%20share%20for%20a%20residential%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-xs font-mono transition-all shadow-xl shadow-emerald-950/50 flex items-center space-x-2"
