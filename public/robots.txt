@@ -64,4 +64,4 @@ User-agent: cohere-ai
 Allow: /
 
 # Sitemap
-Sitemap: https://varelli.in/sitemap.xml
+Sitemap: https://varelli.co.in/sitemap.xml

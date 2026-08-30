@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://varelli.in";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://varelli.co.in";
 const DEFAULT_OG_IMAGE = "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80";
 
 interface PageMetadataProps {

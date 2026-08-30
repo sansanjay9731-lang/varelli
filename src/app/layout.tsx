@@ -8,7 +8,7 @@ import WhatsAppFloatingCTA from "@/components/ui/WhatsAppFloatingCTA";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://varelli.in"),
+  metadataBase: new URL("https://varelli.co.in"),
   title: {
     default: "VARELLI - Luxury Intelligent Living India",
     template: "%s | VARELLI",
@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     siteName: "VARELLI",
     locale: "en_IN",
     type: "website",
+  },
+  verification: {
+    google: "zFQzK5uZfkaBN-PU5XDAG6_Zc-NhKi9jkxSWZOjQPJA",
   },
   icons: {
     icon: [
