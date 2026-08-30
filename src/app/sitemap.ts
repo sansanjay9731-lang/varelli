@@ -32,6 +32,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // Knowledge Base / Journal (AEO & GEO Pillars)
     { url: `${BASE_URL}/journal`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+
+    // ── Tier 1: Highest-priority new articles ──
+    { url: `${BASE_URL}/journal/best-home-automation-company-bangalore`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE_URL}/journal/smart-home-automation-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE_URL}/journal/knx-home-automation-india`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/journal/home-theatre-cost-india`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/journal/dolby-atmos-speakers-india`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/journal/luxury-smart-home-bangalore`, lastModified: now, changeFrequency: "monthly", priority: 0.88 },
+
+    // ── Tier 2: Brand & product authority articles ──
+    { url: `${BASE_URL}/journal/basalte-keypad-india`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/journal/zehnder-fresh-air-system-india`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/journal/central-vacuum-system-india`, lastModified: now, changeFrequency: "monthly", priority: 0.82 },
+
+    // ── Existing articles ──
     { url: `${BASE_URL}/journal/knx-vs-crestron-vs-control4`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/journal/home-automation-cost-india-2026`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/journal/home-automation-cost-india-2025`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
