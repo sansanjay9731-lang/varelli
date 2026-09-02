@@ -25,6 +25,35 @@ export const metadata: Metadata = generatePageMetadata({
 });
 
 const articles = [
+  // ── NEW AEO & TECHNICAL GUIDES — September 2026 ──
+  {
+    slug: "what-is-dali-2-lighting",
+    title: "What is DALI-2 Lighting Control? The Definitive 2026 Architect's Guide",
+    category: "Standards",
+    description: "Complete guide to DALI-2 digital lighting control for luxury Indian residences — individual fixture addressing, 0.1% circadian dimming, Tunable White, and KNX gateways.",
+    readTime: 12,
+    date: "2026-09-01",
+    isNew: true,
+  },
+  {
+    slug: "invisible-speakers-guide",
+    title: "Invisible In-Wall Speakers for Luxury Homes - 2026 Design Guide",
+    category: "Acoustics",
+    description: "Complete guide to plaster-over invisible planar diaphragm speakers. How Sonance & Stealth Acoustics work in luxury Indian villas without grilles or visible hardware.",
+    readTime: 10,
+    date: "2026-09-01",
+    isNew: true,
+  },
+  {
+    slug: "smart-home-protocols-guide",
+    title: "KNX vs Zigbee vs Matter vs Z-Wave - 2026 Smart Home Protocol Guide",
+    category: "Protocols",
+    description: "Honest technical comparison of smart home protocols for Indian RCC concrete homes — wired KNX vs wireless Matter, Zigbee, Z-Wave, and long-term 30-year reliability.",
+    readTime: 14,
+    date: "2026-09-01",
+    isNew: true,
+  },
+
   // ── NEW ARTICLES — August 2026 ──
   {
     slug: "best-home-automation-company-bangalore",

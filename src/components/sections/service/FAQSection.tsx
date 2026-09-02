@@ -7,9 +7,10 @@ import SchemaOrg from "@/components/seo/SchemaOrg";
 import { buildFAQSchema } from "@/components/seo/schemas/faqPage";
 
 interface FAQ { question: string; answer: string }
-interface FAQSectionProps { faqs: FAQ[]; heading?: string }
+interface FAQSectionProps { faqs: FAQ[]; heading?: string; title?: string }
 
-export default function FAQSection({ faqs, heading = "Frequently Asked Questions" }: FAQSectionProps) {
+export default function FAQSection({ faqs, heading, title }: FAQSectionProps) {
+  const displayHeading = title || heading || "Frequently Asked Questions";
   const [open, setOpen] = useState<number | null>(null);
   const schema = buildFAQSchema(faqs);
 
@@ -27,7 +28,7 @@ export default function FAQSection({ faqs, heading = "Frequently Asked Questions
             <motion.div variants={fadeUp} className="mb-12">
               <p className="badge-mono mb-4">Knowledge</p>
               <h2 className="font-display text-3xl md:text-4xl font-bold tracking-[-0.02em] text-[var(--text-primary)]">
-                {heading}
+                {displayHeading}
               </h2>
             </motion.div>
 

@@ -11,8 +11,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Core Services & City Hubs
     { url: `${BASE_URL}/home-automation`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/home-automation/bangalore`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/home-automation/mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/home-automation/delhi-ncr`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/home-automation/hyderabad`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/home-automation/chennai`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/home-automation/pune`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+
     { url: `${BASE_URL}/private-cinema`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/private-cinema/bangalore`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/private-cinema/mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/private-cinema/delhi-ncr`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/private-cinema/hyderabad`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/private-cinema/chennai`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/private-cinema/pune`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+
     { url: `${BASE_URL}/home-theatre`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/home-theatre/bangalore`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/fresh-air-ventilation`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -33,7 +45,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Knowledge Base / Journal (AEO & GEO Pillars)
     { url: `${BASE_URL}/journal`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
 
-    // ── Tier 1: Highest-priority new articles ──
+    // ── Tier 1: Highest-priority AEO articles ──
+    { url: `${BASE_URL}/journal/what-is-dali-2-lighting`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE_URL}/journal/invisible-speakers-guide`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE_URL}/journal/smart-home-protocols-guide`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE_URL}/journal/best-home-automation-company-bangalore`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE_URL}/journal/smart-home-automation-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE_URL}/journal/knx-home-automation-india`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
