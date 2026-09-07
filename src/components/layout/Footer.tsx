@@ -160,6 +160,9 @@ export default function Footer() {
             <Link href="/terms" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] transition-colors">
               Terms
             </Link>
+            <Link href="/site-directory" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] transition-colors">
+              Site Directory
+            </Link>
             <Link href="/sitemap.xml" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] transition-colors">
               Sitemap
             </Link>
