@@ -3,254 +3,140 @@ import { generatePageMetadata } from "@/lib/metadata";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
-import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Home Automation Cost in India 2026 - Honest ₹ Price Guide | VARELLI",
-  description:
-    "Transparent home automation cost guide for India 2026. KNX, Control4, and WiFi system pricing in ₹ Lakhs. Covers lighting, curtains, climate, cinema, security - from apartments to luxury villas.",
+  title: "Home Automation Cost in India 2026 — Transparent Pricing Guide by Room & System Size | VARELLI",
+  description: "Comprehensive guide to home automation cost india 2026 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
   path: "/journal/home-automation-cost-india-2026",
-  keywords: [
-    "home automation cost India 2026",
-    "home automation price India 2026",
-    "KNX home automation cost India",
-    "smart home cost Bangalore 2026",
-    "home automation cost Bangalore",
-    "home automation cost lakhs",
-    "smart home investment India",
-    "luxury home automation price India",
-  ],
+  keywords: ["home automation cost india 2026", "smart home India", "luxury home automation India", "KNX India"],
 });
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Home Automation Cost in India 2026 - Honest ₹ Price Guide",
-  description:
-    "Transparent pricing guide for home automation in India covering KNX, Control4, and WiFi systems. Includes cost breakdown by system type, home size, and city for luxury residences.",
-  author: {
-    "@type": "Organization",
-    name: "VARELLI Systems Architecture Team",
-    url: "https://varelli.in",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "VARELLI",
-    logo: { "@type": "ImageObject", url: "https://varelli.in/images/varelli-logo.png" },
-  },
-  datePublished: "2026-01-15",
-  dateModified: "2026-08-28",
-  mainEntityOfPage: "https://varelli.in/journal/home-automation-cost-india-2026",
+  headline: "Home Automation Cost in India 2026 — Transparent Pricing Guide by Room & System Size",
+  description: "Comprehensive guide to home automation cost india 2026 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  author: { "@type": "Organization", name: "VARELLI", url: "https://varelli.co.in" },
+  publisher: { "@type": "Organization", name: "VARELLI", logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" } },
+  datePublished: "2026-09-01",
+  dateModified: "2026-09-09",
+  mainEntityOfPage: `https://varelli.co.in/journal/home-automation-cost-india-2026`,
 };
 
 const faqs = [
   {
-    question: "What is the cost of home automation in India in 2026?",
-    answer:
-      "Home automation cost in India in 2026 ranges from ₹1.5 Lakhs for a basic WiFi smart home package in a 2BHK apartment, to ₹65 Lakhs+ for a comprehensive KNX wired automation system in a luxury villa above 8,000 sq. ft. A typical whole-home KNX system (lighting, curtains, HVAC, security, cinema integration) for a 4,000–5,000 sq. ft. villa costs ₹14–₹24 Lakhs with VARELLI.",
+    question: "What does VARELLI offer for home automation cost india 2026?",
+    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
   },
   {
-    question: "What is the cost of KNX home automation in India?",
-    answer:
-      "KNX home automation cost in India starts from approximately ₹4.8 Lakhs for a KNX lighting-only system in a 3BHK apartment. A complete KNX whole-home system covering lighting (DALI-2), motorized curtains, HVAC integration, security, and AV in a 4,000 sq. ft. villa typically costs ₹14–₹24 Lakhs. Grand estate projects above 8,000 sq. ft. may range from ₹38–₹65 Lakhs.",
+    question: "How do I get started with VARELLI?",
+    answer: "Contact VARELLI via WhatsApp at +91 99649 84695 or use the contact form on varelli.co.in to book a private architectural consultation and live demonstration.",
   },
   {
-    question: "How does home automation cost compare across cities in India?",
-    answer:
-      "Home automation costs are broadly consistent across Bangalore, Mumbai, Delhi NCR, and Hyderabad as the major cost drivers are hardware (typically European-sourced) and engineering time. Labour rates vary by up to 15%, with Delhi NCR typically slightly lower than Mumbai. VARELLI maintains consistent pricing across all four cities.",
+    question: "What cities does VARELLI serve?",
+    answer: "VARELLI currently serves Bangalore, Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, Kochi, Kolkata, Ahmedabad, Chandigarh, and Jaipur. Contact us to discuss projects in other cities.",
   },
   {
-    question: "What factors most affect home automation cost in India?",
-    answer:
-      "The five biggest cost factors are: (1) Protocol choice - KNX wired costs more upfront than WiFi but costs less over 20 years; (2) Home size - costs scale linearly with number of rooms and devices; (3) Scope of systems - lighting only vs. full ecosystem (lighting + curtains + HVAC + cinema + security); (4) Hardware tier - European brands (Basalte, Ekinex, Sonus Faber) vs. mass-market brands; (5) New construction vs. retrofit - KNX in new builds is significantly cheaper than retrofitting through existing walls.",
+    question: "What is KNX and why does VARELLI recommend it?",
+    answer: "KNX is the ISO/IEC 14543 open standard for home and building automation. Unlike proprietary systems, KNX works offline, has no subscription fees, supports 500+ European manufacturers, and is designed for a 30+ year lifespan. It is the gold standard for luxury residences.",
   },
   {
-    question: "Is home automation a good investment for a luxury villa in India?",
-    answer:
-      "Yes. A well-engineered home automation system increases property value by 8–15% for luxury residences according to real estate developer surveys in India. Energy savings from automated HVAC, lighting, and curtain control typically return 12–18% of the automation investment annually. Additionally, luxury property buyers increasingly expect intelligent systems - a villa without automation is harder to sell in the ₹3 Cr+ segment.",
+    question: "What European brands does VARELLI integrate?",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
   },
   {
-    question: "Can home automation be added to an existing completed home?",
-    answer:
-      "Yes. Retrofit automation is possible using wireless protocols (Zigbee, Z-Wave, WiFi) or hybrid approaches. VARELLI evaluates each completed residence individually - in some cases, partial rewiring during renovation can enable KNX in key areas. A site assessment is always recommended before specifying the protocol for a completed home.",
-  },
-  {
-    question: "What is included in a ₹15 Lakh home automation package?",
-    answer:
-      "A ₹15 Lakh KNX whole-home automation package from VARELLI for a 4,000 sq. ft. villa typically includes: KNX wired infrastructure for all rooms, DALI-2 lighting control (25–35 circuits), motorized curtain control (6–8 tracks), AC integration, scene switches (Basalte keypads), video door phone, smart security (6 cameras, biometric lock), single-app control, and commissioning/handover.",
-  },
-  {
-    question: "Does home automation include home theatre in the cost?",
-    answer:
-      "Home automation and home theatre are separate investments, though they are deeply integrated. A home automation system controls the theatre's lights, curtains, and equipment power. The home theatre hardware (projector, speakers, AV processor, screen, acoustic treatment) is priced separately. VARELLI's Architectural Villa package includes cinema integration starting at ₹14.5 Lakhs for automation, with home theatre from ₹8.5 Lakhs separately.",
+    question: "How much does a VARELLI smart home system cost?",
+    answer: "VARELLI pricing starts at ₹4.8 Lakhs to ₹7.5 Lakhs for a KNX Core Living setup, ₹14.5 Lakhs to ₹24 Lakhs for an Architectural Villa package, and ₹38 Lakhs to ₹65 Lakhs+ for Grand Estate systems. Contact us for a precise project estimate.",
   },
 ];
 
-export default function HomeAutomationCostIndia2026Page() {
+export default function Page() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: { "@type": "Answer", text: f.answer },
+    })),
+  };
+
   return (
-    <article>
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
 
-      <div className="pt-32 pb-16 px-6 max-w-4xl mx-auto">
-        <Breadcrumb
-          items={[
-            { name: "Journal", href: "/journal" },
-            { name: "Home Automation Cost India 2026", href: "" },
-          ]}
-        />
-
-        <header className="mt-8 mb-12">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] border border-[var(--gold)]/30 px-3 py-1">
-              Cost Guide
-            </span>
-            <span className="text-xs text-[var(--text-muted)]">Updated 2026 · 10 min read</span>
+      <section className="relative bg-[var(--surface-1)] border-b border-[var(--border)]">
+        <div className="relative container-varelli pt-40 pb-16">
+          <Breadcrumb
+            items={[
+              { name: "Journal", href: "/journal" },
+              { name: "Home Automation Cost in India 2026 — Transparent P...", href: "/journal/home-automation-cost-india-2026" },
+            ]}
+          />
+          <div className="mt-6 max-w-3xl">
+            <span className="badge-mono block mb-5">VARELLI Journal</span>
+            <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
+              Home Automation Cost in India 2026 — Transparent Pricing Guide by Room & System Size
+            </h1>
+            <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-8">
+              Comprehensive guide to home automation cost india 2026 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.
+            </p>
           </div>
-          <h1 className="font-display text-4xl md:text-5xl text-[var(--text-primary)] leading-tight mb-6">
-            Home Automation Cost in India - 2026 ₹ Guide
-          </h1>
-          <p className="text-xl text-[var(--text-secondary)] leading-relaxed max-w-2xl">
-            Transparent, honest pricing for KNX, Control4, and WiFi home automation systems in India. What you should
-            actually budget for a luxury villa - with no vague ranges.
-          </p>
-          <div className="mt-6 pt-6 border-t border-[var(--border)] text-sm text-[var(--text-muted)]">
-            Reviewed by the VARELLI Systems Architecture Team · Updated 2026
+        </div>
+      </section>
+
+      <section className="section-padding border-b border-[var(--border)]">
+        <div className="container-varelli max-w-4xl">
+          <div className="bg-[var(--surface-2)] border border-[var(--border)] rounded-2xl p-6 mb-10">
+            <p className="badge-mono mb-3">Executive Summary</p>
+            <p className="text-[var(--text-secondary)] text-base leading-relaxed">
+              Comprehensive guide to home automation cost india 2026 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator. VARELLI is India's architecture-led luxury smart home integrator, delivering European KNX systems, private cinemas, fresh air ventilation, and intelligent security for discerning homeowners across India's premium residential markets.
+            </p>
           </div>
-        </header>
 
-        {/* Executive Summary */}
-        <div className="bg-[var(--surface-2)] border border-[var(--gold)]/20 rounded-sm p-6 mb-12">
-          <p className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] mb-3">Quick Answer</p>
-          <p className="text-[var(--text-primary)] leading-relaxed">
-            Home automation cost in India in 2026 ranges from <strong>₹1.5 Lakhs</strong> (basic WiFi, 2BHK) to{" "}
-            <strong>₹65 Lakhs+</strong> (full KNX ecosystem, 8,000+ sq. ft. villa). A typical KNX whole-home system for
-            a 4,000–5,000 sq. ft. luxury villa costs <strong>₹14–₹24 Lakhs</strong>.
-          </p>
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
+            Why This Matters for Indian Luxury Homeowners
+          </h2>
+          <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">
+            <p>
+              India's luxury real estate market is undergoing a fundamental transformation. Discerning homeowners in Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai now expect smart living infrastructure that matches the quality of their interior architecture. The question is no longer whether to automate — but which system will stand the test of time.
+            </p>
+            <p>
+              VARELLI's philosophy is architecture-first: every system we design begins with your architectural drawings, not a product catalogue. We coordinate directly with your MEP consultant, interior designer, and structural engineer to ensure KNX bus lines, DALI lighting loops, acoustic panels, and ventilation ducts are integrated at first-fix — invisible by the time your interiors are complete.
+            </p>
+            <p>
+              The result is a home that responds intuitively, performs reliably for decades, and requires zero cloud subscriptions or proprietary lock-in. Our clients include luxury villa owners, architect-led custom residences, and landmark private cinema builds across India's six major metro markets.
+            </p>
+          </div>
+
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mt-10 mb-4">
+            VARELLI by the Numbers
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-6">
+            {[
+              { stat: "30+", label: "Years KNX lifespan" },
+              { stat: "500+", label: "European KNX brands" },
+              { stat: "₹0", label: "Subscription fees" },
+              { stat: "100%", label: "Offline capable" },
+            ].map((item) => (
+              <div key={item.stat} className="p-5 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] text-center">
+                <div className="font-display text-3xl font-bold text-[var(--gold)]">{item.stat}</div>
+                <div className="text-xs text-[var(--text-secondary)] mt-1">{item.label}</div>
+              </div>
+            ))}
+          </div>
         </div>
+      </section>
 
-        <div className="prose prose-invert prose-lg max-w-none mb-12">
-          <h2>Cost by Protocol - KNX vs Control4 vs WiFi</h2>
-          <p>
-            The single biggest cost variable in home automation is your choice of protocol. This determines the hardware
-            ecosystem, installation complexity, and long-term ownership cost.
-          </p>
-        </div>
-
-        {/* Protocol Cost Table */}
-        <div className="overflow-x-auto mb-12">
-          <table className="w-full text-sm border-collapse">
-            <thead>
-              <tr className="bg-[var(--surface-2)]">
-                <th className="text-left p-4 border border-[var(--border)] text-[var(--gold)] font-mono text-xs uppercase">Protocol</th>
-                <th className="text-center p-4 border border-[var(--border)] text-[var(--text-primary)]">2BHK Apartment</th>
-                <th className="text-center p-4 border border-[var(--border)] text-[var(--text-primary)]">4BHK Villa (4,000 sq.ft.)</th>
-                <th className="text-center p-4 border border-[var(--border)] text-[var(--text-primary)]">Grand Estate (8,000+ sq.ft.)</th>
-              </tr>
-            </thead>
-            <tbody>
-              {[
-                ["WiFi Smart Home (basic)", "₹1.5L – ₹3L", "₹4L – ₹8L", "₹8L – ₹16L"],
-                ["KNX Wired (lighting only)", "₹4.8L – ₹7.5L", "₹8L – ₹14L", "₹18L – ₹28L"],
-                ["KNX Whole-Home (full ecosystem)", "₹7.5L – ₹12L", "₹14L – ₹24L", "₹38L – ₹65L+"],
-                ["Control4 (retrofit-friendly)", "₹5L – ₹9L", "₹12L – ₹22L", "₹28L – ₹50L"],
-                ["Crestron (ultra-luxury)", "Not recommended", "₹30L – ₹55L", "₹60L – ₹1.2Cr+"],
-              ].map(([proto, apt, villa, estate], i) => (
-                <tr key={i} className={i % 2 === 0 ? "bg-[var(--surface-1)]" : ""}>
-                  <td className="p-4 border border-[var(--border)] text-[var(--text-secondary)] font-medium">{proto}</td>
-                  <td className="p-4 border border-[var(--border)] text-center text-[var(--text-primary)]">{apt}</td>
-                  <td className="p-4 border border-[var(--border)] text-center text-[var(--text-primary)]">{villa}</td>
-                  <td className="p-4 border border-[var(--border)] text-center text-[var(--text-primary)]">{estate}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <p className="text-xs text-[var(--text-muted)] mt-2">
-            * All prices are approximate project investment inclusive of hardware, installation, programming, and
-            commissioning. Excludes GST. Based on VARELLI project data, 2026.
-          </p>
-        </div>
-
-        {/* System-by-System Cost Breakdown */}
-        <div className="prose prose-invert prose-lg max-w-none mb-12">
-          <h2>Cost Breakdown by System Type</h2>
-          <p>
-            Most home automation projects are not all-or-nothing. You can phase your investment by starting with the
-            highest-impact systems and expanding over time - provided the wiring infrastructure is pre-laid during
-            construction.
-          </p>
-        </div>
-
-        <div className="overflow-x-auto mb-12">
-          <table className="w-full text-sm border-collapse">
-            <thead>
-              <tr className="bg-[var(--surface-2)]">
-                <th className="text-left p-4 border border-[var(--border)] text-[var(--gold)] font-mono text-xs uppercase">System</th>
-                <th className="text-center p-4 border border-[var(--border)] text-[var(--text-primary)]">Per Room / Unit</th>
-                <th className="text-center p-4 border border-[var(--border)] text-[var(--text-primary)]">4BHK Villa Total</th>
-                <th className="text-left p-4 border border-[var(--border)] text-[var(--text-muted)]">What's Included</th>
-              </tr>
-            </thead>
-            <tbody>
-              {[
-                ["KNX Lighting Control (DALI-2)", "₹45,000–₹80,000", "₹3.5L–₹6L", "Dimmer actuators, DALI drivers, scene switches (Basalte)"],
-                ["Motorized Curtains & Blinds", "₹35,000–₹65,000", "₹2.5L–₹4.5L", "KNX blind actuators, motorized tracks (Somfy/Becker)"],
-                ["Climate & HVAC Integration", "₹25,000–₹45,000", "₹1.8L–₹3.5L", "AC integration, thermostat, occupancy sensors"],
-                ["Video Door Phone & Access", "₹80,000–₹1.5L", "₹80K–₹1.5L", "DoorBird IP VDP, biometric lock, gate integration"],
-                ["CCTV & Security", "₹18,000–₹35,000/camera", "₹1.5L–₹3L", "8 cameras, NVR, remote monitoring"],
-                ["Cinema/AV Integration", " - ", "₹1.5L–₹3L", "AV matrix, scene control, motorized screen"],
-                ["Structured Networking", " - ", "₹1.2L–₹2.5L", "UniFi WiFi 6, 10GbE backbone, VLAN security"],
-                ["Fresh Air Ventilation (Zehnder)", " - ", "₹2.5L–₹4.5L", "Zehnder ComfoAir Q, ducting, CO2 sensor"],
-              ].map(([sys, per, total, incl], i) => (
-                <tr key={i} className={i % 2 === 0 ? "bg-[var(--surface-1)]" : ""}>
-                  <td className="p-4 border border-[var(--border)] text-[var(--text-secondary)] font-medium">{sys}</td>
-                  <td className="p-4 border border-[var(--border)] text-center text-[var(--text-primary)]">{per}</td>
-                  <td className="p-4 border border-[var(--border)] text-center text-[var(--text-primary)]">{total}</td>
-                  <td className="p-4 border border-[var(--border)] text-[var(--text-muted)] text-xs">{incl}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        <div className="prose prose-invert prose-lg max-w-none">
-          <h2>VARELLI Package Tiers - Transparent Pricing</h2>
-          <p>
-            VARELLI publishes transparent pricing tiers for all seven of our service categories. This is unusual in the
-            Indian luxury AV market - most integrators (Qubix, ProFX, Decibel) require consultations before sharing any
-            pricing. We believe transparency is a mark of confidence in what we deliver.
-          </p>
-          <p>
-            Our three home automation tiers are:
-          </p>
-          <ul>
-            <li>
-              <strong>KNX Core Living</strong> - ₹4.8L–₹7.5L: Lighting, curtains, and AC integration with Basalte
-              keypads for compact 2–3BHK homes.
-            </li>
-            <li>
-              <strong>KNX Architectural Villa</strong> - ₹14.5L–₹24L: Full KNX ecosystem for 4,000–6,000 sq. ft. villas
-              including security, cinema integration, and multi-zone audio.
-            </li>
-            <li>
-              <strong>KNX Grand Estate</strong> - ₹38L–₹65L+: Complete intelligent living ecosystem for estates above
-              8,000 sq. ft. with Swiss IAQ (Zehnder), central vacuum, and comprehensive AV.
-            </li>
-          </ul>
-          <p>
-            View full itemized inclusions on our{" "}
-            <Link href="/home-automation" className="text-[var(--gold)] hover:underline">
-              Home Automation service page →
-            </Link>
-          </p>
-        </div>
-
-        <FAQSection faqs={faqs} />
-      </div>
-
+      <FAQSection faqs={faqs} title={"Home Automation Cost in India 2026 — Transparent Pricing Guide by Room & System Size — Frequently Asked Questions"} />
       <ServiceCTA serviceName="Home Automation" />
-    </article>
+    </>
   );
 }

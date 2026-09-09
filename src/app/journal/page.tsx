@@ -1,303 +1,142 @@
 import type { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
 import Breadcrumb from "@/components/layout/Breadcrumb";
-import Link from "next/link";
+import FAQSection from "@/components/sections/service/FAQSection";
+import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "The VARELLI Journal - Intelligent Living Guides & Resources",
-  description:
-    "Expert guides on home automation (KNX, Control4), private cinema (Dolby Atmos), fresh air ventilation (Zehnder ERV), and intelligent living for luxury residences across India.",
-  path: "/journal",
-  keywords: [
-    "home automation guide India",
-    "best home automation company Bangalore",
-    "KNX home automation India",
-    "luxury smart home Bangalore",
-    "home theatre cost India 2026",
-    "Dolby Atmos speakers India",
-    "Basalte keypad India",
-    "Zehnder ERV India",
-    "central vacuum system India",
-    "smart home automation Mumbai",
-    "home automation cost India 2026",
-    "KNX vs Crestron vs Control4",
-  ],
+  title: "The VARELLI Journal - Intelligent Living Guides & Resources | VARELLI",
+  description: "Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  path: "/journal/page.tsx",
+  keywords: ["page.tsx", "smart home India", "luxury home automation India", "KNX India"],
 });
 
-const articles = [
-  // ── NEW AEO & TECHNICAL GUIDES — September 2026 ──
-  {
-    slug: "what-is-dali-2-lighting",
-    title: "What is DALI-2 Lighting Control? The Definitive 2026 Architect's Guide",
-    category: "Standards",
-    description: "Complete guide to DALI-2 digital lighting control for luxury Indian residences — individual fixture addressing, 0.1% circadian dimming, Tunable White, and KNX gateways.",
-    readTime: 12,
-    date: "2026-09-01",
-    isNew: true,
-  },
-  {
-    slug: "invisible-speakers-guide",
-    title: "Invisible In-Wall Speakers for Luxury Homes - 2026 Design Guide",
-    category: "Acoustics",
-    description: "Complete guide to plaster-over invisible planar diaphragm speakers. How Sonance & Stealth Acoustics work in luxury Indian villas without grilles or visible hardware.",
-    readTime: 10,
-    date: "2026-09-01",
-    isNew: true,
-  },
-  {
-    slug: "smart-home-protocols-guide",
-    title: "KNX vs Zigbee vs Matter vs Z-Wave - 2026 Smart Home Protocol Guide",
-    category: "Protocols",
-    description: "Honest technical comparison of smart home protocols for Indian RCC concrete homes — wired KNX vs wireless Matter, Zigbee, Z-Wave, and long-term 30-year reliability.",
-    readTime: 14,
-    date: "2026-09-01",
-    isNew: true,
-  },
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "The VARELLI Journal - Intelligent Living Guides & Resources",
+  description: "Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  author: { "@type": "Organization", name: "VARELLI", url: "https://varelli.co.in" },
+  publisher: { "@type": "Organization", name: "VARELLI", logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" } },
+  datePublished: "2026-09-01",
+  dateModified: "2026-09-09",
+  mainEntityOfPage: `https://varelli.co.in/journal/page.tsx`,
+};
 
-  // ── NEW ARTICLES — August 2026 ──
+const faqs = [
   {
-    slug: "best-home-automation-company-bangalore",
-    title: "Best Home Automation Companies in Bangalore - 2026 Honest Comparison",
-    category: "Home Automation",
-    description: "Compare the top smart home integrators in Bangalore — KNX credentials, European brands, transparent pricing. VARELLI vs Qubix, Qloud, ProFX, and NanoTheatre ranked honestly.",
-    readTime: 11,
-    date: "2026-08-30",
-    isNew: true,
+    question: "What does VARELLI offer for page.tsx?",
+    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
   },
   {
-    slug: "smart-home-automation-mumbai",
-    title: "Smart Home Automation in Mumbai - The Architecture-Led 2026 Guide",
-    category: "Home Automation",
-    description: "Complete guide to luxury KNX smart home systems in Bandra, Juhu, Worli, Prabhadevi, and South Mumbai — coastal humidity, space design, and European brand availability.",
-    readTime: 10,
-    date: "2026-08-30",
-    isNew: true,
+    question: "How do I get started with VARELLI?",
+    answer: "Contact VARELLI via WhatsApp at +91 99649 84695 or use the contact form on varelli.co.in to book a private architectural consultation and live demonstration.",
   },
   {
-    slug: "knx-home-automation-india",
-    title: "KNX Home Automation in India - The Definitive 2026 Guide",
-    category: "Home Automation",
-    description: "Everything about KNX — the ISO global wired automation standard. What it is, why architects specify it, honest ₹ pricing, certified installers, and how it beats WiFi smart home.",
-    readTime: 13,
-    date: "2026-08-30",
-    isNew: true,
+    question: "What cities does VARELLI serve?",
+    answer: "VARELLI currently serves Bangalore, Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, Kochi, Kolkata, Ahmedabad, Chandigarh, and Jaipur. Contact us to discuss projects in other cities.",
   },
   {
-    slug: "home-theatre-cost-india",
-    title: "Home Theatre Cost in India - 2026 Complete ₹ Guide",
-    category: "Home Theatre",
-    description: "Honest guide to home theatre cost in India 2026. Dolby Atmos 5.1 to 9.4.6, Barco laser projectors, Sonus Faber speakers — from ₹8L entry to ₹85L+ grand cinema.",
-    readTime: 12,
-    date: "2026-08-30",
-    isNew: true,
+    question: "What is KNX and why does VARELLI recommend it?",
+    answer: "KNX is the ISO/IEC 14543 open standard for home and building automation. Unlike proprietary systems, KNX works offline, has no subscription fees, supports 500+ European manufacturers, and is designed for a 30+ year lifespan. It is the gold standard for luxury residences.",
   },
   {
-    slug: "dolby-atmos-speakers-india",
-    title: "Dolby Atmos Speaker Systems for Indian Homes - 2026 Buying Guide",
-    category: "Home Theatre",
-    description: "Complete Dolby Atmos speaker guide. 5.1.2 vs 7.2.4 vs 9.4.6 configurations, Sonus Faber, KEF, JBL Synthesis, B&W pricing in India. Dedicated cinema vs living room Atmos setup.",
-    readTime: 12,
-    date: "2026-08-30",
-    isNew: true,
+    question: "What European brands does VARELLI integrate?",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
   },
   {
-    slug: "luxury-smart-home-bangalore",
-    title: "Luxury Smart Home Design in Bangalore - The VARELLI Approach 2026",
-    category: "Home Automation",
-    description: "Architecture-led luxury smart home design in Whitefield, Koramangala, Indiranagar, and South Bangalore estates — KNX, Basalte, Zehnder, Dolby Atmos, and DoorBird.",
-    readTime: 10,
-    date: "2026-08-30",
-    isNew: true,
-  },
-  {
-    slug: "basalte-keypad-india",
-    title: "Basalte Keypads in India - Belgian Luxury KNX Touch Panel Guide 2026",
-    category: "Brands",
-    description: "Complete guide to Basalte Auro, Sentido, and Alea keypads in India — finishes, ₹ pricing, comparison vs Lutron & Ekinex, and how they integrate into KNX home systems.",
-    readTime: 9,
-    date: "2026-08-30",
-    isNew: true,
-  },
-  {
-    slug: "zehnder-fresh-air-system-india",
-    title: "Zehnder Fresh Air Ventilation for Indian Homes - Complete 2026 Guide",
-    category: "Fresh Air",
-    description: "Complete guide to Zehnder ComfoAir Q ERV systems for Indian luxury homes. CO2 reduction, HEPA filtration, pricing from ₹2.5L–₹5.5L, and KNX smart ventilation control.",
-    readTime: 11,
-    date: "2026-08-30",
-    isNew: true,
-  },
-  {
-    slug: "central-vacuum-system-india",
-    title: "Central Vacuum System for Indian Homes - Complete 2026 Guide",
-    category: "Central Vacuum",
-    description: "Everything about Drainvac central vacuum systems in India — pricing ₹1.8L–₹5L, wet spill capability, installation requirements, and comparison vs portable vacuums.",
-    readTime: 9,
-    date: "2026-08-30",
-    isNew: true,
-  },
-
-  // ── EXISTING ARTICLES ──
-  {
-    slug: "knx-vs-crestron-vs-control4",
-    title: "KNX vs Crestron vs Control4 - Which Protocol Should You Choose?",
-    category: "Home Automation",
-    description: "A complete technical comparison of KNX, Crestron, and Control4 - architecture, cost, reliability, and which is right for your luxury villa in India.",
-    readTime: 12,
-    date: "2026-08-28",
-    isNew: false,
-  },
-  {
-    slug: "home-automation-cost-india-2026",
-    title: "Home Automation Cost in India 2026 - Honest ₹ Price Guide",
-    category: "Home Automation",
-    description: "Transparent pricing for KNX, Control4, and WiFi home automation in India. Cost tables by protocol, system type, and home size. Updated 2026.",
-    readTime: 10,
-    date: "2026-08-15",
-    isNew: false,
-  },
-  {
-    slug: "dolby-atmos-room-design-guide",
-    title: "Dolby Atmos Room Design Guide - Full Technical Breakdown",
-    category: "Home Theatre",
-    description: "Complete technical guide: speaker configurations (5.1.2 to 9.4.6), room dimensions, RT60 targets, acoustic treatment, and projector selection for Indian luxury homes.",
-    readTime: 14,
-    date: "2026-08-10",
-    isNew: false,
-  },
-  {
-    slug: "private-cinema-vs-home-theatre",
-    title: "Dedicated Home Theatre vs Media Room - What's the Difference?",
-    category: "Home Theatre",
-    description: "Dedicated home theatre vs living media room: acoustics, screen size, Dolby Atmos configurations, seating, and investment. Which should you build in your residence?",
-    readTime: 8,
-    date: "2026-08-05",
-    isNew: false,
-  },
-  {
-    slug: "fresh-air-ventilation-vs-air-purifier",
-    title: "Fresh Air Ventilation vs Air Purifier - What Actually Works?",
-    category: "Fresh Air",
-    description: "Why air purifiers cannot fix high CO2 levels in air-conditioned homes. How Zehnder Energy Recovery Ventilation (ERV) works and why it matters in India.",
-    readTime: 10,
-    date: "2026-08-01",
-    isNew: false,
-  },
-  {
-    slug: "home-automation-cost-bangalore",
-    title: "How Much Does Home Automation Cost in Bangalore?",
-    category: "Home Automation",
-    description: "A transparent guide to home automation investment in Bangalore - covering system types, scope, and what determines the final cost.",
-    readTime: 8,
-    date: "2026-01-15",
-    isNew: false,
-  },
-  {
-    slug: "home-theatre-cost-bangalore",
-    title: "How Much Does a Home Theatre Cost in Bangalore?",
-    category: "Home Theatre",
-    description: "From living room audio-visual systems to dedicated Dolby Atmos installations - what different levels of home theatre investment look like.",
-    readTime: 7,
-    date: "2026-01-22",
-    isNew: false,
-  },
-  {
-    slug: "knx-vs-control4",
-    title: "KNX vs Control4 - Which Home Automation System is Right for You?",
-    category: "Home Automation",
-    description: "A detailed, honest comparison of two leading luxury home automation platforms - architecture, reliability, flexibility, and fit.",
-    readTime: 10,
-    date: "2026-02-01",
-    isNew: false,
-  },
-  {
-    slug: "private-cinema-design-guide",
-    title: "Private Cinema Design Guide - Everything You Need to Know",
-    category: "Private Cinema",
-    description: "From room dimensions and acoustic treatment to Dolby Atmos configuration and laser projection - a complete design reference for private cinema owners.",
-    readTime: 12,
-    date: "2026-02-10",
-    isNew: false,
-  },
-  {
-    slug: "what-is-home-automation",
-    title: "What is Home Automation? A Complete Guide for Indian Homeowners",
-    category: "Home Automation",
-    description: "Understanding what home automation is, how it works, what it includes, and how to plan it for a new or existing residence in India.",
-    readTime: 9,
-    date: "2026-02-18",
-    isNew: false,
-  },
-  {
-    slug: "dolby-atmos-home-theatre",
-    title: "What is Dolby Atmos? And What it Means for Your Home Cinema",
-    category: "Private Cinema",
-    description: "Dolby Atmos explained - how object-based audio works, why it matters, and what different configurations (7.1.4, 9.1.4, 9.1.6) mean in practice.",
-    readTime: 8,
-    date: "2026-02-25",
-    isNew: false,
+    question: "How much does a VARELLI smart home system cost?",
+    answer: "VARELLI pricing starts at ₹4.8 Lakhs to ₹7.5 Lakhs for a KNX Core Living setup, ₹14.5 Lakhs to ₹24 Lakhs for an Architectural Villa package, and ₹38 Lakhs to ₹65 Lakhs+ for Grand Estate systems. Contact us for a precise project estimate.",
   },
 ];
 
-export default function JournalPage() {
+export default function Page() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: { "@type": "Answer", text: f.answer },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       <section className="relative bg-[var(--surface-1)] border-b border-[var(--border)]">
         <div className="relative container-varelli pt-40 pb-16">
-          <Breadcrumb items={[{ name: "Journal", href: "/journal" }]} />
-          <div className="mt-6 max-w-2xl">
-            <span className="badge-mono block mb-5">Knowledge & Resources</span>
-            <h1 className="font-display text-[clamp(2.5rem,5vw,4rem)] font-bold leading-[1.05] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
-              The VARELLI Journal
+          <Breadcrumb
+            items={[
+              { name: "Journal", href: "/journal" },
+              { name: "The VARELLI Journal - Intelligent Living Guides & ...", href: "/journal/page.tsx" },
+            ]}
+          />
+          <div className="mt-6 max-w-3xl">
+            <span className="badge-mono block mb-5">VARELLI Journal</span>
+            <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
+              The VARELLI Journal - Intelligent Living Guides & Resources
             </h1>
-            <p className="text-[var(--text-secondary)] text-lg leading-relaxed font-body">
-              Expert guides, cost references, and technical resources for homeowners, architects, and designers planning intelligent residential environments.
+            <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-8">
+              Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="section-padding">
-        <div className="container-varelli">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articles.map((article) => (
-              <Link
-                key={article.slug}
-                href={"/journal/" + article.slug}
-                className="group glass-card overflow-hidden hover:border-[var(--gold)]/40 transition-all duration-300 relative"
-              >
-                {article.isNew && (
-                  <div className="absolute top-4 right-4 z-10">
-                    <span className="px-2 py-0.5 rounded-full bg-[var(--gold)] text-[#08080A] text-[9px] font-mono font-bold uppercase tracking-widest">
-                      NEW
-                    </span>
-                  </div>
-                )}
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="badge-mono text-[9px]">{article.category}</span>
-                    <span className="text-xs text-[var(--text-muted)] font-mono">{article.readTime} min read</span>
-                  </div>
-                  <h2 className="font-display text-lg font-semibold text-[var(--text-primary)] mb-3 group-hover:text-[var(--gold)] transition-colors duration-300 leading-snug">
-                    {article.title}
-                  </h2>
-                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed font-body line-clamp-3">
-                    {article.description}
-                  </p>
-                  <div className="mt-4 pt-4 border-t border-[var(--border)] flex items-center justify-between">
-                    <span className="text-xs text-[var(--text-muted)] font-mono">
-                      {new Date(article.date).toLocaleDateString("en-IN", { month: "long", year: "numeric" })}
-                    </span>
-                    <span className="text-xs text-[var(--gold)] group-hover:text-[var(--gold-light)] transition-colors font-body">
-                      Read →
-                    </span>
-                  </div>
-                </div>
-              </Link>
+      <section className="section-padding border-b border-[var(--border)]">
+        <div className="container-varelli max-w-4xl">
+          <div className="bg-[var(--surface-2)] border border-[var(--border)] rounded-2xl p-6 mb-10">
+            <p className="badge-mono mb-3">Executive Summary</p>
+            <p className="text-[var(--text-secondary)] text-base leading-relaxed">
+              Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator. VARELLI is India's architecture-led luxury smart home integrator, delivering European KNX systems, private cinemas, fresh air ventilation, and intelligent security for discerning homeowners across India's premium residential markets.
+            </p>
+          </div>
+
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
+            Why This Matters for Indian Luxury Homeowners
+          </h2>
+          <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">
+            <p>
+              India's luxury real estate market is undergoing a fundamental transformation. Discerning homeowners in Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai now expect smart living infrastructure that matches the quality of their interior architecture. The question is no longer whether to automate — but which system will stand the test of time.
+            </p>
+            <p>
+              VARELLI's philosophy is architecture-first: every system we design begins with your architectural drawings, not a product catalogue. We coordinate directly with your MEP consultant, interior designer, and structural engineer to ensure KNX bus lines, DALI lighting loops, acoustic panels, and ventilation ducts are integrated at first-fix — invisible by the time your interiors are complete.
+            </p>
+            <p>
+              The result is a home that responds intuitively, performs reliably for decades, and requires zero cloud subscriptions or proprietary lock-in. Our clients include luxury villa owners, architect-led custom residences, and landmark private cinema builds across India's six major metro markets.
+            </p>
+          </div>
+
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mt-10 mb-4">
+            VARELLI by the Numbers
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-6">
+            {[
+              { stat: "30+", label: "Years KNX lifespan" },
+              { stat: "500+", label: "European KNX brands" },
+              { stat: "₹0", label: "Subscription fees" },
+              { stat: "100%", label: "Offline capable" },
+            ].map((item) => (
+              <div key={item.stat} className="p-5 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] text-center">
+                <div className="font-display text-3xl font-bold text-[var(--gold)]">{item.stat}</div>
+                <div className="text-xs text-[var(--text-secondary)] mt-1">{item.label}</div>
+              </div>
             ))}
           </div>
         </div>
       </section>
+
+      <FAQSection faqs={faqs} title={"The VARELLI Journal - Intelligent Living Guides & Resources — Frequently Asked Questions"} />
+      <ServiceCTA serviceName="Home Automation" />
     </>
   );
 }

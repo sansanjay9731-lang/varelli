@@ -3,100 +3,140 @@ import { generatePageMetadata } from "@/lib/metadata";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
-import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "KNX vs Control4 - Which Home Automation System is Right for You? | VARELLI",
-  description:
-    "An honest, detailed comparison of KNX and Control4 home automation platforms - architecture, reliability, flexibility, cost, and which is right for your residence.",
+  description: "Comprehensive guide to knx vs control4 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
   path: "/journal/knx-vs-control4",
-  keywords: ["KNX vs Control4", "KNX home automation", "Control4 home automation", "KNX vs Control4 India", "home automation platform comparison"],
+  keywords: ["knx vs control4", "smart home India", "luxury home automation India", "KNX India"],
 });
 
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "KNX vs Control4 - Which Home Automation System is Right for You?",
+  description: "Comprehensive guide to knx vs control4 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  author: { "@type": "Organization", name: "VARELLI", url: "https://varelli.co.in" },
+  publisher: { "@type": "Organization", name: "VARELLI", logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" } },
+  datePublished: "2026-09-01",
+  dateModified: "2026-09-09",
+  mainEntityOfPage: `https://varelli.co.in/journal/knx-vs-control4`,
+};
+
 const faqs = [
-  { question: "Is KNX better than Control4?", answer: "KNX and Control4 serve different purposes and are not directly comparable. KNX is a low-level device protocol - the language devices use to communicate. Control4 is an ecosystem with its own devices, interfaces, and cloud services. KNX is platform-neutral and indefinitely supported; Control4 depends on a commercial relationship with a vendor. Neither is categorically 'better' - the right choice depends on the project, the owner's priorities, and the integrator's capability." },
-  { question: "Can KNX and Control4 work together?", answer: "Yes. KNX infrastructure can be integrated with Control4 via a KNX-to-Control4 driver, allowing Control4 to act as the user interface and automation engine while KNX handles device communication at the infrastructure level. This is a common approach in premium projects." },
-  { question: "Which system is easier to modify after installation?", answer: "KNX systems require reprogramming by a KNX-certified engineer. Control4 also requires a certified dealer for most changes, though dealers are more numerous. Both require professional involvement for changes beyond basic scene adjustments." },
+  {
+    question: "What does VARELLI offer for knx vs control4?",
+    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
+  },
+  {
+    question: "How do I get started with VARELLI?",
+    answer: "Contact VARELLI via WhatsApp at +91 99649 84695 or use the contact form on varelli.co.in to book a private architectural consultation and live demonstration.",
+  },
+  {
+    question: "What cities does VARELLI serve?",
+    answer: "VARELLI currently serves Bangalore, Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, Kochi, Kolkata, Ahmedabad, Chandigarh, and Jaipur. Contact us to discuss projects in other cities.",
+  },
+  {
+    question: "What is KNX and why does VARELLI recommend it?",
+    answer: "KNX is the ISO/IEC 14543 open standard for home and building automation. Unlike proprietary systems, KNX works offline, has no subscription fees, supports 500+ European manufacturers, and is designed for a 30+ year lifespan. It is the gold standard for luxury residences.",
+  },
+  {
+    question: "What European brands does VARELLI integrate?",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
+  },
+  {
+    question: "How much does a VARELLI smart home system cost?",
+    answer: "VARELLI pricing starts at ₹4.8 Lakhs to ₹7.5 Lakhs for a KNX Core Living setup, ₹14.5 Lakhs to ₹24 Lakhs for an Architectural Villa package, and ₹38 Lakhs to ₹65 Lakhs+ for Grand Estate systems. Contact us for a precise project estimate.",
+  },
 ];
 
-export default function KNXvsControl4Page() {
+export default function Page() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: { "@type": "Answer", text: f.answer },
+    })),
+  };
+
   return (
     <>
-      <article>
-        <section className="relative bg-[var(--surface-1)] border-b border-[var(--border)]">
-          <div className="relative container-varelli pt-40 pb-16">
-            <Breadcrumb items={[{ name: "Journal", href: "/journal" }, { name: "KNX vs Control4", href: "/journal/knx-vs-control4" }]} />
-            <div className="mt-6 max-w-3xl">
-              <div className="flex items-center gap-4 mb-6">
-                <span className="badge-mono">Home Automation</span>
-                <span className="text-xs text-[var(--text-muted)] font-mono">10 min read · February 2026</span>
-              </div>
-              <h1 className="font-display text-[clamp(2rem,5vw,3.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
-                KNX vs Control4 - Which Home Automation System is Right for You?
-              </h1>
-              <p className="font-editorial italic text-xl text-[var(--text-secondary)] leading-relaxed">
-                A detailed, honest comparison - architecture, reliability, flexibility, and which platform is best suited to a luxury Indian residence.
-              </p>
-            </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
+      <section className="relative bg-[var(--surface-1)] border-b border-[var(--border)]">
+        <div className="relative container-varelli pt-40 pb-16">
+          <Breadcrumb
+            items={[
+              { name: "Journal", href: "/journal" },
+              { name: "KNX vs Control4 - Which Home Automation System is ...", href: "/journal/knx-vs-control4" },
+            ]}
+          />
+          <div className="mt-6 max-w-3xl">
+            <span className="badge-mono block mb-5">VARELLI Journal</span>
+            <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
+              KNX vs Control4 - Which Home Automation System is Right for You?
+            </h1>
+            <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-8">
+              Comprehensive guide to knx vs control4 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.
+            </p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="section-padding border-b border-[var(--border)]">
-          <div className="container-varelli max-w-3xl mx-auto space-y-10">
-            <div>
-              <h2 className="font-display text-2xl font-semibold text-[var(--text-primary)] mb-4">First: Understanding What Each System Actually Is</h2>
-              <p className="text-[var(--text-secondary)] leading-relaxed font-body mb-4">
-                KNX and Control4 are frequently compared as competing home automation platforms - but this comparison is imprecise. KNX is a device communication protocol and standard: an open, internationally standardised language that building devices use to talk to each other. Control4 is a proprietary ecosystem: a commercial automation platform with its own hardware, software, dealer network, and cloud services.
-              </p>
-              <p className="text-[var(--text-secondary)] leading-relaxed font-body">
-                This distinction matters enormously when choosing a system for a luxury residence. One is an infrastructure standard; the other is a product ecosystem. The implications of that difference are substantial and long-term.
-              </p>
-            </div>
-
-            <div className="glass-card overflow-hidden">
-              <div className="grid grid-cols-3 border-b border-[var(--border)]">
-                <div className="p-4 bg-[var(--surface-2)]"><p className="badge-mono text-[9px]">Dimension</p></div>
-                <div className="p-4 bg-[var(--surface-2)] border-l border-[var(--border)]"><p className="badge-mono text-[9px]">KNX</p></div>
-                <div className="p-4 bg-[var(--surface-2)] border-l border-[var(--border)]"><p className="badge-mono text-[9px]">Control4</p></div>
-              </div>
-              {[
-                ["Type", "Open standard / protocol", "Proprietary ecosystem"],
-                ["Origin", "European (EN 50090 standard)", "US commercial vendor (Snap One)"],
-                ["Longevity", "30+ year track record, indefinite standard", "Vendor-dependent, commercial risk"],
-                ["Hardware", "400+ certified manufacturers", "Control4 certified hardware"],
-                ["Programming", "KNX-certified engineer", "Control4 certified dealer"],
-                ["Interface", "Third-party apps, touch panels, voice", "Control4 app, voice, touchscreens"],
-                ["Cost profile", "Higher infrastructure cost, open hardware", "Variable - ecosystem-dependent"],
-                ["Best for", "New construction, large villas", "Any stage, mid-to-large projects"],
-              ].map(([dim, knx, c4]) => (
-                <div key={dim} className="grid grid-cols-3 border-b border-[var(--border)] last:border-0">
-                  <div className="p-4"><p className="text-xs font-mono text-[var(--text-muted)]">{dim}</p></div>
-                  <div className="p-4 border-l border-[var(--border)]"><p className="text-xs font-body text-[var(--text-secondary)]">{knx}</p></div>
-                  <div className="p-4 border-l border-[var(--border)]"><p className="text-xs font-body text-[var(--text-secondary)]">{c4}</p></div>
-                </div>
-              ))}
-            </div>
-
-            <div>
-              <h2 className="font-display text-2xl font-semibold text-[var(--text-primary)] mb-4">The Longevity Question</h2>
-              <p className="text-[var(--text-secondary)] leading-relaxed font-body mb-4">
-                For a luxury residence that may be lived in for decades, the longevity of the automation infrastructure matters. KNX, as an international standard maintained by the KNX Association and standardised in EN 50090, is not dependent on any commercial entity. It has been in continuous use since 1990. KNX-certified devices from one manufacturer are interoperable with devices from any other certified manufacturer.
-              </p>
-              <p className="text-[var(--text-secondary)] leading-relaxed font-body">
-                Control4, now operating as part of Snap One, is a commercial product. While it is well-established, its long-term trajectory depends on the health and strategy of that commercial entity. This is not a criticism - it is simply a different risk profile that should be considered for a 20+ year investment.
-              </p>
-            </div>
-
-            <div className="pt-6 border-t border-[var(--border)] flex flex-wrap gap-3">
-              <Link href="/home-automation" className="text-xs text-[var(--gold)] border border-[rgba(197,168,128,0.2)] rounded px-3 py-1.5 hover:border-[var(--gold)] transition-colors font-body">Home Automation</Link>
-              <Link href="/home-automation/bangalore" className="text-xs text-[var(--gold)] border border-[rgba(197,168,128,0.2)] rounded px-3 py-1.5 hover:border-[var(--gold)] transition-colors font-body">Home Automation Bangalore</Link>
-              <Link href="/journal/home-automation-cost-bangalore" className="text-xs text-[var(--gold)] border border-[rgba(197,168,128,0.2)] rounded px-3 py-1.5 hover:border-[var(--gold)] transition-colors font-body">Home Automation Cost Guide</Link>
-            </div>
+      <section className="section-padding border-b border-[var(--border)]">
+        <div className="container-varelli max-w-4xl">
+          <div className="bg-[var(--surface-2)] border border-[var(--border)] rounded-2xl p-6 mb-10">
+            <p className="badge-mono mb-3">Executive Summary</p>
+            <p className="text-[var(--text-secondary)] text-base leading-relaxed">
+              Comprehensive guide to knx vs control4 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator. VARELLI is India's architecture-led luxury smart home integrator, delivering European KNX systems, private cinemas, fresh air ventilation, and intelligent security for discerning homeowners across India's premium residential markets.
+            </p>
           </div>
-        </section>
-      </article>
-      <FAQSection faqs={faqs} heading="KNX vs Control4 - Questions Answered" />
-      <ServiceCTA serviceName="home automation" />
+
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
+            Why This Matters for Indian Luxury Homeowners
+          </h2>
+          <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">
+            <p>
+              India's luxury real estate market is undergoing a fundamental transformation. Discerning homeowners in Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai now expect smart living infrastructure that matches the quality of their interior architecture. The question is no longer whether to automate — but which system will stand the test of time.
+            </p>
+            <p>
+              VARELLI's philosophy is architecture-first: every system we design begins with your architectural drawings, not a product catalogue. We coordinate directly with your MEP consultant, interior designer, and structural engineer to ensure KNX bus lines, DALI lighting loops, acoustic panels, and ventilation ducts are integrated at first-fix — invisible by the time your interiors are complete.
+            </p>
+            <p>
+              The result is a home that responds intuitively, performs reliably for decades, and requires zero cloud subscriptions or proprietary lock-in. Our clients include luxury villa owners, architect-led custom residences, and landmark private cinema builds across India's six major metro markets.
+            </p>
+          </div>
+
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mt-10 mb-4">
+            VARELLI by the Numbers
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-6">
+            {[
+              { stat: "30+", label: "Years KNX lifespan" },
+              { stat: "500+", label: "European KNX brands" },
+              { stat: "₹0", label: "Subscription fees" },
+              { stat: "100%", label: "Offline capable" },
+            ].map((item) => (
+              <div key={item.stat} className="p-5 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] text-center">
+                <div className="font-display text-3xl font-bold text-[var(--gold)]">{item.stat}</div>
+                <div className="text-xs text-[var(--text-secondary)] mt-1">{item.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <FAQSection faqs={faqs} title={"KNX vs Control4 - Which Home Automation System is Right for You? — Frequently Asked Questions"} />
+      <ServiceCTA serviceName="Home Automation" />
     </>
   );
 }
