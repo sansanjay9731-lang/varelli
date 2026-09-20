@@ -1,8 +1,12 @@
 import Link from "next/link";
 
-interface ServiceCTAProps { serviceName: string }
+interface ServiceCTAProps {
+  serviceName?: string;
+  title?: string;
+  description?: string;
+}
 
-export default function ServiceCTA({ serviceName }: ServiceCTAProps) {
+export default function ServiceCTA({ serviceName = "Smart Home", title, description }: ServiceCTAProps) {
   return (
     <section className="section-padding">
       <div className="container-varelli">
@@ -11,10 +15,10 @@ export default function ServiceCTA({ serviceName }: ServiceCTAProps) {
           <div className="relative max-w-xl">
             <p className="badge-mono mb-5">Begin Your Project</p>
             <h2 className="font-display text-3xl md:text-4xl font-bold tracking-[-0.02em] text-[var(--text-primary)] mb-5 leading-tight">
-              Begin your {serviceName} project
+              {title || `Begin your ${serviceName} project`}
             </h2>
             <p className="text-[var(--text-secondary)] leading-relaxed mb-8 font-body">
-              Every VARELLI project begins with a private consultation. Share the details of your residence and we will arrange a meeting with our design team.
+              {description || `Every VARELLI project begins with a private consultation. Share the details of your residence and we will arrange a meeting with our design team.`}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
