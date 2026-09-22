@@ -3,54 +3,85 @@ import { generatePageMetadata } from "@/lib/metadata";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
+import JournalDirectory from "@/components/journal/JournalDirectory";
+import Link from "next/link";
+import { ArrowUpRight } from "@/components/ui/icons";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "The VARELLI Journal - Intelligent Living Guides & Resources | VARELLI",
-  description: "Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
-  path: "/journal/page.tsx",
-  keywords: ["page.tsx", "smart home India", "luxury home automation India", "KNX India"],
+  title: "The VARELLI Journal & Blog — Smart Home, Home Theatre & KNX Guides",
+  description: "Explore 270+ expert guides, transparent cost breakdowns, and technical articles on KNX home automation, Dolby Atmos cinema, and luxury living in Bangalore and India.",
+  path: "/journal",
+  keywords: [
+    "smart home blog",
+    "home automation articles",
+    "home theatre guides bangalore",
+    "KNX automation india blog",
+    "dolby atmos installation bangalore",
+    "home automation cost bangalore"
+  ],
 });
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  headline: "The VARELLI Journal - Intelligent Living Guides & Resources",
-  description: "Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
-  author: { "@type": "Organization", name: "VARELLI", url: "https://varelli.co.in" },
-  publisher: { "@type": "Organization", name: "VARELLI", logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" } },
-  datePublished: "2026-09-01",
-  dateModified: "2026-09-09",
-  mainEntityOfPage: `https://varelli.co.in/journal/page.tsx`,
-};
+const featuredArticles = [
+  {
+    slug: "best-home-theatre-companies-bangalore",
+    title: "Best Home Theatre Companies in Bangalore 2026 — Expert Guide",
+    description: "An authoritative buyer's guide comparing reference cinema engineers, acoustics calibration, and what separates true private cinema from generic AV stores.",
+    category: "Home Theatre & Cinema",
+    tag: "Featured Guide"
+  },
+  {
+    slug: "best-home-automation-companies-bangalore-2026",
+    title: "Best Home Automation Companies in Bangalore 2026",
+    description: "How to choose a reliable smart home integrator in Bangalore. Why European KNX open standard dominates over cloud-dependent wireless apps.",
+    category: "Home Automation & KNX",
+    tag: "Top Read"
+  },
+  {
+    slug: "knx-home-automation-bangalore-cost-2026",
+    title: "KNX Home Automation Cost in Bangalore 2026 — Full Price Breakdown",
+    description: "Complete transparent breakdown of KNX hardware, cabling, panel design, and integration costs for 3BHK flats, villas, and grand estates in Bangalore.",
+    category: "Cost & Pricing",
+    tag: "Price Guide"
+  }
+];
 
 const faqs = [
   {
-    question: "What does VARELLI offer for page.tsx?",
-    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
+    question: "What topics does the VARELLI Journal & Blog cover?",
+    answer: "Our journal covers architecture-first KNX smart home systems, reference Dolby Atmos home theatre design, acoustic engineering, DALI-2 circadian lighting, Zehnder ERV fresh air ventilation, Drainvac central vacuum systems, and transparent cost guides for luxury residences across Bangalore and India.",
   },
   {
-    question: "How do I get started with VARELLI?",
-    answer: "Contact VARELLI via WhatsApp at +91 99649 84695 or use the contact form on varelli.co.in to book a private architectural consultation and live demonstration.",
+    question: "How often are new smart home and home theatre guides published?",
+    answer: "We continuously publish technical deep dives, area-wise guides for Bangalore localities, brand comparisons (Sonus Faber, Barco, Basalte, Ekinex, KEF, Anthem), and project walkthroughs.",
   },
   {
-    question: "What cities does VARELLI serve?",
-    answer: "VARELLI currently serves Bangalore, Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, Kochi, Kolkata, Ahmedabad, Chandigarh, and Jaipur. Contact us to discuss projects in other cities.",
+    question: "Can I get a customized quote for my Bangalore residence?",
+    answer: "Yes. Contact VARELLI via WhatsApp at +91 99649 84695 or submit our contact form to schedule an architectural consultation and detailed bill of quantities (BOQ) review for your home.",
   },
   {
-    question: "What is KNX and why does VARELLI recommend it?",
-    answer: "KNX is the ISO/IEC 14543 open standard for home and building automation. Unlike proprietary systems, KNX works offline, has no subscription fees, supports 500+ European manufacturers, and is designed for a 30+ year lifespan. It is the gold standard for luxury residences.",
-  },
-  {
-    question: "What European brands does VARELLI integrate?",
-    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
-  },
-  {
-    question: "How much does a VARELLI smart home system cost?",
-    answer: "VARELLI pricing starts at ₹4.8 Lakhs to ₹7.5 Lakhs for a KNX Core Living setup, ₹14.5 Lakhs to ₹24 Lakhs for an Architectural Villa package, and ₹38 Lakhs to ₹65 Lakhs+ for Grand Estate systems. Contact us for a precise project estimate.",
+    question: "Are these guides relevant for architects and interior designers?",
+    answer: "Absolutely. We provide dedicated MEP coordination guides, KNX conduit layouts, and acoustic specifications tailored specifically for Indian architects and interior design practices.",
   },
 ];
 
-export default function Page() {
+export default function JournalPage() {
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "The VARELLI Journal & Blog",
+    description: "270+ architectural guides and technical articles on luxury home automation, private cinema, and acoustic engineering.",
+    url: "https://varelli.co.in/journal",
+    publisher: {
+      "@type": "Organization",
+      name: "VARELLI",
+      url: "https://varelli.co.in",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://varelli.co.in/images/varelli-logo.png",
+      },
+    },
+  };
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -65,77 +96,104 @@ export default function Page() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
+      {/* Hero Header */}
       <section className="relative bg-[var(--surface-1)] border-b border-[var(--border)]">
-        <div className="relative container-varelli pt-40 pb-16">
+        <div className="relative container-varelli pt-36 pb-14">
           <Breadcrumb
             items={[
-              { name: "Journal", href: "/journal" },
-              { name: "The VARELLI Journal - Intelligent Living Guides & ...", href: "/journal/page.tsx" },
+              { name: "Home", href: "/" },
+              { name: "Journal & Blog", href: "/journal" },
             ]}
           />
           <div className="mt-6 max-w-3xl">
-            <span className="badge-mono block mb-5">VARELLI Journal</span>
-            <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
-              The VARELLI Journal - Intelligent Living Guides & Resources
+            <span className="badge-mono block mb-4">The VARELLI Journal &amp; Blog</span>
+            <h1 className="font-display text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
+              Intelligent Living Insights, Guides &amp; Market Intelligence
             </h1>
-            <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-8">
-              Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.
+            <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-4">
+              Over 270 engineering whitepapers, Bangalore locality spotlights, transparent price guides, and European integration standards.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="section-padding border-b border-[var(--border)]">
-        <div className="container-varelli max-w-4xl">
-          <div className="bg-[var(--surface-2)] border border-[var(--border)] rounded-2xl p-6 mb-10">
-            <p className="badge-mono mb-3">Executive Summary</p>
-            <p className="text-[var(--text-secondary)] text-base leading-relaxed">
-              Comprehensive guide to page.tsx for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator. VARELLI is India's architecture-led luxury smart home integrator, delivering European KNX systems, private cinemas, fresh air ventilation, and intelligent security for discerning homeowners across India's premium residential markets.
-            </p>
+      {/* Featured Articles Section */}
+      <section className="section-padding border-b border-[var(--border)] bg-[#0A0A0D]">
+        <div className="container-varelli">
+          <div className="flex items-center justify-between mb-8">
+            <div>
+              <span className="badge-mono block mb-2">Editor&apos;s Choice</span>
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-white">
+                Featured Insights
+              </h2>
+            </div>
+            <span className="hidden md:inline-block text-xs font-mono text-[var(--gold)] uppercase tracking-wider">
+              Must-Read Architecture Guides
+            </span>
           </div>
 
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
-            Why This Matters for Indian Luxury Homeowners
-          </h2>
-          <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">
-            <p>
-              India's luxury real estate market is undergoing a fundamental transformation. Discerning homeowners in Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai now expect smart living infrastructure that matches the quality of their interior architecture. The question is no longer whether to automate — but which system will stand the test of time.
-            </p>
-            <p>
-              VARELLI's philosophy is architecture-first: every system we design begins with your architectural drawings, not a product catalogue. We coordinate directly with your MEP consultant, interior designer, and structural engineer to ensure KNX bus lines, DALI lighting loops, acoustic panels, and ventilation ducts are integrated at first-fix — invisible by the time your interiors are complete.
-            </p>
-            <p>
-              The result is a home that responds intuitively, performs reliably for decades, and requires zero cloud subscriptions or proprietary lock-in. Our clients include luxury villa owners, architect-led custom residences, and landmark private cinema builds across India's six major metro markets.
-            </p>
-          </div>
-
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mt-10 mb-4">
-            VARELLI by the Numbers
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-6">
-            {[
-              { stat: "30+", label: "Years KNX lifespan" },
-              { stat: "500+", label: "European KNX brands" },
-              { stat: "₹0", label: "Subscription fees" },
-              { stat: "100%", label: "Offline capable" },
-            ].map((item) => (
-              <div key={item.stat} className="p-5 rounded-xl bg-[var(--surface-2)] border border-[var(--border)] text-center">
-                <div className="font-display text-3xl font-bold text-[var(--gold)]">{item.stat}</div>
-                <div className="text-xs text-[var(--text-secondary)] mt-1">{item.label}</div>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {featuredArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/journal/${article.slug}`}
+                className="group p-8 rounded-2xl bg-[var(--surface-1)] border border-[var(--gold)]/30 hover:border-[var(--gold)] transition-all duration-300 hover:shadow-2xl hover:shadow-[var(--gold)]/10 flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-[10px] font-mono uppercase tracking-widest text-[#08080A] bg-[var(--gold)] px-2.5 py-1 rounded font-bold">
+                      {article.tag}
+                    </span>
+                    <span className="text-xs text-[var(--text-muted)] font-mono">
+                      {article.category}
+                    </span>
+                  </div>
+                  <h3 className="font-display text-xl font-bold text-white group-hover:text-[var(--gold)] transition-colors mb-3 leading-snug">
+                    {article.title}
+                  </h3>
+                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-6 font-body">
+                    {article.description}
+                  </p>
+                </div>
+                <div className="flex items-center text-xs font-semibold text-[var(--gold)] pt-4 border-t border-[var(--border)] group-hover:border-[var(--gold)]/30">
+                  <span>Read Full Guide</span>
+                  <ArrowUpRight size={14} className="ml-1.5 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                </div>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-      <FAQSection faqs={faqs} title={"The VARELLI Journal - Intelligent Living Guides & Resources — Frequently Asked Questions"} />
+      {/* Main Directory & Search */}
+      <section className="section-padding border-b border-[var(--border)]">
+        <div className="container-varelli">
+          <div className="mb-10">
+            <span className="badge-mono block mb-2">Explore All 270+ Guides</span>
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-white">
+              All Journal Articles &amp; Resources
+            </h2>
+            <p className="text-sm text-[var(--text-secondary)] mt-2">
+              Filter by category or search by topic, Bangalore neighborhood, brand, or cost tier.
+            </p>
+          </div>
+
+          <JournalDirectory />
+        </div>
+      </section>
+
+      {/* FAQ & CTA */}
+      <FAQSection
+        faqs={faqs}
+        title="VARELLI Journal & Blog — Frequently Asked Questions"
+      />
       <ServiceCTA serviceName="Home Automation" />
     </>
   );

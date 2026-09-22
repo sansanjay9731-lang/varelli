@@ -8,6 +8,7 @@ import ResidencesSection from "@/components/sections/home/ResidencesSection";
 import ProtocolMarquee from "@/components/sections/home/ProtocolMarquee";
 import ArchitectCTA from "@/components/sections/home/ArchitectCTA";
 import ConsultationCTA from "@/components/sections/home/ConsultationCTA";
+import JournalSection from "@/components/sections/home/JournalSection";
 
 import { generatePageMetadata } from "@/lib/metadata";
 
@@ -52,6 +53,7 @@ export default function HomePage() {
       <ProcessSection />
       <ResidencesSection />
       <ProtocolMarquee />
+      <JournalSection />
       <ArchitectCTA />
       <ConsultationCTA />
     </>

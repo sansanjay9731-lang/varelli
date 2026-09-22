@@ -23,7 +23,7 @@ const navigationLinks = [
   { name: "Brands", href: "/brands" },
   { name: "Residences", href: "/residences" },
   { name: "Architects", href: "/architects" },
-  { name: "Journal", href: "/journal" },
+  { name: "Journal & Blog", href: "/journal" },
 ];
 
 export default function Header() {

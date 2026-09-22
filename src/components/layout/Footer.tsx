@@ -23,7 +23,7 @@ const locations = [
 const resources = [
   { name: "Architects & Designers", href: "/architects" },
   { name: "Completed Residences", href: "/residences" },
-  { name: "The Journal", href: "/journal" },
+  { name: "The Journal & Blog", href: "/journal" },
   { name: "Contact", href: "/contact" },
 ];
 
