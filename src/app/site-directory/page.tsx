@@ -5,1048 +5,805 @@ import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Complete Architecture Directory & Sitemap | VARELLI",
-  description: "Comprehensive index of all 254+ VARELLI luxury smart home automation, private cinema, brand profiles, and architectural engineering resources across India.",
+  description: "Comprehensive index of all 760+ VARELLI luxury smart home automation, private cinema, brand profiles, and architectural engineering resources across Bangalore and India.",
   path: "/site-directory",
 });
 
 const corePages = [
-  {
-    "name": "Home",
-    "href": "/"
-  },
-  {
-    "name": "Architects",
-    "href": "/architects"
-  },
-  {
-    "name": "Brands",
-    "href": "/brands"
-  },
-  {
-    "name": "Central Vacuum",
-    "href": "/central-vacuum"
-  },
-  {
-    "name": "Contact",
-    "href": "/contact"
-  },
-  {
-    "name": "Fresh Air Ventilation",
-    "href": "/fresh-air-ventilation"
-  },
-  {
-    "name": "Home Automation",
-    "href": "/home-automation"
-  },
-  {
-    "name": "Home Networking",
-    "href": "/home-networking"
-  },
-  {
-    "name": "Home Security",
-    "href": "/home-security"
-  },
-  {
-    "name": "Home Theatre",
-    "href": "/home-theatre"
-  },
-  {
-    "name": "Journal",
-    "href": "/journal"
-  },
-  {
-    "name": "Private Cinema",
-    "href": "/private-cinema"
-  },
-  {
-    "name": "Products",
-    "href": "/products"
-  },
-  {
-    "name": "Residences",
-    "href": "/residences"
-  },
-  {
-    "name": "Site Directory",
-    "href": "/site-directory"
-  },
-  {
-    "name": "Studio",
-    "href": "/studio"
-  }
+  { name: "Home", href: "/" },
+  { name: "Architects", href: "/architects" },
+  { name: "Brands", href: "/brands" },
+  { name: "Central Vacuum", href: "/central-vacuum" },
+  { name: "Contact", href: "/contact" },
+  { name: "Fresh Air Ventilation", href: "/fresh-air-ventilation" },
+  { name: "Home Automation", href: "/home-automation" },
+  { name: "Home Networking", href: "/home-networking" },
+  { name: "Home Security", href: "/home-security" },
+  { name: "Home Theatre", href: "/home-theatre" },
+  { name: "Journal", href: "/journal" },
+  { name: "Private Cinema", href: "/private-cinema" },
+  { name: "Residences", href: "/residences" },
+  { name: "Site Directory", href: "/site-directory" },
+  { name: "Studio", href: "/studio" },
 ];
-const cityPages = [
-  {
-    "name": "Central Vacuum \u00b7 Bangalore",
-    "href": "/central-vacuum/bangalore"
-  },
-  {
-    "name": "Fresh Air Ventilation \u00b7 Bangalore",
-    "href": "/fresh-air-ventilation/bangalore"
-  },
-  {
-    "name": "Home Automation \u00b7 Ahmedabad",
-    "href": "/home-automation/ahmedabad"
-  },
-  {
-    "name": "Home Automation \u00b7 Bangalore",
-    "href": "/home-automation/bangalore"
-  },
-  {
-    "name": "Home Automation \u00b7 Chandigarh",
-    "href": "/home-automation/chandigarh"
-  },
-  {
-    "name": "Home Automation \u00b7 Chennai",
-    "href": "/home-automation/chennai"
-  },
-  {
-    "name": "Home Automation \u00b7 Delhi Ncr",
-    "href": "/home-automation/delhi-ncr"
-  },
-  {
-    "name": "Home Automation \u00b7 Hyderabad",
-    "href": "/home-automation/hyderabad"
-  },
-  {
-    "name": "Home Automation \u00b7 Jaipur",
-    "href": "/home-automation/jaipur"
-  },
-  {
-    "name": "Home Automation \u00b7 Kochi",
-    "href": "/home-automation/kochi"
-  },
-  {
-    "name": "Home Automation \u00b7 Kolkata",
-    "href": "/home-automation/kolkata"
-  },
-  {
-    "name": "Home Automation \u00b7 Mumbai",
-    "href": "/home-automation/mumbai"
-  },
-  {
-    "name": "Home Automation \u00b7 Pune",
-    "href": "/home-automation/pune"
-  },
-  {
-    "name": "Home Theatre \u00b7 Bangalore",
-    "href": "/home-theatre/bangalore"
-  },
-  {
-    "name": "Private Cinema \u00b7 Bangalore",
-    "href": "/private-cinema/bangalore"
-  },
-  {
-    "name": "Private Cinema \u00b7 Chennai",
-    "href": "/private-cinema/chennai"
-  },
-  {
-    "name": "Private Cinema \u00b7 Delhi Ncr",
-    "href": "/private-cinema/delhi-ncr"
-  },
-  {
-    "name": "Private Cinema \u00b7 Hyderabad",
-    "href": "/private-cinema/hyderabad"
-  },
-  {
-    "name": "Private Cinema \u00b7 Mumbai",
-    "href": "/private-cinema/mumbai"
-  },
-  {
-    "name": "Private Cinema \u00b7 Pune",
-    "href": "/private-cinema/pune"
-  }
+
+const commercialPages = [
+  { name: "Dolby Atmos Bangalore", href: "/dolby-atmos-bangalore" },
+  { name: "Home Automation Companies Bangalore", href: "/home-automation-companies-bangalore" },
+  { name: "Home Theatre Companies Bangalore", href: "/home-theatre-companies-bangalore" },
+  { name: "Home Theatre Company Banashankari Bangalore", href: "/home-theatre-company-banashankari-bangalore" },
+  { name: "Home Theatre Company Bannerghatta Road Bangalore", href: "/home-theatre-company-bannerghatta-road-bangalore" },
+  { name: "Home Theatre Company Basavangudi Bangalore", href: "/home-theatre-company-basavangudi-bangalore" },
+  { name: "Home Theatre Company Bellandur Bangalore", href: "/home-theatre-company-bellandur-bangalore" },
+  { name: "Home Theatre Company Btm Layout Bangalore", href: "/home-theatre-company-btm-layout-bangalore" },
+  { name: "Home Theatre Company Cunningham Road Bangalore", href: "/home-theatre-company-cunningham-road-bangalore" },
+  { name: "Home Theatre Company Devanahalli Bangalore", href: "/home-theatre-company-devanahalli-bangalore" },
+  { name: "Home Theatre Company Electronic City Bangalore", href: "/home-theatre-company-electronic-city-bangalore" },
+  { name: "Home Theatre Company Frazer Town Bangalore", href: "/home-theatre-company-frazer-town-bangalore" },
+  { name: "Home Theatre Company Hebbal Bangalore", href: "/home-theatre-company-hebbal-bangalore" },
+  { name: "Home Theatre Company Hsr Layout Bangalore", href: "/home-theatre-company-hsr-layout-bangalore" },
+  { name: "Home Theatre Company Indiranagar Bangalore", href: "/home-theatre-company-indiranagar-bangalore" },
+  { name: "Home Theatre Company Jayanagar Bangalore", href: "/home-theatre-company-jayanagar-bangalore" },
+  { name: "Home Theatre Company Jp Nagar Bangalore", href: "/home-theatre-company-jp-nagar-bangalore" },
+  { name: "Home Theatre Company Koramangala Bangalore", href: "/home-theatre-company-koramangala-bangalore" },
+  { name: "Home Theatre Company Kr Puram Bangalore", href: "/home-theatre-company-kr-puram-bangalore" },
+  { name: "Home Theatre Company Lavelle Road Bangalore", href: "/home-theatre-company-lavelle-road-bangalore" },
+  { name: "Home Theatre Company Malleshwaram Bangalore", href: "/home-theatre-company-malleshwaram-bangalore" },
+  { name: "Home Theatre Company Marathahalli Bangalore", href: "/home-theatre-company-marathahalli-bangalore" },
+  { name: "Home Theatre Company Rajajinagar Bangalore", href: "/home-theatre-company-rajajinagar-bangalore" },
+  { name: "Home Theatre Company Richmond Town Bangalore", href: "/home-theatre-company-richmond-town-bangalore" },
+  { name: "Home Theatre Company Sadashivanagar Bangalore", href: "/home-theatre-company-sadashivanagar-bangalore" },
+  { name: "Home Theatre Company Ulsoor Bangalore", href: "/home-theatre-company-ulsoor-bangalore" },
+  { name: "Home Theatre Company Whitefield Bangalore", href: "/home-theatre-company-whitefield-bangalore" },
+  { name: "Home Theatre Company Yelahanka Bangalore", href: "/home-theatre-company-yelahanka-bangalore" },
+  { name: "Private Cinema Companies Bangalore", href: "/private-cinema-companies-bangalore" },
+  { name: "Smart Home Banashankari Bangalore", href: "/smart-home-banashankari-bangalore" },
+  { name: "Smart Home Bannerghatta Road Bangalore", href: "/smart-home-bannerghatta-road-bangalore" },
+  { name: "Smart Home Basavangudi Bangalore", href: "/smart-home-basavangudi-bangalore" },
+  { name: "Smart Home Bellandur Bangalore", href: "/smart-home-bellandur-bangalore" },
+  { name: "Smart Home Btm Layout Bangalore", href: "/smart-home-btm-layout-bangalore" },
+  { name: "Smart Home Companies Bangalore", href: "/smart-home-companies-bangalore" },
+  { name: "Smart Home Cunningham Road Bangalore", href: "/smart-home-cunningham-road-bangalore" },
+  { name: "Smart Home Devanahalli Bangalore", href: "/smart-home-devanahalli-bangalore" },
+  { name: "Smart Home Electronic City Bangalore", href: "/smart-home-electronic-city-bangalore" },
+  { name: "Smart Home Frazer Town Bangalore", href: "/smart-home-frazer-town-bangalore" },
+  { name: "Smart Home Hebbal Bangalore", href: "/smart-home-hebbal-bangalore" },
+  { name: "Smart Home Hsr Layout Bangalore", href: "/smart-home-hsr-layout-bangalore" },
+  { name: "Smart Home Indiranagar Bangalore", href: "/smart-home-indiranagar-bangalore" },
+  { name: "Smart Home Jayanagar Bangalore", href: "/smart-home-jayanagar-bangalore" },
+  { name: "Smart Home Jp Nagar Bangalore", href: "/smart-home-jp-nagar-bangalore" },
+  { name: "Smart Home Koramangala Bangalore", href: "/smart-home-koramangala-bangalore" },
+  { name: "Smart Home Kr Puram Bangalore", href: "/smart-home-kr-puram-bangalore" },
+  { name: "Smart Home Lavelle Road Bangalore", href: "/smart-home-lavelle-road-bangalore" },
+  { name: "Smart Home Malleshwaram Bangalore", href: "/smart-home-malleshwaram-bangalore" },
+  { name: "Smart Home Marathahalli Bangalore", href: "/smart-home-marathahalli-bangalore" },
+  { name: "Smart Home Rajajinagar Bangalore", href: "/smart-home-rajajinagar-bangalore" },
+  { name: "Smart Home Richmond Town Bangalore", href: "/smart-home-richmond-town-bangalore" },
+  { name: "Smart Home Sadashivanagar Bangalore", href: "/smart-home-sadashivanagar-bangalore" },
+  { name: "Smart Home Ulsoor Bangalore", href: "/smart-home-ulsoor-bangalore" },
+  { name: "Smart Home Whitefield Bangalore", href: "/smart-home-whitefield-bangalore" },
+  { name: "Smart Home Yelahanka Bangalore", href: "/smart-home-yelahanka-bangalore" },
 ];
-const blrLocPages = [
-  {
-    "name": "Banashankari, Bangalore",
-    "href": "/home-automation/bangalore/banashankari"
-  },
-  {
-    "name": "Bannerghatta Road, Bangalore",
-    "href": "/home-automation/bangalore/bannerghatta-road"
-  },
-  {
-    "name": "Basavangudi, Bangalore",
-    "href": "/home-automation/bangalore/basavangudi"
-  },
-  {
-    "name": "Bellandur, Bangalore",
-    "href": "/home-automation/bangalore/bellandur"
-  },
-  {
-    "name": "Btm Layout, Bangalore",
-    "href": "/home-automation/bangalore/btm-layout"
-  },
-  {
-    "name": "Cunningham Road, Bangalore",
-    "href": "/home-automation/bangalore/cunningham-road"
-  },
-  {
-    "name": "Devanahalli, Bangalore",
-    "href": "/home-automation/bangalore/devanahalli"
-  },
-  {
-    "name": "Electronic City, Bangalore",
-    "href": "/home-automation/bangalore/electronic-city"
-  },
-  {
-    "name": "Frazer Town, Bangalore",
-    "href": "/home-automation/bangalore/frazer-town"
-  },
-  {
-    "name": "Hebbal, Bangalore",
-    "href": "/home-automation/bangalore/hebbal"
-  },
-  {
-    "name": "Hebbal Kempapura, Bangalore",
-    "href": "/home-automation/bangalore/hebbal-kempapura"
-  },
-  {
-    "name": "Hsr Layout, Bangalore",
-    "href": "/home-automation/bangalore/hsr-layout"
-  },
-  {
-    "name": "Indiranagar, Bangalore",
-    "href": "/home-automation/bangalore/indiranagar"
-  },
-  {
-    "name": "Jayanagar, Bangalore",
-    "href": "/home-automation/bangalore/jayanagar"
-  },
-  {
-    "name": "Jp Nagar, Bangalore",
-    "href": "/home-automation/bangalore/jp-nagar"
-  },
-  {
-    "name": "Kalyan Nagar, Bangalore",
-    "href": "/home-automation/bangalore/kalyan-nagar"
-  },
-  {
-    "name": "Koramangala, Bangalore",
-    "href": "/home-automation/bangalore/koramangala"
-  },
-  {
-    "name": "Kr Puram, Bangalore",
-    "href": "/home-automation/bangalore/kr-puram"
-  },
-  {
-    "name": "Lavelle Road, Bangalore",
-    "href": "/home-automation/bangalore/lavelle-road"
-  },
-  {
-    "name": "Malleshwaram, Bangalore",
-    "href": "/home-automation/bangalore/malleshwaram"
-  },
-  {
-    "name": "Marathahalli, Bangalore",
-    "href": "/home-automation/bangalore/marathahalli"
-  },
-  {
-    "name": "Rajajinagar, Bangalore",
-    "href": "/home-automation/bangalore/rajajinagar"
-  },
-  {
-    "name": "Richmond Town, Bangalore",
-    "href": "/home-automation/bangalore/richmond-town"
-  },
-  {
-    "name": "Rr Nagar, Bangalore",
-    "href": "/home-automation/bangalore/rr-nagar"
-  },
-  {
-    "name": "Sadashivanagar, Bangalore",
-    "href": "/home-automation/bangalore/sadashivanagar"
-  },
-  {
-    "name": "Sarjapur, Bangalore",
-    "href": "/home-automation/bangalore/sarjapur"
-  },
-  {
-    "name": "Ulsoor, Bangalore",
-    "href": "/home-automation/bangalore/ulsoor"
-  },
-  {
-    "name": "Vijayanagar, Bangalore",
-    "href": "/home-automation/bangalore/vijayanagar"
-  },
-  {
-    "name": "Whitefield, Bangalore",
-    "href": "/home-automation/bangalore/whitefield"
-  },
-  {
-    "name": "Yelahanka, Bangalore",
-    "href": "/home-automation/bangalore/yelahanka"
-  }
+
+const bangalorePages = [
+  { name: "Central Vacuum — Hub", href: "/central-vacuum/bangalore" },
+  { name: "Central Vacuum — Banashankari", href: "/central-vacuum/bangalore/banashankari" },
+  { name: "Central Vacuum — Bannerghatta Road", href: "/central-vacuum/bangalore/bannerghatta-road" },
+  { name: "Central Vacuum — Basavangudi", href: "/central-vacuum/bangalore/basavangudi" },
+  { name: "Central Vacuum — Bellandur", href: "/central-vacuum/bangalore/bellandur" },
+  { name: "Central Vacuum — Btm Layout", href: "/central-vacuum/bangalore/btm-layout" },
+  { name: "Central Vacuum — Cunningham Road", href: "/central-vacuum/bangalore/cunningham-road" },
+  { name: "Central Vacuum — Devanahalli", href: "/central-vacuum/bangalore/devanahalli" },
+  { name: "Central Vacuum — Electronic City", href: "/central-vacuum/bangalore/electronic-city" },
+  { name: "Central Vacuum — Frazer Town", href: "/central-vacuum/bangalore/frazer-town" },
+  { name: "Central Vacuum — Hebbal", href: "/central-vacuum/bangalore/hebbal" },
+  { name: "Central Vacuum — Hebbal Kempapura", href: "/central-vacuum/bangalore/hebbal-kempapura" },
+  { name: "Central Vacuum — Hsr Layout", href: "/central-vacuum/bangalore/hsr-layout" },
+  { name: "Central Vacuum — Indiranagar", href: "/central-vacuum/bangalore/indiranagar" },
+  { name: "Central Vacuum — Jayanagar", href: "/central-vacuum/bangalore/jayanagar" },
+  { name: "Central Vacuum — Jp Nagar", href: "/central-vacuum/bangalore/jp-nagar" },
+  { name: "Central Vacuum — Kalyan Nagar", href: "/central-vacuum/bangalore/kalyan-nagar" },
+  { name: "Central Vacuum — Koramangala", href: "/central-vacuum/bangalore/koramangala" },
+  { name: "Central Vacuum — Kr Puram", href: "/central-vacuum/bangalore/kr-puram" },
+  { name: "Central Vacuum — Lavelle Road", href: "/central-vacuum/bangalore/lavelle-road" },
+  { name: "Central Vacuum — Malleshwaram", href: "/central-vacuum/bangalore/malleshwaram" },
+  { name: "Central Vacuum — Marathahalli", href: "/central-vacuum/bangalore/marathahalli" },
+  { name: "Central Vacuum — Rajajinagar", href: "/central-vacuum/bangalore/rajajinagar" },
+  { name: "Central Vacuum — Richmond Town", href: "/central-vacuum/bangalore/richmond-town" },
+  { name: "Central Vacuum — Rr Nagar", href: "/central-vacuum/bangalore/rr-nagar" },
+  { name: "Central Vacuum — Sadashivanagar", href: "/central-vacuum/bangalore/sadashivanagar" },
+  { name: "Central Vacuum — Sarjapur", href: "/central-vacuum/bangalore/sarjapur" },
+  { name: "Central Vacuum — Ulsoor", href: "/central-vacuum/bangalore/ulsoor" },
+  { name: "Central Vacuum — Vijayanagar", href: "/central-vacuum/bangalore/vijayanagar" },
+  { name: "Central Vacuum — Whitefield", href: "/central-vacuum/bangalore/whitefield" },
+  { name: "Central Vacuum — Yelahanka", href: "/central-vacuum/bangalore/yelahanka" },
+  { name: "Fresh Air Ventilation — Hub", href: "/fresh-air-ventilation/bangalore" },
+  { name: "Fresh Air Ventilation — Banashankari", href: "/fresh-air-ventilation/bangalore/banashankari" },
+  { name: "Fresh Air Ventilation — Bannerghatta Road", href: "/fresh-air-ventilation/bangalore/bannerghatta-road" },
+  { name: "Fresh Air Ventilation — Basavangudi", href: "/fresh-air-ventilation/bangalore/basavangudi" },
+  { name: "Fresh Air Ventilation — Bellandur", href: "/fresh-air-ventilation/bangalore/bellandur" },
+  { name: "Fresh Air Ventilation — Btm Layout", href: "/fresh-air-ventilation/bangalore/btm-layout" },
+  { name: "Fresh Air Ventilation — Cunningham Road", href: "/fresh-air-ventilation/bangalore/cunningham-road" },
+  { name: "Fresh Air Ventilation — Devanahalli", href: "/fresh-air-ventilation/bangalore/devanahalli" },
+  { name: "Fresh Air Ventilation — Electronic City", href: "/fresh-air-ventilation/bangalore/electronic-city" },
+  { name: "Fresh Air Ventilation — Frazer Town", href: "/fresh-air-ventilation/bangalore/frazer-town" },
+  { name: "Fresh Air Ventilation — Hebbal", href: "/fresh-air-ventilation/bangalore/hebbal" },
+  { name: "Fresh Air Ventilation — Hebbal Kempapura", href: "/fresh-air-ventilation/bangalore/hebbal-kempapura" },
+  { name: "Fresh Air Ventilation — Hsr Layout", href: "/fresh-air-ventilation/bangalore/hsr-layout" },
+  { name: "Fresh Air Ventilation — Indiranagar", href: "/fresh-air-ventilation/bangalore/indiranagar" },
+  { name: "Fresh Air Ventilation — Jayanagar", href: "/fresh-air-ventilation/bangalore/jayanagar" },
+  { name: "Fresh Air Ventilation — Jp Nagar", href: "/fresh-air-ventilation/bangalore/jp-nagar" },
+  { name: "Fresh Air Ventilation — Kalyan Nagar", href: "/fresh-air-ventilation/bangalore/kalyan-nagar" },
+  { name: "Fresh Air Ventilation — Koramangala", href: "/fresh-air-ventilation/bangalore/koramangala" },
+  { name: "Fresh Air Ventilation — Kr Puram", href: "/fresh-air-ventilation/bangalore/kr-puram" },
+  { name: "Fresh Air Ventilation — Lavelle Road", href: "/fresh-air-ventilation/bangalore/lavelle-road" },
+  { name: "Fresh Air Ventilation — Malleshwaram", href: "/fresh-air-ventilation/bangalore/malleshwaram" },
+  { name: "Fresh Air Ventilation — Marathahalli", href: "/fresh-air-ventilation/bangalore/marathahalli" },
+  { name: "Fresh Air Ventilation — Rajajinagar", href: "/fresh-air-ventilation/bangalore/rajajinagar" },
+  { name: "Fresh Air Ventilation — Richmond Town", href: "/fresh-air-ventilation/bangalore/richmond-town" },
+  { name: "Fresh Air Ventilation — Rr Nagar", href: "/fresh-air-ventilation/bangalore/rr-nagar" },
+  { name: "Fresh Air Ventilation — Sadashivanagar", href: "/fresh-air-ventilation/bangalore/sadashivanagar" },
+  { name: "Fresh Air Ventilation — Sarjapur", href: "/fresh-air-ventilation/bangalore/sarjapur" },
+  { name: "Fresh Air Ventilation — Ulsoor", href: "/fresh-air-ventilation/bangalore/ulsoor" },
+  { name: "Fresh Air Ventilation — Vijayanagar", href: "/fresh-air-ventilation/bangalore/vijayanagar" },
+  { name: "Fresh Air Ventilation — Whitefield", href: "/fresh-air-ventilation/bangalore/whitefield" },
+  { name: "Fresh Air Ventilation — Yelahanka", href: "/fresh-air-ventilation/bangalore/yelahanka" },
+  { name: "Home Automation — Hub", href: "/home-automation/bangalore" },
+  { name: "Home Automation — Banashankari", href: "/home-automation/bangalore/banashankari" },
+  { name: "Home Automation — Bannerghatta Road", href: "/home-automation/bangalore/bannerghatta-road" },
+  { name: "Home Automation — Basavangudi", href: "/home-automation/bangalore/basavangudi" },
+  { name: "Home Automation — Bellandur", href: "/home-automation/bangalore/bellandur" },
+  { name: "Home Automation — Btm Layout", href: "/home-automation/bangalore/btm-layout" },
+  { name: "Home Automation — Cunningham Road", href: "/home-automation/bangalore/cunningham-road" },
+  { name: "Home Automation — Devanahalli", href: "/home-automation/bangalore/devanahalli" },
+  { name: "Home Automation — Electronic City", href: "/home-automation/bangalore/electronic-city" },
+  { name: "Home Automation — Frazer Town", href: "/home-automation/bangalore/frazer-town" },
+  { name: "Home Automation — Hebbal", href: "/home-automation/bangalore/hebbal" },
+  { name: "Home Automation — Hebbal Kempapura", href: "/home-automation/bangalore/hebbal-kempapura" },
+  { name: "Home Automation — Hsr Layout", href: "/home-automation/bangalore/hsr-layout" },
+  { name: "Home Automation — Indiranagar", href: "/home-automation/bangalore/indiranagar" },
+  { name: "Home Automation — Jayanagar", href: "/home-automation/bangalore/jayanagar" },
+  { name: "Home Automation — Jp Nagar", href: "/home-automation/bangalore/jp-nagar" },
+  { name: "Home Automation — Kalyan Nagar", href: "/home-automation/bangalore/kalyan-nagar" },
+  { name: "Home Automation — Koramangala", href: "/home-automation/bangalore/koramangala" },
+  { name: "Home Automation — Kr Puram", href: "/home-automation/bangalore/kr-puram" },
+  { name: "Home Automation — Lavelle Road", href: "/home-automation/bangalore/lavelle-road" },
+  { name: "Home Automation — Malleshwaram", href: "/home-automation/bangalore/malleshwaram" },
+  { name: "Home Automation — Marathahalli", href: "/home-automation/bangalore/marathahalli" },
+  { name: "Home Automation — Rajajinagar", href: "/home-automation/bangalore/rajajinagar" },
+  { name: "Home Automation — Richmond Town", href: "/home-automation/bangalore/richmond-town" },
+  { name: "Home Automation — Rr Nagar", href: "/home-automation/bangalore/rr-nagar" },
+  { name: "Home Automation — Sadashivanagar", href: "/home-automation/bangalore/sadashivanagar" },
+  { name: "Home Automation — Sarjapur", href: "/home-automation/bangalore/sarjapur" },
+  { name: "Home Automation — Ulsoor", href: "/home-automation/bangalore/ulsoor" },
+  { name: "Home Automation — Vijayanagar", href: "/home-automation/bangalore/vijayanagar" },
+  { name: "Home Automation — Whitefield", href: "/home-automation/bangalore/whitefield" },
+  { name: "Home Automation — Yelahanka", href: "/home-automation/bangalore/yelahanka" },
+  { name: "Home Security — Banashankari", href: "/home-security/bangalore/banashankari" },
+  { name: "Home Security — Bannerghatta Road", href: "/home-security/bangalore/bannerghatta-road" },
+  { name: "Home Security — Basavangudi", href: "/home-security/bangalore/basavangudi" },
+  { name: "Home Security — Bellandur", href: "/home-security/bangalore/bellandur" },
+  { name: "Home Security — Btm Layout", href: "/home-security/bangalore/btm-layout" },
+  { name: "Home Security — Cunningham Road", href: "/home-security/bangalore/cunningham-road" },
+  { name: "Home Security — Devanahalli", href: "/home-security/bangalore/devanahalli" },
+  { name: "Home Security — Electronic City", href: "/home-security/bangalore/electronic-city" },
+  { name: "Home Security — Frazer Town", href: "/home-security/bangalore/frazer-town" },
+  { name: "Home Security — Hebbal", href: "/home-security/bangalore/hebbal" },
+  { name: "Home Security — Hebbal Kempapura", href: "/home-security/bangalore/hebbal-kempapura" },
+  { name: "Home Security — Hsr Layout", href: "/home-security/bangalore/hsr-layout" },
+  { name: "Home Security — Indiranagar", href: "/home-security/bangalore/indiranagar" },
+  { name: "Home Security — Jayanagar", href: "/home-security/bangalore/jayanagar" },
+  { name: "Home Security — Jp Nagar", href: "/home-security/bangalore/jp-nagar" },
+  { name: "Home Security — Kalyan Nagar", href: "/home-security/bangalore/kalyan-nagar" },
+  { name: "Home Security — Koramangala", href: "/home-security/bangalore/koramangala" },
+  { name: "Home Security — Kr Puram", href: "/home-security/bangalore/kr-puram" },
+  { name: "Home Security — Lavelle Road", href: "/home-security/bangalore/lavelle-road" },
+  { name: "Home Security — Malleshwaram", href: "/home-security/bangalore/malleshwaram" },
+  { name: "Home Security — Marathahalli", href: "/home-security/bangalore/marathahalli" },
+  { name: "Home Security — Rajajinagar", href: "/home-security/bangalore/rajajinagar" },
+  { name: "Home Security — Richmond Town", href: "/home-security/bangalore/richmond-town" },
+  { name: "Home Security — Rr Nagar", href: "/home-security/bangalore/rr-nagar" },
+  { name: "Home Security — Sadashivanagar", href: "/home-security/bangalore/sadashivanagar" },
+  { name: "Home Security — Sarjapur", href: "/home-security/bangalore/sarjapur" },
+  { name: "Home Security — Ulsoor", href: "/home-security/bangalore/ulsoor" },
+  { name: "Home Security — Vijayanagar", href: "/home-security/bangalore/vijayanagar" },
+  { name: "Home Security — Whitefield", href: "/home-security/bangalore/whitefield" },
+  { name: "Home Security — Yelahanka", href: "/home-security/bangalore/yelahanka" },
+  { name: "Home Theatre — Hub", href: "/home-theatre/bangalore" },
+  { name: "Home Theatre — Banashankari", href: "/home-theatre/bangalore/banashankari" },
+  { name: "Home Theatre — Bannerghatta Road", href: "/home-theatre/bangalore/bannerghatta-road" },
+  { name: "Home Theatre — Basavangudi", href: "/home-theatre/bangalore/basavangudi" },
+  { name: "Home Theatre — Bellandur", href: "/home-theatre/bangalore/bellandur" },
+  { name: "Home Theatre — Btm Layout", href: "/home-theatre/bangalore/btm-layout" },
+  { name: "Home Theatre — Cunningham Road", href: "/home-theatre/bangalore/cunningham-road" },
+  { name: "Home Theatre — Devanahalli", href: "/home-theatre/bangalore/devanahalli" },
+  { name: "Home Theatre — Electronic City", href: "/home-theatre/bangalore/electronic-city" },
+  { name: "Home Theatre — Frazer Town", href: "/home-theatre/bangalore/frazer-town" },
+  { name: "Home Theatre — Hebbal", href: "/home-theatre/bangalore/hebbal" },
+  { name: "Home Theatre — Hebbal Kempapura", href: "/home-theatre/bangalore/hebbal-kempapura" },
+  { name: "Home Theatre — Hsr Layout", href: "/home-theatre/bangalore/hsr-layout" },
+  { name: "Home Theatre — Indiranagar", href: "/home-theatre/bangalore/indiranagar" },
+  { name: "Home Theatre — Jayanagar", href: "/home-theatre/bangalore/jayanagar" },
+  { name: "Home Theatre — Jp Nagar", href: "/home-theatre/bangalore/jp-nagar" },
+  { name: "Home Theatre — Kalyan Nagar", href: "/home-theatre/bangalore/kalyan-nagar" },
+  { name: "Home Theatre — Koramangala", href: "/home-theatre/bangalore/koramangala" },
+  { name: "Home Theatre — Kr Puram", href: "/home-theatre/bangalore/kr-puram" },
+  { name: "Home Theatre — Lavelle Road", href: "/home-theatre/bangalore/lavelle-road" },
+  { name: "Home Theatre — Malleshwaram", href: "/home-theatre/bangalore/malleshwaram" },
+  { name: "Home Theatre — Marathahalli", href: "/home-theatre/bangalore/marathahalli" },
+  { name: "Home Theatre — Rajajinagar", href: "/home-theatre/bangalore/rajajinagar" },
+  { name: "Home Theatre — Richmond Town", href: "/home-theatre/bangalore/richmond-town" },
+  { name: "Home Theatre — Rr Nagar", href: "/home-theatre/bangalore/rr-nagar" },
+  { name: "Home Theatre — Sadashivanagar", href: "/home-theatre/bangalore/sadashivanagar" },
+  { name: "Home Theatre — Sarjapur", href: "/home-theatre/bangalore/sarjapur" },
+  { name: "Home Theatre — Ulsoor", href: "/home-theatre/bangalore/ulsoor" },
+  { name: "Home Theatre — Vijayanagar", href: "/home-theatre/bangalore/vijayanagar" },
+  { name: "Home Theatre — Whitefield", href: "/home-theatre/bangalore/whitefield" },
+  { name: "Home Theatre — Yelahanka", href: "/home-theatre/bangalore/yelahanka" },
+  { name: "Private Cinema — Hub", href: "/private-cinema/bangalore" },
+  { name: "Private Cinema — Banashankari", href: "/private-cinema/bangalore/banashankari" },
+  { name: "Private Cinema — Bannerghatta Road", href: "/private-cinema/bangalore/bannerghatta-road" },
+  { name: "Private Cinema — Basavangudi", href: "/private-cinema/bangalore/basavangudi" },
+  { name: "Private Cinema — Bellandur", href: "/private-cinema/bangalore/bellandur" },
+  { name: "Private Cinema — Btm Layout", href: "/private-cinema/bangalore/btm-layout" },
+  { name: "Private Cinema — Cunningham Road", href: "/private-cinema/bangalore/cunningham-road" },
+  { name: "Private Cinema — Devanahalli", href: "/private-cinema/bangalore/devanahalli" },
+  { name: "Private Cinema — Electronic City", href: "/private-cinema/bangalore/electronic-city" },
+  { name: "Private Cinema — Frazer Town", href: "/private-cinema/bangalore/frazer-town" },
+  { name: "Private Cinema — Hebbal", href: "/private-cinema/bangalore/hebbal" },
+  { name: "Private Cinema — Hebbal Kempapura", href: "/private-cinema/bangalore/hebbal-kempapura" },
+  { name: "Private Cinema — Hsr Layout", href: "/private-cinema/bangalore/hsr-layout" },
+  { name: "Private Cinema — Indiranagar", href: "/private-cinema/bangalore/indiranagar" },
+  { name: "Private Cinema — Jayanagar", href: "/private-cinema/bangalore/jayanagar" },
+  { name: "Private Cinema — Jp Nagar", href: "/private-cinema/bangalore/jp-nagar" },
+  { name: "Private Cinema — Kalyan Nagar", href: "/private-cinema/bangalore/kalyan-nagar" },
+  { name: "Private Cinema — Koramangala", href: "/private-cinema/bangalore/koramangala" },
+  { name: "Private Cinema — Kr Puram", href: "/private-cinema/bangalore/kr-puram" },
+  { name: "Private Cinema — Lavelle Road", href: "/private-cinema/bangalore/lavelle-road" },
+  { name: "Private Cinema — Malleshwaram", href: "/private-cinema/bangalore/malleshwaram" },
+  { name: "Private Cinema — Marathahalli", href: "/private-cinema/bangalore/marathahalli" },
+  { name: "Private Cinema — Rajajinagar", href: "/private-cinema/bangalore/rajajinagar" },
+  { name: "Private Cinema — Richmond Town", href: "/private-cinema/bangalore/richmond-town" },
+  { name: "Private Cinema — Rr Nagar", href: "/private-cinema/bangalore/rr-nagar" },
+  { name: "Private Cinema — Sadashivanagar", href: "/private-cinema/bangalore/sadashivanagar" },
+  { name: "Private Cinema — Sarjapur", href: "/private-cinema/bangalore/sarjapur" },
+  { name: "Private Cinema — Ulsoor", href: "/private-cinema/bangalore/ulsoor" },
+  { name: "Private Cinema — Vijayanagar", href: "/private-cinema/bangalore/vijayanagar" },
+  { name: "Private Cinema — Whitefield", href: "/private-cinema/bangalore/whitefield" },
+  { name: "Private Cinema — Yelahanka", href: "/private-cinema/bangalore/yelahanka" },
 ];
-const bomLocPages = [
-  {
-    "name": "Alibaug, Mumbai",
-    "href": "/home-automation/mumbai/alibaug"
-  },
-  {
-    "name": "Andheri West, Mumbai",
-    "href": "/home-automation/mumbai/andheri-west"
-  },
-  {
-    "name": "Bandra West, Mumbai",
-    "href": "/home-automation/mumbai/bandra-west"
-  },
-  {
-    "name": "Chembur, Mumbai",
-    "href": "/home-automation/mumbai/chembur"
-  },
-  {
-    "name": "Cuffe Parade, Mumbai",
-    "href": "/home-automation/mumbai/cuffe-parade"
-  },
-  {
-    "name": "Dadar, Mumbai",
-    "href": "/home-automation/mumbai/dadar"
-  },
-  {
-    "name": "Goregaon West, Mumbai",
-    "href": "/home-automation/mumbai/goregaon-west"
-  },
-  {
-    "name": "Juhu, Mumbai",
-    "href": "/home-automation/mumbai/juhu"
-  },
-  {
-    "name": "Khar West, Mumbai",
-    "href": "/home-automation/mumbai/khar-west"
-  },
-  {
-    "name": "Lower Parel, Mumbai",
-    "href": "/home-automation/mumbai/lower-parel"
-  },
-  {
-    "name": "Malabar Hill, Mumbai",
-    "href": "/home-automation/mumbai/malabar-hill"
-  },
-  {
-    "name": "Mulund, Mumbai",
-    "href": "/home-automation/mumbai/mulund"
-  },
-  {
-    "name": "Navi Mumbai, Mumbai",
-    "href": "/home-automation/mumbai/navi-mumbai"
-  },
-  {
-    "name": "Parel, Mumbai",
-    "href": "/home-automation/mumbai/parel"
-  },
-  {
-    "name": "Powai, Mumbai",
-    "href": "/home-automation/mumbai/powai"
-  },
-  {
-    "name": "Santacruz West, Mumbai",
-    "href": "/home-automation/mumbai/santacruz-west"
-  },
-  {
-    "name": "Thane, Mumbai",
-    "href": "/home-automation/mumbai/thane"
-  },
-  {
-    "name": "Versova, Mumbai",
-    "href": "/home-automation/mumbai/versova"
-  },
-  {
-    "name": "Wadala, Mumbai",
-    "href": "/home-automation/mumbai/wadala"
-  },
-  {
-    "name": "Worli, Mumbai",
-    "href": "/home-automation/mumbai/worli"
-  }
+
+const otherMetroPages = [
+  { name: "Central Vacuum — Mumbai (Alibaug)", href: "/central-vacuum/mumbai/alibaug" },
+  { name: "Central Vacuum — Mumbai (Andheri West)", href: "/central-vacuum/mumbai/andheri-west" },
+  { name: "Central Vacuum — Mumbai (Bandra West)", href: "/central-vacuum/mumbai/bandra-west" },
+  { name: "Central Vacuum — Mumbai (Chembur)", href: "/central-vacuum/mumbai/chembur" },
+  { name: "Central Vacuum — Mumbai (Cuffe Parade)", href: "/central-vacuum/mumbai/cuffe-parade" },
+  { name: "Central Vacuum — Mumbai (Dadar)", href: "/central-vacuum/mumbai/dadar" },
+  { name: "Central Vacuum — Mumbai (Goregaon West)", href: "/central-vacuum/mumbai/goregaon-west" },
+  { name: "Central Vacuum — Mumbai (Juhu)", href: "/central-vacuum/mumbai/juhu" },
+  { name: "Central Vacuum — Mumbai (Khar West)", href: "/central-vacuum/mumbai/khar-west" },
+  { name: "Central Vacuum — Mumbai (Lower Parel)", href: "/central-vacuum/mumbai/lower-parel" },
+  { name: "Central Vacuum — Mumbai (Malabar Hill)", href: "/central-vacuum/mumbai/malabar-hill" },
+  { name: "Central Vacuum — Mumbai (Mulund)", href: "/central-vacuum/mumbai/mulund" },
+  { name: "Central Vacuum — Mumbai (Navi Mumbai)", href: "/central-vacuum/mumbai/navi-mumbai" },
+  { name: "Central Vacuum — Mumbai (Parel)", href: "/central-vacuum/mumbai/parel" },
+  { name: "Central Vacuum — Mumbai (Powai)", href: "/central-vacuum/mumbai/powai" },
+  { name: "Central Vacuum — Mumbai (Santacruz West)", href: "/central-vacuum/mumbai/santacruz-west" },
+  { name: "Central Vacuum — Mumbai (Thane)", href: "/central-vacuum/mumbai/thane" },
+  { name: "Central Vacuum — Mumbai (Versova)", href: "/central-vacuum/mumbai/versova" },
+  { name: "Central Vacuum — Mumbai (Wadala)", href: "/central-vacuum/mumbai/wadala" },
+  { name: "Central Vacuum — Mumbai (Worli)", href: "/central-vacuum/mumbai/worli" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Chattarpur)", href: "/fresh-air-ventilation/delhi-ncr/chattarpur" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Defence Colony)", href: "/fresh-air-ventilation/delhi-ncr/defence-colony" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Dlf Phase 5)", href: "/fresh-air-ventilation/delhi-ncr/dlf-phase-5" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Golf Course Road)", href: "/fresh-air-ventilation/delhi-ncr/golf-course-road" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Greater Kailash)", href: "/fresh-air-ventilation/delhi-ncr/greater-kailash" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Jor Bagh)", href: "/fresh-air-ventilation/delhi-ncr/jor-bagh" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Lutyens Delhi)", href: "/fresh-air-ventilation/delhi-ncr/lutyens-delhi" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (New Friends Colony)", href: "/fresh-air-ventilation/delhi-ncr/new-friends-colony" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Noida Sector 44)", href: "/fresh-air-ventilation/delhi-ncr/noida-sector-44" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Panchsheel Park)", href: "/fresh-air-ventilation/delhi-ncr/panchsheel-park" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Shanti Niketan)", href: "/fresh-air-ventilation/delhi-ncr/shanti-niketan" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Sohna Road)", href: "/fresh-air-ventilation/delhi-ncr/sohna-road" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Sundar Nagar)", href: "/fresh-air-ventilation/delhi-ncr/sundar-nagar" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Sushant Lok)", href: "/fresh-air-ventilation/delhi-ncr/sushant-lok" },
+  { name: "Fresh Air Ventilation — Delhi Ncr (Vasant Vihar)", href: "/fresh-air-ventilation/delhi-ncr/vasant-vihar" },
+  { name: "Fresh Air Ventilation — Mumbai (Alibaug)", href: "/fresh-air-ventilation/mumbai/alibaug" },
+  { name: "Fresh Air Ventilation — Mumbai (Andheri West)", href: "/fresh-air-ventilation/mumbai/andheri-west" },
+  { name: "Fresh Air Ventilation — Mumbai (Bandra West)", href: "/fresh-air-ventilation/mumbai/bandra-west" },
+  { name: "Fresh Air Ventilation — Mumbai (Chembur)", href: "/fresh-air-ventilation/mumbai/chembur" },
+  { name: "Fresh Air Ventilation — Mumbai (Cuffe Parade)", href: "/fresh-air-ventilation/mumbai/cuffe-parade" },
+  { name: "Fresh Air Ventilation — Mumbai (Dadar)", href: "/fresh-air-ventilation/mumbai/dadar" },
+  { name: "Fresh Air Ventilation — Mumbai (Goregaon West)", href: "/fresh-air-ventilation/mumbai/goregaon-west" },
+  { name: "Fresh Air Ventilation — Mumbai (Juhu)", href: "/fresh-air-ventilation/mumbai/juhu" },
+  { name: "Fresh Air Ventilation — Mumbai (Khar West)", href: "/fresh-air-ventilation/mumbai/khar-west" },
+  { name: "Fresh Air Ventilation — Mumbai (Lower Parel)", href: "/fresh-air-ventilation/mumbai/lower-parel" },
+  { name: "Fresh Air Ventilation — Mumbai (Malabar Hill)", href: "/fresh-air-ventilation/mumbai/malabar-hill" },
+  { name: "Fresh Air Ventilation — Mumbai (Mulund)", href: "/fresh-air-ventilation/mumbai/mulund" },
+  { name: "Fresh Air Ventilation — Mumbai (Navi Mumbai)", href: "/fresh-air-ventilation/mumbai/navi-mumbai" },
+  { name: "Fresh Air Ventilation — Mumbai (Parel)", href: "/fresh-air-ventilation/mumbai/parel" },
+  { name: "Fresh Air Ventilation — Mumbai (Powai)", href: "/fresh-air-ventilation/mumbai/powai" },
+  { name: "Fresh Air Ventilation — Mumbai (Santacruz West)", href: "/fresh-air-ventilation/mumbai/santacruz-west" },
+  { name: "Fresh Air Ventilation — Mumbai (Thane)", href: "/fresh-air-ventilation/mumbai/thane" },
+  { name: "Fresh Air Ventilation — Mumbai (Versova)", href: "/fresh-air-ventilation/mumbai/versova" },
+  { name: "Fresh Air Ventilation — Mumbai (Wadala)", href: "/fresh-air-ventilation/mumbai/wadala" },
+  { name: "Fresh Air Ventilation — Mumbai (Worli)", href: "/fresh-air-ventilation/mumbai/worli" },
+  { name: "Home Automation — Ahmedabad", href: "/home-automation/ahmedabad" },
+  { name: "Home Automation — Chandigarh", href: "/home-automation/chandigarh" },
+  { name: "Home Automation — Chennai", href: "/home-automation/chennai" },
+  { name: "Home Automation — Chennai (Adyar)", href: "/home-automation/chennai/adyar" },
+  { name: "Home Automation — Chennai (Boat Club Road)", href: "/home-automation/chennai/boat-club-road" },
+  { name: "Home Automation — Chennai (Ecr)", href: "/home-automation/chennai/ecr" },
+  { name: "Home Automation — Chennai (Nungambakkam)", href: "/home-automation/chennai/nungambakkam" },
+  { name: "Home Automation — Chennai (Poes Garden)", href: "/home-automation/chennai/poes-garden" },
+  { name: "Home Automation — Delhi Ncr", href: "/home-automation/delhi-ncr" },
+  { name: "Home Automation — Delhi Ncr (Chattarpur)", href: "/home-automation/delhi-ncr/chattarpur" },
+  { name: "Home Automation — Delhi Ncr (Defence Colony)", href: "/home-automation/delhi-ncr/defence-colony" },
+  { name: "Home Automation — Delhi Ncr (Dlf Phase 5)", href: "/home-automation/delhi-ncr/dlf-phase-5" },
+  { name: "Home Automation — Delhi Ncr (Golf Course Road)", href: "/home-automation/delhi-ncr/golf-course-road" },
+  { name: "Home Automation — Delhi Ncr (Greater Kailash)", href: "/home-automation/delhi-ncr/greater-kailash" },
+  { name: "Home Automation — Delhi Ncr (Jor Bagh)", href: "/home-automation/delhi-ncr/jor-bagh" },
+  { name: "Home Automation — Delhi Ncr (Lutyens Delhi)", href: "/home-automation/delhi-ncr/lutyens-delhi" },
+  { name: "Home Automation — Delhi Ncr (New Friends Colony)", href: "/home-automation/delhi-ncr/new-friends-colony" },
+  { name: "Home Automation — Delhi Ncr (Noida Sector 44)", href: "/home-automation/delhi-ncr/noida-sector-44" },
+  { name: "Home Automation — Delhi Ncr (Panchsheel Park)", href: "/home-automation/delhi-ncr/panchsheel-park" },
+  { name: "Home Automation — Delhi Ncr (Shanti Niketan)", href: "/home-automation/delhi-ncr/shanti-niketan" },
+  { name: "Home Automation — Delhi Ncr (Sohna Road)", href: "/home-automation/delhi-ncr/sohna-road" },
+  { name: "Home Automation — Delhi Ncr (Sundar Nagar)", href: "/home-automation/delhi-ncr/sundar-nagar" },
+  { name: "Home Automation — Delhi Ncr (Sushant Lok)", href: "/home-automation/delhi-ncr/sushant-lok" },
+  { name: "Home Automation — Delhi Ncr (Vasant Vihar)", href: "/home-automation/delhi-ncr/vasant-vihar" },
+  { name: "Home Automation — Hyderabad", href: "/home-automation/hyderabad" },
+  { name: "Home Automation — Hyderabad (Banjara Hills)", href: "/home-automation/hyderabad/banjara-hills" },
+  { name: "Home Automation — Hyderabad (Gachibowli)", href: "/home-automation/hyderabad/gachibowli" },
+  { name: "Home Automation — Hyderabad (Hitec City)", href: "/home-automation/hyderabad/hitec-city" },
+  { name: "Home Automation — Hyderabad (Jubilee Hills)", href: "/home-automation/hyderabad/jubilee-hills" },
+  { name: "Home Automation — Hyderabad (Kokapet)", href: "/home-automation/hyderabad/kokapet" },
+  { name: "Home Automation — Jaipur", href: "/home-automation/jaipur" },
+  { name: "Home Automation — Kochi", href: "/home-automation/kochi" },
+  { name: "Home Automation — Kolkata", href: "/home-automation/kolkata" },
+  { name: "Home Automation — Mumbai", href: "/home-automation/mumbai" },
+  { name: "Home Automation — Mumbai (Alibaug)", href: "/home-automation/mumbai/alibaug" },
+  { name: "Home Automation — Mumbai (Andheri West)", href: "/home-automation/mumbai/andheri-west" },
+  { name: "Home Automation — Mumbai (Bandra West)", href: "/home-automation/mumbai/bandra-west" },
+  { name: "Home Automation — Mumbai (Chembur)", href: "/home-automation/mumbai/chembur" },
+  { name: "Home Automation — Mumbai (Cuffe Parade)", href: "/home-automation/mumbai/cuffe-parade" },
+  { name: "Home Automation — Mumbai (Dadar)", href: "/home-automation/mumbai/dadar" },
+  { name: "Home Automation — Mumbai (Goregaon West)", href: "/home-automation/mumbai/goregaon-west" },
+  { name: "Home Automation — Mumbai (Juhu)", href: "/home-automation/mumbai/juhu" },
+  { name: "Home Automation — Mumbai (Khar West)", href: "/home-automation/mumbai/khar-west" },
+  { name: "Home Automation — Mumbai (Lower Parel)", href: "/home-automation/mumbai/lower-parel" },
+  { name: "Home Automation — Mumbai (Malabar Hill)", href: "/home-automation/mumbai/malabar-hill" },
+  { name: "Home Automation — Mumbai (Mulund)", href: "/home-automation/mumbai/mulund" },
+  { name: "Home Automation — Mumbai (Navi Mumbai)", href: "/home-automation/mumbai/navi-mumbai" },
+  { name: "Home Automation — Mumbai (Parel)", href: "/home-automation/mumbai/parel" },
+  { name: "Home Automation — Mumbai (Powai)", href: "/home-automation/mumbai/powai" },
+  { name: "Home Automation — Mumbai (Santacruz West)", href: "/home-automation/mumbai/santacruz-west" },
+  { name: "Home Automation — Mumbai (Thane)", href: "/home-automation/mumbai/thane" },
+  { name: "Home Automation — Mumbai (Versova)", href: "/home-automation/mumbai/versova" },
+  { name: "Home Automation — Mumbai (Wadala)", href: "/home-automation/mumbai/wadala" },
+  { name: "Home Automation — Mumbai (Worli)", href: "/home-automation/mumbai/worli" },
+  { name: "Home Automation — Pune", href: "/home-automation/pune" },
+  { name: "Home Automation — Pune (Aundh)", href: "/home-automation/pune/aundh" },
+  { name: "Home Automation — Pune (Baner)", href: "/home-automation/pune/baner" },
+  { name: "Home Automation — Pune (Kalyani Nagar)", href: "/home-automation/pune/kalyani-nagar" },
+  { name: "Home Automation — Pune (Koregaon Park)", href: "/home-automation/pune/koregaon-park" },
+  { name: "Home Automation — Pune (Wakad)", href: "/home-automation/pune/wakad" },
+  { name: "Home Security — Mumbai (Alibaug)", href: "/home-security/mumbai/alibaug" },
+  { name: "Home Security — Mumbai (Andheri West)", href: "/home-security/mumbai/andheri-west" },
+  { name: "Home Security — Mumbai (Bandra West)", href: "/home-security/mumbai/bandra-west" },
+  { name: "Home Security — Mumbai (Chembur)", href: "/home-security/mumbai/chembur" },
+  { name: "Home Security — Mumbai (Cuffe Parade)", href: "/home-security/mumbai/cuffe-parade" },
+  { name: "Home Security — Mumbai (Dadar)", href: "/home-security/mumbai/dadar" },
+  { name: "Home Security — Mumbai (Goregaon West)", href: "/home-security/mumbai/goregaon-west" },
+  { name: "Home Security — Mumbai (Juhu)", href: "/home-security/mumbai/juhu" },
+  { name: "Home Security — Mumbai (Khar West)", href: "/home-security/mumbai/khar-west" },
+  { name: "Home Security — Mumbai (Lower Parel)", href: "/home-security/mumbai/lower-parel" },
+  { name: "Home Security — Mumbai (Malabar Hill)", href: "/home-security/mumbai/malabar-hill" },
+  { name: "Home Security — Mumbai (Mulund)", href: "/home-security/mumbai/mulund" },
+  { name: "Home Security — Mumbai (Navi Mumbai)", href: "/home-security/mumbai/navi-mumbai" },
+  { name: "Home Security — Mumbai (Parel)", href: "/home-security/mumbai/parel" },
+  { name: "Home Security — Mumbai (Powai)", href: "/home-security/mumbai/powai" },
+  { name: "Home Security — Mumbai (Santacruz West)", href: "/home-security/mumbai/santacruz-west" },
+  { name: "Home Security — Mumbai (Thane)", href: "/home-security/mumbai/thane" },
+  { name: "Home Security — Mumbai (Versova)", href: "/home-security/mumbai/versova" },
+  { name: "Home Security — Mumbai (Wadala)", href: "/home-security/mumbai/wadala" },
+  { name: "Home Security — Mumbai (Worli)", href: "/home-security/mumbai/worli" },
+  { name: "Home Theatre — Delhi Ncr (Chattarpur)", href: "/home-theatre/delhi-ncr/chattarpur" },
+  { name: "Home Theatre — Delhi Ncr (Defence Colony)", href: "/home-theatre/delhi-ncr/defence-colony" },
+  { name: "Home Theatre — Delhi Ncr (Dlf Phase 5)", href: "/home-theatre/delhi-ncr/dlf-phase-5" },
+  { name: "Home Theatre — Delhi Ncr (Golf Course Road)", href: "/home-theatre/delhi-ncr/golf-course-road" },
+  { name: "Home Theatre — Delhi Ncr (Greater Kailash)", href: "/home-theatre/delhi-ncr/greater-kailash" },
+  { name: "Home Theatre — Delhi Ncr (Jor Bagh)", href: "/home-theatre/delhi-ncr/jor-bagh" },
+  { name: "Home Theatre — Delhi Ncr (Lutyens Delhi)", href: "/home-theatre/delhi-ncr/lutyens-delhi" },
+  { name: "Home Theatre — Delhi Ncr (New Friends Colony)", href: "/home-theatre/delhi-ncr/new-friends-colony" },
+  { name: "Home Theatre — Delhi Ncr (Noida Sector 44)", href: "/home-theatre/delhi-ncr/noida-sector-44" },
+  { name: "Home Theatre — Delhi Ncr (Panchsheel Park)", href: "/home-theatre/delhi-ncr/panchsheel-park" },
+  { name: "Home Theatre — Delhi Ncr (Shanti Niketan)", href: "/home-theatre/delhi-ncr/shanti-niketan" },
+  { name: "Home Theatre — Delhi Ncr (Sohna Road)", href: "/home-theatre/delhi-ncr/sohna-road" },
+  { name: "Home Theatre — Delhi Ncr (Sundar Nagar)", href: "/home-theatre/delhi-ncr/sundar-nagar" },
+  { name: "Home Theatre — Delhi Ncr (Sushant Lok)", href: "/home-theatre/delhi-ncr/sushant-lok" },
+  { name: "Home Theatre — Delhi Ncr (Vasant Vihar)", href: "/home-theatre/delhi-ncr/vasant-vihar" },
+  { name: "Home Theatre — Mumbai (Alibaug)", href: "/home-theatre/mumbai/alibaug" },
+  { name: "Home Theatre — Mumbai (Andheri West)", href: "/home-theatre/mumbai/andheri-west" },
+  { name: "Home Theatre — Mumbai (Bandra West)", href: "/home-theatre/mumbai/bandra-west" },
+  { name: "Home Theatre — Mumbai (Chembur)", href: "/home-theatre/mumbai/chembur" },
+  { name: "Home Theatre — Mumbai (Cuffe Parade)", href: "/home-theatre/mumbai/cuffe-parade" },
+  { name: "Home Theatre — Mumbai (Dadar)", href: "/home-theatre/mumbai/dadar" },
+  { name: "Home Theatre — Mumbai (Goregaon West)", href: "/home-theatre/mumbai/goregaon-west" },
+  { name: "Home Theatre — Mumbai (Juhu)", href: "/home-theatre/mumbai/juhu" },
+  { name: "Home Theatre — Mumbai (Khar West)", href: "/home-theatre/mumbai/khar-west" },
+  { name: "Home Theatre — Mumbai (Lower Parel)", href: "/home-theatre/mumbai/lower-parel" },
+  { name: "Home Theatre — Mumbai (Malabar Hill)", href: "/home-theatre/mumbai/malabar-hill" },
+  { name: "Home Theatre — Mumbai (Mulund)", href: "/home-theatre/mumbai/mulund" },
+  { name: "Home Theatre — Mumbai (Navi Mumbai)", href: "/home-theatre/mumbai/navi-mumbai" },
+  { name: "Home Theatre — Mumbai (Parel)", href: "/home-theatre/mumbai/parel" },
+  { name: "Home Theatre — Mumbai (Powai)", href: "/home-theatre/mumbai/powai" },
+  { name: "Home Theatre — Mumbai (Santacruz West)", href: "/home-theatre/mumbai/santacruz-west" },
+  { name: "Home Theatre — Mumbai (Thane)", href: "/home-theatre/mumbai/thane" },
+  { name: "Home Theatre — Mumbai (Versova)", href: "/home-theatre/mumbai/versova" },
+  { name: "Home Theatre — Mumbai (Wadala)", href: "/home-theatre/mumbai/wadala" },
+  { name: "Home Theatre — Mumbai (Worli)", href: "/home-theatre/mumbai/worli" },
+  { name: "Private Cinema — Chennai", href: "/private-cinema/chennai" },
+  { name: "Private Cinema — Delhi Ncr", href: "/private-cinema/delhi-ncr" },
+  { name: "Private Cinema — Delhi Ncr (Chattarpur)", href: "/private-cinema/delhi-ncr/chattarpur" },
+  { name: "Private Cinema — Delhi Ncr (Defence Colony)", href: "/private-cinema/delhi-ncr/defence-colony" },
+  { name: "Private Cinema — Delhi Ncr (Dlf Phase 5)", href: "/private-cinema/delhi-ncr/dlf-phase-5" },
+  { name: "Private Cinema — Delhi Ncr (Golf Course Road)", href: "/private-cinema/delhi-ncr/golf-course-road" },
+  { name: "Private Cinema — Delhi Ncr (Greater Kailash)", href: "/private-cinema/delhi-ncr/greater-kailash" },
+  { name: "Private Cinema — Delhi Ncr (Jor Bagh)", href: "/private-cinema/delhi-ncr/jor-bagh" },
+  { name: "Private Cinema — Delhi Ncr (Lutyens Delhi)", href: "/private-cinema/delhi-ncr/lutyens-delhi" },
+  { name: "Private Cinema — Delhi Ncr (New Friends Colony)", href: "/private-cinema/delhi-ncr/new-friends-colony" },
+  { name: "Private Cinema — Delhi Ncr (Noida Sector 44)", href: "/private-cinema/delhi-ncr/noida-sector-44" },
+  { name: "Private Cinema — Delhi Ncr (Panchsheel Park)", href: "/private-cinema/delhi-ncr/panchsheel-park" },
+  { name: "Private Cinema — Delhi Ncr (Shanti Niketan)", href: "/private-cinema/delhi-ncr/shanti-niketan" },
+  { name: "Private Cinema — Delhi Ncr (Sohna Road)", href: "/private-cinema/delhi-ncr/sohna-road" },
+  { name: "Private Cinema — Delhi Ncr (Sundar Nagar)", href: "/private-cinema/delhi-ncr/sundar-nagar" },
+  { name: "Private Cinema — Delhi Ncr (Sushant Lok)", href: "/private-cinema/delhi-ncr/sushant-lok" },
+  { name: "Private Cinema — Delhi Ncr (Vasant Vihar)", href: "/private-cinema/delhi-ncr/vasant-vihar" },
+  { name: "Private Cinema — Hyderabad", href: "/private-cinema/hyderabad" },
+  { name: "Private Cinema — Mumbai", href: "/private-cinema/mumbai" },
+  { name: "Private Cinema — Mumbai (Alibaug)", href: "/private-cinema/mumbai/alibaug" },
+  { name: "Private Cinema — Mumbai (Andheri West)", href: "/private-cinema/mumbai/andheri-west" },
+  { name: "Private Cinema — Mumbai (Bandra West)", href: "/private-cinema/mumbai/bandra-west" },
+  { name: "Private Cinema — Mumbai (Chembur)", href: "/private-cinema/mumbai/chembur" },
+  { name: "Private Cinema — Mumbai (Cuffe Parade)", href: "/private-cinema/mumbai/cuffe-parade" },
+  { name: "Private Cinema — Mumbai (Dadar)", href: "/private-cinema/mumbai/dadar" },
+  { name: "Private Cinema — Mumbai (Goregaon West)", href: "/private-cinema/mumbai/goregaon-west" },
+  { name: "Private Cinema — Mumbai (Juhu)", href: "/private-cinema/mumbai/juhu" },
+  { name: "Private Cinema — Mumbai (Khar West)", href: "/private-cinema/mumbai/khar-west" },
+  { name: "Private Cinema — Mumbai (Lower Parel)", href: "/private-cinema/mumbai/lower-parel" },
+  { name: "Private Cinema — Mumbai (Malabar Hill)", href: "/private-cinema/mumbai/malabar-hill" },
+  { name: "Private Cinema — Mumbai (Mulund)", href: "/private-cinema/mumbai/mulund" },
+  { name: "Private Cinema — Mumbai (Navi Mumbai)", href: "/private-cinema/mumbai/navi-mumbai" },
+  { name: "Private Cinema — Mumbai (Parel)", href: "/private-cinema/mumbai/parel" },
+  { name: "Private Cinema — Mumbai (Powai)", href: "/private-cinema/mumbai/powai" },
+  { name: "Private Cinema — Mumbai (Santacruz West)", href: "/private-cinema/mumbai/santacruz-west" },
+  { name: "Private Cinema — Mumbai (Thane)", href: "/private-cinema/mumbai/thane" },
+  { name: "Private Cinema — Mumbai (Versova)", href: "/private-cinema/mumbai/versova" },
+  { name: "Private Cinema — Mumbai (Wadala)", href: "/private-cinema/mumbai/wadala" },
+  { name: "Private Cinema — Mumbai (Worli)", href: "/private-cinema/mumbai/worli" },
+  { name: "Private Cinema — Pune", href: "/private-cinema/pune" },
 ];
-const delLocPages = [
-  {
-    "name": "Chattarpur, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/chattarpur"
-  },
-  {
-    "name": "Defence Colony, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/defence-colony"
-  },
-  {
-    "name": "Dlf Phase 5, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/dlf-phase-5"
-  },
-  {
-    "name": "Golf Course Road, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/golf-course-road"
-  },
-  {
-    "name": "Greater Kailash, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/greater-kailash"
-  },
-  {
-    "name": "Jor Bagh, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/jor-bagh"
-  },
-  {
-    "name": "Lutyens Delhi, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/lutyens-delhi"
-  },
-  {
-    "name": "New Friends Colony, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/new-friends-colony"
-  },
-  {
-    "name": "Noida Sector 44, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/noida-sector-44"
-  },
-  {
-    "name": "Panchsheel Park, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/panchsheel-park"
-  },
-  {
-    "name": "Shanti Niketan, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/shanti-niketan"
-  },
-  {
-    "name": "Sohna Road, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/sohna-road"
-  },
-  {
-    "name": "Sundar Nagar, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/sundar-nagar"
-  },
-  {
-    "name": "Sushant Lok, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/sushant-lok"
-  },
-  {
-    "name": "Vasant Vihar, Delhi NCR",
-    "href": "/home-automation/delhi-ncr/vasant-vihar"
-  }
-];
-const otherLocPages = [
-  {
-    "name": "Adyar, Chennai",
-    "href": "/home-automation/chennai/adyar"
-  },
-  {
-    "name": "Boat Club Road, Chennai",
-    "href": "/home-automation/chennai/boat-club-road"
-  },
-  {
-    "name": "Ecr, Chennai",
-    "href": "/home-automation/chennai/ecr"
-  },
-  {
-    "name": "Nungambakkam, Chennai",
-    "href": "/home-automation/chennai/nungambakkam"
-  },
-  {
-    "name": "Poes Garden, Chennai",
-    "href": "/home-automation/chennai/poes-garden"
-  },
-  {
-    "name": "Banjara Hills, Hyderabad",
-    "href": "/home-automation/hyderabad/banjara-hills"
-  },
-  {
-    "name": "Gachibowli, Hyderabad",
-    "href": "/home-automation/hyderabad/gachibowli"
-  },
-  {
-    "name": "Hitec City, Hyderabad",
-    "href": "/home-automation/hyderabad/hitec-city"
-  },
-  {
-    "name": "Jubilee Hills, Hyderabad",
-    "href": "/home-automation/hyderabad/jubilee-hills"
-  },
-  {
-    "name": "Kokapet, Hyderabad",
-    "href": "/home-automation/hyderabad/kokapet"
-  },
-  {
-    "name": "Aundh, Pune",
-    "href": "/home-automation/pune/aundh"
-  },
-  {
-    "name": "Baner, Pune",
-    "href": "/home-automation/pune/baner"
-  },
-  {
-    "name": "Kalyani Nagar, Pune",
-    "href": "/home-automation/pune/kalyani-nagar"
-  },
-  {
-    "name": "Koregaon Park, Pune",
-    "href": "/home-automation/pune/koregaon-park"
-  },
-  {
-    "name": "Wakad, Pune",
-    "href": "/home-automation/pune/wakad"
-  }
-];
+
 const brandPages = [
-  {
-    "name": "Anthem",
-    "href": "/brands/anthem"
-  },
-  {
-    "name": "Barco",
-    "href": "/brands/barco"
-  },
-  {
-    "name": "Basalte",
-    "href": "/brands/basalte"
-  },
-  {
-    "name": "Crestron",
-    "href": "/brands/crestron"
-  },
-  {
-    "name": "Doorbird",
-    "href": "/brands/doorbird"
-  },
-  {
-    "name": "Drainvac",
-    "href": "/brands/drainvac"
-  },
-  {
-    "name": "Ekinex",
-    "href": "/brands/ekinex"
-  },
-  {
-    "name": "Gira",
-    "href": "/brands/gira"
-  },
-  {
-    "name": "Hik Vision",
-    "href": "/brands/hik-vision"
-  },
-  {
-    "name": "Jbl Synthesis",
-    "href": "/brands/jbl-synthesis"
-  },
-  {
-    "name": "Jung",
-    "href": "/brands/jung"
-  },
-  {
-    "name": "Kef",
-    "href": "/brands/kef"
-  },
-  {
-    "name": "Lutron",
-    "href": "/brands/lutron"
-  },
-  {
-    "name": "Marantz",
-    "href": "/brands/marantz"
-  },
-  {
-    "name": "Meridian",
-    "href": "/brands/meridian"
-  },
-  {
-    "name": "Sonance",
-    "href": "/brands/sonance"
-  },
-  {
-    "name": "Sonus Faber",
-    "href": "/brands/sonus-faber"
-  },
-  {
-    "name": "Stealth Acoustics",
-    "href": "/brands/stealth-acoustics"
-  },
-  {
-    "name": "Ubiquiti Unifi",
-    "href": "/brands/ubiquiti-unifi"
-  },
-  {
-    "name": "Zehnder",
-    "href": "/brands/zehnder"
-  }
+  { name: "Anthem", href: "/brands/anthem" },
+  { name: "Barco", href: "/brands/barco" },
+  { name: "Basalte", href: "/brands/basalte" },
+  { name: "Crestron", href: "/brands/crestron" },
+  { name: "Doorbird", href: "/brands/doorbird" },
+  { name: "Drainvac", href: "/brands/drainvac" },
+  { name: "Ekinex", href: "/brands/ekinex" },
+  { name: "Gira", href: "/brands/gira" },
+  { name: "Hik Vision", href: "/brands/hik-vision" },
+  { name: "Jbl Synthesis", href: "/brands/jbl-synthesis" },
+  { name: "Jung", href: "/brands/jung" },
+  { name: "Kef", href: "/brands/kef" },
+  { name: "Lutron", href: "/brands/lutron" },
+  { name: "Marantz", href: "/brands/marantz" },
+  { name: "Meridian", href: "/brands/meridian" },
+  { name: "Sonance", href: "/brands/sonance" },
+  { name: "Sonus Faber", href: "/brands/sonus-faber" },
+  { name: "Stealth Acoustics", href: "/brands/stealth-acoustics" },
+  { name: "Ubiquiti Unifi", href: "/brands/ubiquiti-unifi" },
+  { name: "Zehnder", href: "/brands/zehnder" },
 ];
+
 const journalPages = [
-  {
-    "name": "4K Projector Vs Oled Tv Home Cinema",
-    "href": "/journal/4k-projector-vs-oled-tv-home-cinema"
-  },
-  {
-    "name": "4K Vs 8K Home Cinema India",
-    "href": "/journal/4k-vs-8k-home-cinema-india"
-  },
-  {
-    "name": "Access Control India Guide",
-    "href": "/journal/access-control-india-guide"
-  },
-  {
-    "name": "Alexa Google Knx Integration India",
-    "href": "/journal/alexa-google-knx-integration-india"
-  },
-  {
-    "name": "Anthem Vs Marantz India",
-    "href": "/journal/anthem-vs-marantz-india"
-  },
-  {
-    "name": "Barco Projector India Price",
-    "href": "/journal/barco-projector-india-price"
-  },
-  {
-    "name": "Barco Vs Sony Projector India",
-    "href": "/journal/barco-vs-sony-projector-india"
-  },
-  {
-    "name": "Basalte Keypad India",
-    "href": "/journal/basalte-keypad-india"
-  },
-  {
-    "name": "Basalte Keypad India Guide",
-    "href": "/journal/basalte-keypad-india-guide"
-  },
-  {
-    "name": "Basalte Vs Ekinex India",
-    "href": "/journal/basalte-vs-ekinex-india"
-  },
-  {
-    "name": "Best Home Automation Company Bangalore",
-    "href": "/journal/best-home-automation-company-bangalore"
-  },
-  {
-    "name": "Best Home Automation Company Hyderabad",
-    "href": "/journal/best-home-automation-company-hyderabad"
-  },
-  {
-    "name": "Best Home Automation Company India",
-    "href": "/journal/best-home-automation-company-india"
-  },
-  {
-    "name": "Best Home Automation Company Mumbai",
-    "href": "/journal/best-home-automation-company-mumbai"
-  },
-  {
-    "name": "Best Home Theatre Brands India",
-    "href": "/journal/best-home-theatre-brands-india"
-  },
-  {
-    "name": "Central Vacuum Bangalore",
-    "href": "/journal/central-vacuum-bangalore"
-  },
-  {
-    "name": "Central Vacuum Cost India 2026",
-    "href": "/journal/central-vacuum-cost-india-2026"
-  },
-  {
-    "name": "Central Vacuum System India",
-    "href": "/journal/central-vacuum-system-india"
-  },
-  {
-    "name": "Central Vacuum Vs Dyson India",
-    "href": "/journal/central-vacuum-vs-dyson-india"
-  },
-  {
-    "name": "Cinema Acoustic Treatment India",
-    "href": "/journal/cinema-acoustic-treatment-india"
-  },
-  {
-    "name": "Crestron Vs Savant India",
-    "href": "/journal/crestron-vs-savant-india"
-  },
-  {
-    "name": "Dali 2 Lighting Bangalore",
-    "href": "/journal/dali-2-lighting-bangalore"
-  },
-  {
-    "name": "Dali 2 Lighting Cost India 2026",
-    "href": "/journal/dali-2-lighting-cost-india-2026"
-  },
-  {
-    "name": "Dolby Atmos Home Theatre",
-    "href": "/journal/dolby-atmos-home-theatre"
-  },
-  {
-    "name": "Dolby Atmos Room Design Guide",
-    "href": "/journal/dolby-atmos-room-design-guide"
-  },
-  {
-    "name": "Dolby Atmos Speaker Placement Guide",
-    "href": "/journal/dolby-atmos-speaker-placement-guide"
-  },
-  {
-    "name": "Dolby Atmos Speakers India",
-    "href": "/journal/dolby-atmos-speakers-india"
-  },
-  {
-    "name": "Dolby Atmos Vs Dts X India",
-    "href": "/journal/dolby-atmos-vs-dts-x-india"
-  },
-  {
-    "name": "Erv Vs Hrv Vs Air Purifier India",
-    "href": "/journal/erv-vs-hrv-vs-air-purifier-india"
-  },
-  {
-    "name": "Ev Charging Smart Home India",
-    "href": "/journal/ev-charging-smart-home-india"
-  },
-  {
-    "name": "Fresh Air Ventilation Bangalore",
-    "href": "/journal/fresh-air-ventilation-bangalore"
-  },
-  {
-    "name": "Fresh Air Ventilation Cost India 2026",
-    "href": "/journal/fresh-air-ventilation-cost-india-2026"
-  },
-  {
-    "name": "Fresh Air Ventilation Mumbai",
-    "href": "/journal/fresh-air-ventilation-mumbai"
-  },
-  {
-    "name": "Fresh Air Ventilation Vs Air Purifier",
-    "href": "/journal/fresh-air-ventilation-vs-air-purifier"
-  },
-  {
-    "name": "Home Automation Apartment India",
-    "href": "/journal/home-automation-apartment-india"
-  },
-  {
-    "name": "Home Automation Chennai",
-    "href": "/journal/home-automation-chennai"
-  },
-  {
-    "name": "Home Automation Cost Bangalore",
-    "href": "/journal/home-automation-cost-bangalore"
-  },
-  {
-    "name": "Home Automation Cost Bangalore 2026",
-    "href": "/journal/home-automation-cost-bangalore-2026"
-  },
-  {
-    "name": "Home Automation Cost Delhi 2026",
-    "href": "/journal/home-automation-cost-delhi-2026"
-  },
-  {
-    "name": "Home Automation Cost India 2025",
-    "href": "/journal/home-automation-cost-india-2025"
-  },
-  {
-    "name": "Home Automation Cost India 2026",
-    "href": "/journal/home-automation-cost-india-2026"
-  },
-  {
-    "name": "Home Automation Cost Mumbai 2026",
-    "href": "/journal/home-automation-cost-mumbai-2026"
-  },
-  {
-    "name": "Home Automation Delhi Ncr",
-    "href": "/journal/home-automation-delhi-ncr"
-  },
-  {
-    "name": "Home Automation For Architects India",
-    "href": "/journal/home-automation-for-architects-india"
-  },
-  {
-    "name": "Home Automation For Builder Floor Delhi",
-    "href": "/journal/home-automation-for-builder-floor-delhi"
-  },
-  {
-    "name": "Home Automation For Farmhouse India",
-    "href": "/journal/home-automation-for-farmhouse-india"
-  },
-  {
-    "name": "Home Automation For New Construction Vs Retrofit India",
-    "href": "/journal/home-automation-for-new-construction-vs-retrofit-india"
-  },
-  {
-    "name": "Home Automation For Vacation Home India",
-    "href": "/journal/home-automation-for-vacation-home-india"
-  },
-  {
-    "name": "Home Automation Hyderabad",
-    "href": "/journal/home-automation-hyderabad"
-  },
-  {
-    "name": "Home Automation Investment Roi India",
-    "href": "/journal/home-automation-investment-roi-india"
-  },
-  {
-    "name": "Home Automation Maintenance India",
-    "href": "/journal/home-automation-maintenance-india"
-  },
-  {
-    "name": "Home Automation Pune",
-    "href": "/journal/home-automation-pune"
-  },
-  {
-    "name": "Home Automation Questions To Ask Integrator",
-    "href": "/journal/home-automation-questions-to-ask-integrator"
-  },
-  {
-    "name": "Home Automation Showroom Bangalore",
-    "href": "/journal/home-automation-showroom-bangalore"
-  },
-  {
-    "name": "Home Automation Timeline India",
-    "href": "/journal/home-automation-timeline-india"
-  },
-  {
-    "name": "Home Cinema Room Dimensions Guide",
-    "href": "/journal/home-cinema-room-dimensions-guide"
-  },
-  {
-    "name": "Home Networking Bangalore",
-    "href": "/journal/home-networking-bangalore"
-  },
-  {
-    "name": "Home Networking Cost India 2026",
-    "href": "/journal/home-networking-cost-india-2026"
-  },
-  {
-    "name": "Home Security Cameras India Guide",
-    "href": "/journal/home-security-cameras-india-guide"
-  },
-  {
-    "name": "Home Security System Bangalore",
-    "href": "/journal/home-security-system-bangalore"
-  },
-  {
-    "name": "Home Theatre Cost Bangalore",
-    "href": "/journal/home-theatre-cost-bangalore"
-  },
-  {
-    "name": "Home Theatre Cost Bangalore 2026",
-    "href": "/journal/home-theatre-cost-bangalore-2026"
-  },
-  {
-    "name": "Home Theatre Cost India",
-    "href": "/journal/home-theatre-cost-india"
-  },
-  {
-    "name": "Home Theatre Vs Private Cinema India",
-    "href": "/journal/home-theatre-vs-private-cinema-india"
-  },
-  {
-    "name": "How Does Central Vacuum Work",
-    "href": "/journal/how-does-central-vacuum-work"
-  },
-  {
-    "name": "How To Design Private Cinema India",
-    "href": "/journal/how-to-design-private-cinema-india"
-  },
-  {
-    "name": "In Wall Vs Freestanding Speakers India",
-    "href": "/journal/in-wall-vs-freestanding-speakers-india"
-  },
-  {
-    "name": "Invisible Speakers Guide",
-    "href": "/journal/invisible-speakers-guide"
-  },
-  {
-    "name": "Kef Speakers India Price",
-    "href": "/journal/kef-speakers-india-price"
-  },
-  {
-    "name": "Kef Vs Jbl Synthesis India",
-    "href": "/journal/kef-vs-jbl-synthesis-india"
-  },
-  {
-    "name": "Knx Home Automation India",
-    "href": "/journal/knx-home-automation-india"
-  },
-  {
-    "name": "Knx Installation Cost India 2026",
-    "href": "/journal/knx-installation-cost-india-2026"
-  },
-  {
-    "name": "Knx Vs Control4",
-    "href": "/journal/knx-vs-control4"
-  },
-  {
-    "name": "Knx Vs Control4 India",
-    "href": "/journal/knx-vs-control4-india"
-  },
-  {
-    "name": "Knx Vs Crestron India",
-    "href": "/journal/knx-vs-crestron-india"
-  },
-  {
-    "name": "Knx Vs Crestron Vs Control4",
-    "href": "/journal/knx-vs-crestron-vs-control4"
-  },
-  {
-    "name": "Knx Vs Home Assistant India",
-    "href": "/journal/knx-vs-home-assistant-india"
-  },
-  {
-    "name": "Knx Vs Lutron India",
-    "href": "/journal/knx-vs-lutron-india"
-  },
-  {
-    "name": "Lutron Vs Dali 2 India",
-    "href": "/journal/lutron-vs-dali-2-india"
-  },
-  {
-    "name": "Luxury Home Automation Mumbai",
-    "href": "/journal/luxury-home-automation-mumbai"
-  },
-  {
-    "name": "Luxury Lighting Design India",
-    "href": "/journal/luxury-lighting-design-india"
-  },
-  {
-    "name": "Luxury Smart Home Bangalore",
-    "href": "/journal/luxury-smart-home-bangalore"
-  },
-  {
-    "name": "Luxury Smart Home India 2026",
-    "href": "/journal/luxury-smart-home-india-2026"
-  },
-  {
-    "name": "Motorized Blinds Curtains India",
-    "href": "/journal/motorized-blinds-curtains-india"
-  },
-  {
-    "name": "Motorized Curtain Blinds Bangalore",
-    "href": "/journal/motorized-curtain-blinds-bangalore"
-  },
-  {
-    "name": "Multiroom Audio India",
-    "href": "/journal/multiroom-audio-india"
-  },
-  {
-    "name": "Private Cinema Bangalore 2026",
-    "href": "/journal/private-cinema-bangalore-2026"
-  },
-  {
-    "name": "Private Cinema Cost Bangalore 2026",
-    "href": "/journal/private-cinema-cost-bangalore-2026"
-  },
-  {
-    "name": "Private Cinema Cost India 2026",
-    "href": "/journal/private-cinema-cost-india-2026"
-  },
-  {
-    "name": "Private Cinema Delhi Ncr 2026",
-    "href": "/journal/private-cinema-delhi-ncr-2026"
-  },
-  {
-    "name": "Private Cinema Design Guide",
-    "href": "/journal/private-cinema-design-guide"
-  },
-  {
-    "name": "Private Cinema Mumbai 2026",
-    "href": "/journal/private-cinema-mumbai-2026"
-  },
-  {
-    "name": "Private Cinema Vs Home Theatre",
-    "href": "/journal/private-cinema-vs-home-theatre"
-  },
-  {
-    "name": "Private Cinema Vs Home Theatre India",
-    "href": "/journal/private-cinema-vs-home-theatre-india"
-  },
-  {
-    "name": "Smart Home Automation Mumbai",
-    "href": "/journal/smart-home-automation-mumbai"
-  },
-  {
-    "name": "Smart Home Builder India",
-    "href": "/journal/smart-home-builder-india"
-  },
-  {
-    "name": "Smart Home Energy Saving India",
-    "href": "/journal/smart-home-energy-saving-india"
-  },
-  {
-    "name": "Smart Home For Elderly India",
-    "href": "/journal/smart-home-for-elderly-india"
-  },
-  {
-    "name": "Smart Home For Interior Designers India",
-    "href": "/journal/smart-home-for-interior-designers-india"
-  },
-  {
-    "name": "Smart Home For Penthouse India",
-    "href": "/journal/smart-home-for-penthouse-india"
-  },
-  {
-    "name": "Smart Home Nri India",
-    "href": "/journal/smart-home-nri-india"
-  },
-  {
-    "name": "Smart Home Project Phases India",
-    "href": "/journal/smart-home-project-phases-india"
-  },
-  {
-    "name": "Smart Home Protocols Comparison 2026",
-    "href": "/journal/smart-home-protocols-comparison-2026"
-  },
-  {
-    "name": "Smart Home Protocols Guide",
-    "href": "/journal/smart-home-protocols-guide"
-  },
-  {
-    "name": "Smart Home Villa India Guide",
-    "href": "/journal/smart-home-villa-india-guide"
-  },
-  {
-    "name": "Smart Home Warranty India",
-    "href": "/journal/smart-home-warranty-india"
-  },
-  {
-    "name": "Smart Security Cost India 2026",
-    "href": "/journal/smart-security-cost-india-2026"
-  },
-  {
-    "name": "Sonus Faber Speakers India Price",
-    "href": "/journal/sonus-faber-speakers-india-price"
-  },
-  {
-    "name": "Sonus Faber Vs Kef India",
-    "href": "/journal/sonus-faber-vs-kef-india"
-  },
-  {
-    "name": "Video Doorbell India Guide",
-    "href": "/journal/video-doorbell-india-guide"
-  },
-  {
-    "name": "What Is Dali 2 Lighting",
-    "href": "/journal/what-is-dali-2-lighting"
-  },
-  {
-    "name": "What Is Home Automation",
-    "href": "/journal/what-is-home-automation"
-  },
-  {
-    "name": "What Is Knx Home Automation",
-    "href": "/journal/what-is-knx-home-automation"
-  },
-  {
-    "name": "Whole Home Audio Video India",
-    "href": "/journal/whole-home-audio-video-india"
-  },
-  {
-    "name": "Wired Vs Wireless Smart Home India",
-    "href": "/journal/wired-vs-wireless-smart-home-india"
-  },
-  {
-    "name": "Zehnder Erv India Guide",
-    "href": "/journal/zehnder-erv-india-guide"
-  },
-  {
-    "name": "Zehnder Fresh Air System India",
-    "href": "/journal/zehnder-fresh-air-system-india"
-  },
-  {
-    "name": "Zehnder Vs Panasonic Erv India",
-    "href": "/journal/zehnder-vs-panasonic-erv-india"
-  }
+  { name: "4K Home Theatre Bangalore", href: "/journal/4k-home-theatre-bangalore" },
+  { name: "4K Projector Vs Oled Tv Home Cinema", href: "/journal/4k-projector-vs-oled-tv-home-cinema" },
+  { name: "4K Vs 8K Home Cinema India", href: "/journal/4k-vs-8k-home-cinema-india" },
+  { name: "Access Control India Guide", href: "/journal/access-control-india-guide" },
+  { name: "Alexa Google Knx Integration India", href: "/journal/alexa-google-knx-integration-india" },
+  { name: "Anthem Av Receiver Bangalore", href: "/journal/anthem-av-receiver-bangalore" },
+  { name: "Anthem Vs Marantz India", href: "/journal/anthem-vs-marantz-india" },
+  { name: "Barco Projector Bangalore", href: "/journal/barco-projector-bangalore" },
+  { name: "Barco Projector India Price", href: "/journal/barco-projector-india-price" },
+  { name: "Barco Vs Sony Projector India", href: "/journal/barco-vs-sony-projector-india" },
+  { name: "Basalte Keypad India", href: "/journal/basalte-keypad-india" },
+  { name: "Basalte Keypad India Guide", href: "/journal/basalte-keypad-india-guide" },
+  { name: "Basalte Vs Ekinex India", href: "/journal/basalte-vs-ekinex-india" },
+  { name: "Best Home Automation Companies Bangalore 2026", href: "/journal/best-home-automation-companies-bangalore-2026" },
+  { name: "Best Home Automation Company Bangalore", href: "/journal/best-home-automation-company-bangalore" },
+  { name: "Best Home Automation Company Hyderabad", href: "/journal/best-home-automation-company-hyderabad" },
+  { name: "Best Home Automation Company India", href: "/journal/best-home-automation-company-india" },
+  { name: "Best Home Automation Company Mumbai", href: "/journal/best-home-automation-company-mumbai" },
+  { name: "Best Home Automation System Bangalore 2026", href: "/journal/best-home-automation-system-bangalore-2026" },
+  { name: "Best Home Theatre Brands India", href: "/journal/best-home-theatre-brands-india" },
+  { name: "Best Home Theatre Companies Bangalore", href: "/journal/best-home-theatre-companies-bangalore" },
+  { name: "Best Home Theatre System Bangalore 2026", href: "/journal/best-home-theatre-system-bangalore-2026" },
+  { name: "Central Vacuum Bangalore", href: "/journal/central-vacuum-bangalore" },
+  { name: "Central Vacuum Cost India 2026", href: "/journal/central-vacuum-cost-india-2026" },
+  { name: "Central Vacuum System India", href: "/journal/central-vacuum-system-india" },
+  { name: "Central Vacuum Vs Dyson India", href: "/journal/central-vacuum-vs-dyson-india" },
+  { name: "Cinema Acoustic Treatment India", href: "/journal/cinema-acoustic-treatment-india" },
+  { name: "Crestron Vs Savant India", href: "/journal/crestron-vs-savant-india" },
+  { name: "Dali 2 Lighting Bangalore", href: "/journal/dali-2-lighting-bangalore" },
+  { name: "Dali 2 Lighting Cost India 2026", href: "/journal/dali-2-lighting-cost-india-2026" },
+  { name: "Dolby Atmos Home Theatre", href: "/journal/dolby-atmos-home-theatre" },
+  { name: "Dolby Atmos Home Theatre Bangalore", href: "/journal/dolby-atmos-home-theatre-bangalore" },
+  { name: "Dolby Atmos Installation Bangalore", href: "/journal/dolby-atmos-installation-bangalore" },
+  { name: "Dolby Atmos Room Design Guide", href: "/journal/dolby-atmos-room-design-guide" },
+  { name: "Dolby Atmos Speaker Placement Guide", href: "/journal/dolby-atmos-speaker-placement-guide" },
+  { name: "Dolby Atmos Speakers India", href: "/journal/dolby-atmos-speakers-india" },
+  { name: "Dolby Atmos Vs Dts X India", href: "/journal/dolby-atmos-vs-dts-x-india" },
+  { name: "Erv Vs Hrv Vs Air Purifier India", href: "/journal/erv-vs-hrv-vs-air-purifier-india" },
+  { name: "Ev Charging Smart Home India", href: "/journal/ev-charging-smart-home-india" },
+  { name: "Fresh Air Ventilation Bangalore", href: "/journal/fresh-air-ventilation-bangalore" },
+  { name: "Fresh Air Ventilation Cost India 2026", href: "/journal/fresh-air-ventilation-cost-india-2026" },
+  { name: "Fresh Air Ventilation Mumbai", href: "/journal/fresh-air-ventilation-mumbai" },
+  { name: "Fresh Air Ventilation Vs Air Purifier", href: "/journal/fresh-air-ventilation-vs-air-purifier" },
+  { name: "Home Automation Apartment Bangalore Guide", href: "/journal/home-automation-apartment-bangalore-guide" },
+  { name: "Home Automation Apartment India", href: "/journal/home-automation-apartment-india" },
+  { name: "Home Automation Architect Bangalore", href: "/journal/home-automation-architect-bangalore" },
+  { name: "Home Automation Banashankari Bangalore Guide", href: "/journal/home-automation-banashankari-bangalore-guide" },
+  { name: "Home Automation Bangalore Brands Guide", href: "/journal/home-automation-bangalore-brands-guide" },
+  { name: "Home Automation Bangalore Project Timeline", href: "/journal/home-automation-bangalore-project-timeline" },
+  { name: "Home Automation Bangalore Reviews 2026", href: "/journal/home-automation-bangalore-reviews-2026" },
+  { name: "Home Automation Bangalore Showroom Guide", href: "/journal/home-automation-bangalore-showroom-guide" },
+  { name: "Home Automation Bangalore Warranty Service", href: "/journal/home-automation-bangalore-warranty-service" },
+  { name: "Home Automation Bannerghatta Road Bangalore Guide", href: "/journal/home-automation-bannerghatta-road-bangalore-guide" },
+  { name: "Home Automation Basavangudi Bangalore Guide", href: "/journal/home-automation-basavangudi-bangalore-guide" },
+  { name: "Home Automation Bellandur Bangalore Guide", href: "/journal/home-automation-bellandur-bangalore-guide" },
+  { name: "Home Automation Btm Layout Bangalore Guide", href: "/journal/home-automation-btm-layout-bangalore-guide" },
+  { name: "Home Automation Builder Bangalore", href: "/journal/home-automation-builder-bangalore" },
+  { name: "Home Automation Chennai", href: "/journal/home-automation-chennai" },
+  { name: "Home Automation Cost Banashankari Bangalore", href: "/journal/home-automation-cost-banashankari-bangalore" },
+  { name: "Home Automation Cost Bangalore", href: "/journal/home-automation-cost-bangalore" },
+  { name: "Home Automation Cost Bangalore 2026", href: "/journal/home-automation-cost-bangalore-2026" },
+  { name: "Home Automation Cost Bannerghatta Road Bangalore", href: "/journal/home-automation-cost-bannerghatta-road-bangalore" },
+  { name: "Home Automation Cost Basavangudi Bangalore", href: "/journal/home-automation-cost-basavangudi-bangalore" },
+  { name: "Home Automation Cost Bellandur Bangalore", href: "/journal/home-automation-cost-bellandur-bangalore" },
+  { name: "Home Automation Cost Btm Layout Bangalore", href: "/journal/home-automation-cost-btm-layout-bangalore" },
+  { name: "Home Automation Cost Cunningham Road Bangalore", href: "/journal/home-automation-cost-cunningham-road-bangalore" },
+  { name: "Home Automation Cost Delhi 2026", href: "/journal/home-automation-cost-delhi-2026" },
+  { name: "Home Automation Cost Devanahalli Bangalore", href: "/journal/home-automation-cost-devanahalli-bangalore" },
+  { name: "Home Automation Cost Electronic City Bangalore", href: "/journal/home-automation-cost-electronic-city-bangalore" },
+  { name: "Home Automation Cost Frazer Town Bangalore", href: "/journal/home-automation-cost-frazer-town-bangalore" },
+  { name: "Home Automation Cost Hebbal Bangalore", href: "/journal/home-automation-cost-hebbal-bangalore" },
+  { name: "Home Automation Cost Hsr Layout Bangalore", href: "/journal/home-automation-cost-hsr-layout-bangalore" },
+  { name: "Home Automation Cost India 2025", href: "/journal/home-automation-cost-india-2025" },
+  { name: "Home Automation Cost India 2026", href: "/journal/home-automation-cost-india-2026" },
+  { name: "Home Automation Cost Indiranagar Bangalore", href: "/journal/home-automation-cost-indiranagar-bangalore" },
+  { name: "Home Automation Cost Jayanagar Bangalore", href: "/journal/home-automation-cost-jayanagar-bangalore" },
+  { name: "Home Automation Cost Jp Nagar Bangalore", href: "/journal/home-automation-cost-jp-nagar-bangalore" },
+  { name: "Home Automation Cost Koramangala Bangalore", href: "/journal/home-automation-cost-koramangala-bangalore" },
+  { name: "Home Automation Cost Kr Puram Bangalore", href: "/journal/home-automation-cost-kr-puram-bangalore" },
+  { name: "Home Automation Cost Lavelle Road Bangalore", href: "/journal/home-automation-cost-lavelle-road-bangalore" },
+  { name: "Home Automation Cost Malleshwaram Bangalore", href: "/journal/home-automation-cost-malleshwaram-bangalore" },
+  { name: "Home Automation Cost Marathahalli Bangalore", href: "/journal/home-automation-cost-marathahalli-bangalore" },
+  { name: "Home Automation Cost Mumbai 2026", href: "/journal/home-automation-cost-mumbai-2026" },
+  { name: "Home Automation Cost Rajajinagar Bangalore", href: "/journal/home-automation-cost-rajajinagar-bangalore" },
+  { name: "Home Automation Cost Richmond Town Bangalore", href: "/journal/home-automation-cost-richmond-town-bangalore" },
+  { name: "Home Automation Cost Sadashivanagar Bangalore", href: "/journal/home-automation-cost-sadashivanagar-bangalore" },
+  { name: "Home Automation Cost Ulsoor Bangalore", href: "/journal/home-automation-cost-ulsoor-bangalore" },
+  { name: "Home Automation Cost Whitefield Bangalore", href: "/journal/home-automation-cost-whitefield-bangalore" },
+  { name: "Home Automation Cost Yelahanka Bangalore", href: "/journal/home-automation-cost-yelahanka-bangalore" },
+  { name: "Home Automation Cunningham Road Bangalore Guide", href: "/journal/home-automation-cunningham-road-bangalore-guide" },
+  { name: "Home Automation Delhi Ncr", href: "/journal/home-automation-delhi-ncr" },
+  { name: "Home Automation Devanahalli Bangalore Guide", href: "/journal/home-automation-devanahalli-bangalore-guide" },
+  { name: "Home Automation Electronic City Bangalore Guide", href: "/journal/home-automation-electronic-city-bangalore-guide" },
+  { name: "Home Automation For Architects India", href: "/journal/home-automation-for-architects-india" },
+  { name: "Home Automation For Builder Floor Delhi", href: "/journal/home-automation-for-builder-floor-delhi" },
+  { name: "Home Automation For Farmhouse India", href: "/journal/home-automation-for-farmhouse-india" },
+  { name: "Home Automation For New Construction Vs Retrofit India", href: "/journal/home-automation-for-new-construction-vs-retrofit-india" },
+  { name: "Home Automation For Vacation Home India", href: "/journal/home-automation-for-vacation-home-india" },
+  { name: "Home Automation Frazer Town Bangalore Guide", href: "/journal/home-automation-frazer-town-bangalore-guide" },
+  { name: "Home Automation Hebbal Bangalore Guide", href: "/journal/home-automation-hebbal-bangalore-guide" },
+  { name: "Home Automation Hebbal Kempapura Bangalore Guide", href: "/journal/home-automation-hebbal-kempapura-bangalore-guide" },
+  { name: "Home Automation Hsr Layout Bangalore Guide", href: "/journal/home-automation-hsr-layout-bangalore-guide" },
+  { name: "Home Automation Hyderabad", href: "/journal/home-automation-hyderabad" },
+  { name: "Home Automation Indiranagar Bangalore Guide", href: "/journal/home-automation-indiranagar-bangalore-guide" },
+  { name: "Home Automation Interior Designer Bangalore", href: "/journal/home-automation-interior-designer-bangalore" },
+  { name: "Home Automation Investment Roi India", href: "/journal/home-automation-investment-roi-india" },
+  { name: "Home Automation Jayanagar Bangalore Guide", href: "/journal/home-automation-jayanagar-bangalore-guide" },
+  { name: "Home Automation Jp Nagar Bangalore Guide", href: "/journal/home-automation-jp-nagar-bangalore-guide" },
+  { name: "Home Automation Kalyan Nagar Bangalore Guide", href: "/journal/home-automation-kalyan-nagar-bangalore-guide" },
+  { name: "Home Automation Koramangala Bangalore Guide", href: "/journal/home-automation-koramangala-bangalore-guide" },
+  { name: "Home Automation Kr Puram Bangalore Guide", href: "/journal/home-automation-kr-puram-bangalore-guide" },
+  { name: "Home Automation Lavelle Road Bangalore Guide", href: "/journal/home-automation-lavelle-road-bangalore-guide" },
+  { name: "Home Automation Maintenance India", href: "/journal/home-automation-maintenance-india" },
+  { name: "Home Automation Malleshwaram Bangalore Guide", href: "/journal/home-automation-malleshwaram-bangalore-guide" },
+  { name: "Home Automation Marathahalli Bangalore Guide", href: "/journal/home-automation-marathahalli-bangalore-guide" },
+  { name: "Home Automation New Construction Bangalore", href: "/journal/home-automation-new-construction-bangalore" },
+  { name: "Home Automation Penthouse Bangalore", href: "/journal/home-automation-penthouse-bangalore" },
+  { name: "Home Automation Pune", href: "/journal/home-automation-pune" },
+  { name: "Home Automation Questions To Ask Integrator", href: "/journal/home-automation-questions-to-ask-integrator" },
+  { name: "Home Automation Rajajinagar Bangalore Guide", href: "/journal/home-automation-rajajinagar-bangalore-guide" },
+  { name: "Home Automation Retrofit Bangalore", href: "/journal/home-automation-retrofit-bangalore" },
+  { name: "Home Automation Richmond Town Bangalore Guide", href: "/journal/home-automation-richmond-town-bangalore-guide" },
+  { name: "Home Automation Rr Nagar Bangalore Guide", href: "/journal/home-automation-rr-nagar-bangalore-guide" },
+  { name: "Home Automation Sadashivanagar Bangalore Guide", href: "/journal/home-automation-sadashivanagar-bangalore-guide" },
+  { name: "Home Automation Sarjapur Bangalore Guide", href: "/journal/home-automation-sarjapur-bangalore-guide" },
+  { name: "Home Automation Showroom Bangalore", href: "/journal/home-automation-showroom-bangalore" },
+  { name: "Home Automation Timeline India", href: "/journal/home-automation-timeline-india" },
+  { name: "Home Automation Ulsoor Bangalore Guide", href: "/journal/home-automation-ulsoor-bangalore-guide" },
+  { name: "Home Automation Vijayanagar Bangalore Guide", href: "/journal/home-automation-vijayanagar-bangalore-guide" },
+  { name: "Home Automation Villa Bangalore Guide", href: "/journal/home-automation-villa-bangalore-guide" },
+  { name: "Home Automation Vs Alexa Bangalore", href: "/journal/home-automation-vs-alexa-bangalore" },
+  { name: "Home Automation Vs Competitors Bangalore", href: "/journal/home-automation-vs-competitors-bangalore" },
+  { name: "Home Automation Whitefield Bangalore Guide", href: "/journal/home-automation-whitefield-bangalore-guide" },
+  { name: "Home Automation Whitefield Vs Koramangala", href: "/journal/home-automation-whitefield-vs-koramangala" },
+  { name: "Home Automation Yelahanka Bangalore Guide", href: "/journal/home-automation-yelahanka-bangalore-guide" },
+  { name: "Home Cinema Room Dimensions Guide", href: "/journal/home-cinema-room-dimensions-guide" },
+  { name: "Home Networking Bangalore", href: "/journal/home-networking-bangalore" },
+  { name: "Home Networking Cost India 2026", href: "/journal/home-networking-cost-india-2026" },
+  { name: "Home Security Cameras India Guide", href: "/journal/home-security-cameras-india-guide" },
+  { name: "Home Security System Bangalore", href: "/journal/home-security-system-bangalore" },
+  { name: "Home Theatre Acoustic Treatment Bangalore", href: "/journal/home-theatre-acoustic-treatment-bangalore" },
+  { name: "Home Theatre Apartment Bangalore", href: "/journal/home-theatre-apartment-bangalore" },
+  { name: "Home Theatre Banashankari Bangalore", href: "/journal/home-theatre-banashankari-bangalore" },
+  { name: "Home Theatre Bangalore Areas Guide", href: "/journal/home-theatre-bangalore-areas-guide" },
+  { name: "Home Theatre Bangalore Whitefield Koramangala", href: "/journal/home-theatre-bangalore-whitefield-koramangala" },
+  { name: "Home Theatre Bannerghatta Road Bangalore", href: "/journal/home-theatre-bannerghatta-road-bangalore" },
+  { name: "Home Theatre Basavangudi Bangalore", href: "/journal/home-theatre-basavangudi-bangalore" },
+  { name: "Home Theatre Bellandur Bangalore", href: "/journal/home-theatre-bellandur-bangalore" },
+  { name: "Home Theatre Btm Layout Bangalore", href: "/journal/home-theatre-btm-layout-bangalore" },
+  { name: "Home Theatre Budget Bangalore", href: "/journal/home-theatre-budget-bangalore" },
+  { name: "Home Theatre Companies Bangalore Comparison", href: "/journal/home-theatre-companies-bangalore-comparison" },
+  { name: "Home Theatre Cost Banashankari Bangalore", href: "/journal/home-theatre-cost-banashankari-bangalore" },
+  { name: "Home Theatre Cost Bangalore", href: "/journal/home-theatre-cost-bangalore" },
+  { name: "Home Theatre Cost Bangalore 2026", href: "/journal/home-theatre-cost-bangalore-2026" },
+  { name: "Home Theatre Cost Bannerghatta Road Bangalore", href: "/journal/home-theatre-cost-bannerghatta-road-bangalore" },
+  { name: "Home Theatre Cost Basavangudi Bangalore", href: "/journal/home-theatre-cost-basavangudi-bangalore" },
+  { name: "Home Theatre Cost Bellandur Bangalore", href: "/journal/home-theatre-cost-bellandur-bangalore" },
+  { name: "Home Theatre Cost Btm Layout Bangalore", href: "/journal/home-theatre-cost-btm-layout-bangalore" },
+  { name: "Home Theatre Cost Cunningham Road Bangalore", href: "/journal/home-theatre-cost-cunningham-road-bangalore" },
+  { name: "Home Theatre Cost Devanahalli Bangalore", href: "/journal/home-theatre-cost-devanahalli-bangalore" },
+  { name: "Home Theatre Cost Electronic City Bangalore", href: "/journal/home-theatre-cost-electronic-city-bangalore" },
+  { name: "Home Theatre Cost Frazer Town Bangalore", href: "/journal/home-theatre-cost-frazer-town-bangalore" },
+  { name: "Home Theatre Cost Hebbal Bangalore", href: "/journal/home-theatre-cost-hebbal-bangalore" },
+  { name: "Home Theatre Cost Hsr Layout Bangalore", href: "/journal/home-theatre-cost-hsr-layout-bangalore" },
+  { name: "Home Theatre Cost India", href: "/journal/home-theatre-cost-india" },
+  { name: "Home Theatre Cost Indiranagar Bangalore", href: "/journal/home-theatre-cost-indiranagar-bangalore" },
+  { name: "Home Theatre Cost Jayanagar Bangalore", href: "/journal/home-theatre-cost-jayanagar-bangalore" },
+  { name: "Home Theatre Cost Jp Nagar Bangalore", href: "/journal/home-theatre-cost-jp-nagar-bangalore" },
+  { name: "Home Theatre Cost Koramangala Bangalore", href: "/journal/home-theatre-cost-koramangala-bangalore" },
+  { name: "Home Theatre Cost Kr Puram Bangalore", href: "/journal/home-theatre-cost-kr-puram-bangalore" },
+  { name: "Home Theatre Cost Lavelle Road Bangalore", href: "/journal/home-theatre-cost-lavelle-road-bangalore" },
+  { name: "Home Theatre Cost Malleshwaram Bangalore", href: "/journal/home-theatre-cost-malleshwaram-bangalore" },
+  { name: "Home Theatre Cost Marathahalli Bangalore", href: "/journal/home-theatre-cost-marathahalli-bangalore" },
+  { name: "Home Theatre Cost Rajajinagar Bangalore", href: "/journal/home-theatre-cost-rajajinagar-bangalore" },
+  { name: "Home Theatre Cost Richmond Town Bangalore", href: "/journal/home-theatre-cost-richmond-town-bangalore" },
+  { name: "Home Theatre Cost Sadashivanagar Bangalore", href: "/journal/home-theatre-cost-sadashivanagar-bangalore" },
+  { name: "Home Theatre Cost Ulsoor Bangalore", href: "/journal/home-theatre-cost-ulsoor-bangalore" },
+  { name: "Home Theatre Cost Whitefield Bangalore", href: "/journal/home-theatre-cost-whitefield-bangalore" },
+  { name: "Home Theatre Cost Yelahanka Bangalore", href: "/journal/home-theatre-cost-yelahanka-bangalore" },
+  { name: "Home Theatre Cunningham Road Bangalore", href: "/journal/home-theatre-cunningham-road-bangalore" },
+  { name: "Home Theatre Devanahalli Bangalore", href: "/journal/home-theatre-devanahalli-bangalore" },
+  { name: "Home Theatre Electronic City Bangalore", href: "/journal/home-theatre-electronic-city-bangalore" },
+  { name: "Home Theatre Frazer Town Bangalore", href: "/journal/home-theatre-frazer-town-bangalore" },
+  { name: "Home Theatre Hebbal Bangalore", href: "/journal/home-theatre-hebbal-bangalore" },
+  { name: "Home Theatre Hebbal Kempapura Bangalore", href: "/journal/home-theatre-hebbal-kempapura-bangalore" },
+  { name: "Home Theatre Hsr Layout Bangalore", href: "/journal/home-theatre-hsr-layout-bangalore" },
+  { name: "Home Theatre Indiranagar Bangalore", href: "/journal/home-theatre-indiranagar-bangalore" },
+  { name: "Home Theatre Installation Bangalore Cost", href: "/journal/home-theatre-installation-bangalore-cost" },
+  { name: "Home Theatre Installation Process Bangalore", href: "/journal/home-theatre-installation-process-bangalore" },
+  { name: "Home Theatre Jayanagar Bangalore", href: "/journal/home-theatre-jayanagar-bangalore" },
+  { name: "Home Theatre Jp Nagar Bangalore", href: "/journal/home-theatre-jp-nagar-bangalore" },
+  { name: "Home Theatre Kalyan Nagar Bangalore", href: "/journal/home-theatre-kalyan-nagar-bangalore" },
+  { name: "Home Theatre Koramangala Bangalore", href: "/journal/home-theatre-koramangala-bangalore" },
+  { name: "Home Theatre Kr Puram Bangalore", href: "/journal/home-theatre-kr-puram-bangalore" },
+  { name: "Home Theatre Lavelle Road Bangalore", href: "/journal/home-theatre-lavelle-road-bangalore" },
+  { name: "Home Theatre Maintenance Bangalore", href: "/journal/home-theatre-maintenance-bangalore" },
+  { name: "Home Theatre Malleshwaram Bangalore", href: "/journal/home-theatre-malleshwaram-bangalore" },
+  { name: "Home Theatre Marathahalli Bangalore", href: "/journal/home-theatre-marathahalli-bangalore" },
+  { name: "Home Theatre New Construction Bangalore", href: "/journal/home-theatre-new-construction-bangalore" },
+  { name: "Home Theatre Rajajinagar Bangalore", href: "/journal/home-theatre-rajajinagar-bangalore" },
+  { name: "Home Theatre Richmond Town Bangalore", href: "/journal/home-theatre-richmond-town-bangalore" },
+  { name: "Home Theatre Room Design Bangalore", href: "/journal/home-theatre-room-design-bangalore" },
+  { name: "Home Theatre Rr Nagar Bangalore", href: "/journal/home-theatre-rr-nagar-bangalore" },
+  { name: "Home Theatre Sadashivanagar Bangalore", href: "/journal/home-theatre-sadashivanagar-bangalore" },
+  { name: "Home Theatre Sarjapur Bangalore", href: "/journal/home-theatre-sarjapur-bangalore" },
+  { name: "Home Theatre Screen Selection Bangalore", href: "/journal/home-theatre-screen-selection-bangalore" },
+  { name: "Home Theatre Seating Bangalore", href: "/journal/home-theatre-seating-bangalore" },
+  { name: "Home Theatre Ulsoor Bangalore", href: "/journal/home-theatre-ulsoor-bangalore" },
+  { name: "Home Theatre Vijayanagar Bangalore", href: "/journal/home-theatre-vijayanagar-bangalore" },
+  { name: "Home Theatre Villa Bangalore", href: "/journal/home-theatre-villa-bangalore" },
+  { name: "Home Theatre Vs Private Cinema India", href: "/journal/home-theatre-vs-private-cinema-india" },
+  { name: "Home Theatre Vs Tv Room Bangalore", href: "/journal/home-theatre-vs-tv-room-bangalore" },
+  { name: "Home Theatre Whitefield Bangalore", href: "/journal/home-theatre-whitefield-bangalore" },
+  { name: "Home Theatre Yelahanka Bangalore", href: "/journal/home-theatre-yelahanka-bangalore" },
+  { name: "How Does Central Vacuum Work", href: "/journal/how-does-central-vacuum-work" },
+  { name: "How To Choose Home Theatre Company Bangalore", href: "/journal/how-to-choose-home-theatre-company-bangalore" },
+  { name: "How To Design Private Cinema India", href: "/journal/how-to-design-private-cinema-india" },
+  { name: "In Wall Vs Freestanding Speakers India", href: "/journal/in-wall-vs-freestanding-speakers-india" },
+  { name: "Invisible Speakers Guide", href: "/journal/invisible-speakers-guide" },
+  { name: "Jbl Synthesis Bangalore", href: "/journal/jbl-synthesis-bangalore" },
+  { name: "Kef Home Theatre Bangalore", href: "/journal/kef-home-theatre-bangalore" },
+  { name: "Kef Speakers India Price", href: "/journal/kef-speakers-india-price" },
+  { name: "Kef Vs Jbl Synthesis India", href: "/journal/kef-vs-jbl-synthesis-india" },
+  { name: "Knx Certified Installer Bangalore", href: "/journal/knx-certified-installer-bangalore" },
+  { name: "Knx Home Automation Bangalore Cost 2026", href: "/journal/knx-home-automation-bangalore-cost-2026" },
+  { name: "Knx Home Automation India", href: "/journal/knx-home-automation-india" },
+  { name: "Knx Installation Cost India 2026", href: "/journal/knx-installation-cost-india-2026" },
+  { name: "Knx Vs Control4", href: "/journal/knx-vs-control4" },
+  { name: "Knx Vs Control4 India", href: "/journal/knx-vs-control4-india" },
+  { name: "Knx Vs Crestron India", href: "/journal/knx-vs-crestron-india" },
+  { name: "Knx Vs Crestron Vs Control4", href: "/journal/knx-vs-crestron-vs-control4" },
+  { name: "Knx Vs Home Assistant India", href: "/journal/knx-vs-home-assistant-india" },
+  { name: "Knx Vs Lutron India", href: "/journal/knx-vs-lutron-india" },
+  { name: "Lutron Vs Dali 2 India", href: "/journal/lutron-vs-dali-2-india" },
+  { name: "Luxury Home Automation Mumbai", href: "/journal/luxury-home-automation-mumbai" },
+  { name: "Luxury Lighting Design India", href: "/journal/luxury-lighting-design-india" },
+  { name: "Luxury Smart Home Bangalore", href: "/journal/luxury-smart-home-bangalore" },
+  { name: "Luxury Smart Home India 2026", href: "/journal/luxury-smart-home-india-2026" },
+  { name: "Motorized Blinds Curtains India", href: "/journal/motorized-blinds-curtains-india" },
+  { name: "Motorized Curtain Blinds Bangalore", href: "/journal/motorized-curtain-blinds-bangalore" },
+  { name: "Multiroom Audio India", href: "/journal/multiroom-audio-india" },
+  { name: "Private Cinema Bangalore 2026", href: "/journal/private-cinema-bangalore-2026" },
+  { name: "Private Cinema Cost Bangalore 2026", href: "/journal/private-cinema-cost-bangalore-2026" },
+  { name: "Private Cinema Cost India 2026", href: "/journal/private-cinema-cost-india-2026" },
+  { name: "Private Cinema Delhi Ncr 2026", href: "/journal/private-cinema-delhi-ncr-2026" },
+  { name: "Private Cinema Design Guide", href: "/journal/private-cinema-design-guide" },
+  { name: "Private Cinema Mumbai 2026", href: "/journal/private-cinema-mumbai-2026" },
+  { name: "Private Cinema Room Bangalore Cost", href: "/journal/private-cinema-room-bangalore-cost" },
+  { name: "Private Cinema Vs Home Theatre", href: "/journal/private-cinema-vs-home-theatre" },
+  { name: "Private Cinema Vs Home Theatre India", href: "/journal/private-cinema-vs-home-theatre-india" },
+  { name: "Smart Home Automation Mumbai", href: "/journal/smart-home-automation-mumbai" },
+  { name: "Smart Home Bangalore Checklist", href: "/journal/smart-home-bangalore-checklist" },
+  { name: "Smart Home Builder India", href: "/journal/smart-home-builder-india" },
+  { name: "Smart Home Companies Bangalore 2026", href: "/journal/smart-home-companies-bangalore-2026" },
+  { name: "Smart Home Energy Saving India", href: "/journal/smart-home-energy-saving-india" },
+  { name: "Smart Home For Elderly India", href: "/journal/smart-home-for-elderly-india" },
+  { name: "Smart Home For Interior Designers India", href: "/journal/smart-home-for-interior-designers-india" },
+  { name: "Smart Home For Penthouse India", href: "/journal/smart-home-for-penthouse-india" },
+  { name: "Smart Home Nri India", href: "/journal/smart-home-nri-india" },
+  { name: "Smart Home Project Phases India", href: "/journal/smart-home-project-phases-india" },
+  { name: "Smart Home Protocols Comparison 2026", href: "/journal/smart-home-protocols-comparison-2026" },
+  { name: "Smart Home Protocols Guide", href: "/journal/smart-home-protocols-guide" },
+  { name: "Smart Home Villa India Guide", href: "/journal/smart-home-villa-india-guide" },
+  { name: "Smart Home Warranty India", href: "/journal/smart-home-warranty-india" },
+  { name: "Smart Security Cost India 2026", href: "/journal/smart-security-cost-india-2026" },
+  { name: "Sonus Faber Home Theatre Bangalore", href: "/journal/sonus-faber-home-theatre-bangalore" },
+  { name: "Sonus Faber Speakers India Price", href: "/journal/sonus-faber-speakers-india-price" },
+  { name: "Sonus Faber Vs Kef India", href: "/journal/sonus-faber-vs-kef-india" },
+  { name: "Video Doorbell India Guide", href: "/journal/video-doorbell-india-guide" },
+  { name: "What Is Dali 2 Lighting", href: "/journal/what-is-dali-2-lighting" },
+  { name: "What Is Home Automation", href: "/journal/what-is-home-automation" },
+  { name: "What Is Knx Home Automation", href: "/journal/what-is-knx-home-automation" },
+  { name: "Whole Home Audio Video India", href: "/journal/whole-home-audio-video-india" },
+  { name: "Why Knx Home Automation Bangalore", href: "/journal/why-knx-home-automation-bangalore" },
+  { name: "Wired Vs Wireless Smart Home India", href: "/journal/wired-vs-wireless-smart-home-india" },
+  { name: "Zehnder Erv India Guide", href: "/journal/zehnder-erv-india-guide" },
+  { name: "Zehnder Fresh Air System India", href: "/journal/zehnder-fresh-air-system-india" },
+  { name: "Zehnder Vs Panasonic Erv India", href: "/journal/zehnder-vs-panasonic-erv-india" },
 ];
 
 export default function SiteDirectoryPage() {
+  const sections = [
+    { title: "Core Architecture & Solutions", items: corePages, cols: "grid-cols-2 md:grid-cols-3 lg:grid-cols-4" },
+    { title: "Bangalore Commercial & Search Hubs", items: commercialPages, cols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" },
+    { title: "Bangalore Locality Engineering Hubs", items: bangalorePages, cols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" },
+    { title: "Metro Cities Across India", items: otherMetroPages, cols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" },
+    { title: "European Architectural Brands", items: brandPages, cols: "grid-cols-2 md:grid-cols-3 lg:grid-cols-4" },
+    { title: "The VARELLI Journal & Blog (270+ Whitepapers & Guides)", items: journalPages, cols: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" },
+  ];
+
   return (
     <>
       <section className="relative bg-[var(--surface-1)] border-b border-[var(--border)]">
-        <div className="relative container-varelli pt-40 pb-16">
+        <div className="relative container-varelli pt-36 pb-12">
           <Breadcrumb
             items={[
               { name: "Home", href: "/" },
@@ -1054,12 +811,12 @@ export default function SiteDirectoryPage() {
             ]}
           />
           <div className="mt-6 max-w-3xl">
-            <span className="badge-mono block mb-5">Architectural Navigation · 254 Core Resources</span>
-            <h1 className="font-display text-[clamp(2.4rem,5vw,4.2rem)] font-bold leading-[1.05] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
-              Site Directory &amp; Technical Index
+            <span className="badge-mono block mb-3">HTML Sitemap &amp; Directory</span>
+            <h1 className="font-display text-3xl md:text-5xl font-bold leading-tight text-[var(--text-primary)] mb-4">
+              Complete Site Directory &amp; Resource Index
             </h1>
-            <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-4">
-              Every service, prime residential neighbourhood, brand profile, and technical engineering publication across the VARELLI ecosystem in India.
+            <p className="font-editorial text-lg text-[var(--text-secondary)] leading-relaxed italic">
+              Direct crawl access to all 760+ architectural service hubs, brand whitepapers, Bangalore locality solutions, and engineering guides.
             </p>
           </div>
         </div>
@@ -1067,151 +824,30 @@ export default function SiteDirectoryPage() {
 
       <section className="section-padding">
         <div className="container-varelli space-y-16">
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">Core Ecosystem &amp; Portals</h2>
+          {sections.map((sec) => (
+            <div key={sec.title} className="p-8 rounded-2xl bg-[var(--surface-1)] border border-[var(--border)]">
+              <div className="flex items-center justify-between mb-6 pb-4 border-b border-[var(--border)]">
+                <h2 className="font-display text-xl md:text-2xl font-bold text-white">
+                  {sec.title}
+                </h2>
+                <span className="text-xs font-mono text-[var(--gold)] uppercase tracking-wider">
+                  {sec.items.length} Links
+                </span>
+              </div>
+              <div className={`grid ${sec.cols} gap-3`}>
+                {sec.items.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="text-xs text-[var(--text-secondary)] hover:text-[var(--gold)] hover:underline truncate py-1 transition-colors"
+                    title={item.name}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {corePages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">Metro Hubs &amp; Regional Services</h2>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {cityPages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">Bangalore Neighbourhoods (30 Localities)</h2>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {blrLocPages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">Mumbai Prime Enclaves (20 Localities)</h2>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {bomLocPages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">Delhi NCR Luxury Corridors (15 Localities)</h2>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {delLocPages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">Hyderabad, Chennai &amp; Pune Enclaves</h2>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {otherLocPages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">European Brand Ecosystem (20 Profiles)</h2>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-              {brandPages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[var(--gold)]"></span>
-              <h2 className="font-display text-2xl font-bold text-[var(--text-primary)]">Journal, Pricing Guides &amp; Whitepapers (118 Guides)</h2>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-              {journalPages.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="p-4 rounded-xl bg-[var(--surface-1)] border border-[var(--border)] text-sm text-[var(--text-secondary)] hover:text-[var(--gold)] hover:border-[var(--gold)] transition-colors leading-snug"
-                >
-                  {p.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
+          ))}
         </div>
       </section>
     </>
