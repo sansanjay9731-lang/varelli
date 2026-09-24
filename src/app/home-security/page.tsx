@@ -15,10 +15,17 @@ import { SERVICE_PACKAGES } from "@/lib/data/packages";
 const service = getServiceBySlug("home-security")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: service.metaTitle,
-  description: service.metaDescription,
+  title: "Smart Home Security & Access Control Bangalore | VARELLI",
+  description: "Enterprise villa security in Bangalore. DoorBird German IP video intercoms, ekey biometric access, thermal perimeter AI surveillance & panic automation.",
   path: "/home-security",
-  keywords: service.keywords,
+  keywords: [
+    ...service.keywords,
+    "villa security Bangalore",
+    "home security Bangalore",
+    "biometric access control Bangalore",
+    "DoorBird Bangalore",
+    "smart security Bangalore",
+  ],
 });
 
 const relatedServices = [
@@ -31,7 +38,7 @@ export default function Page() {
   const schema = buildServiceSchema({
     name: service.name,
     description: service.description,
-    url: "https://varelli.in/home-security",
+    url: "https://varelli.co.in/home-security",
   });
 
   const packages = SERVICE_PACKAGES["home-security"] || [];

@@ -3,17 +3,17 @@ export const organizationSchema = {
   "@type": "Organization",
   name: "VARELLI",
   alternateName: "VARELLI Intelligent Living",
-  url: "https://varelli.in",
+  url: "https://varelli.co.in",
   logo: {
     "@type": "ImageObject",
-    url: "https://varelli.in/images/varelli-logo.png",
+    url: "https://varelli.co.in/images/varelli-logo.png",
     width: 300,
     height: 60,
   },
   description:
     "VARELLI designs and engineers intelligent residential environments for luxury villas, estates and private residences across India. Specialists in KNX home automation, Dolby Atmos private cinema, Zehnder fresh air ventilation, central vacuum, and smart security - using exclusively European-origin hardware from Basalte (Belgium), Ekinex (Italy), Sonus Faber (Italy), Zehnder (Switzerland), and KNX (Germany).",
   telephone: "+919964984695",
-  email: "studio@varelli.in",
+  email: "studio@varelli.co.in",
   foundingDate: "2015",
   numberOfEmployees: {
     "@type": "QuantitativeValue",

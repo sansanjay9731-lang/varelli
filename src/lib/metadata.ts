@@ -23,9 +23,11 @@ export function generatePageMetadata({
   keywords = [],
 }: PageMetadataProps): Metadata {
   const url = `${BASE_URL}${path}`;
+  const cleanTitle = title.replace(/\s*\|\s*VARELLI.*$/i, "").trim();
+  const fullTitle = `${cleanTitle} | VARELLI`;
 
   return {
-    title,
+    title: cleanTitle,
     description,
     keywords: keywords.join(", "),
     authors: [{ name: "VARELLI" }],
@@ -34,7 +36,7 @@ export function generatePageMetadata({
       canonical: url,
     },
     openGraph: {
-      title,
+      title: fullTitle,
       description,
       url,
       siteName: "VARELLI",
@@ -51,7 +53,7 @@ export function generatePageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: fullTitle,
       description,
       images: [image],
     },

@@ -15,10 +15,15 @@ import { SERVICE_PACKAGES } from "@/lib/data/packages";
 const service = getServiceBySlug("private-cinema")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: service.metaTitle,
-  description: service.metaDescription,
+  title: "Private Cinema Design in Bangalore | from ₹18L — VARELLI",
+  description: "Architectural private cinema design in Bangalore from ₹18L. Dolby Atmos 7.2.4 to 9.4.6, 4K laser projection, bespoke acoustic room treatment & motorized recliners.",
   path: "/private-cinema",
-  keywords: service.keywords,
+  keywords: [
+    ...service.keywords,
+    "private cinema design Bangalore",
+    "home cinema Bangalore price",
+    "Dolby Atmos private cinema Bangalore",
+  ],
 });
 
 import Image from "next/image";
@@ -35,7 +40,7 @@ export default function Page() {
   const schema = buildServiceSchema({
     name: "Home Theatre & Private Cinema",
     description: service.description,
-    url: "https://varelli.in/private-cinema",
+    url: "https://varelli.co.in/private-cinema",
   });
 
   const packages = SERVICE_PACKAGES["private-cinema"] || [];

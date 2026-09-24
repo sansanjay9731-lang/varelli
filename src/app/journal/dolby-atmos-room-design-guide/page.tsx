@@ -6,40 +6,40 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Dolby Atmos Room Design Guide - Full Technical Breakdown | VARELLI",
+  title: "Dolby Atmos Room Design Guide: 5.1.2 to 9.4.6 Layouts & Acoustics (2026) | VARELLI",
   description:
-    "Complete Dolby Atmos room design guide for luxury home cinemas in India. Speaker placement, room dimensions, RT60 targets, screen sizing, projector selection, and seating layout.",
+    "Complete CEDIA & Dolby Atmos room design guide: speaker angles, ceiling height ratios, RT60 acoustic targets, and ₹ pricing for luxury villas in Bangalore & India.",
   path: "/journal/dolby-atmos-room-design-guide",
   keywords: [
-    "Dolby Atmos room design guide India",
-    "Dolby Atmos home cinema India",
-    "Dolby Atmos speaker placement India",
-    "home cinema room design India",
-    "Dolby Atmos room dimensions",
+    "Dolby Atmos room design guide",
+    "Dolby Atmos speaker placement guide",
+    "Dolby Atmos room dimensions India",
+    "home cinema acoustic design guide",
+    "Dolby Atmos 7.2.4 vs 9.4.6",
     "Dolby Atmos home theatre Bangalore",
-    "private cinema Dolby Atmos design",
+    "private cinema acoustic treatment",
   ],
 });
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Dolby Atmos Room Design Guide - Complete Technical Breakdown for Indian Luxury Homes",
+  headline: "Dolby Atmos Room Design Guide: 5.1.2 to 9.4.6 Layouts & Acoustics (2026)",
   description:
     "A technical guide to designing a Dolby Atmos home cinema room - covering speaker configurations (5.1.2 to 9.4.6), room dimensions, RT60 targets, acoustic treatment, screen sizing, and 4K laser projector selection.",
   author: {
     "@type": "Organization",
     name: "VARELLI Cinema Design Team",
-    url: "https://varelli.in",
+    url: "https://varelli.co.in",
   },
   publisher: {
     "@type": "Organization",
     name: "VARELLI",
-    logo: { "@type": "ImageObject", url: "https://varelli.in/images/varelli-logo.png" },
+    logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" },
   },
   datePublished: "2025-08-01",
-  dateModified: "2025-08-28",
-  mainEntityOfPage: "https://varelli.in/journal/dolby-atmos-room-design-guide",
+  dateModified: "2026-09-24",
+  mainEntityOfPage: "https://varelli.co.in/journal/dolby-atmos-room-design-guide",
 };
 
 const howToSchema = {

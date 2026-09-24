@@ -1,5 +1,5 @@
 # VARELLI — robots.txt
-# https://varelli.in
+# https://varelli.co.in
 
 # Standard crawlers
 User-agent: *

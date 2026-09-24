@@ -102,6 +102,60 @@ export default function Page() {
           </div>
 
           <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
+            Home Automation Pricing Breakdown in India (2026 Price Bands)
+          </h2>
+          <p className="text-[var(--text-secondary)] text-base leading-relaxed mb-6">
+            In 2026, the cost of genuine architectural wired home automation in India ranges from <strong>₹3.5 Lakhs</strong> for a 2BHK apartment up to <strong>₹45 Lakhs+</strong> for a bespoke multi-level villa. Below is the transparent pricing breakdown across residential property configurations:
+          </p>
+
+          <div className="overflow-x-auto my-8 border border-[var(--border)] rounded-xl bg-[var(--surface-1)]">
+            <table className="w-full text-left text-sm">
+              <thead className="bg-[var(--surface-2)] text-[var(--gold)] uppercase tracking-wider text-xs font-mono">
+                <tr>
+                  <th className="p-4 border-b border-[var(--border)]">Configuration</th>
+                  <th className="p-4 border-b border-[var(--border)]">Built-Up Area</th>
+                  <th className="p-4 border-b border-[var(--border)]">Estimated Investment</th>
+                  <th className="p-4 border-b border-[var(--border)]">Included Scope &amp; Hardware</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[var(--border)] text-[var(--text-secondary)]">
+                <tr>
+                  <td className="p-4 font-semibold text-white">2BHK Luxury Apartment</td>
+                  <td className="p-4 text-xs font-mono">1,200 – 1,600 sq.ft.</td>
+                  <td className="p-4 font-bold text-[var(--gold)]">₹3.5 Lakhs – ₹6.0 Lakhs</td>
+                  <td className="p-4 text-xs leading-relaxed">
+                    Centralized lighting scenes, fan speed control, AC gateway integration, Ekinex keypads in living and master bedroom.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-semibold text-white">3BHK / 4BHK Premium Residence</td>
+                  <td className="p-4 text-xs font-mono">2,200 – 3,500 sq.ft.</td>
+                  <td className="p-4 font-bold text-[var(--gold)]">₹8.0 Lakhs – ₹14.0 Lakhs</td>
+                  <td className="p-4 text-xs leading-relaxed">
+                    Full KNX bus wiring, DALI-2 dimming, Somfy motorized curtain control, VRV HVAC integration, DoorBird video doorbell, and master welcome/away macros.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-semibold text-white">Independent Luxury Villa</td>
+                  <td className="p-4 text-xs font-mono">4,500 – 7,500 sq.ft.</td>
+                  <td className="p-4 font-bold text-[var(--gold)]">₹18.0 Lakhs – ₹32.0 Lakhs</td>
+                  <td className="p-4 text-xs leading-relaxed">
+                    Whole-home KNX infrastructure, Basalte Belgian milled keypads, DALI-2 circadian daylighting, multi-room audio (4 zones), motorized shading, and perimeter security.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-semibold text-white">Grand Architectural Estate</td>
+                  <td className="p-4 text-xs font-mono">8,000 – 15,000+ sq.ft.</td>
+                  <td className="p-4 font-bold text-[var(--gold)]">₹35.0 Lakhs – ₹65.0 Lakhs+</td>
+                  <td className="p-4 text-xs leading-relaxed">
+                    Comprehensive intelligent ecosystem: KNX, Zehnder ERV fresh air ventilation, Drainvac central vacuum, Trinnov Dolby Atmos private cinema integration, and enterprise WiFi 7 networking.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
             Why This Matters for Indian Luxury Homeowners
           </h2>
           <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">

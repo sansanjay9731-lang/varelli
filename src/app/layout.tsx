@@ -50,10 +50,10 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "VARELLI",
-  url: "https://varelli.in",
+  url: "https://varelli.co.in",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://varelli.in/search?q={search_term_string}",
+    target: "https://varelli.co.in/search?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -61,15 +61,15 @@ const websiteSchema = {
 const localBusinessBangalore = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://varelli.in/#bangalore",
+  "@id": "https://varelli.co.in/#bangalore",
   name: "VARELLI - Intelligent Living Bangalore",
   alternateName: "VARELLI Bangalore",
   description:
     "VARELLI's Bangalore studio specialises in luxury home automation (KNX), private cinema (Dolby Atmos), fresh air ventilation (Zehnder ERV), central vacuum, and intelligent home security for villas across Whitefield, Koramangala, Sarjapur Road, Indiranagar, and Yelahanka.",
-  url: "https://varelli.in",
+  url: "https://varelli.co.in",
   telephone: "+919964984695",
-  email: "studio@varelli.in",
-  image: "https://varelli.in/images/varelli-logo.png",
+  email: "studio@varelli.co.in",
+  image: "https://varelli.co.in/images/varelli-logo.png",
   priceRange: "₹₹₹₹",
   address: {
     "@type": "PostalAddress",
@@ -101,6 +101,10 @@ const localBusinessBangalore = {
   areaServed: [
     { "@type": "City", name: "Bangalore" },
     { "@type": "City", name: "Bengaluru" },
+    { "@type": "City", name: "Mumbai" },
+    { "@type": "City", name: "Delhi NCR" },
+    { "@type": "City", name: "Hyderabad" },
+    { "@type": "Country", name: "India" },
   ],
   makesOffer: [
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "KNX Home Automation" } },
@@ -116,79 +120,6 @@ const localBusinessBangalore = {
   ],
 };
 
-const localBusinessMumbai = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://varelli.in/#mumbai",
-  name: "VARELLI - Intelligent Living Mumbai",
-  alternateName: "VARELLI Mumbai",
-  description:
-    "VARELLI's Mumbai studio delivers luxury home automation, private cinema, and intelligent living solutions for residences across Bandra, Juhu, Worli, Prabhadevi, Powai, and South Mumbai.",
-  url: "https://varelli.in",
-  telephone: "+919964984695",
-  email: "studio@varelli.in",
-  priceRange: "₹₹₹₹",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Bandra West",
-    addressLocality: "Mumbai",
-    addressRegion: "Maharashtra",
-    postalCode: "400050",
-    addressCountry: "IN",
-  },
-  areaServed: [{ "@type": "City", name: "Mumbai" }],
-};
-
-const localBusinessDelhi = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://varelli.in/#delhi",
-  name: "VARELLI - Intelligent Living Delhi NCR",
-  alternateName: "VARELLI Delhi",
-  description:
-    "VARELLI's Delhi NCR studio delivers luxury home automation, private cinema, and intelligent living solutions for residences across Gurgaon, DLF, Vasant Vihar, Greater Kailash, and Noida.",
-  url: "https://varelli.in",
-  telephone: "+919964984695",
-  email: "studio@varelli.in",
-  priceRange: "₹₹₹₹",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "DLF Phase 5",
-    addressLocality: "Gurugram",
-    addressRegion: "Haryana",
-    postalCode: "122009",
-    addressCountry: "IN",
-  },
-  areaServed: [
-    { "@type": "City", name: "Delhi" },
-    { "@type": "City", name: "Gurgaon" },
-    { "@type": "City", name: "Noida" },
-  ],
-};
-
-const localBusinessHyderabad = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://varelli.in/#hyderabad",
-  name: "VARELLI - Intelligent Living Hyderabad",
-  alternateName: "VARELLI Hyderabad",
-  description:
-    "VARELLI's Hyderabad studio delivers luxury home automation, private cinema, and intelligent living solutions for villas across Jubilee Hills, Banjara Hills, Hitec City, and Kondapur.",
-  url: "https://varelli.in",
-  telephone: "+919964984695",
-  email: "studio@varelli.in",
-  priceRange: "₹₹₹₹",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Jubilee Hills",
-    addressLocality: "Hyderabad",
-    addressRegion: "Telangana",
-    postalCode: "500033",
-    addressCountry: "IN",
-  },
-  areaServed: [{ "@type": "City", name: "Hyderabad" }],
-};
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
@@ -199,9 +130,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SchemaOrg schema={organizationSchema} />
         <SchemaOrg schema={websiteSchema} />
         <SchemaOrg schema={localBusinessBangalore} />
-        <SchemaOrg schema={localBusinessMumbai} />
-        <SchemaOrg schema={localBusinessDelhi} />
-        <SchemaOrg schema={localBusinessHyderabad} />
       </head>
       <body className="font-body antialiased bg-[#08080A] text-[#F2F2F5]">
         <Header />

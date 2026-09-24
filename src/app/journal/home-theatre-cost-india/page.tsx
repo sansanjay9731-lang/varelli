@@ -31,16 +31,16 @@ const articleSchema = {
   author: {
     "@type": "Organization",
     name: "VARELLI Systems Architecture Team",
-    url: "https://varelli.in",
+    url: "https://varelli.co.in",
   },
   publisher: {
     "@type": "Organization",
     name: "VARELLI",
-    logo: { "@type": "ImageObject", url: "https://varelli.in/images/varelli-logo.png" },
+    logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" },
   },
   datePublished: "2026-08-01",
-  dateModified: "2026-08-30",
-  mainEntityOfPage: "https://varelli.in/journal/home-theatre-cost-india",
+  dateModified: "2026-09-24",
+  mainEntityOfPage: "https://varelli.co.in/journal/home-theatre-cost-india",
 };
 
 const faqs = [

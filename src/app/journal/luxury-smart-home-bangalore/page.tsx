@@ -6,11 +6,12 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Luxury Smart Home Bangalore — Architecture-Led KNX Design | VARELLI",
+  title: "Smart Home Villas in Bangalore — Architectural Guide 2026 | VARELLI",
   description:
-    "Luxury smart home design in Bangalore with VARELLI. KNX wired automation, Basalte keypads, Dolby Atmos cinema, Zehnder fresh air, and UniFi enterprise networking for villas in Whitefield, Koramangala, Indiranagar and South Bangalore.",
+    "Architectural guide to luxury smart home villas in Bangalore. KNX wired automation, Basalte keypads, Dolby Atmos cinema, Zehnder ERV ventilation for villas in Whitefield, Koramangala, Sadashivanagar and Sarjapur.",
   path: "/journal/luxury-smart-home-bangalore",
   keywords: [
+    "smart home villas Bangalore",
     "luxury smart home Bangalore",
     "luxury home automation Bangalore",
     "smart villa Bangalore",
@@ -27,22 +28,22 @@ export const metadata: Metadata = generatePageMetadata({
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Luxury Smart Home Design in Bangalore — The VARELLI Approach 2026",
+  headline: "Smart Home Villas in Bangalore — Architectural Guide 2026",
   description:
-    "An architectural and engineering manifesto on creating luxury smart homes in Bangalore. Covers KNX wired infrastructure, bespoke European tactile interfaces, indoor air quality with Zehnder ERV, dedicated Dolby Atmos private cinema acoustic engineering, and enterprise networking for estates in Whitefield, Koramangala, Indiranagar, and South Bangalore.",
+    "An architectural and engineering guide on designing smart home villas in Bangalore. Covers KNX wired infrastructure, bespoke European tactile interfaces, indoor air quality with Zehnder ERV, dedicated Dolby Atmos private cinema acoustic engineering, and enterprise networking for estates in Whitefield, Koramangala, Indiranagar, and South Bangalore.",
   author: {
     "@type": "Organization",
     name: "VARELLI Systems Architecture Team",
-    url: "https://varelli.in",
+    url: "https://varelli.co.in",
   },
   publisher: {
     "@type": "Organization",
     name: "VARELLI",
-    logo: { "@type": "ImageObject", url: "https://varelli.in/images/varelli-logo.png" },
+    logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" },
   },
   datePublished: "2026-08-01",
-  dateModified: "2026-08-30",
-  mainEntityOfPage: "https://varelli.in/journal/luxury-smart-home-bangalore",
+  dateModified: "2026-09-24",
+  mainEntityOfPage: "https://varelli.co.in/journal/luxury-smart-home-bangalore",
   image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
 };
 
@@ -103,7 +104,7 @@ export default function LuxurySmartHomeBangalorePage() {
             <span className="text-xs text-[var(--text-muted)]">Updated August 2026 · 13 min read</span>
           </div>
           <h1 className="font-display text-4xl md:text-5xl lg:text-[3.25rem] text-[var(--text-primary)] leading-[1.15] mb-6">
-            Luxury Smart Home Design in Bangalore — The VARELLI Approach 2026
+            Smart Home Villas in Bangalore — Architectural Guide 2026
           </h1>
           <p className="text-xl text-[var(--text-secondary)] leading-relaxed max-w-3xl">
             In India&apos;s technology capital, luxury living is evolving beyond fragmented consumer gadgets. Discover how
