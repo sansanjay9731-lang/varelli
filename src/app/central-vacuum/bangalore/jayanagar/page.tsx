@@ -93,7 +93,7 @@ export default function CentralVacuumJayanagarPage() {
       <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-8">Built-In Central Vacuum System in Jayanagar, Bangalore — Drainvac</h1>
         
-        <div className="prose max-w-none mb-12">
+        <div className="prose prose-invert max-w-none text-[#C2C2C8] mb-12">
           <p>
             Experience the ultimate cleaning convenience for your luxury home in Jayanagar. Our Drainvac built-in central vacuum systems eliminate the need to lug heavy portable vacuums from room to room. With powerful suction and whisper-quiet operation, these systems reduce allergens and provide a deeper clean for your entire residence.
           </p>
@@ -101,17 +101,17 @@ export default function CentralVacuumJayanagarPage() {
 
         <h2 className="text-3xl font-semibold mb-6">System Options for Jayanagar Homes</h2>
         <ul className="space-y-4 mb-12">
-          <li className="bg-gray-50 p-6 rounded-lg">
+          <li className="bg-[#121216] border border-white/5 p-6 rounded-lg">
             <h3 className="text-xl font-bold">Compact System</h3>
-            <p className="text-gray-700">₹1.8L–₹2.8L — Perfect for modern apartments and townhouses.</p>
+            <p className="text-[#C2C2C8]">₹1.8L–₹2.8L — Perfect for modern apartments and townhouses.</p>
           </li>
-          <li className="bg-gray-50 p-6 rounded-lg">
+          <li className="bg-[#121216] border border-white/5 p-6 rounded-lg">
             <h3 className="text-xl font-bold">Residential System</h3>
-            <p className="text-gray-700">₹3.2L–₹5.5L — Ideal for standard-sized luxury villas.</p>
+            <p className="text-[#C2C2C8]">₹3.2L–₹5.5L — Ideal for standard-sized luxury villas.</p>
           </li>
-          <li className="bg-gray-50 p-6 rounded-lg">
+          <li className="bg-[#121216] border border-white/5 p-6 rounded-lg">
             <h3 className="text-xl font-bold">Estate System</h3>
-            <p className="text-gray-700">₹6.5L–₹12L+ — Designed for sprawling estates and multi-level mansions.</p>
+            <p className="text-[#C2C2C8]">₹6.5L–₹12L+ — Designed for sprawling estates and multi-level mansions.</p>
           </li>
         </ul>
         

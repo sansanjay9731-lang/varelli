@@ -72,11 +72,11 @@ export default function Page() {
         <div className="container mx-auto max-w-6xl">
           <span className="badge">Ultra-Luxury</span>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Smart Home Automation in Cuffe Parade, Mumbai — Architecture-Led KNX for South Mumbai Residences</h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8">European Craftsmanship for Cuffe Parade properties</p>
+          <p className="text-xl md:text-2xl text-[#A0A0A5] mb-8">European Craftsmanship for Cuffe Parade properties</p>
         </div>
       </section>
       
-      <section className="services w-full py-16 px-4 bg-gray-50">
+      <section className="services w-full py-16 px-4 bg-[#121216]">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold mb-8">Services for Cuffe Parade Residences</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

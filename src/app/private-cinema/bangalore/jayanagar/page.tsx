@@ -87,24 +87,24 @@ export default function PrivateCinemaJayanagarPage() {
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           Private Cinema in Jayanagar, Bangalore
         </h1>
-        <p className="text-lg text-gray-600 mb-12">
+        <p className="text-lg text-[#A0A0A5] mb-12">
           Experience the ultimate in home entertainment with VARELLI&apos;s custom-designed private cinema rooms in Jayanagar.
         </p>
 
         <div className="grid gap-8 md:grid-cols-3 mb-16">
-          <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="border border-white/10 p-6 rounded-lg">
             <h3 className="text-2xl font-semibold mb-3">Room Cinema</h3>
-            <p className="text-gray-600 mb-4">Premium media room setups for mixed-use spaces.</p>
+            <p className="text-[#A0A0A5] mb-4">Premium media room setups for mixed-use spaces.</p>
             <p className="font-bold text-xl">₹18L – ₹28L</p>
           </div>
-          <div className="border border-gray-200 p-6 rounded-lg bg-gray-50">
+          <div className="border border-white/10 p-6 rounded-lg bg-[#121216]">
             <h3 className="text-2xl font-semibold mb-3">Dedicated Cinema</h3>
-            <p className="text-gray-600 mb-4">Acoustically treated rooms with Dolby Atmos.</p>
+            <p className="text-[#A0A0A5] mb-4">Acoustically treated rooms with Dolby Atmos.</p>
             <p className="font-bold text-xl">₹38L – ₹65L</p>
           </div>
-          <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="border border-white/10 p-6 rounded-lg">
             <h3 className="text-2xl font-semibold mb-3">Reference Cinema</h3>
-            <p className="text-gray-600 mb-4">Uncompromising reference-grade audio and video.</p>
+            <p className="text-[#A0A0A5] mb-4">Uncompromising reference-grade audio and video.</p>
             <p className="font-bold text-xl">₹75L – ₹1.5Cr+</p>
           </div>
         </div>

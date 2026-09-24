@@ -38,7 +38,7 @@ export default function FreshAirVentilationdlfphase5Page() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Fresh Air Ventilation in Dlf Phase 5, Delhi NCR</h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mb-8">
+          <p className="text-lg md:text-xl text-[#A0A0A5] max-w-3xl mb-8">
             Protect your family from Delhi&apos;s severe winter pollution (AQI 300–500) with premium Zehnder ERV 
             ventilation. Essential for sealed AC farmhouses and luxury homes in Dlf Phase 5, featuring 
             Zehnder H13 HEPA filtration to eliminate PM2.5 and PM10 particles.
@@ -46,23 +46,23 @@ export default function FreshAirVentilationdlfphase5Page() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#121216]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Installation Tiers</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Apartment</h3>
-              <p className="text-gray-600 mb-4">₹2.8L – ₹4.5L</p>
+              <p className="text-[#A0A0A5] mb-4">₹2.8L – ₹4.5L</p>
               <p className="text-sm">Compact, high-efficiency Zehnder ERV solutions for luxury apartments.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Bungalow</h3>
-              <p className="text-gray-600 mb-4">₹5.5L – ₹9L</p>
+              <p className="text-[#A0A0A5] mb-4">₹5.5L – ₹9L</p>
               <p className="text-sm">Comprehensive whole-house fresh air ventilation for multi-story bungalows.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border-2 border-gray-900">
               <h3 className="text-xl font-bold mb-4">Farmhouse / Estate</h3>
-              <p className="text-gray-600 mb-4">₹11L – ₹18L+</p>
+              <p className="text-[#A0A0A5] mb-4">₹11L – ₹18L+</p>
               <p className="text-sm">Commercial-grade residential ventilation for large sealed farmhouses.</p>
             </div>
           </div>

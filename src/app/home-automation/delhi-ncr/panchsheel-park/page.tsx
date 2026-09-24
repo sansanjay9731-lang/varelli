@@ -72,11 +72,11 @@ export default function Page() {
         <div className="container mx-auto max-w-6xl">
           <span className="badge">Ultra-Luxury</span>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Luxury Home Automation in Panchsheel Park, Delhi — KNX Systems for Tree-Lined South Delhi</h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8">European Craftsmanship for Panchsheel Park properties</p>
+          <p className="text-xl md:text-2xl text-[#A0A0A5] mb-8">European Craftsmanship for Panchsheel Park properties</p>
         </div>
       </section>
       
-      <section className="services w-full py-16 px-4 bg-gray-50">
+      <section className="services w-full py-16 px-4 bg-[#121216]">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold mb-8">Services for Panchsheel Park Residences</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

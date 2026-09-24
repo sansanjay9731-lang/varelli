@@ -155,3 +155,181 @@ body {
 .animate-marquee {
   animation: marquee 30s linear infinite;
 }
+
+/* ========================================================
+   VARELLI LUXURY THEME ENFORCEMENT & OVERRIDES
+   Guarantees all pages, tables, callouts, and prose adhere
+   strictly to the dark luxury palette (#08080A / Gold / White).
+   ======================================================== */
+
+/* Fix all light background classes inside content areas */
+main .bg-gray-50,
+article .bg-gray-50,
+.bg-gray-50 {
+  background-color: #121216 !important;
+  border-color: rgba(197, 168, 128, 0.25) !important;
+  color: #F2F2F5 !important;
+}
+
+main .bg-gray-100,
+article .bg-gray-100,
+.bg-gray-100 {
+  background-color: #1A1A22 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: #F2F2F5 !important;
+}
+
+main .bg-white,
+article .bg-white {
+  background-color: #121216 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: #F2F2F5 !important;
+}
+
+/* Fix dark text classes on dark background */
+.text-gray-900,
+.text-gray-800 {
+  color: #FFFFFF !important;
+}
+
+.text-gray-700,
+.text-gray-600 {
+  color: #C2C2C8 !important;
+}
+
+.text-gray-500,
+.text-gray-400 {
+  color: #8E8E93 !important;
+}
+
+/* Fix light border classes */
+.border-gray-100,
+.border-gray-200,
+.border-gray-300,
+.border-black {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Executive Summary callouts with border-l-4 */
+.border-l-4.border-black,
+.border-l-4.border-gray-900,
+.border-l-4 {
+  border-left-color: #C5A880 !important;
+}
+
+/* Luxury Tables */
+table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+table thead tr,
+table thead th {
+  background-color: #1A1A22 !important;
+  color: #C5A880 !important;
+  font-family: var(--font-mono), monospace !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+table tbody tr {
+  background-color: #101015 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+table tbody tr:hover {
+  background-color: #16161D !important;
+}
+
+table tbody td {
+  color: #D1D1D6 !important;
+  border-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Editorial & Article Typography */
+article h1 {
+  font-family: var(--font-cormorant), var(--font-syne), serif;
+  font-weight: 300;
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em;
+}
+
+article h2 {
+  font-family: var(--font-cormorant), var(--font-syne), serif;
+  font-weight: 400;
+  color: #FFFFFF !important;
+  letter-spacing: -0.01em;
+}
+
+article h3,
+article h4 {
+  color: #F2F2F5 !important;
+  font-weight: 500;
+}
+
+article p {
+  color: #C2C2C8;
+  line-height: 1.75;
+}
+
+article strong {
+  color: #FFFFFF !important;
+  font-weight: 600;
+}
+
+article ul,
+article ol {
+  color: #C2C2C8;
+}
+
+article a {
+  color: #C5A880;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 0.2s ease;
+}
+
+article a:hover {
+  color: #D4AF37;
+}
+
+/* Ensure all prose containers render in dark mode */
+.prose {
+  color: #C2C2C8 !important;
+  max-width: none !important;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: #FFFFFF !important;
+}
+
+.prose p {
+  color: #C2C2C8 !important;
+  line-height: 1.75 !important;
+}
+
+.prose strong {
+  color: #FFFFFF !important;
+}
+
+.prose ul,
+.prose ol {
+  color: #C2C2C8 !important;
+}
+
+.prose a {
+  color: #C5A880 !important;
+}
+
+.prose blockquote {
+  border-left-color: #C5A880 !important;
+  color: #A0A0A5 !important;
+}

@@ -38,7 +38,7 @@ export default function HomeTheatrechattarpurPage() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Home Theatre in Chattarpur, Delhi NCR</h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mb-8">
+          <p className="text-lg md:text-xl text-[#A0A0A5] max-w-3xl mb-8">
             Elevate your entertainment experience with a custom-designed home theatre in Chattarpur. 
             Whether it&apos;s a dedicated screen room in a large plot, a golf-facing luxury apartment in Gurgaon, 
             a farmhouse in Chattarpur, or a bungalow in Lutyens Delhi, we provide the ultimate cinematic experience.
@@ -46,23 +46,23 @@ export default function HomeTheatrechattarpurPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#121216]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Our Tiers</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Essentials 5.1</h3>
-              <p className="text-gray-600 mb-4">Starting from ₹8L</p>
+              <p className="text-[#A0A0A5] mb-4">Starting from ₹8L</p>
               <p className="text-sm">Perfect for living rooms and smaller dedicated spaces.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Dolby Atmos 7.2.4</h3>
-              <p className="text-gray-600 mb-4">Starting from ₹18L</p>
+              <p className="text-[#A0A0A5] mb-4">Starting from ₹18L</p>
               <p className="text-sm">Immersive 3D audio for mid to large sized dedicated rooms.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border-2 border-gray-900">
               <h3 className="text-xl font-bold mb-4">Reference Cinema 9.4.6</h3>
-              <p className="text-gray-600 mb-4">Starting from ₹42L</p>
+              <p className="text-[#A0A0A5] mb-4">Starting from ₹42L</p>
               <p className="text-sm">The ultimate private screening room experience for large spaces.</p>
             </div>
           </div>

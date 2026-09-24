@@ -89,16 +89,16 @@ export default function JournalArticlePage() {
             Best Home Theatre in Whitefield, Koramangala & Indiranagar, Bangalore
           </h1>
           
-          <div className="bg-gray-50 border-l-4 border-black p-6 mb-8 rounded-r-lg">
+          <div className="bg-[#121216] border border-[#C5A880]/30 p-6 mb-8 rounded-r-lg">
             <h2 className="text-xl font-bold mb-2">Executive Summary</h2>
-            <p className="text-gray-700">
+            <p className="text-[#C2C2C8]">
               This comprehensive guide explores the essential factors when considering premium technology solutions in Bangalore. 
               We dive into the key requirements, pricing expectations, and what defines a true reference-grade experience.
             </p>
           </div>
         </header>
 
-        <div className="prose prose-lg max-w-none mb-16">
+        <div className="prose prose-invert prose-lg max-w-none text-[#C2C2C8] mb-16">
           <h2>Introduction</h2>
           <p>
             When building a luxury residence in Bangalore, selecting the right technology partner is a critical decision. 
@@ -119,7 +119,7 @@ export default function JournalArticlePage() {
           <div className="overflow-x-auto my-8">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="bg-gray-100">
+                <tr className="bg-[#1A1A22]">
                   <th className="border p-4 font-bold">Tier</th>
                   <th className="border p-4 font-bold">Estimated Cost</th>
                   <th className="border p-4 font-bold">What to Expect</th>

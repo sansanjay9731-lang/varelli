@@ -118,34 +118,34 @@ export default function Page() {
             Understanding the financial investment required is a key step in planning. Below is our pricing guide tailored to different tiers of excellence, from high-end starter packages to ultimate reference systems.
           </p>
           
-          <table className="w-full text-left border-collapse border border-gray-300 my-8">
+          <table className="w-full text-left border-collapse border border-white/10 my-8">
             <thead>
-              <tr className="bg-gray-100">
-                <th className="p-4 border border-gray-300">Package</th>
-                <th className="p-4 border border-gray-300">Configuration</th>
-                <th className="p-4 border border-gray-300">Price Range</th>
+              <tr className="bg-[#1A1A22]">
+                <th className="p-4 border border-white/10">Package</th>
+                <th className="p-4 border border-white/10">Configuration</th>
+                <th className="p-4 border border-white/10">Price Range</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="p-4 border border-gray-300">Starter</td>
-                <td className="p-4 border border-gray-300">5.1 Surround</td>
-                <td className="p-4 border border-gray-300">₹8L - ₹12L</td>
+                <td className="p-4 border border-white/10">Starter</td>
+                <td className="p-4 border border-white/10">5.1 Surround</td>
+                <td className="p-4 border border-white/10">₹8L - ₹12L</td>
               </tr>
               <tr>
-                <td className="p-4 border border-gray-300">Enthusiast</td>
-                <td className="p-4 border border-gray-300">7.2.4 Dolby Atmos</td>
-                <td className="p-4 border border-gray-300">₹18L - ₹28L</td>
+                <td className="p-4 border border-white/10">Enthusiast</td>
+                <td className="p-4 border border-white/10">7.2.4 Dolby Atmos</td>
+                <td className="p-4 border border-white/10">₹18L - ₹28L</td>
               </tr>
               <tr>
-                <td className="p-4 border border-gray-300">Dedicated</td>
-                <td className="p-4 border border-gray-300">9.2.4 Premium</td>
-                <td className="p-4 border border-gray-300">₹32L - ₹48L</td>
+                <td className="p-4 border border-white/10">Dedicated</td>
+                <td className="p-4 border border-white/10">9.2.4 Premium</td>
+                <td className="p-4 border border-white/10">₹32L - ₹48L</td>
               </tr>
               <tr>
-                <td className="p-4 border border-gray-300">Reference</td>
-                <td className="p-4 border border-gray-300">9.4.6 Ultimate</td>
-                <td className="p-4 border border-gray-300">₹55L - ₹85L+</td>
+                <td className="p-4 border border-white/10">Reference</td>
+                <td className="p-4 border border-white/10">9.4.6 Ultimate</td>
+                <td className="p-4 border border-white/10">₹55L - ₹85L+</td>
               </tr>
             </tbody>
           </table>
@@ -153,7 +153,7 @@ export default function Page() {
           <h2>Conclusion and Next Steps</h2>
           <p>
             In conclusion, approaching a setup of this caliber requires a holistic mindset that balances technology, aesthetics, and acoustics. From the initial layout and wiring phase to the final acoustic calibration, every decision impacts the end result. By carefully selecting the right components and combining them with expert room design and acoustic treatment, you can create an unparalleled cinematic oasis in your own home. Our dedicated team is committed to guiding you through this journey, ensuring that your investment yields a breathtaking entertainment space that you will cherish for years to come. 
-            For more localized options, explore our <Link href="/home-theatre/bangalore/yelahanka" className="text-blue-600 underline">Home Theatre in Bangalore Yelahanka</Link> guide, or view our broader <Link href="/home-theatre/bangalore" className="text-blue-600 underline">Bangalore home theatre services</Link>.
+            For more localized options, explore our <Link href="/home-theatre/bangalore/yelahanka" className="text-[#C5A880] underline">Home Theatre in Bangalore Yelahanka</Link> guide, or view our broader <Link href="/home-theatre/bangalore" className="text-[#C5A880] underline">Bangalore home theatre services</Link>.
           </p>
 
           <h2>Frequently Asked Questions</h2>

@@ -24,16 +24,16 @@ export default function Page() {
       <article className="w-full py-20 px-4">
         <div className="container mx-auto max-w-4xl prose lg:prose-xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-8">Private Cinema Cost in Bangalore 2026 — Transparent Pricing for Luxury Home Theatres</h1>
-          <p className="lead text-xl text-gray-600 mb-12">
+          <p className="lead text-xl text-[#A0A0A5] mb-12">
             Detailed pricing and cost breakdown for luxury installations. Contact us on WhatsApp: +91 99649 84695.
           </p>
           
           <div className="my-12">
             <h2>Pricing Tiers Breakdown</h2>
             <div className="overflow-x-auto">
-              <table className="min-w-full bg-white border border-gray-200">
+              <table className="min-w-full bg-[#101015] border border-white/10">
                 <thead>
-                  <tr className="bg-gray-100">
+                  <tr className="bg-[#1A1A22]">
                     <th className="py-3 px-4 text-left border-b">Tier</th>
                     <th className="py-3 px-4 text-left border-b">Price Range</th>
                     <th className="py-3 px-4 text-left border-b">Description</th>

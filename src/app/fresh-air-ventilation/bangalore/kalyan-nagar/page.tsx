@@ -93,7 +93,7 @@ export default function FreshAirKalyanNagarPage() {
       <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-8">Fresh Air Ventilation in Kalyan Nagar, Bangalore — Zehnder ERV Systems</h1>
         
-        <div className="prose max-w-none mb-12">
+        <div className="prose prose-invert max-w-none text-[#C2C2C8] mb-12">
           <p>
             In dense urban areas like Kalyan Nagar, maintaining optimal indoor air quality is essential. With rising AQI levels and the prevalence of sealed air-conditioned buildings, CO2 buildup and indoor pollutants are significant concerns. Our Zehnder ERV systems provide a constant supply of filtered, fresh air while exhausting stale air, ensuring a healthy environment for your family.
           </p>
@@ -101,17 +101,17 @@ export default function FreshAirKalyanNagarPage() {
 
         <h2 className="text-3xl font-semibold mb-6">System Tiers for Kalyan Nagar Homes</h2>
         <ul className="space-y-4 mb-12">
-          <li className="bg-gray-50 p-6 rounded-lg">
+          <li className="bg-[#121216] border border-white/5 p-6 rounded-lg">
             <h3 className="text-xl font-bold">Studio System</h3>
-            <p className="text-gray-700">₹2.8L–₹4.5L — Ideal for compact luxury apartments.</p>
+            <p className="text-[#C2C2C8]">₹2.8L–₹4.5L — Ideal for compact luxury apartments.</p>
           </li>
-          <li className="bg-gray-50 p-6 rounded-lg">
+          <li className="bg-[#121216] border border-white/5 p-6 rounded-lg">
             <h3 className="text-xl font-bold">Residence System</h3>
-            <p className="text-gray-700">₹5.5L–₹9L — Designed for premium multi-bedroom residences.</p>
+            <p className="text-[#C2C2C8]">₹5.5L–₹9L — Designed for premium multi-bedroom residences.</p>
           </li>
-          <li className="bg-gray-50 p-6 rounded-lg">
+          <li className="bg-[#121216] border border-white/5 p-6 rounded-lg">
             <h3 className="text-xl font-bold">Villa System</h3>
-            <p className="text-gray-700">₹11L–₹18L+ — Comprehensive solutions for expansive luxury villas.</p>
+            <p className="text-[#C2C2C8]">₹11L–₹18L+ — Comprehensive solutions for expansive luxury villas.</p>
           </li>
         </ul>
         

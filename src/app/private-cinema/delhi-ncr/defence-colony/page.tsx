@@ -38,30 +38,30 @@ export default function PrivateCinemadefencecolonyPage() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Private Cinema in Defence Colony, Delhi NCR</h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mb-8">
+          <p className="text-lg md:text-xl text-[#A0A0A5] max-w-3xl mb-8">
             Experience the pinnacle of cinematic luxury in Defence Colony. We design and build dedicated 
             screening rooms and large basement cinema rooms for Delhi bungalows and farmhouses.
           </p>
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#121216]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Cinema Tiers</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Room Cinema</h3>
-              <p className="text-gray-600 mb-4">₹18L – ₹28L</p>
+              <p className="text-[#A0A0A5] mb-4">₹18L – ₹28L</p>
               <p className="text-sm">High-performance cinema setups for dedicated medium-sized rooms.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Dedicated Cinema</h3>
-              <p className="text-gray-600 mb-4">₹38L – ₹65L</p>
+              <p className="text-[#A0A0A5] mb-4">₹38L – ₹65L</p>
               <p className="text-sm">Fully treated acoustic spaces with high-end projection and immersive audio.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border-2 border-gray-900">
               <h3 className="text-xl font-bold mb-4">Reference Cinema</h3>
-              <p className="text-gray-600 mb-4">₹75L – ₹1.5Cr+</p>
+              <p className="text-[#A0A0A5] mb-4">₹75L – ₹1.5Cr+</p>
               <p className="text-sm">World-class private screening rooms with uncompromising performance.</p>
             </div>
           </div>

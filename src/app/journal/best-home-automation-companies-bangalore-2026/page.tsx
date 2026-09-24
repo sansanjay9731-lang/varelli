@@ -65,7 +65,7 @@ export default function JournalArticlePage() {
   };
 
   return (
-    <main className="flex flex-col min-h-screen">
+    <div className="bg-[#08080A] text-[#F2F2F5] min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
@@ -75,99 +75,115 @@ export default function JournalArticlePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       
-      <Breadcrumb
-        items={[
-          { name: 'Home', href: '/' },
-          { name: 'Journal', href: '/journal' },
-          { name: 'Article', href: '/journal/best-home-automation-companies-bangalore-2026' }
-        ]}
-      />
-      
-      <article className="py-16 md:py-24 px-6 max-w-4xl mx-auto w-full">
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Best Home Automation Companies in Bangalore 2026
-          </h1>
-          
-          <div className="bg-gray-50 border-l-4 border-black p-6 mb-8 rounded-r-lg">
-            <h2 className="text-xl font-bold mb-2">Executive Summary</h2>
-            <p className="text-gray-700">
-              This comprehensive guide explores the essential factors when considering premium technology solutions in Bangalore. 
-              We dive into the key requirements, pricing expectations, and what defines a true reference-grade experience.
-            </p>
+      <div className="max-w-4xl mx-auto px-6 pt-32 pb-20">
+        <Breadcrumb
+          items={[
+            { name: 'Home', href: '/' },
+            { name: 'Journal', href: '/journal' },
+            { name: 'Article', href: '/journal/best-home-automation-companies-bangalore-2026' }
+          ]}
+        />
+        
+        <header className="mt-8 mb-12">
+          <div className="flex items-center gap-3 text-xs tracking-widest text-[#8E8E93] uppercase font-mono mb-4">
+            <span className="text-[#C5A880]">Bangalore Integrator Guide</span>
+            <span>•</span>
+            <span>9 min read</span>
+            <span>•</span>
+            <span>Updated September 2026</span>
           </div>
+          <h1 className="text-4xl md:text-5xl font-serif font-light text-white tracking-tight leading-[1.15] mb-6">
+            Best Home Automation Companies in Bangalore 2026 — Complete Guide
+          </h1>
+          <p className="text-lg md:text-xl text-[#A0A0A5] font-light leading-relaxed">
+            How to evaluate Bangalore smart home integrators: comparing open wired KNX standards against proprietary wireless gadgets, architectural finishes, and transparent pricing.
+          </p>
         </header>
 
-        <div className="prose prose-lg max-w-none mb-16">
-          <h2>Introduction</h2>
-          <p>
-            When building a luxury residence in Bangalore, selecting the right technology partner is a critical decision. 
-            The market is saturated with options, but identifying the truly capable integrators requires understanding the difference 
-            between basic AV installations and engineered reference-grade experiences. This guide, <strong>Best Home Automation Companies in Bangalore 2026</strong>, aims to clarify this landscape.
-          </p>
-          <p>
-            Bangalore&apos;s luxury real estate has seen a massive surge in demand for dedicated entertainment spaces and intelligent home control. 
-            Whether you are building a villa in Whitefield or a penthouse in Sadashivanagar, the expectations for quality have never been higher.
-          </p>
-
-          <h2>Understanding the Investment</h2>
-          <p>
-            Quality comes at a price, but understanding what drives that cost is essential. Here is a breakdown of typical investment tiers 
-            for premium installations in the current market:
-          </p>
-
-          <div className="overflow-x-auto my-8">
-            <table className="w-full text-left border-collapse">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="border p-4 font-bold">Tier</th>
-                  <th className="border p-4 font-bold">Estimated Cost</th>
-                  <th className="border p-4 font-bold">What to Expect</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="border p-4">Premium Entry</td>
-                  <td className="border p-4">₹18 Lakhs – ₹35 Lakhs</td>
-                  <td className="border p-4">High-quality components, basic acoustic treatments, standard control interfaces.</td>
-                </tr>
-                <tr>
-                  <td className="border p-4">Dedicated High-End</td>
-                  <td className="border p-4">₹40 Lakhs – ₹75 Lakhs</td>
-                  <td className="border p-4">Engineered acoustics, Dolby Atmos, 4K laser projection, advanced lighting control.</td>
-                </tr>
-                <tr>
-                  <td className="border p-4">Reference Grade</td>
-                  <td className="border p-4">₹85 Lakhs – ₹1.5 Cr+</td>
-                  <td className="border p-4">Uncompromising audio/video performance, brands like Meyer Sound and Barco, bespoke room design.</td>
-                </tr>
-              </tbody>
-            </table>
+        {/* Executive Summary */}
+        <section className="bg-[#121216] border border-[#C5A880]/30 rounded-xl p-8 mb-16 shadow-2xl">
+          <div className="text-xs uppercase tracking-widest font-mono text-[#C5A880] mb-2 font-semibold">
+            Executive Summary
           </div>
+          <p className="text-base md:text-lg text-white font-normal leading-relaxed mb-4">
+            In Bangalore&apos;s luxury residential market, the distinction between a gadget installer and an architectural systems integrator is critical. True home automation utilizes the decentralized, hardwired <strong>KNX open standard (ISO/IEC 14543)</strong>, operating 100% offline with zero cloud subscriptions.
+          </p>
+          <p className="text-sm md:text-base text-[#C2C2C8] leading-relaxed">
+            Turnkey villa investments range between <strong>₹18 Lakhs to ₹45 Lakhs+</strong> covering architectural lighting, DALI-2 circadian dimming, Somfy motorized shading, and VRV air conditioning integration.
+          </p>
+        </section>
 
-          <h2>Key Considerations</h2>
-          <p>
-            Before committing to a provider, consider their engineering approach. Do they rely on guesswork, or do they utilize 
-            advanced modeling software for acoustic design? True professionals provide detailed documentation, precise calibration 
-            reports, and long-term support contracts.
-          </p>
-          <p>
-            Furthermore, the user interface should be intuitive. A system that requires a manual to operate has failed its primary objective: 
-            enhancing your lifestyle seamlessly. We recommend prioritizing solutions that offer robust, elegant control systems.
-          </p>
+        <div className="prose prose-invert max-w-none space-y-10 mb-16 text-[#C2C2C8]">
+          <section>
+            <h2 className="text-2xl md:text-3xl font-serif font-light text-white tracking-tight mb-4">
+              Introduction: Navigating Bangalore&apos;s Smart Home Market
+            </h2>
+            <p className="leading-relaxed">
+              When building a luxury residence in Bangalore, selecting the right technology partner is a critical decision. The market is saturated with options, but identifying truly capable integrators requires understanding the difference between basic retail IoT gadgets and engineered reference-grade experiences.
+            </p>
+            <p className="leading-relaxed mt-4">
+              Bangalore&apos;s luxury real estate has seen a massive surge in demand for integrated home systems. Whether you are building a villa in Whitefield or a penthouse in Sadashivanagar, reinforced concrete slabs and dense masonry walls require hardwired low-voltage bus cabling rather than congested wireless networks.
+            </p>
+          </section>
 
-          <h2>Conclusion</h2>
-          <p>
-            Making an informed decision requires looking beyond the equipment list. Evaluate the integrator&apos;s portfolio, their 
-            commitment to engineering standards, and their after-sales support infrastructure. For the best experience, partner with a firm 
-            that understands luxury and treats your project with the meticulous care it deserves.
-          </p>
+          <section>
+            <h2 className="text-2xl md:text-3xl font-serif font-light text-white tracking-tight mb-4">
+              Understanding the Investment: Bangalore Price Bands
+            </h2>
+            <p className="leading-relaxed mb-6">
+              Quality comes at a price, but understanding what drives that cost is essential. Here is a breakdown of typical investment tiers for professional wired automation:
+            </p>
+
+            <div className="overflow-x-auto my-8 border border-white/10 rounded-lg">
+              <table className="w-full text-left text-sm text-[#D1D1D6]">
+                <thead className="bg-[#1A1A22] text-[#C5A880] uppercase tracking-wider text-xs font-mono">
+                  <tr>
+                    <th className="p-4 border-b border-white/10">Property Tier</th>
+                    <th className="p-4 border-b border-white/10">Estimated Investment</th>
+                    <th className="p-4 border-b border-white/10">Typical Hardware Scope</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/5 bg-[#101015]">
+                  <tr>
+                    <td className="p-4 font-semibold text-white">Luxury Apartment (3BHK)</td>
+                    <td className="p-4 text-[#C5A880] font-mono">₹6 Lakhs – ₹12 Lakhs</td>
+                    <td className="p-4 text-xs text-[#A0A0A5]">Lighting scenes, fan control, VRV AC integration, Ekinex architectural keypads.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-white">Executive Villa (5,000 sq.ft.)</td>
+                    <td className="p-4 text-[#C5A880] font-mono">₹18 Lakhs – ₹32 Lakhs</td>
+                    <td className="p-4 text-xs text-[#A0A0A5]">Full KNX bus wiring, DALI-2 circadian dimming, Somfy motorized shading, DoorBird video intercom, 2-zone audio.</td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 font-semibold text-white">Grand Private Estate (10,000+ sq.ft.)</td>
+                    <td className="p-4 text-[#C5A880] font-mono">₹40 Lakhs – ₹80 Lakhs+</td>
+                    <td className="p-4 text-xs text-[#A0A0A5]">Basalte solid brass keypads, Zehnder ERV ventilation, Drainvac central vacuum, Trinnov Dolby Atmos cinema, enterprise WiFi 7.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl md:text-3xl font-serif font-light text-white tracking-tight mb-4">
+              Key Criteria for Choosing an Integrator
+            </h2>
+            <p className="leading-relaxed mb-4">
+              Before committing to a provider, evaluate their engineering methodology:
+            </p>
+            <ul className="list-disc pl-6 space-y-2 mb-6">
+              <li><strong>Certified KNX Partner:</strong> Ensure the firm has certified ETS system designers, not generic electrical contractors.</li>
+              <li><strong>CAD MEP Coordination:</strong> The integrator must provide comprehensive single-line schematics and conduit layouts before civil first-fix begins.</li>
+              <li><strong>European Hardware:</strong> Insist on proven industrial brands like <Link href="/brands/basalte" className="text-[#C5A880] underline hover:text-[#d8ba91]">Basalte</Link>, <Link href="/brands/ekinex" className="text-[#C5A880] underline hover:text-[#d8ba91]">Ekinex</Link>, and Jung rather than proprietary white-labeled modules.</li>
+              <li><strong>Offline Architecture:</strong> Core functions (lighting, AC, shading) must operate flawlessly even if the home router or internet is disconnected.</li>
+            </ul>
+          </section>
         </div>
 
         <FAQSection faqs={faqData} />
-      </article>
+      </div>
 
       <ServiceCTA serviceName="Home Automation" />
-    </main>
+    </div>
   )
 }
