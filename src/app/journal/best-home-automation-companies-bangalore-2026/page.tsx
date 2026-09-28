@@ -6,8 +6,8 @@ import ServiceCTA from '@/components/sections/service/ServiceCTA'
 import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Best Home Automation Companies in Bangalore 2026 | VARELLI Journal",
-  description: "Read our comprehensive guide: Best Home Automation Companies in Bangalore 2026. Expert insights from VARELLI on luxury home technology.",
+  title: "Best Home Automation Companies in Bangalore 2026 — KNX vs Smart App Ranked | VARELLI",
+  description: "Honest 2026 comparison of Bangalore's top home automation companies — KNX wired vs wireless, pricing in ₹ Lakhs, certifications & brand portfolios. VARELLI vs Qubix, Qloud, ProFX.",
   path: "/journal/best-home-automation-companies-bangalore-2026",
   keywords: ["best home automation companies in bangalore 2026", "varelli journal", "bangalore"],
 })
@@ -39,8 +39,8 @@ export default function JournalArticlePage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best Home Automation Companies in Bangalore 2026",
-    "description": "Read our comprehensive guide: Best Home Automation Companies in Bangalore 2026. Expert insights from VARELLI on luxury home technology.",
+    "headline": "Best Home Automation Companies in Bangalore 2026 — KNX vs Smart App Ranked",
+    "description": "Honest 2026 comparison of Bangalore's top home automation companies — KNX wired vs wireless, pricing in ₹ Lakhs, certifications & brand portfolios. VARELLI vs Qubix, Qloud, ProFX.",
     "author": {
       "@type": "Organization",
       "name": "VARELLI"

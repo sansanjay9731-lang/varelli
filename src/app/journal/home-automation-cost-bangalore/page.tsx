@@ -6,9 +6,8 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Home Automation Cost in Bangalore - 2026 Guide | VARELLI",
-  description:
-    "What determines home automation cost in Bangalore? An honest guide covering system types, scope, platform choices, and what luxury villa automation investment looks like.",
+  title: "Home Automation Cost in Bangalore 2026 — ₹8L to ₹85L Pricing Guide | VARELLI",
+  description: "Honest, transparent home automation cost breakdown for Bangalore villas — ₹8L entry KNX wiring to ₹85L+ grand estate ecosystem. What drives costs up, and how to budget per BHK.",
   path: "/journal/home-automation-cost-bangalore",
   keywords: [
     "home automation cost Bangalore",

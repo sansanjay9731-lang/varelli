@@ -6,7 +6,7 @@ import ServiceCTA from "@/components/sections/service/ServiceCTA";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Zehnder Fresh Air Ventilation System India — ERV Guide 2026 | VARELLI",
+  title: "Zehnder ERV Fresh Air System India 2026 — ComfoAir Q Pricing & Installation | VARELLI",
   description:
     "Complete guide to Zehnder ERV/HRV fresh air systems for Indian homes. ComfoAir Q pricing, installation, CO2 reduction, and comparison vs air purifiers for Bangalore, Mumbai villas.",
   path: "/journal/zehnder-fresh-air-system-india",
@@ -424,7 +424,7 @@ export default function ZehnderFreshAirSystemIndiaPage() {
 
         {/* Related Links */}
         <div className="pt-8 border-t border-[var(--border)] mb-12">
-          <p className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] mb-4">Explore Environmental Living</p>
+          <p className="text-xs font-mono uppercase tracking-widest text-[var(--gold)] mb-4">Related VARELLI Guides</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link
               href="/fresh-air-ventilation"
@@ -435,6 +435,26 @@ export default function ZehnderFreshAirSystemIndiaPage() {
                 VARELLI Fresh Air Ventilation →
               </h4>
               <p className="text-xs text-[var(--text-secondary)] mt-1">Explore our complete Swiss Zehnder residential IAQ engineering packages.</p>
+            </Link>
+            <Link
+              href="/home-automation/bangalore"
+              className="p-4 bg-[var(--surface-1)] border border-[var(--border)] hover:border-[var(--gold)] transition-colors rounded-lg group"
+            >
+              <span className="text-xs text-[var(--gold)] font-mono">Bangalore Hub</span>
+              <h4 className="font-display text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors mt-1">
+                Home Automation in Bangalore →
+              </h4>
+              <p className="text-xs text-[var(--text-secondary)] mt-1">Full KNX home automation + Zehnder ERV integration for Bangalore luxury villas.</p>
+            </Link>
+            <Link
+              href="/journal/best-home-automation-company-bangalore"
+              className="p-4 bg-[var(--surface-1)] border border-[var(--border)] hover:border-[var(--gold)] transition-colors rounded-lg group"
+            >
+              <span className="text-xs text-[var(--gold)] font-mono">Comparison Guide</span>
+              <h4 className="font-display text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors mt-1">
+                Best Home Automation Companies in Bangalore →
+              </h4>
+              <p className="text-xs text-[var(--text-secondary)] mt-1">Honest 2026 ranking of Bangalore's top smart home integrators.</p>
             </Link>
             <Link
               href="/brands"

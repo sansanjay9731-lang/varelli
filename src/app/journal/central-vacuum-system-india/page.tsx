@@ -452,10 +452,22 @@ export default function CentralVacuumSystemIndiaPage() {
               <span className="text-[var(--gold)]">→</span> Zehnder Fresh Air Ventilation Systems
             </Link>
             <Link
-              href="/home-automation"
+              href="/home-automation/bangalore"
               className="text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors text-sm flex items-center gap-2"
             >
-              <span className="text-[var(--gold)]">→</span> KNX Home Automation Ecosystem
+              <span className="text-[var(--gold)]">→</span> KNX Home Automation in Bangalore
+            </Link>
+            <Link
+              href="/journal/best-home-automation-company-bangalore"
+              className="text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors text-sm flex items-center gap-2"
+            >
+              <span className="text-[var(--gold)]">→</span> Best Home Automation Companies in Bangalore 2026
+            </Link>
+            <Link
+              href="/journal/knx-home-automation-bangalore-cost-2026"
+              className="text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors text-sm flex items-center gap-2"
+            >
+              <span className="text-[var(--gold)]">→</span> KNX Home Automation Cost in Bangalore 2026
             </Link>
           </div>
         </div>

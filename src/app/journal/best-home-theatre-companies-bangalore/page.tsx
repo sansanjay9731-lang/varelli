@@ -6,8 +6,8 @@ import ServiceCTA from '@/components/sections/service/ServiceCTA'
 import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Best Home Theatre Companies in Bangalore 2026 — Complete Guide | VARELLI Journal",
-  description: "Read our comprehensive guide: Best Home Theatre Companies in Bangalore 2026 — Complete Guide. Expert insights from VARELLI on luxury home technology.",
+  title: "Best Home Theatre Companies in Bangalore 2026 — Dolby Atmos, Pricing & Rankings | VARELLI",
+  description: "Honest guide to Bangalore's best home theatre companies — Dolby Atmos 5.1 to 9.4.6, ₹ Lakh pricing breakdown, CEDIA-certified integrators vs AV retailers. Who actually delivers cinema-grade results?",
   path: "/journal/best-home-theatre-companies-bangalore",
   keywords: ["best home theatre companies in bangalore 2026 — complete guide", "varelli journal", "bangalore"],
 })
@@ -39,8 +39,8 @@ export default function JournalArticlePage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best Home Theatre Companies in Bangalore 2026 — Complete Guide",
-    "description": "Read our comprehensive guide: Best Home Theatre Companies in Bangalore 2026 — Complete Guide. Expert insights from VARELLI on luxury home technology.",
+    "headline": "Best Home Theatre Companies in Bangalore 2026 — Dolby Atmos, Pricing & Rankings",
+    "description": "Honest guide to Bangalore's best home theatre companies — Dolby Atmos 5.1 to 9.4.6, ₹ Lakh pricing breakdown, CEDIA-certified integrators vs AV retailers. Who actually delivers cinema-grade results?",
     "author": {
       "@type": "Organization",
       "name": "VARELLI"

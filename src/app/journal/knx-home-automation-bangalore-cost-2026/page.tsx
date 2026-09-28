@@ -6,8 +6,8 @@ import Breadcrumb from '@/components/layout/Breadcrumb'
 import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "KNX Home Automation Cost in Bangalore — 2026 Complete Guide",
-  description: "Discover luxury home automation solutions for Bangalore. Varelli is Bangalore's premier KNX certified smart home integration studio.",
+  title: "KNX Home Automation Cost in Bangalore 2026 — ₹ Lakh Pricing Breakdown | VARELLI",
+  description: "Transparent KNX home automation pricing for Bangalore villas: ₹12L–₹85L+ per project tier. Covers wiring, Basalte keypads, DALI-2 lighting, certified installation & what drives costs up.",
   path: "/journal/knx-home-automation-bangalore-cost-2026"
 })
 
