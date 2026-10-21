@@ -6,11 +6,9 @@ import SchemaOrg from "@/components/seo/SchemaOrg";
 import ServiceHero from "@/components/sections/service/ServiceHero";
 import ServiceIntro from "@/components/sections/service/ServiceIntro";
 import CapabilityGrid from "@/components/sections/service/CapabilityGrid";
-import SolutionPackageGrid from "@/components/sections/service/SolutionPackageGrid";
 import ComparisonMatrix from "@/components/sections/service/ComparisonMatrix";
 import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
-import { SERVICE_PACKAGES } from "@/lib/data/packages";
 
 const service = getServiceBySlug("fresh-air-ventilation")!;
 
@@ -35,8 +33,6 @@ export default function Page() {
     url: "https://varelli.in/fresh-air-ventilation",
   });
 
-  const packages = SERVICE_PACKAGES["fresh-air-ventilation"] || [];
-
   return (
     <>
       <SchemaOrg schema={schema} />
@@ -53,15 +49,9 @@ export default function Page() {
         relatedServices={relatedServices}
       />
       <CapabilityGrid capabilities={service.capabilities} />
-      <SolutionPackageGrid
-        serviceTitle="Fresh Air Ventilation & IAQ"
-        serviceCategory="Swiss ERV & Indoor Air Quality"
-        subtitle="Maintain pristine, hospital-grade indoor air quality with Swiss VaaYoo Energy Recovery Ventilation, positive pressure, and True HEPA H13 filtration."
-        packages={packages}
-      />
       <ComparisonMatrix
-        title="Why Standalone Air Purifiers Fail Compared to Centralized Swiss ERV"
-        subtitle="Why continuous fresh outdoor air exchange and positive pressure are essential for true luxury living health."
+        title="Why Standalone Air Purifiers Fall Short"
+        subtitle="Continuous fresh outdoor air exchange and positive pressure are essential for true luxury living — and what recirculating purifiers simply cannot provide."
       />
       <FAQSection faqs={service.faqs} />
       <ServiceCTA serviceName={service.name} />
