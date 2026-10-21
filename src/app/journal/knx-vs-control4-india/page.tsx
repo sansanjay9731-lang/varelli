@@ -26,7 +26,7 @@ const articleSchema = {
 const faqs = [
   {
     question: "What does VARELLI offer for knx vs control4 india?",
-    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
+    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, VaaYoo fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
   },
   {
     question: "How do I get started with VARELLI?",
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: "What European brands does VARELLI integrate?",
-    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), VaaYoo (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
   },
   {
     question: "How much does a VARELLI smart home system cost?",

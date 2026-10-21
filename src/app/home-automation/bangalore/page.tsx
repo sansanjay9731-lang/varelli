@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     question: "How much does home automation cost for a villa in Bangalore in 2026?",
-    answer: "In Bangalore, professional wired KNX home automation typically ranges between ₹18 Lakhs to ₹32 Lakhs for a 4,500–6,500 sq.ft. villa covering architectural lighting, DALI-2 dimming, Somfy motorized shading, and VRV air conditioning integration. For expansive 8,000–15,000+ sq.ft. private estates in Whitefield, Sadashivanagar, or Prestige Golfshire, complete automation encompassing multi-room audio, Zehnder ERV ventilation, and biometric security ranges from ₹38 Lakhs to ₹75 Lakhs+.",
+    answer: "In Bangalore, professional wired KNX home automation typically ranges between ₹18 Lakhs to ₹32 Lakhs for a 4,500–6,500 sq.ft. villa covering architectural lighting, DALI-2 dimming, Somfy motorized shading, and VRV air conditioning integration. For expansive 8,000–15,000+ sq.ft. private estates in Whitefield, Sadashivanagar, or Prestige Golfshire, complete automation encompassing multi-room audio, VaaYoo fresh air ventilation, and biometric security ranges from ₹38 Lakhs to ₹75 Lakhs+.",
   },
   {
     question: "Why is wired KNX superior to wireless systems like Zigbee or Tuya for Bangalore homes?",
@@ -203,9 +203,9 @@ export default function HomeAutomationBangalorePage() {
               <span className="text-[#C5A880] font-mono text-xs uppercase tracking-wider">Koramangala 3rd Block</span>
               <h3 className="text-xl font-medium text-white mt-2 mb-3">9,500 sq.ft. Contemporary Residence</h3>
               <p className="text-sm text-[#A0A0A5] leading-relaxed mb-4">
-                Complete MEP automation including VRV AC integration, <Link href="/fresh-air-ventilation" className="text-[#C5A880] underline hover:text-[#d8ba91]">Zehnder ComfoAir ERV ventilation</Link>, DoorBird IP video intercom, and high-fidelity Sonus Faber multi-room architectural audio.
+                Complete MEP automation including VRV AC integration, <Link href="/fresh-air-ventilation" className="text-[#C5A880] underline hover:text-[#d8ba91]">VaaYoo PRO1 ERV ventilation</Link>, DoorBird IP video intercom, and high-fidelity Sonus Faber multi-room architectural audio.
               </p>
-              <div className="text-xs text-[#8E8E93] font-mono">Systems: KNX • Zehnder ERV • DoorBird • Sonus Faber Audio</div>
+              <div className="text-xs text-[#8E8E93] font-mono">Systems: KNX • VaaYoo fresh air • DoorBird • Sonus Faber Audio</div>
             </div>
 
             <div className="p-6 bg-[#121216] border border-white/5 rounded-xl">
@@ -264,7 +264,7 @@ export default function HomeAutomationBangalorePage() {
                   <td className="p-4 font-semibold text-white">Grand Private Estate</td>
                   <td className="p-4 text-[#8E8E93]">10,000+ sq.ft.</td>
                   <td className="p-4 text-[#C5A880] font-medium">₹45 Lakhs – ₹80 Lakhs+</td>
-                  <td className="p-4 text-[#A0A0A5]">Comprehensive intelligent ecosystem: KNX, Zehnder ERV, Central Vacuum, Private Cinema, perimeter CCTV, enterprise WiFi 7</td>
+                  <td className="p-4 text-[#A0A0A5]">Comprehensive intelligent ecosystem: KNX, VaaYoo fresh air, Central Vacuum, Private Cinema, perimeter CCTV, enterprise WiFi 7</td>
                 </tr>
               </tbody>
             </table>

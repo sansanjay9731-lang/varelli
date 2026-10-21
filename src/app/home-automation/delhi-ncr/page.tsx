@@ -105,7 +105,7 @@ export default function DelhincrHomeautomationPage() {
           </h2>
           <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">
             <p>
-              Luxury residences in Delhi NCR require more than gadget installations - they demand permanent, architecture-led infrastructure. VARELLI integrates decentralized European KNX wired automation, DALI-2 circadian lighting control, Dolby Atmos reference cinema acoustics, and Swiss Zehnder ERV fresh air systems into a single invisible ecosystem.
+              Luxury residences in Delhi NCR require more than gadget installations - they demand permanent, architecture-led infrastructure. VARELLI integrates decentralized European KNX wired automation, DALI-2 circadian lighting control, Dolby Atmos reference cinema acoustics, and Swiss VaaYoo fresh air fresh air systems into a single invisible ecosystem.
             </p>
             <p>
               Whether you are constructing an independent villa, renovating a heritage penthouse, or fitting out a sea-facing luxury duplex, our team handles complete first-fix electrical CAD coordination, panel building, custom acoustics, and final system commissioning.

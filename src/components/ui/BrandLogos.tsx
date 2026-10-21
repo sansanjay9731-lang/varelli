@@ -131,10 +131,11 @@ export default function BrandLogo({ brandId, className = "h-7 w-auto" }: BrandLo
       );
 
     case "zehnder":
+    case "vaayoo":
       return (
         <div className={`flex items-center gap-2 ${className}`}>
-          <div className="w-5 h-5 bg-[#E30613] rounded-sm flex items-center justify-center text-white font-bold text-[10px]">z</div>
-          <span className="font-display tracking-[0.16em] text-base font-bold text-white lowercase">zehnder</span>
+          <div className="w-5 h-5 bg-[#4CAF50] rounded-sm flex items-center justify-center text-white font-bold text-[9px]">V</div>
+          <span className="font-display tracking-[0.16em] text-base font-bold text-white">VaaYoo</span>
         </div>
       );
 

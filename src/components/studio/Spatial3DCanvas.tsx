@@ -44,7 +44,7 @@ const ROOM_ASSETS: Record<string, RoomSceneAsset> = {
     },
     hotspots: [
       { x: 18, y: 55, title: "Sentido Touch Keypad", brandType: "Basalte / Ekinex", desc: "4-Way Multi-touch lighting & motorized drapery scene selector." },
-      { x: 50, y: 15, title: "Linear IAQ Diffuser", brandType: "Zehnder Fresh Air", desc: "Positive-pressure silent filtered outdoor air circulation." },
+      { x: 50, y: 15, title: "Linear IAQ Diffuser", brandType: "VaaYoo Fresh Air", desc: "Positive-pressure silent filtered outdoor air circulation." },
       { x: 82, y: 45, title: "Architectural In-Wall LCR", brandType: "Sonus Faber / B&W", desc: "Flush-mount timber acoustic enclosure, studio timbre matched." },
     ],
   },

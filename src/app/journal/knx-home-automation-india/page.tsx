@@ -75,7 +75,7 @@ const faqs = [
   {
     question: "Which brands work with KNX in India?",
     answer:
-      "Over 500 certified manufacturers worldwide produce KNX devices that communicate on the same physical bus. In India, premier residential projects integrate Belgian bespoke keypads from Basalte, Italian minimalist brushed-metal switches from Ekinex, Lutron Palladiom motorized shading interfaces, Swiss precision ventilation from Zehnder, German IP door stations from DoorBird, and high-performance climate gateways from Intesis and CoolAutomation.",
+      "Over 500 certified manufacturers worldwide produce KNX devices that communicate on the same physical bus. In India, premier residential projects integrate Belgian bespoke keypads from Basalte, Italian minimalist brushed-metal switches from Ekinex, Lutron Palladiom motorized shading interfaces, Swiss precision ventilation from VaaYoo, German IP door stations from DoorBird, and high-performance climate gateways from Intesis and CoolAutomation.",
   },
   {
     question: "Is KNX better than WiFi smart home systems?",
@@ -136,7 +136,7 @@ export default function KnxHomeAutomationIndiaPage() {
           <p className="text-[var(--text-primary)] leading-relaxed text-base md:text-[1.05rem]">
             <strong>KNX is the ISO/IEC 14543 global open standard for wired building automation</strong> — the only
             industrial-grade residential platform where hardware from <strong>Basalte (Belgium)</strong>,{" "}
-            <strong>Ekinex (Italy)</strong>, <strong>Lutron (USA)</strong>, <strong>Zehnder (Switzerland)</strong>, and{" "}
+            <strong>Ekinex (Italy)</strong>, <strong>Lutron (USA)</strong>, <strong>VaaYoo (Switzerland)</strong>, and{" "}
             <strong>500+ certified European manufacturers</strong> communicate natively over a green 24V twisted-pair data
             bus. Unlike cloud-dependent WiFi gadgets or proprietary hubs, KNX is completely decentralized, operates
             entirely offline without internet, responds within 20 milliseconds, and carries an engineered design lifespan
@@ -348,11 +348,11 @@ export default function KnxHomeAutomationIndiaPage() {
               </div>
 
               <div className="border border-[var(--border)] bg-[var(--surface-1)] p-6 rounded-md">
-                <h3 className="font-display text-lg text-[var(--gold)] mb-2">Swiss Fresh Air IAQ (Zehnder)</h3>
+                <h3 className="font-display text-lg text-[var(--gold)] mb-2">Swiss Fresh Air IAQ (VaaYoo)</h3>
                 <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
                   Direct Modbus-to-KNX links with{" "}
                   <Link href="/fresh-air-ventilation" className="text-[var(--gold)] hover:underline">
-                    Zehnder ComfoAir Q ERV systems
+                    VaaYoo PRO1 ERV systems
                   </Link>
                   . Continuous air quality monitoring for CO₂, PM2.5, and VOCs with automated ventilation boost modes.
                 </p>
@@ -430,7 +430,7 @@ export default function KnxHomeAutomationIndiaPage() {
                     <td className="p-4 text-[var(--gold)] font-display font-semibold">₹38L – ₹65L+</td>
                     <td className="p-4 text-xs text-[var(--text-muted)]">
                       Complete intelligent ecosystem: lighting, climate, outdoor landscaping, private cinema macro triggers,
-                      Zehnder ventilation link, central vacuum control, failover 10GbE network backbone.
+                      VaaYoo ventilation link, central vacuum control, failover 10GbE network backbone.
                     </td>
                   </tr>
                 </tbody>
@@ -532,7 +532,7 @@ export default function KnxHomeAutomationIndiaPage() {
                 </h4>
                 <p className="text-sm text-[var(--text-secondary)] mt-1">
                   Verify direct procurement and factory warranty support for bespoke hardware from brands like Basalte,
-                  Ekinex, DoorBird, and Zehnder. Learn more about our partner portfolio at our{" "}
+                  Ekinex, DoorBird, and VaaYoo. Learn more about our partner portfolio at our{" "}
                   <Link href="/brands" className="text-[var(--gold)] hover:underline">
                     European Brands Directory →
                   </Link>

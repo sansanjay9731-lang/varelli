@@ -6,8 +6,8 @@ import ServiceCTA from '@/components/sections/service/ServiceCTA'
 import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation in Navi Mumbai, Mumbai — Zehnder ERV | VARELLI",
-  description: "Breathe clean air in Navi Mumbai with VARELLI's premium Zehnder fresh air ventilation systems. Expert installation for apartments & villas.",
+  title: "Fresh Air Ventilation in Navi Mumbai, Mumbai — VaaYoo fresh air | VARELLI",
+  description: "Breathe clean air in Navi Mumbai with VARELLI's premium VaaYoo fresh air ventilation systems. Expert installation for apartments & villas.",
   path: "/fresh-air-ventilation/mumbai/navi-mumbai"
 })
 
@@ -33,11 +33,11 @@ export default function FreshAirVentilationNavimumbai() {
   const faqs = [
     {
       question: "Why do I need a fresh air system in Navi Mumbai, Mumbai?",
-      answer: "Mumbai's high-rise sealed AC apartments often suffer from poor natural ventilation and high pollution. A Zehnder ERV system brings in filtered fresh air while exhausting stale air, maintaining optimal indoor air quality in Navi Mumbai."
+      answer: "Mumbai's high-rise sealed AC apartments often suffer from poor natural ventilation and high pollution. A VaaYoo fresh air system brings in filtered fresh air while exhausting stale air, maintaining optimal indoor air quality in Navi Mumbai."
     },
     {
-      question: "Are Zehnder ERV units suitable for Mumbai's coastal climate?",
-      answer: "Yes, our Zehnder systems offer excellent sea salt corrosion resistance and are typhoon-resistant, making them ideal for coastal areas like Navi Mumbai."
+      question: "Are VaaYoo fresh air units suitable for Mumbai's coastal climate?",
+      answer: "Yes, our VaaYoo systems offer excellent sea salt corrosion resistance and are typhoon-resistant, making them ideal for coastal areas like Navi Mumbai."
     },
     {
       question: "How much does a fresh air ventilation system cost in Navi Mumbai?",
@@ -65,7 +65,7 @@ export default function FreshAirVentilationNavimumbai() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-6">Fresh Air Ventilation in Navi Mumbai, Mumbai</h1>
           <p className="mb-4">
-            Discover premium Zehnder ERV systems designed for Mumbai&apos;s high-rise sealed AC apartments. Experience unmatched indoor air quality in Navi Mumbai with solutions tailored for coastal environments, featuring sea salt corrosion resistance and typhoon-resistant construction.
+            Discover premium VaaYoo fresh air systems designed for Mumbai&apos;s high-rise sealed AC apartments. Experience unmatched indoor air quality in Navi Mumbai with solutions tailored for coastal environments, featuring sea salt corrosion resistance and typhoon-resistant construction.
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">Investment Tiers for Navi Mumbai</h2>

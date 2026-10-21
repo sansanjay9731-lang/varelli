@@ -6,8 +6,8 @@ import ServiceCTA from '@/components/sections/service/ServiceCTA'
 import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation in Vasant Vihar, Delhi NCR — Zehnder ERV | VARELLI",
-  description: "Combat Delhi's severe AQI with Zehnder ERV fresh air ventilation systems in Vasant Vihar. H13 HEPA filtration for farmhouses and apartments.",
+  title: "Fresh Air Ventilation in Vasant Vihar, Delhi NCR — VaaYoo fresh air | VARELLI",
+  description: "Combat Delhi's severe AQI with VaaYoo fresh air fresh air ventilation systems in Vasant Vihar. H13 HEPA filtration for farmhouses and apartments.",
   path: "/fresh-air-ventilation/delhi-ncr/vasant-vihar"
 })
 
@@ -39,9 +39,9 @@ export default function FreshAirVentilationvasantviharPage() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Fresh Air Ventilation in Vasant Vihar, Delhi NCR</h1>
           <p className="text-lg md:text-xl text-[#A0A0A5] max-w-3xl mb-8">
-            Protect your family from Delhi&apos;s severe winter pollution (AQI 300–500) with premium Zehnder ERV 
+            Protect your family from Delhi&apos;s severe winter pollution (AQI 300–500) with premium VaaYoo fresh air 
             ventilation. Essential for sealed AC farmhouses and luxury homes in Vasant Vihar, featuring 
-            Zehnder H13 HEPA filtration to eliminate PM2.5 and PM10 particles.
+            VaaYoo H13 HEPA filtration to eliminate PM2.5 and PM10 particles.
           </p>
         </div>
       </section>
@@ -53,7 +53,7 @@ export default function FreshAirVentilationvasantviharPage() {
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Apartment</h3>
               <p className="text-[#A0A0A5] mb-4">₹2.8L – ₹4.5L</p>
-              <p className="text-sm">Compact, high-efficiency Zehnder ERV solutions for luxury apartments.</p>
+              <p className="text-sm">Compact, high-efficiency VaaYoo fresh air solutions for luxury apartments.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Bungalow</h3>
@@ -73,15 +73,15 @@ export default function FreshAirVentilationvasantviharPage() {
         faqs={[
           {
             question: "Do you install fresh air ventilation in Vasant Vihar Delhi?",
-            answer: "Yes, we install high-end Zehnder ERV systems across Vasant Vihar and the Delhi NCR region."
+            answer: "Yes, we install high-end VaaYoo fresh air systems across Vasant Vihar and the Delhi NCR region."
           },
           {
             question: "Why choose an ERV over an air purifier vs ERV in Delhi?",
-            answer: "Air purifiers only recycle stale indoor air. A Zehnder ERV brings in fresh, filtered outdoor air while exhausting stale air and reducing CO2 buildup, which is critical in sealed homes during Delhi winters."
+            answer: "Air purifiers only recycle stale indoor air. A VaaYoo fresh air brings in fresh, filtered outdoor air while exhausting stale air and reducing CO2 buildup, which is critical in sealed homes during Delhi winters."
           },
           {
-            question: "Are you an authorized Zehnder installer in Delhi NCR?",
-            answer: "Yes, we specify and install premium Zehnder ventilation systems equipped with H13 HEPA filters."
+            question: "Are you an authorized VaaYoo installer in Delhi NCR?",
+            answer: "Yes, we specify and install premium VaaYoo ventilation systems equipped with H13 HEPA filters."
           },
           {
             question: "Can this system handle severe AQI of 500+?",

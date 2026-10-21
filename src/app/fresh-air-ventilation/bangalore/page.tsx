@@ -14,13 +14,13 @@ const service = getServiceBySlug("fresh-air-ventilation")!;
 const city = getCityBySlug("bangalore")!;
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation & Zehnder ERV Bangalore | VARELLI",
-  description: "VARELLI engineers Swiss Zehnder ERV fresh air ventilation systems for luxury villas in Bangalore. Eliminate CO2, filter PM2.5, and maintain optimal indoor air quality.",
+  title: "Fresh Air Ventilation & VaaYoo fresh air Bangalore | VARELLI",
+  description: "VARELLI engineers Swiss VaaYoo fresh air fresh air ventilation systems for luxury villas in Bangalore. Eliminate CO2, filter PM2.5, and maintain optimal indoor air quality.",
   path: "/fresh-air-ventilation/bangalore",
   keywords: [
     "fresh air ventilation Bangalore",
-    "Zehnder ERV Bangalore",
-    "Zehnder ComfoAir Q Bangalore",
+    "VaaYoo fresh air Bangalore",
+    "VaaYoo PRO1 Bangalore",
     "indoor air quality Bangalore",
     "home ventilation system Bangalore",
     "ERV ventilation Bangalore",

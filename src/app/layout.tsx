@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     template: "%s | VARELLI",
   },
   description:
-    "VARELLI designs and engineers intelligent residential environments for luxury villas, estates and private residences across India. KNX home automation, Dolby Atmos private cinema, Zehnder fresh air ventilation, central vacuum and smart security.",
+    "VARELLI designs and engineers intelligent residential environments for luxury villas, estates and private residences across India. KNX home automation, Dolby Atmos private cinema, VaaYoo fresh air ventilation, central vacuum and smart security.",
   keywords:
-    "home automation India, luxury home automation, KNX home automation India, smart home India, private cinema India, Dolby Atmos home theatre India, home automation Bangalore, home theatre Bangalore, luxury intelligent living, Zehnder ERV India, Basalte India, Sonus Faber Bangalore, central vacuum system India, smart home company Bangalore, villa automation India, smart security systems India, DALI 2 lighting control India, home automation Mumbai, home automation Delhi NCR, home automation Hyderabad",
+    "home automation India, luxury home automation, KNX home automation India, smart home India, private cinema India, Dolby Atmos home theatre India, home automation Bangalore, home theatre Bangalore, luxury intelligent living, VaaYoo fresh air India, Basalte India, Sonus Faber Bangalore, central vacuum system India, smart home company Bangalore, villa automation India, smart security systems India, DALI 2 lighting control India, home automation Mumbai, home automation Delhi NCR, home automation Hyderabad",
   openGraph: {
     siteName: "VARELLI",
     locale: "en_IN",
@@ -65,7 +65,7 @@ const localBusinessBangalore = {
   name: "VARELLI - Intelligent Living Bangalore",
   alternateName: "VARELLI Bangalore",
   description:
-    "VARELLI's Bangalore studio specialises in luxury home automation (KNX), private cinema (Dolby Atmos), fresh air ventilation (Zehnder ERV), central vacuum, and intelligent home security for villas across Whitefield, Koramangala, Sarjapur Road, Indiranagar, and Yelahanka.",
+    "VARELLI's Bangalore studio specialises in luxury home automation (KNX), private cinema (Dolby Atmos), fresh air ventilation (VaaYoo fresh air), central vacuum, and intelligent home security for villas across Whitefield, Koramangala, Sarjapur Road, Indiranagar, and Yelahanka.",
   url: "https://varelli.co.in",
   telephone: "+919964984695",
   email: "studio@varelli.co.in",
@@ -109,7 +109,7 @@ const localBusinessBangalore = {
   makesOffer: [
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "KNX Home Automation" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Dolby Atmos Private Cinema" } },
-    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Zehnder Fresh Air Ventilation" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "VaaYoo Fresh Air Ventilation" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Central Vacuum" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Smart Home Security" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Structured Home Networking" } },

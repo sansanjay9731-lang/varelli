@@ -38,7 +38,7 @@ export const cities: CityLocation[] = [
       {
         question: "Why is KNX preferred for Bangalore luxury villas?",
         answer:
-          "KNX is an open European wired standard (ISO/IEC 14543) that ensures zero dependency on cloud servers, 30+ year lifespan, and interoperability between Basalte, Ekinex, Zehnder, and DALI-2 lighting.",
+          "KNX is an open European wired standard (ISO/IEC 14543) that ensures zero dependency on cloud servers, 30+ year lifespan, and interoperability between Basalte, Ekinex, VaaYoo, and DALI-2 lighting.",
       },
     ],
     localities: [
@@ -70,12 +70,12 @@ export const cities: CityLocation[] = [
       {
         question: "What is the cost of home automation in Mumbai?",
         answer:
-          "Luxury apartments and bungalows in Mumbai typically range from ₹4.8L for KNX Core Living to ₹24L+ for full Architectural Villa systems with DALI-2 dimming and Zehnder ventilation.",
+          "Luxury apartments and bungalows in Mumbai typically range from ₹4.8L for KNX Core Living to ₹24L+ for full Architectural Villa systems with DALI-2 dimming and VaaYoo ventilation.",
       },
       {
-        question: "Is Zehnder fresh air ERV suitable for Mumbai sea-facing apartments?",
+        question: "Is VaaYoo fresh air ERV suitable for Mumbai sea-facing apartments?",
         answer:
-          "Yes. Zehnder ERV continuously exchanges indoor air with filtered outdoor air, maintaining 400-500ppm CO2 and 45-55% relative humidity while filtering out urban PM2.5 and coastal pollutants.",
+          "Yes. VaaYoo fresh air continuously exchanges indoor air with filtered outdoor air, maintaining 400-500ppm CO2 and 45-55% relative humidity while filtering out urban PM2.5 and coastal pollutants.",
       },
     ],
     localities: [
@@ -91,7 +91,7 @@ export const cities: CityLocation[] = [
     description:
       "VARELLI designs intelligent residential environments for luxury estates, farmhouses, and penthouse residences across Delhi, Gurgaon (Gurugram), DLF Phase 5, Vasant Vihar, Golf Links, and Noida.",
     metaDescription:
-      "VARELLI designs luxury home automation, Dolby Atmos cinema, and Zehnder fresh air systems for premium residences in Delhi NCR - Delhi, Gurgaon, DLF Phase 5, Noida.",
+      "VARELLI designs luxury home automation, Dolby Atmos cinema, and VaaYoo fresh air systems for premium residences in Delhi NCR - Delhi, Gurgaon, DLF Phase 5, Noida.",
     faqs: [
       {
         question: "Does VARELLI undertake farmhouse projects in Chattarpur and Gurgaon?",
@@ -99,9 +99,9 @@ export const cities: CityLocation[] = [
           "Yes. VARELLI specializes in large estate and farmhouse automation in Chattarpur, Westend Greens, Sultanpur, and DLF Golf Links Gurgaon, integrating multi-zone KNX, 9.4.6 Dolby Atmos cinemas, and enterprise UniFi fiber networks.",
       },
       {
-        question: "Why is Zehnder ERV ventilation critical for Delhi NCR residences?",
+        question: "Why is VaaYoo fresh air ventilation critical for Delhi NCR residences?",
         answer:
-          "Delhi NCR faces severe winter AQI spikes (PM2.5 > 300). Zehnder Swiss ERV systems with True HEPA filtration maintain clean, oxygen-rich 412ppm indoor air inside sealed luxury residences 24/7.",
+          "Delhi NCR faces severe winter AQI spikes (PM2.5 > 300). VaaYoo ERV systems with True HEPA filtration maintain clean, oxygen-rich 412ppm indoor air inside sealed luxury residences 24/7.",
       },
       {
         question: "How long does a smart home installation take in Gurgaon / Delhi?",
@@ -122,7 +122,7 @@ export const cities: CityLocation[] = [
     description:
       "VARELLI brings luxury home automation, private cinema, and intelligent living systems to Hyderabad's grand villas, estates, and high-rise penthouses across Jubilee Hills, Banjara Hills, and Hitec City.",
     metaDescription:
-      "VARELLI designs luxury home automation, Dolby Atmos cinema, and Swiss Zehnder ERV for premium residences in Hyderabad - Jubilee Hills, Banjara Hills, Financial District.",
+      "VARELLI designs luxury home automation, Dolby Atmos cinema, and Swiss VaaYoo fresh air for premium residences in Hyderabad - Jubilee Hills, Banjara Hills, Financial District.",
     faqs: [
       {
         question: "Does VARELLI serve Jubilee Hills and Banjara Hills in Hyderabad?",

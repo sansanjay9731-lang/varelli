@@ -134,7 +134,7 @@ export default function Dali2LightingPage() {
                 Native KNX + DALI-2 Integration
               </h2>
               <p>
-                In a VARELLI luxury residence, DALI-2 handles the high-density architectural fixture control, while KNX acts as the master backbone linking Basalte keypads, touch screens, motorized curtains, Zehnder ventilation, and security into a single harmonious interface.
+                In a VARELLI luxury residence, DALI-2 handles the high-density architectural fixture control, while KNX acts as the master backbone linking Basalte keypads, touch screens, motorized curtains, VaaYoo ventilation, and security into a single harmonious interface.
               </p>
             </section>
           </div>

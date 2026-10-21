@@ -37,8 +37,8 @@ const EXPERIENCE_SUITES = [
   },
   {
     id: "iaq-cleanroom",
-    title: "Swiss Zehnder IAQ & Invisible Audio Suite",
-    tech: "Zehnder ComfoAir Q ERV • Flush Invisible Plaster-In Loudspeakers",
+    title: "Swiss VaaYoo IAQ & Invisible Audio Suite",
+    tech: "VaaYoo PRO1 ERV • Flush Invisible Plaster-In Loudspeakers",
     desc: "Feel positive-pressure pure filtered mountain air and listen to invisible sound concealed within Venetian plaster.",
   },
 ];

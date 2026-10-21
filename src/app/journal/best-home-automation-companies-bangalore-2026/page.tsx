@@ -157,7 +157,7 @@ export default function JournalArticlePage() {
                   <tr>
                     <td className="p-4 font-semibold text-white">Grand Private Estate (10,000+ sq.ft.)</td>
                     <td className="p-4 text-[#C5A880] font-mono">₹40 Lakhs – ₹80 Lakhs+</td>
-                    <td className="p-4 text-xs text-[#A0A0A5]">Basalte solid brass keypads, Zehnder ERV ventilation, Drainvac central vacuum, Trinnov Dolby Atmos cinema, enterprise WiFi 7.</td>
+                    <td className="p-4 text-xs text-[#A0A0A5]">Basalte solid brass keypads, VaaYoo fresh air ventilation, Drainvac central vacuum, Trinnov Dolby Atmos cinema, enterprise WiFi 7.</td>
                   </tr>
                 </tbody>
               </table>

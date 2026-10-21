@@ -198,7 +198,7 @@ export default function WhatIsHomeAutomationPage() {
                 <span className="text-[#C5A880] font-mono text-sm">02 / CLIMATE &amp; IAQ</span>
                 <h3 className="text-xl font-medium text-white mt-2 mb-3">Integrated VRV &amp; Fresh Air</h3>
                 <p className="text-sm text-[#A0A0A5] leading-relaxed">
-                  Native KNX gateway communication directly to Daikin, Mitsubishi, or Toshiba VRV/VRF systems, paired with <Link href="/fresh-air-ventilation" className="text-[#C5A880] underline hover:text-[#d8ba91]">Zehnder ERV continuous fresh air ventilation</Link> keeping CO₂ under 600 ppm.
+                  Native KNX gateway communication directly to Daikin, Mitsubishi, or Toshiba VRV/VRF systems, paired with <Link href="/fresh-air-ventilation" className="text-[#C5A880] underline hover:text-[#d8ba91]">VaaYoo fresh air continuous fresh air ventilation</Link> keeping CO₂ under 600 ppm.
                 </p>
               </div>
 
@@ -292,7 +292,7 @@ export default function WhatIsHomeAutomationPage() {
                     <td className="p-4 font-semibold text-white">Grand Luxury Estate</td>
                     <td className="p-4 text-[#8E8E93]">10,000+ sq.ft.</td>
                     <td className="p-4 text-[#C5A880]">₹40 Lakhs – ₹75 Lakhs+</td>
-                    <td className="p-4 text-[#A0A0A5]">Full ecosystem: KNX, Zehnder ERV, Central Vacuum, Dolby Atmos cinema integration, enterprise network</td>
+                    <td className="p-4 text-[#A0A0A5]">Full ecosystem: KNX, VaaYoo fresh air, Central Vacuum, Dolby Atmos cinema integration, enterprise network</td>
                   </tr>
                 </tbody>
               </table>

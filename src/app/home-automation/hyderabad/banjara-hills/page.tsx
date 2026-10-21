@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: "What home automation systems are available in Banjara Hills?",
-    answer: "VARELLI offers KNX wired home automation, DALI-2 lighting control, Dolby Atmos private cinema, Zehnder ERV fresh air ventilation, Drainvac central vacuum, DoorBird access control, and structured home networking for residences in Banjara Hills.",
+    answer: "VARELLI offers KNX wired home automation, DALI-2 lighting control, Dolby Atmos private cinema, VaaYoo fresh air fresh air ventilation, Drainvac central vacuum, DoorBird access control, and structured home networking for residences in Banjara Hills.",
   },
   {
     question: "How much does smart home automation cost in Banjara Hills, Hyderabad?",
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     question: "Which European smart home brands does VARELLI install in Banjara Hills?",
-    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural plates), Zehnder (Swiss ERV), Sonus Faber and KEF (cinema speakers), Barco (4K laser projectors), DoorBird (German video doorbell), and Drainvac (central vacuum) into luxury residences in Banjara Hills.",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural plates), VaaYoo (Swiss ERV), Sonus Faber and KEF (cinema speakers), Barco (4K laser projectors), DoorBird (German video doorbell), and Drainvac (central vacuum) into luxury residences in Banjara Hills.",
   },
 ];
 
@@ -111,7 +111,7 @@ export default function Page() {
           </h2>
           <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">
             <p>
-              Luxury residences in Banjara Hills demand permanent, architecture-led infrastructure. VARELLI integrates decentralized European KNX wired automation, DALI-2 circadian lighting control, Dolby Atmos reference cinema acoustics, and Swiss Zehnder ERV fresh air systems into a single invisible ecosystem.
+              Luxury residences in Banjara Hills demand permanent, architecture-led infrastructure. VARELLI integrates decentralized European KNX wired automation, DALI-2 circadian lighting control, Dolby Atmos reference cinema acoustics, and Swiss VaaYoo fresh air fresh air systems into a single invisible ecosystem.
             </p>
             <p>
               Our team handles complete first-fix electrical CAD coordination, panel building, custom acoustics, and final system commissioning — ensuring every detail is engineered for a 30-year lifespan with zero vendor lock-in.
@@ -131,7 +131,7 @@ export default function Page() {
               { title: "KNX Home Automation", desc: "Wired European open-standard control for lighting, climate, AV, and security." },
               { title: "Private Cinema", desc: "Dolby Atmos reference cinema with Barco 4K laser projection and Sonus Faber acoustics." },
               { title: "DALI-2 Lighting", desc: "Circadian tunable-white architectural lighting with scene control." },
-              { title: "Zehnder Fresh Air", desc: "Swiss ERV whole-home ventilation delivering filtered, tempered fresh air 24/7." },
+              { title: "VaaYoo Fresh Air", desc: "Swiss ERV whole-home ventilation delivering filtered, tempered fresh air 24/7." },
               { title: "Central Vacuum", desc: "Drainvac built-in vacuum system for effortless whole-home cleaning." },
               { title: "Smart Security", desc: "DoorBird video doorbell, Hikvision 4K cameras, and KNX-integrated access control." },
             ].map((s) => (

@@ -15,7 +15,7 @@ import { generatePageMetadata } from "@/lib/metadata";
 export const metadata: Metadata = generatePageMetadata({
   title: "VARELLI | Luxury Home Automation & Private Cinema India",
   description:
-    "VARELLI engineers bespoke KNX home automation, Dolby Atmos private cinema, Swiss Zehnder ERV, and luxury smart security for villas across India.",
+    "VARELLI engineers bespoke KNX home automation, Dolby Atmos private cinema, Swiss VaaYoo fresh air, and luxury smart security for villas across India.",
   path: "",
   keywords: [
     "home automation Bangalore",
@@ -30,7 +30,7 @@ export const metadata: Metadata = generatePageMetadata({
     "smart home company Bangalore",
     "home automation cost in India",
     "home theatre cost Bangalore",
-    "Zehnder fresh air ventilation India",
+    "VaaYoo fresh air ventilation India",
     "central vacuum system India",
     "Basalte switches India",
     "Sonus Faber dealers Bangalore",

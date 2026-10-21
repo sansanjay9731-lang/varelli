@@ -33,7 +33,7 @@ const capabilities = [
   { title: "AutoCAD & Revit Coordination", description: "First-fix conduit routes, panel locations, and cable schedules provided in .DWG and Revit BIM formats that your electrical and MEP contractors can build from directly." },
   { title: "Equipment Layout & Rack Elevation", description: "AV racks, KNX DB panels, and subwoofer cavity placement drawings coordinated to exact millimeter scale with your joinery and millwork drawings." },
   { title: "Acoustic Specifications & RT60", description: "Computational room acoustic documentation for private cinemas - RT60 decay curves, bass trap cavity sizing, and STC 65 soundproofing details." },
-  { title: "Ceiling Reflected Coordination (RCP)", description: "Speaker placement, linear Zehnder diffuser slots, motorized drapery pockets, and recessed DALI lighting channels aligned perfectly with your reflected ceiling plans." },
+  { title: "Ceiling Reflected Coordination (RCP)", description: "Speaker placement, linear VaaYoo diffuser slots, motorized drapery pockets, and recessed DALI lighting channels aligned perfectly with your reflected ceiling plans." },
   { title: "Direct On-Site Site Engineering", description: "VARELLI engineers attend site coordination meetings, inspect conduit rough-in, and supervise electrical contractors to ensure 100% compliance with design intent." },
   { title: "VIP Client Presentation Support", description: "We host your clients at our private experience centers to explain the technology and lighting strategy - taking technical briefings entirely off your scope." },
 ];
@@ -55,7 +55,7 @@ const cadResources = [
     desc: "BIM families and back-box flush installation templates for Basalte, Ekinex, and Lutron.",
   },
   {
-    title: "Zehnder IAQ Linear Diffuser Ceiling Pocket",
+    title: "VaaYoo IAQ Linear Diffuser Ceiling Pocket",
     format: "DWG / PDF",
     desc: "Plaster-in continuous slot diffuser mounting details for minimal architectural visual impact.",
   },

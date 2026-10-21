@@ -1137,7 +1137,7 @@ export const journalArticles: JournalArticle[] = [
   {
     "slug": "luxury-smart-home-bangalore",
     "title": "Luxury Smart Home Bangalore",
-    "description": "Luxury smart home design in Bangalore with VARELLI. KNX wired automation, Basalte keypads, Dolby Atmos cinema, Zehnder fresh air, and UniFi enterprise networking for villas in Whitefield, Koramangala, Indiranagar and South Bangalore.",
+    "description": "Luxury smart home design in Bangalore with VARELLI. KNX wired automation, Basalte keypads, Dolby Atmos cinema, VaaYoo fresh air, and UniFi enterprise networking for villas in Whitefield, Koramangala, Indiranagar and South Bangalore.",
     "category": "Home Automation & KNX",
     "readTime": "6 min read"
   },
@@ -1933,22 +1933,22 @@ export const journalArticles: JournalArticle[] = [
     "readTime": "6 min read"
   },
   {
-    "slug": "zehnder-erv-india-guide",
-    "title": "Zehnder ComfoAir ERV in India",
+    "slug": "vaayoo-erv-india-guide",
+    "title": "VaaYoo PRO1 ERV in India",
     "description": "Comprehensive guide to zehnder erv india guide for luxury homeowners in India. Expert analysis from VARELLI, India",
     "category": "Fresh Air & IAQ",
     "readTime": "5 min read"
   },
   {
     "slug": "zehnder-fresh-air-system-india",
-    "title": "Zehnder Fresh Air Ventilation System India",
-    "description": "Complete guide to Zehnder ERV/HRV fresh air systems for Indian homes. ComfoAir Q pricing, installation, CO2 reduction, and comparison vs air purifiers for Bangalore, Mumbai villas.",
+    "title": "VaaYoo Fresh Air Ventilation System India",
+    "description": "Complete guide to VaaYoo fresh air/HRV fresh air systems for Indian homes. VaaYoo PRO1 pricing, installation, CO2 reduction, and comparison vs air purifiers for Bangalore, Mumbai villas.",
     "category": "Fresh Air & IAQ",
     "readTime": "5 min read"
   },
   {
     "slug": "zehnder-vs-panasonic-erv-india",
-    "title": "Zehnder vs Panasonic ERV for Fresh Air Ventilation India",
+    "title": "VaaYoo vs Panasonic ERV for Fresh Air Ventilation India",
     "description": "Comprehensive guide to zehnder vs panasonic erv india for luxury homeowners in India. Expert analysis from VARELLI, India",
     "category": "Fresh Air & IAQ",
     "readTime": "5 min read"

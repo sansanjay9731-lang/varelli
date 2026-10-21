@@ -506,7 +506,7 @@ const brandPages = [
   { name: "Sonus Faber", href: "/brands/sonus-faber" },
   { name: "Stealth Acoustics", href: "/brands/stealth-acoustics" },
   { name: "Ubiquiti Unifi", href: "/brands/ubiquiti-unifi" },
-  { name: "Zehnder", href: "/brands/zehnder" },
+  { name: "VaaYoo", href: "/brands/vaayoo" },
 ];
 
 const journalPages = [
@@ -785,9 +785,9 @@ const journalPages = [
   { name: "Whole Home Audio Video India", href: "/journal/whole-home-audio-video-india" },
   { name: "Why Knx Home Automation Bangalore", href: "/journal/why-knx-home-automation-bangalore" },
   { name: "Wired Vs Wireless Smart Home India", href: "/journal/wired-vs-wireless-smart-home-india" },
-  { name: "Zehnder Erv India Guide", href: "/journal/zehnder-erv-india-guide" },
-  { name: "Zehnder Fresh Air System India", href: "/journal/zehnder-fresh-air-system-india" },
-  { name: "Zehnder Vs Panasonic Erv India", href: "/journal/zehnder-vs-panasonic-erv-india" },
+  { name: "VaaYoo Erv India Guide", href: "/journal/vaayoo-erv-india-guide" },
+  { name: "VaaYoo Fresh Air System India", href: "/journal/zehnder-fresh-air-system-india" },
+  { name: "VaaYoo Vs Panasonic Erv India", href: "/journal/zehnder-vs-panasonic-erv-india" },
 ];
 
 export default function SiteDirectoryPage() {

@@ -6,10 +6,10 @@ import ServiceCTA from '@/components/sections/service/ServiceCTA'
 import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation System in Lavelle Road, Bangalore — Zehnder ERV | VARELLI",
-  description: "Swiss Zehnder ComfoAir ERV whole-home fresh air ventilation for luxury residences in Lavelle Road, Bangalore. Filters PM2.5, reduces CO2, 95% energy recovery.",
+  title: "Fresh Air Ventilation System in Lavelle Road, Bangalore — VaaYoo fresh air | VARELLI",
+  description: "Swiss VaaYoo PRO1 ERV whole-home fresh air ventilation for luxury residences in Lavelle Road, Bangalore. Filters PM2.5, reduces CO2, 95% energy recovery.",
   path: "/fresh-air-ventilation/bangalore/lavelle-road",
-  keywords: ["fresh air ventilation Lavelle Road bangalore", "ERV system Lavelle Road", "home ventilation bangalore", "Zehnder ventilation bangalore"],
+  keywords: ["fresh air ventilation Lavelle Road bangalore", "ERV system Lavelle Road", "home ventilation bangalore", "VaaYoo ventilation bangalore"],
 })
 
 export default function FreshAirLavelleRoadPage() {
@@ -19,7 +19,7 @@ export default function FreshAirLavelleRoadPage() {
       {
         "@type": "LocalBusiness",
         "name": "VARELLI - Fresh Air Ventilation Lavelle Road",
-        "description": "Premium Zehnder fresh air ventilation systems in Lavelle Road, Bangalore.",
+        "description": "Premium VaaYoo fresh air ventilation systems in Lavelle Road, Bangalore.",
         "areaServed": "Lavelle Road, Bangalore"
       },
       {
@@ -30,15 +30,15 @@ export default function FreshAirLavelleRoadPage() {
             "name": "What is the best fresh air system in Lavelle Road, Bangalore?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Zehnder ERV system is the premier choice for luxury homes in Lavelle Road, offering superior PM2.5 filtration and energy recovery."
+              "text": "The VaaYoo fresh air system is the premier choice for luxury homes in Lavelle Road, offering superior PM2.5 filtration and energy recovery."
             }
           },
           {
             "@type": "Question",
-            "name": "Does Zehnder work in Bangalore?",
+            "name": "Does VaaYoo work in Bangalore?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, Zehnder systems are perfectly suited for Bangalore's climate, managing indoor air quality effectively."
+              "text": "Yes, VaaYoo systems are perfectly suited for Bangalore's climate, managing indoor air quality effectively."
             }
           },
           {
@@ -71,8 +71,8 @@ export default function FreshAirLavelleRoadPage() {
   };
 
   const faqs = [
-    { question: "What is the best fresh air system in Lavelle Road, Bangalore?", answer: "The Zehnder ERV system is the premier choice for luxury homes in Lavelle Road, offering superior PM2.5 filtration and energy recovery." },
-    { question: "Does Zehnder work in Bangalore?", answer: "Yes, Zehnder systems are perfectly suited for Bangalore&apos;s climate, managing indoor air quality effectively." },
+    { question: "What is the best fresh air system in Lavelle Road, Bangalore?", answer: "The VaaYoo fresh air system is the premier choice for luxury homes in Lavelle Road, offering superior PM2.5 filtration and energy recovery." },
+    { question: "Does VaaYoo work in Bangalore?", answer: "Yes, VaaYoo systems are perfectly suited for Bangalore&apos;s climate, managing indoor air quality effectively." },
     { question: "How to improve indoor air quality in Lavelle Road?", answer: "Installing a whole-home ERV system helps filter out pollutants, reduces CO2 buildup, and maintains fresh air circulation." },
     { question: "What is the cost of ERV in Lavelle Road?", answer: "Systems range from ₹2.8L for studios up to ₹18L+ for large villas, depending on requirements." },
     { question: "Do I need ventilation in a sealed AC building?", answer: "Yes, sealed AC environments lead to CO2 buildup. An ERV system provides continuous fresh air without losing cooling efficiency." }
@@ -91,11 +91,11 @@ export default function FreshAirLavelleRoadPage() {
       />
       
       <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold mb-8">Fresh Air Ventilation in Lavelle Road, Bangalore — Zehnder ERV Systems</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-8">Fresh Air Ventilation in Lavelle Road, Bangalore — VaaYoo fresh air Systems</h1>
         
         <div className="prose prose-invert max-w-none text-[#C2C2C8] mb-12">
           <p>
-            In dense urban areas like Lavelle Road, maintaining optimal indoor air quality is essential. With rising AQI levels and the prevalence of sealed air-conditioned buildings, CO2 buildup and indoor pollutants are significant concerns. Our Zehnder ERV systems provide a constant supply of filtered, fresh air while exhausting stale air, ensuring a healthy environment for your family.
+            In dense urban areas like Lavelle Road, maintaining optimal indoor air quality is essential. With rising AQI levels and the prevalence of sealed air-conditioned buildings, CO2 buildup and indoor pollutants are significant concerns. Our VaaYoo fresh air systems provide a constant supply of filtered, fresh air while exhausting stale air, ensuring a healthy environment for your family.
           </p>
         </div>
 

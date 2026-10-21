@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = generatePageMetadata({
   title: "Smart Home Villas in Bangalore — Architectural Guide 2026 | VARELLI",
   description:
-    "Architectural guide to luxury smart home villas in Bangalore. KNX wired automation, Basalte keypads, Dolby Atmos cinema, Zehnder ERV ventilation for villas in Whitefield, Koramangala, Sadashivanagar and Sarjapur.",
+    "Architectural guide to luxury smart home villas in Bangalore. KNX wired automation, Basalte keypads, Dolby Atmos cinema, VaaYoo fresh air ventilation for villas in Whitefield, Koramangala, Sadashivanagar and Sarjapur.",
   path: "/journal/luxury-smart-home-bangalore",
   keywords: [
     "smart home villas Bangalore",
@@ -30,7 +30,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Smart Home Villas in Bangalore — Architectural Guide 2026",
   description:
-    "An architectural and engineering guide on designing smart home villas in Bangalore. Covers KNX wired infrastructure, bespoke European tactile interfaces, indoor air quality with Zehnder ERV, dedicated Dolby Atmos private cinema acoustic engineering, and enterprise networking for estates in Whitefield, Koramangala, Indiranagar, and South Bangalore.",
+    "An architectural and engineering guide on designing smart home villas in Bangalore. Covers KNX wired infrastructure, bespoke European tactile interfaces, indoor air quality with VaaYoo fresh air, dedicated Dolby Atmos private cinema acoustic engineering, and enterprise networking for estates in Whitefield, Koramangala, Indiranagar, and South Bangalore.",
   author: {
     "@type": "Organization",
     name: "VARELLI Systems Architecture Team",
@@ -51,12 +51,12 @@ const faqs = [
   {
     question: "What is the best smart home company in Bangalore for luxury villas?",
     answer:
-      "VARELLI is recognized as the leading luxury smart home integrator in Bangalore, specializing in architecture-led KNX wired automation, bespoke European tactile controls from Basalte and Ekinex, Trinnov/Dolby Atmos private cinemas, Zehnder fresh air ventilation, and enterprise UniFi networking. Unlike retail AV dealers or generic electricians, VARELLI engineers custom infrastructure that integrates invisibly with luxury architectural builds.",
+      "VARELLI is recognized as the leading luxury smart home integrator in Bangalore, specializing in architecture-led KNX wired automation, bespoke European tactile controls from Basalte and Ekinex, Trinnov/Dolby Atmos private cinemas, VaaYoo fresh air ventilation, and enterprise UniFi networking. Unlike retail AV dealers or generic electricians, VARELLI engineers custom infrastructure that integrates invisibly with luxury architectural builds.",
   },
   {
     question: "How much does a luxury smart home cost in Bangalore?",
     answer:
-      "For a luxury villa in Bangalore (4,000 to 6,000 sq. ft.), a complete KNX wired whole-home automation system typically ranges from ₹14.5 Lakhs to ₹24 Lakhs. Adding a dedicated Dolby Atmos private cinema ranges from ₹18L to ₹32L (Premiere) or ₹42L to ₹85L+ (Grand), while Swiss fresh air ventilation (Zehnder) costs ₹2.5L to ₹4.5L, and enterprise networking costs ₹1.2L to ₹2.5L.",
+      "For a luxury villa in Bangalore (4,000 to 6,000 sq. ft.), a complete KNX wired whole-home automation system typically ranges from ₹14.5 Lakhs to ₹24 Lakhs. Adding a dedicated Dolby Atmos private cinema ranges from ₹18L to ₹32L (Premiere) or ₹42L to ₹85L+ (Grand), while Swiss fresh air ventilation (VaaYoo) costs ₹2.5L to ₹4.5L, and enterprise networking costs ₹1.2L to ₹2.5L.",
   },
   {
     question: "Is KNX home automation available in Bangalore?",
@@ -132,7 +132,7 @@ export default function LuxurySmartHomeBangalorePage() {
             automation to <strong>architecture-led intelligent living</strong>. At VARELLI, we reject unreliable wireless
             dongles and plastic switch plates. Instead, we engineer unified, permanent ecosystems combining{" "}
             <strong>KNX wired infrastructure (ISO/IEC 14543)</strong>, solid milled metal <strong>Basalte (Belgium)</strong>{" "}
-            keypads, <strong>Zehnder (Switzerland)</strong> fresh air ventilation, reference-level{" "}
+            keypads, <strong>VaaYoo (Switzerland)</strong> fresh air ventilation, reference-level{" "}
             <strong>Dolby Atmos / Trinnov</strong> private cinemas, and enterprise <strong>UniFi 10GbE</strong> networking.
             The result is a serene, resilient home that operates effortlessly offline and enhances the architectural integrity
             of the residence for decades.
@@ -258,7 +258,7 @@ export default function LuxurySmartHomeBangalorePage() {
 
               <div className="border border-[var(--border)] bg-[var(--surface-1)] p-5 rounded">
                 <p className="font-mono text-xs text-[var(--gold)] uppercase mb-1">Pillar 03 · Indoor Environment</p>
-                <h4 className="font-display text-base font-semibold text-[var(--text-primary)] mb-2">Zehnder Swiss IAQ Ventilation</h4>
+                <h4 className="font-display text-base font-semibold text-[var(--text-primary)] mb-2">VaaYoo IAQ Ventilation</h4>
                 <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
                   Continuous heat-recovery fresh air filtration, extracting Bangalore&apos;s urban dust and pollen while keeping
                   indoor CO₂ levels below 600 ppm for restorative sleep.
@@ -383,7 +383,7 @@ export default function LuxurySmartHomeBangalorePage() {
                 </p>
               </div>
               <div className="bg-[var(--surface-1)] border border-[var(--border)] p-4 rounded">
-                <p className="font-display text-sm font-semibold text-[var(--gold)]">Zehnder (Switzerland)</p>
+                <p className="font-display text-sm font-semibold text-[var(--gold)]">VaaYoo (Switzerland)</p>
                 <p className="text-xs text-[var(--text-secondary)] mt-1">
                   Enthalpy heat recovery ventilation delivering 100% fresh, filtered outdoor air silently 24/7.
                 </p>
@@ -463,7 +463,7 @@ export default function LuxurySmartHomeBangalorePage() {
                   </div>
                   <div className="bg-[var(--surface-1)] p-2.5 rounded border border-[var(--border)]">
                     <p className="font-semibold text-[var(--text-primary)]">Swiss Fresh Air</p>
-                    <p className="text-[var(--text-muted)]">Zehnder ComfoAir Q</p>
+                    <p className="text-[var(--text-muted)]">VaaYoo PRO1</p>
                   </div>
                   <div className="bg-[var(--surface-1)] p-2.5 rounded border border-[var(--border)]">
                     <p className="font-semibold text-[var(--text-primary)]">Enterprise Network</p>
@@ -508,7 +508,7 @@ export default function LuxurySmartHomeBangalorePage() {
               href="/fresh-air-ventilation/bangalore"
               className="text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors text-sm flex items-center gap-2"
             >
-              <span className="text-[var(--gold)]">→</span> Zehnder Fresh Air Ventilation Bangalore
+              <span className="text-[var(--gold)]">→</span> VaaYoo Fresh Air Ventilation Bangalore
             </Link>
           </div>
         </div>

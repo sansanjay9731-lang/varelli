@@ -112,7 +112,7 @@ export function generateSystemTopology(
     },
     {
       sku: "VENT-HRV-450-IAQ",
-      brand: "Zehnder / VARELLI IAQ",
+      brand: "VaaYoo / VARELLI IAQ",
       category: "CLIMATE_IAQ",
       name: "Centralized Heat Recovery Fresh Air System with HEPA/Carbon Filter (450 m³/h)",
       unitCostInr: 385000,

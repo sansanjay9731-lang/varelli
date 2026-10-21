@@ -449,7 +449,7 @@ export default function CentralVacuumSystemIndiaPage() {
               href="/fresh-air-ventilation"
               className="text-[var(--text-secondary)] hover:text-[var(--gold)] transition-colors text-sm flex items-center gap-2"
             >
-              <span className="text-[var(--gold)]">→</span> Zehnder Fresh Air Ventilation Systems
+              <span className="text-[var(--gold)]">→</span> VaaYoo Fresh Air Ventilation Systems
             </Link>
             <Link
               href="/home-automation/bangalore"

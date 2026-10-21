@@ -84,7 +84,7 @@ export const WALKTHROUGH_NODES: Record<string, WalkthroughNode> = {
     ],
     hotspots: [
       { yaw: -40, pitch: 5, title: "Sentido Multitouch Brass Keypad", brandType: "Basalte Belgium", specification: "DALI logarithmic dimming + motorized curtain scene" },
-      { yaw: 10, pitch: 25, title: "Linear IAQ Ventilation Slot", brandType: "Zehnder IAQ", specification: "Silent 80 m³/h filtered positive pressure" },
+      { yaw: 10, pitch: 25, title: "Linear IAQ Ventilation Slot", brandType: "VaaYoo IAQ", specification: "Silent 80 m³/h filtered positive pressure" },
       { yaw: 55, pitch: -10, title: "In-Wall Architectural Speakers", brandType: "Sonus Faber Palladio", specification: "Voice-matched timber acoustic enclosures" },
     ],
   },

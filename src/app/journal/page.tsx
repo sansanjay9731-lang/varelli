@@ -48,7 +48,7 @@ const featuredArticles = [
 const faqs = [
   {
     question: "What topics does the VARELLI Journal & Blog cover?",
-    answer: "Our journal covers architecture-first KNX smart home systems, reference Dolby Atmos home theatre design, acoustic engineering, DALI-2 circadian lighting, Zehnder ERV fresh air ventilation, Drainvac central vacuum systems, and transparent cost guides for luxury residences across Bangalore and India.",
+    answer: "Our journal covers architecture-first KNX smart home systems, reference Dolby Atmos home theatre design, acoustic engineering, DALI-2 circadian lighting, VaaYoo fresh air fresh air ventilation, Drainvac central vacuum systems, and transparent cost guides for luxury residences across Bangalore and India.",
   },
   {
     question: "How often are new smart home and home theatre guides published?",

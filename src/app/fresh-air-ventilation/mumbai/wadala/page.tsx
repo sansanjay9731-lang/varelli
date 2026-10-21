@@ -6,8 +6,8 @@ import ServiceCTA from '@/components/sections/service/ServiceCTA'
 import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation in Wadala, Mumbai — Zehnder ERV | VARELLI",
-  description: "Breathe clean air in Wadala with VARELLI's premium Zehnder fresh air ventilation systems. Expert installation for apartments & villas.",
+  title: "Fresh Air Ventilation in Wadala, Mumbai — VaaYoo fresh air | VARELLI",
+  description: "Breathe clean air in Wadala with VARELLI's premium VaaYoo fresh air ventilation systems. Expert installation for apartments & villas.",
   path: "/fresh-air-ventilation/mumbai/wadala"
 })
 
@@ -33,11 +33,11 @@ export default function FreshAirVentilationWadala() {
   const faqs = [
     {
       question: "Why do I need a fresh air system in Wadala, Mumbai?",
-      answer: "Mumbai's high-rise sealed AC apartments often suffer from poor natural ventilation and high pollution. A Zehnder ERV system brings in filtered fresh air while exhausting stale air, maintaining optimal indoor air quality in Wadala."
+      answer: "Mumbai's high-rise sealed AC apartments often suffer from poor natural ventilation and high pollution. A VaaYoo fresh air system brings in filtered fresh air while exhausting stale air, maintaining optimal indoor air quality in Wadala."
     },
     {
-      question: "Are Zehnder ERV units suitable for Mumbai's coastal climate?",
-      answer: "Yes, our Zehnder systems offer excellent sea salt corrosion resistance and are typhoon-resistant, making them ideal for coastal areas like Wadala."
+      question: "Are VaaYoo fresh air units suitable for Mumbai's coastal climate?",
+      answer: "Yes, our VaaYoo systems offer excellent sea salt corrosion resistance and are typhoon-resistant, making them ideal for coastal areas like Wadala."
     },
     {
       question: "How much does a fresh air ventilation system cost in Wadala?",
@@ -65,7 +65,7 @@ export default function FreshAirVentilationWadala() {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-6">Fresh Air Ventilation in Wadala, Mumbai</h1>
           <p className="mb-4">
-            Discover premium Zehnder ERV systems designed for Mumbai&apos;s high-rise sealed AC apartments. Experience unmatched indoor air quality in Wadala with solutions tailored for coastal environments, featuring sea salt corrosion resistance and typhoon-resistant construction.
+            Discover premium VaaYoo fresh air systems designed for Mumbai&apos;s high-rise sealed AC apartments. Experience unmatched indoor air quality in Wadala with solutions tailored for coastal environments, featuring sea salt corrosion resistance and typhoon-resistant construction.
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">Investment Tiers for Wadala</h2>

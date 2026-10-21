@@ -206,7 +206,7 @@ export default function JournalArticle() {
                   <tr>
                     <td className="p-4 font-semibold text-white">Grand Private Residence</td>
                     <td className="p-4 text-[#C5A880] font-mono">₹65L+</td>
-                    <td className="p-4 text-xs text-[#A0A0A5]">Expansive Estates (12,000+ sq.ft.): Complete ecosystem: KNX, Zehnder ERV ventilation, Drainvac central vacuum, Trinnov private cinema.</td>
+                    <td className="p-4 text-xs text-[#A0A0A5]">Expansive Estates (12,000+ sq.ft.): Complete ecosystem: KNX, VaaYoo fresh air ventilation, Drainvac central vacuum, Trinnov private cinema.</td>
                   </tr>
                 </tbody>
               </table>

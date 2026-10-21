@@ -202,7 +202,7 @@ export default function HomeAutomationCostIndia2026Page() {
                 ["CCTV & Security", "₹18,000–₹35,000/camera", "₹1.5L–₹3L", "8 cameras, NVR, remote monitoring"],
                 ["Cinema/AV Integration", " - ", "₹1.5L–₹3L", "AV matrix, scene control, motorized screen"],
                 ["Structured Networking", " - ", "₹1.2L–₹2.5L", "UniFi WiFi 6, 10GbE backbone, VLAN security"],
-                ["Fresh Air Ventilation (Zehnder)", " - ", "₹2.5L–₹4.5L", "Zehnder ComfoAir Q, ducting, CO2 sensor"],
+                ["Fresh Air Ventilation (VaaYoo)", " - ", "₹2.5L–₹4.5L", "VaaYoo PRO1, ducting, CO2 sensor"],
               ].map(([sys, per, total, incl], i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-[var(--surface-1)]" : ""}>
                   <td className="p-4 border border-[var(--border)] text-[var(--text-secondary)] font-medium">{sys}</td>
@@ -236,7 +236,7 @@ export default function HomeAutomationCostIndia2026Page() {
             </li>
             <li>
               <strong>KNX Grand Estate</strong> - ₹38L–₹65L+: Complete intelligent living ecosystem for estates above
-              8,000 sq. ft. with Swiss IAQ (Zehnder), central vacuum, and comprehensive AV.
+              8,000 sq. ft. with Swiss IAQ (VaaYoo), central vacuum, and comprehensive AV.
             </li>
           </ul>
           <p>

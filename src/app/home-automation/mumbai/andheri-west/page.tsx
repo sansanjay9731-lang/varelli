@@ -90,7 +90,7 @@ export default function Page() {
             </div>
             <div className="p-6 bg-white shadow-sm">
               <h3 className="text-xl font-bold mb-4">Climate & Vacuum</h3>
-              <p>Zehnder ERV and Drainvac central vacuum integration.</p>
+              <p>VaaYoo fresh air and Drainvac central vacuum integration.</p>
             </div>
           </div>
         </div>

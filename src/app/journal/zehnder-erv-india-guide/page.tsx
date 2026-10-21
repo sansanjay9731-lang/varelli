@@ -5,28 +5,28 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Zehnder ComfoAir ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes | VARELLI",
+  title: "VaaYoo PRO1 ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes | VARELLI",
   description: "Comprehensive guide to zehnder erv india guide for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
-  path: "/journal/zehnder-erv-india-guide",
+  path: "/journal/vaayoo-erv-india-guide",
   keywords: ["zehnder erv india guide", "smart home India", "luxury home automation India", "KNX India"],
 });
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Zehnder ComfoAir ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes",
+  headline: "VaaYoo PRO1 ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes",
   description: "Comprehensive guide to zehnder erv india guide for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
   author: { "@type": "Organization", name: "VARELLI", url: "https://varelli.co.in" },
   publisher: { "@type": "Organization", name: "VARELLI", logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" } },
   datePublished: "2026-09-01",
   dateModified: "2026-09-09",
-  mainEntityOfPage: `https://varelli.co.in/journal/zehnder-erv-india-guide`,
+  mainEntityOfPage: `https://varelli.co.in/journal/vaayoo-erv-india-guide`,
 };
 
 const faqs = [
   {
     question: "What does VARELLI offer for zehnder erv india guide?",
-    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
+    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, VaaYoo fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
   },
   {
     question: "How do I get started with VARELLI?",
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: "What European brands does VARELLI integrate?",
-    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), VaaYoo (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
   },
   {
     question: "How much does a VARELLI smart home system cost?",
@@ -77,13 +77,13 @@ export default function Page() {
           <Breadcrumb
             items={[
               { name: "Journal", href: "/journal" },
-              { name: "Zehnder ComfoAir ERV in India — Why Swiss Fresh Ai...", href: "/journal/zehnder-erv-india-guide" },
+              { name: "VaaYoo PRO1 ERV in India — Why Swiss Fresh Ai...", href: "/journal/vaayoo-erv-india-guide" },
             ]}
           />
           <div className="mt-6 max-w-3xl">
             <span className="badge-mono block mb-5">VARELLI Journal</span>
             <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
-              Zehnder ComfoAir ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes
+              VaaYoo PRO1 ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes
             </h1>
             <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-8">
               Comprehensive guide to zehnder erv india guide for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.
@@ -135,7 +135,7 @@ export default function Page() {
         </div>
       </section>
 
-      <FAQSection faqs={faqs} title={"Zehnder ComfoAir ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes — Frequently Asked Questions"} />
+      <FAQSection faqs={faqs} title={"VaaYoo PRO1 ERV in India — Why Swiss Fresh Air Ventilation is Essential for Luxury Homes — Frequently Asked Questions"} />
       <ServiceCTA serviceName="Home Automation" />
     </>
   );

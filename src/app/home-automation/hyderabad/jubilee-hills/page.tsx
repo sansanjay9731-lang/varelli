@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question: "What home automation systems are available in Jubilee Hills?",
-    answer: "VARELLI offers KNX wired home automation, DALI-2 lighting control, Dolby Atmos private cinema, Zehnder ERV fresh air ventilation, Drainvac central vacuum, DoorBird access control, and structured home networking.",
+    answer: "VARELLI offers KNX wired home automation, DALI-2 lighting control, Dolby Atmos private cinema, VaaYoo fresh air fresh air ventilation, Drainvac central vacuum, DoorBird access control, and structured home networking.",
   },
   {
     question: "How much does smart home automation cost in Jubilee Hills?",
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: "Which European smart home brands does VARELLI install in Jubilee Hills?",
-    answer: "VARELLI integrates Basalte keypads, Ekinex plates, Zehnder ERV, Sonus Faber and KEF speakers, Barco 4K projectors, DoorBird video doorbells, and Drainvac central vacuum systems.",
+    answer: "VARELLI integrates Basalte keypads, Ekinex plates, VaaYoo fresh air, Sonus Faber and KEF speakers, Barco 4K projectors, DoorBird video doorbells, and Drainvac central vacuum systems.",
   },
 ];
 
@@ -108,7 +108,7 @@ export default function Page() {
           </h2>
           <div className="prose prose-invert max-w-none text-[var(--text-secondary)] space-y-5 text-base leading-relaxed">
             <p>
-              Jubilee Hills is home to film industry leaders, senior officials, and established business families whose residences demand infrastructure that matches their stature. VARELLI integrates European KNX wired automation, DALI-2 circadian lighting, Dolby Atmos private cinema, and Swiss Zehnder ERV fresh air systems into one seamless ecosystem.
+              Jubilee Hills is home to film industry leaders, senior officials, and established business families whose residences demand infrastructure that matches their stature. VARELLI integrates European KNX wired automation, DALI-2 circadian lighting, Dolby Atmos private cinema, and Swiss VaaYoo fresh air fresh air systems into one seamless ecosystem.
             </p>
             <p>
               Our team handles complete first-fix electrical CAD, panel building, custom acoustics, and commissioning — engineered for a 30-year lifespan with zero vendor lock-in.
@@ -128,7 +128,7 @@ export default function Page() {
               { title: "KNX Home Automation", desc: "Wired European open-standard control for lighting, climate, AV, and security." },
               { title: "Private Cinema", desc: "Dolby Atmos reference cinema with Barco 4K laser projection and Sonus Faber acoustics." },
               { title: "DALI-2 Lighting", desc: "Circadian tunable-white architectural lighting with scene control." },
-              { title: "Zehnder Fresh Air", desc: "Swiss ERV whole-home ventilation delivering filtered, tempered fresh air 24/7." },
+              { title: "VaaYoo Fresh Air", desc: "Swiss ERV whole-home ventilation delivering filtered, tempered fresh air 24/7." },
               { title: "Central Vacuum", desc: "Drainvac built-in vacuum system for effortless whole-home cleaning." },
               { title: "Smart Security", desc: "DoorBird video doorbell, Hikvision 4K cameras, and KNX-integrated access control." },
             ].map((s) => (

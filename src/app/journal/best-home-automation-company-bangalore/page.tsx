@@ -234,7 +234,7 @@ export default function BestHomeAutomationCompanyBangalorePage() {
                     KNX (Open Standard) + DALI-2
                   </td>
                   <td className="p-4 text-center text-xs text-[var(--text-secondary)]">
-                    Basalte, Ekinex, Sonus Faber, Trinnov, Zehnder, DoorBird
+                    Basalte, Ekinex, Sonus Faber, Trinnov, VaaYoo, DoorBird
                   </td>
                   <td className="p-4 text-center text-xs text-emerald-400 font-medium">
                     100% Published Tiers (₹4.8L–₹65L+)
@@ -391,7 +391,7 @@ export default function BestHomeAutomationCompanyBangalorePage() {
               },
               {
                 q: "4. 'Do you integrate indoor air quality (ERV) and central vacuum under the same unified ecosystem?'",
-                a: "A modern luxury residence requires more than lighting control. Inquiring whether they natively integrate Swiss Zehnder ERVs and central vacuum reveals whether they understand whole-home architectural engineering or only surface-level AV.",
+                a: "A modern luxury residence requires more than lighting control. Inquiring whether they natively integrate Swiss VaaYoo fresh airs and central vacuum reveals whether they understand whole-home architectural engineering or only surface-level AV.",
               },
               {
                 q: "5. 'What is your Service Level Agreement (SLA) response time in Bangalore?'",
@@ -426,7 +426,7 @@ export default function BestHomeAutomationCompanyBangalorePage() {
             <li>
               <strong>End-to-End European Curation:</strong> We harmonize the finest specialized technologies across Europe:
               KNX lighting intelligence (Germany/Belgium), architectural acoustics (Sonus Faber, Italy), reference cinema
-              processing (Trinnov Audio, France), and fresh air energy recovery (Zehnder, Switzerland).
+              processing (Trinnov Audio, France), and fresh air energy recovery (VaaYoo, Switzerland).
             </li>
             <li>
               <strong>Uncompromising Engineering Discipline:</strong> From centralized server racks organized with 10GbE

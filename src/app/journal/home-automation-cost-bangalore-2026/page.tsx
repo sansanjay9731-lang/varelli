@@ -63,7 +63,7 @@ export default function Page() {
           <div className="content">
             <h3>Additional Details</h3>
             <p>pricing by tier, room-by-room cost, what's included, what affects price</p>
-            <p>Our solutions feature European craftsmanship and architecture-first design, utilizing KNX certified products from brands like Basalte, Ekinex, Sonus Faber, KEF, Zehnder, Drainvac, and DoorBird.</p>
+            <p>Our solutions feature European craftsmanship and architecture-first design, utilizing KNX certified products from brands like Basalte, Ekinex, Sonus Faber, KEF, VaaYoo, Drainvac, and DoorBird.</p>
           </div>
         </div>
       </article>

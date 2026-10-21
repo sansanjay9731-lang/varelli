@@ -89,10 +89,10 @@ export const productCategories: ProductCategory[] = [
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
     imageAlt: 'Architectural flush air diffusers integrated into minimalist ceiling',
     highlights: ['Continuous Filtered Fresh Air Replacement', 'HEPA 13 & Activated Carbon Filtration (PM2.5 Removal)', 'Up to 92% Heat & Enthalpy Energy Recovery', 'Acoustically Attenuated Inaudible Air Delivery'],
-    brands: ['Zehnder Group', 'Daikin ERV', 'Panasonic IAQ', 'Honeywell'],
+    brands: ['VaaYoo', 'Daikin ERV', 'Panasonic IAQ', 'Honeywell'],
     productItems: [
-      { name: 'Zehnder ComfoAir Q600 ERV', brand: 'Zehnder (Switzerland)', specs: '600 m3/h Capacity / 92% Efficiency / Enthalpy', description: 'High-performance fresh air ventilation unit with humidity balancing and smart app control.' },
-      { name: 'Zehnder ComfoTube Acoustic Ducting', brand: 'Zehnder (Switzerland)', specs: 'Food-grade Smooth Core / Antibacterial', description: 'Silently routes pure air through false ceilings with zero microbial accumulation.' },
+      { name: 'VaaYoo PRO1600 ERV', brand: 'VaaYoo (Switzerland)', specs: '600 m3/h Capacity / 92% Efficiency / Enthalpy', description: 'High-performance fresh air ventilation unit with humidity balancing and smart app control.' },
+      { name: 'VaaYoo VaaYoo ducting Acoustic Ducting', brand: 'VaaYoo (Switzerland)', specs: 'Food-grade Smooth Core / Antibacterial', description: 'Silently routes pure air through false ceilings with zero microbial accumulation.' },
     ],
   },
   {

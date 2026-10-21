@@ -26,7 +26,7 @@ const articleSchema = {
 const faqs = [
   {
     question: "What does VARELLI offer for home automation cost india 2026?",
-    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
+    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, VaaYoo fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
   },
   {
     question: "How do I get started with VARELLI?",
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: "What European brands does VARELLI integrate?",
-    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), VaaYoo (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
   },
   {
     question: "How much does a VARELLI smart home system cost?",
@@ -148,7 +148,7 @@ export default function Page() {
                   <td className="p-4 text-xs font-mono">8,000 – 15,000+ sq.ft.</td>
                   <td className="p-4 font-bold text-[var(--gold)]">₹35.0 Lakhs – ₹65.0 Lakhs+</td>
                   <td className="p-4 text-xs leading-relaxed">
-                    Comprehensive intelligent ecosystem: KNX, Zehnder ERV fresh air ventilation, Drainvac central vacuum, Trinnov Dolby Atmos private cinema integration, and enterprise WiFi 7 networking.
+                    Comprehensive intelligent ecosystem: KNX, VaaYoo fresh air fresh air ventilation, Drainvac central vacuum, Trinnov Dolby Atmos private cinema integration, and enterprise WiFi 7 networking.
                   </td>
                 </tr>
               </tbody>

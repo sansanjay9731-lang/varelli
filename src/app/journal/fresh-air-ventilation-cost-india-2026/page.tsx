@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = generatePageMetadata({
   path: "/journal/fresh-air-ventilation-cost-india-2026",
-title: "Fresh Air Ventilation System Cost in India 2026 — Zehnder ERV Pricing & Installation Guide",
+title: "Fresh Air Ventilation System Cost in India 2026 — VaaYoo fresh air Pricing & Installation Guide",
   description: "Comprehensive guide and transparent pricing for luxury smart home systems by VARELLI.",
 })
 
@@ -23,7 +23,7 @@ export default function Page() {
       <Breadcrumb items={breadcrumbItems} />
       <article className="w-full py-20 px-4">
         <div className="container mx-auto max-w-4xl prose lg:prose-xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-8">Fresh Air Ventilation System Cost in India 2026 — Zehnder ERV Pricing & Installation Guide</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-8">Fresh Air Ventilation System Cost in India 2026 — VaaYoo fresh air Pricing & Installation Guide</h1>
           <p className="lead text-xl text-[#A0A0A5] mb-12">
             Detailed pricing and cost breakdown for luxury installations. Contact us on WhatsApp: +91 99649 84695.
           </p>
@@ -62,8 +62,8 @@ export default function Page() {
           
           <div className="content">
             <h3>Additional Details</h3>
-            <p>Zehnder ComfoAir pricing, running costs, ROI vs air purifiers</p>
-            <p>Our solutions feature European craftsmanship and architecture-first design, utilizing KNX certified products from brands like Basalte, Ekinex, Sonus Faber, KEF, Zehnder, Drainvac, and DoorBird.</p>
+            <p>VaaYoo PRO1 pricing, running costs, ROI vs air purifiers</p>
+            <p>Our solutions feature European craftsmanship and architecture-first design, utilizing KNX certified products from brands like Basalte, Ekinex, Sonus Faber, KEF, VaaYoo, Drainvac, and DoorBird.</p>
           </div>
         </div>
       </article>

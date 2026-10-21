@@ -56,7 +56,7 @@ export default function Page() {
       <SolutionPackageGrid
         serviceTitle="Fresh Air Ventilation & IAQ"
         serviceCategory="Swiss ERV & Indoor Air Quality"
-        subtitle="Maintain pristine, hospital-grade indoor air quality with Swiss Zehnder Energy Recovery Ventilation, positive pressure, and True HEPA H13 filtration."
+        subtitle="Maintain pristine, hospital-grade indoor air quality with Swiss VaaYoo Energy Recovery Ventilation, positive pressure, and True HEPA H13 filtration."
         packages={packages}
       />
       <ComparisonMatrix

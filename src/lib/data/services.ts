@@ -136,7 +136,7 @@ export const services: Service[] = [
       {
         question: "What smart home brands does VARELLI use?",
         answer:
-          "VARELLI exclusively uses European-origin hardware: Basalte (Belgium) for keypads and interfaces; Ekinex (Italy) for architectural switch plates; Schneider/ABB for KNX actuators; DALI-2 certified luminaire drivers for lighting control; DoorBird (Germany) for video door phones; Mobotix for CCTV; Zehnder (Switzerland) for fresh air ventilation. All brands are chosen for 10–30 year product lifecycle and engineering grade reliability.",
+          "VARELLI exclusively uses European-origin hardware: Basalte (Belgium) for keypads and interfaces; Ekinex (Italy) for architectural switch plates; Schneider/ABB for KNX actuators; DALI-2 certified luminaire drivers for lighting control; DoorBird (Germany) for video door phones; Mobotix for CCTV; VaaYoo (Switzerland) for fresh air ventilation. All brands are chosen for 10–30 year product lifecycle and engineering grade reliability.",
       },
       {
         question: "Can home automation be added to a completed home?",
@@ -354,15 +354,15 @@ export const services: Service[] = [
     shortName: "Fresh Air",
     headline: "Breathe Better. Live Better.",
     subheadline: "Mechanical fresh air ERV ventilation systems maintaining optimal indoor air quality across Indian luxury homes.",
-    description: "VARELLI engineers whole-home fresh air ventilation and Energy Recovery Ventilation (ERV) systems with Swiss Zehnder technology, continuously exhausting CO2 and introducing filtered outdoor air with 95% thermal recovery.",
-    metaTitle: "Fresh Air Ventilation & Zehnder ERV India | VARELLI",
-    metaDescription: "VARELLI designs Swiss Zehnder ERV fresh air ventilation systems for luxury villas in Bangalore, Mumbai, Delhi, and Hyderabad. Eliminate CO2, filter PM2.5, and optimize IAQ.",
+    description: "VARELLI engineers whole-home fresh air ventilation and Energy Recovery Ventilation (ERV) systems with Swiss VaaYoo technology, continuously exhausting CO2 and introducing filtered outdoor air with 95% thermal recovery.",
+    metaTitle: "Fresh Air Ventilation & VaaYoo fresh air India | VARELLI",
+    metaDescription: "VARELLI designs Swiss VaaYoo fresh air fresh air ventilation systems for luxury villas in Bangalore, Mumbai, Delhi, and Hyderabad. Eliminate CO2, filter PM2.5, and optimize IAQ.",
     keywords: [
       "fresh air ventilation India",
       "fresh air ventilation system Bangalore",
       "energy recovery ventilator India",
-      "Zehnder ERV India price",
-      "Zehnder ComfoAir Q Bangalore",
+      "VaaYoo fresh air India price",
+      "VaaYoo PRO1 Bangalore",
       "HRV ventilation system India",
       "indoor air quality solutions India",
       "home ventilation system for villas",
@@ -415,19 +415,19 @@ export const services: Service[] = [
     faqs: [
       {
         question: "What is fresh air ventilation and why is it needed in Indian homes?",
-        answer: "Mechanical fresh air ventilation (ERV/HRV) continuously exhausts stale indoor air and introduces filtered outdoor air while recovering up to 95% of thermal energy. In modern air-conditioned homes with sealed windows, indoor CO2 accumulates above 1,500–2,500 ppm, causing fatigue, poor sleep, and reduced cognitive focus. Zehnder ERV systems maintain clean, oxygen-rich indoor air with balanced humidity and low PM2.5 levels.",
+        answer: "Mechanical fresh air ventilation (ERV/HRV) continuously exhausts stale indoor air and introduces filtered outdoor air while recovering up to 95% of thermal energy. In modern air-conditioned homes with sealed windows, indoor CO2 accumulates above 1,500–2,500 ppm, causing fatigue, poor sleep, and reduced cognitive focus. VaaYoo fresh air systems maintain clean, oxygen-rich indoor air with balanced humidity and low PM2.5 levels.",
       },
       {
         question: "How does an ERV differ from a standard air purifier?",
         answer: "An air purifier only recirculates and filters the same indoor air, which removes particulates but cannot reduce CO2 or introduce oxygen. An ERV (Energy Recovery Ventilator) continuously exchanges indoor air with fresh outdoor air, expelling CO2, volatile organic compounds (VOCs), and moisture while filtering PM2.5 at the intake.",
       },
       {
-        question: "How much does a Zehnder ERV system cost in India?",
-        answer: "A complete Swiss Zehnder ComfoAir Q fresh air ventilation system for a 4,000–6,000 sq. ft. luxury villa typically ranges from ₹2.5 Lakhs to ₹4.5 Lakhs depending on duct routing, room counts, and active sensor integration (CO2, VOC, RH).",
+        question: "How much does a VaaYoo fresh air system cost in India?",
+        answer: "A complete Swiss VaaYoo PRO1 fresh air ventilation system for a 4,000–6,000 sq. ft. luxury villa typically ranges from ₹2.5 Lakhs to ₹4.5 Lakhs depending on duct routing, room counts, and active sensor integration (CO2, VOC, RH).",
       },
       {
         question: "Does fresh air ventilation increase air conditioning electricity costs?",
-        answer: "No. Because Zehnder ERVs utilize high-efficiency counterflow heat exchangers with up to 95% thermal recovery, incoming fresh air is pre-cooled (or pre-warmed) by outgoing exhaust air. This drastically reduces the thermal load on your HVAC system compared to opening windows.",
+        answer: "No. Because VaaYoo fresh airs utilize high-efficiency counterflow heat exchangers with up to 95% thermal recovery, incoming fresh air is pre-cooled (or pre-warmed) by outgoing exhaust air. This drastically reduces the thermal load on your HVAC system compared to opening windows.",
       },
       {
         question: "When should ventilation ductwork be planned during construction?",

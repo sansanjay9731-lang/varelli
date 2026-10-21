@@ -106,14 +106,14 @@ export default function ServicesGrid() {
               >
                 <Image
                   src="/images/fresh-air-ventilation-hero.jpg"
-                  alt="Luxury bedroom with Zehnder ERV fresh air ventilation and mountain view, CO2 412ppm display"
+                  alt="Luxury bedroom with VaaYoo fresh air fresh air ventilation and mountain view, CO2 412ppm display"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,8,10,0.95)] via-[rgba(8,8,10,0.30)] to-transparent" />
                 <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                  <span className="badge-mono text-[9px] mb-2 inline-block opacity-70">Zehnder · Swiss ERV</span>
+                  <span className="badge-mono text-[9px] mb-2 inline-block opacity-70">VaaYoo · Swiss ERV</span>
                   <h3 className="font-display text-xl font-bold text-white mb-1.5 group-hover:text-[var(--gold)] transition-colors duration-300">
                     Fresh Air Ventilation
                   </h3>

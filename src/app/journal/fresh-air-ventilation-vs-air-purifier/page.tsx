@@ -15,7 +15,7 @@ export const metadata: Metadata = generatePageMetadata({
     "ERV vs air purifier",
     "HRV vs air purifier India",
     "indoor air quality India",
-    "Zehnder fresh air ventilation India",
+    "VaaYoo fresh air ventilation India",
     "best indoor air quality solution India",
     "home ventilation India",
     "CO2 levels home India",
@@ -48,12 +48,12 @@ const faqs = [
   {
     question: "What is an Energy Recovery Ventilator (ERV) and how does it work?",
     answer:
-      "An Energy Recovery Ventilator (ERV) is a mechanical fresh air system that continuously exchanges stale indoor air with fresh outdoor air while recovering 75–95% of the thermal energy in the outgoing air. Indoor air is exhausted through one duct while fresh outdoor air enters through another. A heat exchanger transfers heat (and in ERVs, moisture) between these two airstreams without mixing them. The result: your home is continuously supplied with fresh outdoor air at near-indoor-temperature, without the energy penalty of opening windows. Zehnder ComfoAir Q ERVs achieve 95% thermal efficiency per EN 308 standard.",
+      "An Energy Recovery Ventilator (ERV) is a mechanical fresh air system that continuously exchanges stale indoor air with fresh outdoor air while recovering 75–95% of the thermal energy in the outgoing air. Indoor air is exhausted through one duct while fresh outdoor air enters through another. A heat exchanger transfers heat (and in ERVs, moisture) between these two airstreams without mixing them. The result: your home is continuously supplied with fresh outdoor air at near-indoor-temperature, without the energy penalty of opening windows. VaaYoo PRO1 ERVs achieve 95% thermal efficiency per EN 308 standard.",
   },
   {
     question: "What is the difference between an ERV and an HRV?",
     answer:
-      "An HRV (Heat Recovery Ventilator) recovers only thermal energy from exhaust air. An ERV (Energy Recovery Ventilator) recovers both thermal energy and moisture. In India's climate - which alternates between dry winter conditions and humid monsoon - an ERV is typically preferable because it can recover moisture in winter (preventing excessive drying of indoor air) and reject excess moisture in monsoon (helping maintain comfortable humidity). VARELLI specifies Zehnder ComfoAir Q ERVs for all Indian luxury residences.",
+      "An HRV (Heat Recovery Ventilator) recovers only thermal energy from exhaust air. An ERV (Energy Recovery Ventilator) recovers both thermal energy and moisture. In India's climate - which alternates between dry winter conditions and humid monsoon - an ERV is typically preferable because it can recover moisture in winter (preventing excessive drying of indoor air) and reject excess moisture in monsoon (helping maintain comfortable humidity). VARELLI specifies VaaYoo PRO1 ERVs for all Indian luxury residences.",
   },
   {
     question: "What is an air purifier and what does it actually filter?",
@@ -73,12 +73,12 @@ const faqs = [
   {
     question: "Do I need both an ERV and an air purifier?",
     answer:
-      "In most Indian luxury villa installations, a properly designed ERV system with HEPA-filtered intake makes a separate air purifier redundant for PM2.5 and particle control. VARELLI's Zehnder ComfoAir Q installations include G4 + F7 + F9 filter stages on the outdoor air intake, removing PM2.5, pollen, and allergens before they enter the home. An additional air purifier may be beneficial in rooms with specific VOC sources (new furniture, paint, carpets) during off-gassing periods.",
+      "In most Indian luxury villa installations, a properly designed ERV system with HEPA-filtered intake makes a separate air purifier redundant for PM2.5 and particle control. VARELLI's VaaYoo PRO1 installations include G4 + F7 + F9 filter stages on the outdoor air intake, removing PM2.5, pollen, and allergens before they enter the home. An additional air purifier may be beneficial in rooms with specific VOC sources (new furniture, paint, carpets) during off-gassing periods.",
   },
   {
     question: "How much does fresh air ventilation (ERV) cost in India?",
     answer:
-      "A Zehnder ComfoAir Q ERV installation for a 4-bedroom luxury villa (covering all bedrooms and living areas) costs approximately ₹2.5–₹4.5 Lakhs including the Zehnder unit, ducting, insulation, diffusers, CO2 sensors, and commissioning. Smaller 2–3 bedroom apartments typically range from ₹1.8–₹2.8 Lakhs. The Zehnder unit itself has a 10-year manufacturer warranty and filter replacement costs approximately ₹8,000–₹12,000 per year.",
+      "A VaaYoo PRO1 ERV installation for a 4-bedroom luxury villa (covering all bedrooms and living areas) costs approximately ₹2.5–₹4.5 Lakhs including the VaaYoo unit, ducting, insulation, diffusers, CO2 sensors, and commissioning. Smaller 2–3 bedroom apartments typically range from ₹1.8–₹2.8 Lakhs. The VaaYoo unit itself has a 10-year manufacturer warranty and filter replacement costs approximately ₹8,000–₹12,000 per year.",
   },
 ];
 
@@ -185,9 +185,9 @@ export default function FreshAirVentilationVsAirPurifierPage() {
             system) can dilute and remove CO2.
           </p>
 
-          <h2>The Zehnder ERV Advantage for Indian Homes</h2>
+          <h2>The VaaYoo fresh air Advantage for Indian Homes</h2>
           <p>
-            VARELLI specifies <strong>Zehnder ComfoAir Q</strong> ERVs from Switzerland for all fresh air ventilation
+            VARELLI specifies <strong>VaaYoo PRO1</strong> ERVs from Switzerland for all fresh air ventilation
             installations. Key performance data:
           </p>
           <ul>

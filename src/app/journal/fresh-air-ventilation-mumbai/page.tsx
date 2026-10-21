@@ -5,7 +5,7 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation in Mumbai — Zehnder ERV for Sea-Facing Homes & High-Rise Penthouses | VARELLI",
+  title: "Fresh Air Ventilation in Mumbai — VaaYoo fresh air for Sea-Facing Homes & High-Rise Penthouses | VARELLI",
   description: "Comprehensive guide to fresh air ventilation mumbai for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
   path: "/journal/fresh-air-ventilation-mumbai",
   keywords: ["fresh air ventilation mumbai", "smart home India", "luxury home automation India", "KNX India"],
@@ -14,7 +14,7 @@ export const metadata: Metadata = generatePageMetadata({
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Fresh Air Ventilation in Mumbai — Zehnder ERV for Sea-Facing Homes & High-Rise Penthouses",
+  headline: "Fresh Air Ventilation in Mumbai — VaaYoo fresh air for Sea-Facing Homes & High-Rise Penthouses",
   description: "Comprehensive guide to fresh air ventilation mumbai for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
   author: { "@type": "Organization", name: "VARELLI", url: "https://varelli.co.in" },
   publisher: { "@type": "Organization", name: "VARELLI", logo: { "@type": "ImageObject", url: "https://varelli.co.in/images/varelli-logo.png" } },
@@ -26,7 +26,7 @@ const articleSchema = {
 const faqs = [
   {
     question: "What does VARELLI offer for fresh air ventilation mumbai?",
-    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, Zehnder fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
+    answer: "VARELLI is India's premier architecture-led luxury smart home integrator, offering KNX home automation, private cinema, VaaYoo fresh air ventilation, central vacuum, and smart security for luxury villas and penthouses across Bangalore, Mumbai, Delhi NCR, Hyderabad, and Chennai.",
   },
   {
     question: "How do I get started with VARELLI?",
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: "What European brands does VARELLI integrate?",
-    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), Zehnder (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
+    answer: "VARELLI integrates Basalte (Belgian luxury keypads), Ekinex (Italian architectural keypads), VaaYoo (Swiss ERV), Sonus Faber and KEF (speakers), Barco (4K laser projectors), DoorBird (German video doorbell), Drainvac (central vacuum), and more.",
   },
   {
     question: "How much does a VARELLI smart home system cost?",
@@ -77,13 +77,13 @@ export default function Page() {
           <Breadcrumb
             items={[
               { name: "Journal", href: "/journal" },
-              { name: "Fresh Air Ventilation in Mumbai — Zehnder ERV for ...", href: "/journal/fresh-air-ventilation-mumbai" },
+              { name: "Fresh Air Ventilation in Mumbai — VaaYoo fresh air for ...", href: "/journal/fresh-air-ventilation-mumbai" },
             ]}
           />
           <div className="mt-6 max-w-3xl">
             <span className="badge-mono block mb-5">VARELLI Journal</span>
             <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.03em] text-[var(--text-primary)] mb-5">
-              Fresh Air Ventilation in Mumbai — Zehnder ERV for Sea-Facing Homes & High-Rise Penthouses
+              Fresh Air Ventilation in Mumbai — VaaYoo fresh air for Sea-Facing Homes & High-Rise Penthouses
             </h1>
             <p className="font-editorial text-xl text-[var(--text-secondary)] leading-relaxed italic mb-8">
               Comprehensive guide to fresh air ventilation mumbai for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.
@@ -135,7 +135,7 @@ export default function Page() {
         </div>
       </section>
 
-      <FAQSection faqs={faqs} title={"Fresh Air Ventilation in Mumbai — Zehnder ERV for Sea-Facing Homes & High-Rise Penthouses — Frequently Asked Questions"} />
+      <FAQSection faqs={faqs} title={"Fresh Air Ventilation in Mumbai — VaaYoo fresh air for Sea-Facing Homes & High-Rise Penthouses — Frequently Asked Questions"} />
       <ServiceCTA serviceName="Home Automation" />
     </>
   );
