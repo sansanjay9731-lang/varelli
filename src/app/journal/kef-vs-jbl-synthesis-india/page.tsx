@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "KEF vs JBL Synthesis for Home Theatre India — Studio Monitor vs Audiophile Sound | VARELLI",
-  description: "Comprehensive guide to kef vs jbl synthesis india for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "KEF vs JBL Synthesis for Home Cinema India 2026 — Honest Speaker Comparison | VARELLI",
+  description: "KEF R-Series/Blade vs JBL Synthesis SCL — honest 2026 comparison for Indian home cinema. In-wall vs freestanding, Dolby Atmos configuration, ₹ pricing and VARELLI's recommendation.",
   path: "/journal/kef-vs-jbl-synthesis-india",
   keywords: ["kef vs jbl synthesis india", "smart home India", "luxury home automation India", "KNX India"],
 });

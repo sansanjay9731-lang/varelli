@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "KNX vs Lutron for Home Automation in India — Which Lighting & Control System is Best? | VARELLI",
-  description: "Comprehensive guide to knx vs lutron india for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "KNX vs Lutron in India 2026 — Which Wins for Luxury Homes? | VARELLI",
+  description: "KNX vs Lutron — honest 2026 comparison for Indian luxury homes. Open protocol vs proprietary, ₹ pricing difference, DALI-2 integration, and which architects actually specify. VARELLI's frank verdict.",
   path: "/journal/knx-vs-lutron-india",
   keywords: ["knx vs lutron india", "smart home India", "luxury home automation India", "KNX India"],
 });

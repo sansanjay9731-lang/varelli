@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Dolby Atmos Speaker Systems for Indian Homes — 2026 Buying Guide | VARELLI",
-  description: "Comprehensive guide to dolby atmos speakers india for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Dolby Atmos Speakers India 2026 — System Guide & ₹ Pricing | VARELLI",
+  description: "Complete Dolby Atmos speaker guide for Indian homes — 5.1 to 9.4.6 configurations, Sonus Faber, KEF, JBL Synthesis pricing in ₹ Lakhs. Dedicated cinema vs living room setup explained.",
   path: "/journal/dolby-atmos-speakers-india",
   keywords: ["dolby atmos speakers india", "smart home India", "luxury home automation India", "KNX India"],
 });

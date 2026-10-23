@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Best Home Automation Companies in India 2026 — National Ranking & Honest Comparison | VARELLI",
-  description: "Comprehensive guide to best home automation company india for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Best Home Automation Company in India 2026 — KNX Integrators Ranked Honestly | VARELLI",
+  description: "Honest 2026 ranking of India's best home automation companies — KNX certified vs app-based, pricing transparency, brands, cities served and what to ask before signing.",
   path: "/journal/best-home-automation-company-india",
   keywords: ["best home automation company india", "smart home India", "luxury home automation India", "KNX India"],
 });

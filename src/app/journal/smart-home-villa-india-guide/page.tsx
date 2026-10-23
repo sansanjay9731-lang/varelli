@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Smart Home Systems for Villas in India — Complete KNX Integration Guide 2026 | VARELLI",
-  description: "Comprehensive guide to smart home villa india guide for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Smart Home for Luxury Villas in India 2026 — KNX Architecture Guide | VARELLI",
+  description: "Complete smart home guide for luxury villas in India — KNX wired automation, Basalte keypads, Dolby Atmos cinema, VaaYoo fresh air. What to pre-plan vs retrofit and ₹ pricing.",
   path: "/journal/smart-home-villa-india-guide",
   keywords: ["smart home villa india guide", "smart home India", "luxury home automation India", "KNX India"],
 });

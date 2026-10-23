@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Home Cinema Room Dimensions Guide — Ideal Size, Aspect Ratio & Layout for India | VARELLI",
-  description: "Comprehensive guide to home cinema room dimensions guide for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Home Cinema Room Dimensions India 2026 — Minimum Size, Ratios & Acoustic Guide | VARELLI",
+  description: "Exact home cinema room dimensions for Indian villas — minimum 300 sq ft for Dolby Atmos, ideal ratios, ceiling height, acoustic treatment requirements, and VARELLI's design process.",
   path: "/journal/home-cinema-room-dimensions-guide",
   keywords: ["home cinema room dimensions guide", "smart home India", "luxury home automation India", "KNX India"],
 });

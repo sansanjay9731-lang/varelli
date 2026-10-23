@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Private Cinema in Bangalore 2026 — Designing the Perfect Home Theatre for Your Villa | VARELLI",
-  description: "Comprehensive guide to private cinema bangalore 2026 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Private Cinema in Bangalore 2026 — Dolby Atmos, Barco Laser & ₹ Pricing | VARELLI",
+  description: "Complete guide to private cinema design in Bangalore — Dolby Atmos 7.2.4 to 9.4.6, Barco laser projection, acoustic treatment, pricing from ₹18L–₹85L+. VARELLI project process.",
   path: "/journal/private-cinema-bangalore-2026",
   keywords: ["private cinema bangalore 2026", "smart home India", "luxury home automation India", "KNX India"],
 });

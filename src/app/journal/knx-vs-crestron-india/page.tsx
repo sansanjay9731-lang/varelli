@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "KNX vs Crestron for Home Automation in India — Architecture-Led Comparison 2026 | VARELLI",
-  description: "Comprehensive guide to knx vs crestron india for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "KNX vs Crestron in India 2026 — Honest Comparison for Luxury Homes | VARELLI",
+  description: "KNX vs Crestron — open protocol vs proprietary. Honest 2026 comparison for Indian villas: ₹ cost difference, programming flexibility, longevity, and which architects actually specify.",
   path: "/journal/knx-vs-crestron-india",
   keywords: ["knx vs crestron india", "smart home India", "luxury home automation India", "KNX India"],
 });

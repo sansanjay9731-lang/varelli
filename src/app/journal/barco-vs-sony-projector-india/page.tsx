@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Barco vs Sony Laser Projector for Home Cinema India — Which 4K Projector is Best? | VARELLI",
-  description: "Comprehensive guide to barco vs sony projector india for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Barco vs Sony Laser Projector India 2026 — Which Wins for Private Cinema? | VARELLI",
+  description: "Barco Loki vs Sony VPL-XW5000 — honest 2026 comparison for Indian private cinemas. 4K laser, colour accuracy, pricing in ₹, and which VARELLI specifies for dedicated home theatres.",
   path: "/journal/barco-vs-sony-projector-india",
   keywords: ["barco vs sony projector india", "smart home India", "luxury home automation India", "KNX India"],
 });

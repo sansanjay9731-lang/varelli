@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Luxury Home Automation in Mumbai — Penthouses, Villas & Sea-Facing Residences 2026 | VARELLI",
-  description: "Comprehensive guide to luxury home automation mumbai for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Luxury Home Automation in Mumbai 2026 — KNX Systems for Bandra, Juhu & Worli | VARELLI",
+  description: "Complete guide to luxury smart home automation in Mumbai — KNX wired systems for Bandra, Juhu, Worli, Prabhadevi sea-facing apartments and bungalows. Pricing in ₹ Lakhs.",
   path: "/journal/luxury-home-automation-mumbai",
   keywords: ["luxury home automation mumbai", "smart home India", "luxury home automation India", "KNX India"],
 });

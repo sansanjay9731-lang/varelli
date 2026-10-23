@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Luxury Smart Home in India 2026 — The Complete Guide to Architecture-Led Automation | VARELLI",
-  description: "Comprehensive guide to luxury smart home india 2026 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Luxury Smart Home India 2026 — Architecture-Led KNX Systems | VARELLI",
+  description: "Guide to luxury smart home design in India — KNX wired automation, European brands (Basalte, Ekinex, Sonus Faber), transparent ₹ pricing and VARELLI's architecture-first process.",
   path: "/journal/luxury-smart-home-india-2026",
   keywords: ["luxury smart home india 2026", "smart home India", "luxury home automation India", "KNX India"],
 });

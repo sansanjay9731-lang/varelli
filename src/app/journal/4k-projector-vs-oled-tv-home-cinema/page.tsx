@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "4K Laser Projector vs OLED TV for Home Cinema India — Which Should You Choose? | VARELLI",
-  description: "Comprehensive guide to 4k projector vs oled tv home cinema for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "4K Projector vs OLED TV for Home Cinema India 2026 | VARELLI",
+  description: "4K laser projector vs OLED TV — honest comparison for Indian home cinema. Screen size, brightness, black levels, ₹ pricing and the room-type that determines the right choice.",
   path: "/journal/4k-projector-vs-oled-tv-home-cinema",
   keywords: ["4k projector vs oled tv home cinema", "smart home India", "luxury home automation India", "KNX India"],
 });

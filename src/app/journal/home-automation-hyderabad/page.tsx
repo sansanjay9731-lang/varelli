@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Luxury Home Automation in Hyderabad — KNX Systems for Jubilee Hills & Banjara Hills Estates | VARELLI",
-  description: "Comprehensive guide to home automation hyderabad for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Home Automation Companies in Hyderabad 2026 — KNX Systems | VARELLI",
+  description: "Guide to luxury home automation in Hyderabad — KNX wired systems for Jubilee Hills, Banjara Hills, Gachibowli and Hitec City villas. VARELLI pricing, brands and process.",
   path: "/journal/home-automation-hyderabad",
   keywords: ["home automation hyderabad", "smart home India", "luxury home automation India", "KNX India"],
 });

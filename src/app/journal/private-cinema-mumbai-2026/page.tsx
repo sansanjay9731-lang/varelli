@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Private Cinema in Mumbai 2026 — Dolby Atmos Home Theatre for Penthouses & Sea-Facing Homes | VARELLI",
-  description: "Comprehensive guide to private cinema mumbai 2026 for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Private Cinema in Mumbai 2026 — Dolby Atmos & Barco Laser for Sea-Facing Homes | VARELLI",
+  description: "Guide to private cinema design in Mumbai — Dolby Atmos, Barco laser projection for Bandra, Juhu, Worli, Prabhadevi and Lower Parel luxury apartments. Pricing in ₹ Lakhs.",
   path: "/journal/private-cinema-mumbai-2026",
   keywords: ["private cinema mumbai 2026", "smart home India", "luxury home automation India", "KNX India"],
 });

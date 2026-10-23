@@ -5,8 +5,8 @@ import FAQSection from "@/components/sections/service/FAQSection";
 import ServiceCTA from "@/components/sections/service/ServiceCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Fresh Air Ventilation Systems in Bangalore — Why VaaYoo fresh air is Essential for Luxury Homes | VARELLI",
-  description: "Comprehensive guide to fresh air ventilation bangalore for luxury homeowners in India. Expert analysis from VARELLI, India's architecture-first smart home integrator.",
+  title: "Fresh Air Ventilation in Bangalore 2026 — VaaYoo Systems & Pricing | VARELLI",
+  description: "Fresh air purification systems for Bangalore villas — VaaYoo PRO1 and COOL, indoor CO₂ reduction, PM2.5 filtration, pricing guide and VARELLI installation process.",
   path: "/journal/fresh-air-ventilation-bangalore",
   keywords: ["fresh air ventilation bangalore", "smart home India", "luxury home automation India", "KNX India"],
 });
