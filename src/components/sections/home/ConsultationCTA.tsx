@@ -45,7 +45,7 @@ export default function ConsultationCTA() {
               Begin Your Residence
             </Link>
             <a
-              href="https://wa.me/919999999999?text=I%20would%20like%20to%20enquire%20about%20VARELLI%20intelligent%20living%20systems"
+              href="https://wa.me/919964984695?text=I%20would%20like%20to%20enquire%20about%20VARELLI%20intelligent%20living%20systems"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-ghost px-10 py-4 text-sm font-semibold rounded-full font-body inline-block"

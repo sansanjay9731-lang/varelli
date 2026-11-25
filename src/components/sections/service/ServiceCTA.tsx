@@ -28,7 +28,7 @@ export default function ServiceCTA({ serviceName = "Smart Home", title, descript
                 Request a Consultation
               </Link>
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/919964984695?text=Hello%20VARELLI%2C%20I%20would%20like%20to%20discuss%20a%20smart%20home%20residence%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost px-8 py-3.5 text-sm font-semibold rounded-full font-body inline-block text-center"

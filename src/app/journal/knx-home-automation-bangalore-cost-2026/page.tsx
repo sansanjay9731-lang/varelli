@@ -144,9 +144,20 @@ export default function JournalArticle() {
           <p className="text-base md:text-lg text-white font-normal leading-relaxed mb-4">
             For homeowners and property developers in Bangalore, implementing a reliable, scalable, and decentralized wired <strong>KNX (ISO/IEC 14543)</strong> infrastructure eliminates the planned obsolescence of consumer WiFi gadgets.
           </p>
-          <p className="text-sm md:text-base text-[#C2C2C8] leading-relaxed">
+          <p className="text-sm md:text-base text-[#C2C2C8] leading-relaxed mb-6">
             Complete villa installations in Whitefield, Koramangala, and Sadashivanagar typically range from <strong>₹18 Lakhs to ₹55 Lakhs</strong> depending on keypad finishes (<Link href="/brands/basalte" className="text-[#C5A880] underline hover:text-[#d8ba91]">Basalte</Link>, <Link href="/brands/ekinex" className="text-[#C5A880] underline hover:text-[#d8ba91]">Ekinex</Link>), DALI-2 dimming, and VRV HVAC integration.
           </p>
+          <div className="pt-5 border-t border-[#2A2A35] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <p className="text-sm text-[#C2C2C8]">
+              Want to plug in your own rooms and see where your flat or villa lands?
+            </p>
+            <Link
+              href="/plan-your-smart-home"
+              className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#C5A880] text-[#08080A] font-semibold text-xs uppercase tracking-wider hover:bg-[#d8be98] transition-colors shrink-0"
+            >
+              Launch Interactive Cost Calculator →
+            </Link>
+          </div>
         </section>
 
         <div className="prose prose-invert max-w-none space-y-10 mb-16 text-[#C2C2C8]">

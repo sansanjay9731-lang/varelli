@@ -66,7 +66,7 @@ export default function ContactForm() {
             <div className="mt-10 pt-8 border-t border-[var(--border)]">
               <p className="badge-mono mb-3">Prefer WhatsApp?</p>
               <a
-                href="https://wa.me/919999999999?text=I%20would%20like%20to%20enquire%20about%20VARELLI%20intelligent%20living%20systems"
+                href="https://wa.me/919964984695?text=I%20would%20like%20to%20enquire%20about%20VARELLI%20intelligent%20living%20systems"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold rounded-full font-body"
