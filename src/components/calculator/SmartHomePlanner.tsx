@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import {
   Lightbulb,
   ToggleRight,
@@ -16,8 +17,33 @@ import {
   Home,
   Layers,
   ChevronRight,
+  Film,
+  Wind,
+  Shield,
+  Trash2,
   type LucideIcon,
 } from "lucide-react";
+import {
+  CinemaPlanner,
+  FreshAirPlanner,
+  CentralVacuumPlanner,
+  SecurityNetworkPlanner,
+} from "./OtherSolutionsPlanners";
+
+type SolutionTabId = "automation" | "cinema" | "fresh-air" | "vacuum" | "security";
+
+const SOLUTION_TABS: {
+  id: SolutionTabId;
+  label: string;
+  sub: string;
+  icon: LucideIcon;
+}[] = [
+  { id: "automation", label: "Home Automation", sub: "KNX · Lights · AC · Curtains", icon: Home },
+  { id: "cinema", label: "Private Cinema", sub: "Dolby Atmos · Barco Laser", icon: Film },
+  { id: "fresh-air", label: "Fresh Air (VaaYoo)", sub: "PRO1 & COOL IAQ", icon: Wind },
+  { id: "vacuum", label: "Central Vacuum", sub: "Drainvac Hide-A-Hose", icon: Trash2 },
+  { id: "security", label: "Security & WiFi 7", sub: "DoorBird · Cameras · 10GbE", icon: Shield },
+];
 
 type HomeTypeId = "1bhk" | "2bhk" | "3bhk" | "4bhk" | "villa";
 type TierId = "essential" | "signature" | "reference";
@@ -478,6 +504,22 @@ function buildInitialSelection(home: HomeTypeConfig): Record<string, FeatureId[]
 }
 
 export default function SmartHomePlanner() {
+  const searchParams = useSearchParams();
+  const [activeSolution, setActiveSolution] = useState<SolutionTabId>("automation");
+
+  useEffect(() => {
+    const param = searchParams?.get("solution");
+    if (
+      param === "automation" ||
+      param === "cinema" ||
+      param === "fresh-air" ||
+      param === "vacuum" ||
+      param === "security"
+    ) {
+      setActiveSolution(param);
+    }
+  }, [searchParams]);
+
   const [homeTypeId, setHomeTypeId] = useState<HomeTypeId>("3bhk");
   const [tierId, setTierId] = useState<TierId>("essential");
   const [stageId, setStageId] = useState<StageId>("new");
@@ -590,8 +632,54 @@ export default function SmartHomePlanner() {
   }, [activeHome, activeTier, stageId, estimate, roomSelections]);
 
   return (
-    <div className="space-y-10">
-      {/* Step 1: Home Type & Tier Selector */}
+    <div className="space-y-8">
+      {/* Solution Switcher Bar */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+        {SOLUTION_TABS.map((tab) => {
+          const active = activeSolution === tab.id;
+          const Icon = tab.icon;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => setActiveSolution(tab.id)}
+              className={`p-3.5 rounded-xl border text-left transition-all cursor-pointer flex items-start gap-3 ${
+                active
+                  ? "bg-[#C5A880]/15 border-[#C5A880] shadow-[0_0_24px_rgba(197,168,128,0.16)]"
+                  : "bg-[#121216] border-[#2A2A35] hover:border-[#C5A880]/50"
+              }`}
+            >
+              <div
+                className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5 ${
+                  active ? "bg-[#C5A880] text-[#08080A]" : "bg-[#1A1A22] text-[#C5A880]"
+                }`}
+              >
+                <Icon size={16} />
+              </div>
+              <div className="min-w-0">
+                <div
+                  className={`font-display text-sm font-bold leading-tight truncate ${
+                    active ? "text-[#C5A880]" : "text-white"
+                  }`}
+                >
+                  {tab.label}
+                </div>
+                <div className="text-[11px] text-[#C2C2C8] mt-0.5 truncate">
+                  {tab.sub}
+                </div>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+
+      {activeSolution === "cinema" && <CinemaPlanner />}
+      {activeSolution === "fresh-air" && <FreshAirPlanner />}
+      {activeSolution === "vacuum" && <CentralVacuumPlanner />}
+      {activeSolution === "security" && <SecurityNetworkPlanner />}
+
+      {activeSolution === "automation" && (
+        <div className="space-y-10">
+          {/* Step 1: Home Type & Tier Selector */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Home Size Picker */}
         <div className="lg:col-span-7 bg-[#121216] border border-[#2A2A35] rounded-xl p-6">
@@ -945,6 +1033,8 @@ export default function SmartHomePlanner() {
           </div>
         </div>
       </div>
+        </div>
+      )}
     </div>
   );
 }

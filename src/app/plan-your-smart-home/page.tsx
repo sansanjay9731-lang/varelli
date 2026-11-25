@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { generatePageMetadata } from "@/lib/metadata";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import FAQSection from "@/components/sections/service/FAQSection";
@@ -78,14 +79,22 @@ export default function PlanYourSmartHomePage() {
             Plan Your Smart Home
           </h1>
           <p className="text-lg text-[#C2C2C8] leading-relaxed">
-            Pick your residence type, tap any room on the floor plan, and toggle lights, KNX keypads,
-            curtains, AC, locks, and cameras. Watch your rooms light up and see a realistic turnkey
-            investment range before you book a demo.
+            Configure your entire residence — KNX Home Automation, Private Cinema (Dolby Atmos),
+            VaaYoo Fresh Air, Drainvac Central Vacuum, or Smart Security &amp; WiFi 7. Tap rooms
+            on the floor plan, see an instant turnkey estimate, and send your plan to WhatsApp.
           </p>
         </div>
 
         {/* Interactive Floor Plan Calculator */}
-        <SmartHomePlanner />
+        <Suspense
+          fallback={
+            <div className="h-96 rounded-xl bg-[#121216] border border-[#2A2A35] flex items-center justify-center text-sm font-mono text-[#C5A880]">
+              Loading Interactive Planner...
+            </div>
+          }
+        >
+          <SmartHomePlanner />
+        </Suspense>
 
         {/* Cross-link to Cost Guides */}
         <div className="mt-16 pt-10 border-t border-[#2A2A35] grid grid-cols-1 md:grid-cols-3 gap-4">
