@@ -1,11 +1,40 @@
 import type { Metadata } from "next";
-import { syne, cormorant, inter, jetbrainsMono } from "@/lib/fonts";
+import type { CSSProperties } from "react";
+import { Syne, Cormorant_Garamond, Inter, JetBrains_Mono } from "next/font/google";
 import { organizationSchema } from "@/components/seo/schemas/organization";
 import SchemaOrg from "@/components/seo/SchemaOrg";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppFloatingCTA from "@/components/ui/WhatsAppFloatingCTA";
 import "@/styles/globals.css";
+
+const syne = Syne({
+  subsets: ["latin"],
+  variable: "--font-syne",
+  display: "swap",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  variable: "--font-cormorant",
+  display: "swap",
+  weight: ["300", "400", "500", "600"],
+  style: ["normal", "italic"],
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
+  weight: ["400", "500"],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://varelli.co.in"),
@@ -125,6 +154,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       className={`${syne.variable} ${cormorant.variable} ${inter.variable} ${jetbrainsMono.variable}`}
+      style={
+        {
+          "--font-syne": syne.style.fontFamily,
+          "--font-cormorant": cormorant.style.fontFamily,
+          "--font-inter": inter.style.fontFamily,
+          "--font-mono": jetbrainsMono.style.fontFamily,
+        } as CSSProperties
+      }
     >
       <head>
         <SchemaOrg schema={organizationSchema} />
