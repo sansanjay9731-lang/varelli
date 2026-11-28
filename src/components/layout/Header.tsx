@@ -21,7 +21,6 @@ const navigationLinks = [
       { name: "Enterprise WiFi 7 Networking", href: "/home-networking", desc: "10GbE fiber backbone & isolated IoT security." },
     ],
   },
-  { name: "Cost Estimator", href: "/plan-your-smart-home" },
   { name: "Brands", href: "/brands" },
   { name: "Residences", href: "/residences" },
   { name: "Architects", href: "/architects" },
@@ -36,17 +35,17 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-[rgba(8,8,10,0.88)] backdrop-blur-md border-b border-[var(--border)]">
-        <div className="container-varelli h-20 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
-            <span className="font-display text-2xl font-bold tracking-[-0.03em] text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
+        <div className="container-varelli h-20 flex items-center justify-between gap-4">
+          <Link href="/" className="flex items-center gap-3 group shrink-0">
+            <span className="font-display text-2xl font-bold tracking-[-0.03em] text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors whitespace-nowrap">
               VARELLI
             </span>
-            <span className="hidden sm:inline-block font-mono text-[9px] uppercase tracking-[0.2em] px-2 py-0.5 border border-[var(--border)] rounded text-[var(--gold)]">
+            <span className="hidden sm:inline-block font-mono text-[9px] uppercase tracking-[0.2em] px-2 py-0.5 border border-[var(--border)] rounded text-[var(--gold)] whitespace-nowrap">
               INTELLIGENT LIVING
             </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-7 text-sm font-body">
+          <nav className="hidden lg:flex items-center gap-6 text-sm font-body whitespace-nowrap">
             <Link
               href="/studio"
               className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-[var(--gold)]/10 border border-[var(--gold)]/40 text-[var(--gold)] font-mono text-xs uppercase tracking-wider hover:bg-[var(--gold)] hover:text-[#08080A] transition-all"
@@ -106,7 +105,7 @@ export default function Header() {
             )}
           </nav>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 shrink-0 whitespace-nowrap">
             {/* Book Audition Trigger (Experia Concept) */}
             <button
               onClick={() => setAuditionOpen(true)}
